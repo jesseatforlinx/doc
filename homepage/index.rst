@@ -11,15 +11,15 @@ Rockchip Series
 
 RK3588 Series
 ^^^^^^^^^^^^^^
-  ⏳ Detailed documentation will be available soon.
+  ⏳ Documentation coming soon.
 
 RK3576 Series
 ^^^^^^^^^^^^^^^
-  ⏳ Detailed documentation will be available soon.
+  ⏳ Documentation coming soon.
 
 RK3568 Series
 ^^^^^^^^^^^^^^
-  ⏳ Detailed documentation will be available soon.
+  ⏳ Documentation coming soon.
 
 
 
@@ -35,7 +35,7 @@ i.MX8M Plus Series
 i.MX93 Series
 ^^^^^^^^^^^^^^
 
-  ⏳ Detailed documentation will be available soon.
+  ⏳ Documentation coming soon.
 
 Texas Instruments Series
 -------------------------
@@ -43,7 +43,7 @@ Texas Instruments Series
 AM62x Series
 ^^^^^^^^^^^^^
 
-  ⏳ Detailed documentation will be available soon.
+  ⏳ Documentation coming soon.
 
 
 Allwinner Series
@@ -51,7 +51,7 @@ Allwinner Series
 
 T527 Series
 ^^^^^^^^^^^^
-  ⏳ Detailed documentation will be available soon.
+  ⏳ Documentation coming soon.
 
 
 
