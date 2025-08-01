@@ -18,15 +18,15 @@ Rockchip Series
 ================
 
 RK3588 Series
--------------
+^^^^^^^^^^^^^^^
   ⏳ Documentation coming soon.
 
 RK3576 Series
--------------
+^^^^^^^^^^^^^^^
   ⏳ Documentation coming soon.
 
 RK3568 Series
--------------
+^^^^^^^^^^^^^^^
   ⏳ Documentation coming soon.
 
 
