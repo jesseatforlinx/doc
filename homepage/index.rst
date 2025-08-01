@@ -9,7 +9,7 @@ This online documentation portal offers comprehensive technical resources to hel
 Rockchip Series
 ----------------
 
-RK3568 Series
+RK3588 Series
 ^^^^^^^^^^^^^^
   ⏳ Detailed documentation will be available soon.
 
@@ -17,10 +17,11 @@ RK3576 Series
 ^^^^^^^^^^^^^^^
   ⏳ Detailed documentation will be available soon.
 
-RK3588 Series
+RK3568 Series
 ^^^^^^^^^^^^^^
-
   ⏳ Detailed documentation will be available soon.
+
+
 
 NXP Series
 -----------
@@ -54,12 +55,15 @@ T527 Series
 
 
 
+Documentation Highlights
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. dropdown:: Documentation Highlights
+- Covers BSP setup, peripheral drivers, and system configuration in detail
+- Includes practical examples and development tool walkthroughs
+- Maintained and updated regularly by Forlinx engineers
 
-   - Covers BSP setup, driver integration, and system configuration  
-   - Includes practical examples and development tool walkthroughs  
-   - Maintained and updated regularly by Forlinx engineers
+
+
 
 
 

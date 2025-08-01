@@ -8,7 +8,6 @@ copyright = 'Forlinx Embedded'
 
 extensions = [
     'myst_parser',
-    'sphinx_design', 
 ]
 
 
