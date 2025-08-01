@@ -58,7 +58,7 @@ T527 Series
 .. dropdown:: Documentation Highlights
 
    - Covers BSP setup, driver integration, and system configuration  
-   - Includes real-world examples and tool usage tutorials  
+   - Includes practical examples and development tool walkthroughs  
    - Maintained and updated regularly by Forlinx engineers
 
 

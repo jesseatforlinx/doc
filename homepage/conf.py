@@ -7,8 +7,10 @@ author = 'Forlinx Embedded'
 copyright = 'Forlinx Embedded'
 
 extensions = [
-    'myst_parser',  # 支持 Markdown
+    'myst_parser',
+    'sphinx_design', 
 ]
+
 
 templates_path = ['_templates']
 exclude_patterns = []
