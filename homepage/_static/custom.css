@@ -48,11 +48,11 @@ body, .rst-content, .wy-nav-content {
 
 /* 分级颜色设置 */
 .rst-content h1 {
-  color: #1a1a1a !important;
+  color: #0071e3 !important; 
 }
 
 .rst-content h2 {
-  color: #0071e3 !important;  /* Apple 蓝 */
+  color: #1a1a1a !important;  
 }
 
 .rst-content h3 {
