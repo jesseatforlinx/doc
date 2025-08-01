@@ -12,20 +12,28 @@ Available Platforms
 Rockchip Series
 ^^^^^^^^^^^^^^^^
 
-- `RK3568 Series <rockchip/rk3568/index.html>`_
-- `RK3576 Series <rockchip/rk3576/index.html>`_
-- `RK3588 Series <rockchip/rk3588/index.html>`_
+- `RK3568 Series <rockchip/rk3568/index.html>`_  
+  ⏳ Detailed documentation will be available soon.
+
+- `RK3576 Series <rockchip/rk3576/index.html>`_  
+  ⏳ Detailed documentation will be available soon.
+
+- `RK3588 Series <rockchip/rk3588/index.html>`_  
+  ⏳ Detailed documentation will be available soon.
 
 NXP Series
 ^^^^^^^^^^^^
 
 - `i.MX8M Plus Series <nxp/imx8mp/index.html>`_
-- `i.MX93 Series <nxp/imx9352/index.html>`_
+
+- `i.MX93 Series <nxp/imx9352/index.html>`_  
+  ⏳ Detailed documentation will be available soon.
 
 Allwinner Series
 ^^^^^^^^^^^^^^^^^^
 
-- `T527 Series <allwinner/t527/index.html>`_ 
+- `T527 Series <allwinner/t527/index.html>`_  
+  ⏳ Detailed documentation will be available soon.
 
 
 Documentation Features

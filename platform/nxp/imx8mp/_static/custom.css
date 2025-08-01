@@ -83,6 +83,13 @@ a:hover {
   text-decoration: none !important;
 }
 
+/* 一级目录（H1）链接加粗加大 */
+.rst-content .toctree-wrapper > ul > li > a {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+
+
 /* 鼠标悬浮时链接颜色 */
 .rst-content .toctree-wrapper a:hover {
   color: #0071e3 !important;     

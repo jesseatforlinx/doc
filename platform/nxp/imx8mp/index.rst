@@ -9,12 +9,16 @@
      
      `FET-MX8MPQ-SMARC System on Module <https://www.forlinx.net/product/imx8mpq-smarc-system-on-module-153.html>`_
 
+     
+     `FET-MX8MP-C System on Module <https://www.forlinx.net/product/fetmx8mp-c-system-on-module-119.html>`_
 
+====================
+i.MX 8M Plus Manuals
+====================
 
-==================
-iMX8M Plus Manuals
-==================
-
+===============
+OKMX8MPQ-SMARC
+===============
 
 .. toctree::
    :caption: OKMX8MPQ-SMARC Manual
@@ -25,13 +29,13 @@ iMX8M Plus Manuals
    OK-MX8MPQ-SMARC_Linux_User_Compilation_Manual
 
 
-
+==========
+OKMX8MP-C
+==========
 
 .. toctree::
    :caption: OKMX8MP-C Manual
    :maxdepth: 2
-
-
 
 
 
