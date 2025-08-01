@@ -6,61 +6,65 @@ Welcome to Forlinx Embedded Documentation
 This online documentation portal offers comprehensive technical resources to help developers quickly get started with our products.
 
 
+**Documentation Highlights**
+
+- Covers BSP setup, peripheral drivers, and system configuration in detail
+- Includes practical examples and development tool walkthroughs
+- Maintained and updated regularly by Forlinx engineers
+
+----
+
 Rockchip Series
-----------------
+================
 
 RK3588 Series
-^^^^^^^^^^^^^^
+-------------
   ⏳ Documentation coming soon.
 
 RK3576 Series
-^^^^^^^^^^^^^^^
+-------------
   ⏳ Documentation coming soon.
 
 RK3568 Series
-^^^^^^^^^^^^^^
+-------------
   ⏳ Documentation coming soon.
 
 
 
 NXP Series
------------
+================
 
 i.MX8M Plus Series
-^^^^^^^^^^^^^^^^^^^
+------------------
 
 - `OKMX8MP-C Manual <nxp/okmx8mp-c/index.html>`_
 - `OKMX8MP-SMARC Manual <nxp/okmx8mp-smarc/index.html>`_
 
 i.MX93 Series
-^^^^^^^^^^^^^^
+-------------
 
   ⏳ Documentation coming soon.
 
 Texas Instruments Series
--------------------------
+==========================
 
 AM62x Series
-^^^^^^^^^^^^^
+-------------
 
   ⏳ Documentation coming soon.
 
 
 Allwinner Series
------------------
+==================
 
 T527 Series
-^^^^^^^^^^^^
+-------------
   ⏳ Documentation coming soon.
 
 
 
-Documentation Highlights
-^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Covers BSP setup, peripheral drivers, and system configuration in detail
-- Includes practical examples and development tool walkthroughs
-- Maintained and updated regularly by Forlinx engineers
+
 
 
 
