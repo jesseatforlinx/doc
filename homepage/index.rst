@@ -39,6 +39,10 @@ i.MX93 Series
 Texas Instruments Series
 ------------------------
 
+AM62x Series
+^^^^^^^^^^^^^
+
+  ⏳ Detailed documentation will be available soon.
 
 
 Allwinner Series
@@ -47,7 +51,6 @@ Allwinner Series
 T527 Series
 ^^^^^^^^^^^^
   ⏳ Detailed documentation will be available soon.
-
 
 
 
