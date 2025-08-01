@@ -37,7 +37,7 @@ i.MX93 Series
   ⏳ Detailed documentation will be available soon.
 
 Texas Instruments Series
-------------------------
+-------------------------
 
 AM62x Series
 ^^^^^^^^^^^^^
@@ -55,7 +55,7 @@ T527 Series
 
 
 Documentation Features
------------------------
+=======================
 
 - Covers BSP setup, peripheral drivers, and system configuration in detail
 - Includes practical examples and development tool walkthroughs
@@ -63,7 +63,7 @@ Documentation Features
 
 
 Contact Us
-----------
+===========
 
 If you have any questions, please contact us at:
 
