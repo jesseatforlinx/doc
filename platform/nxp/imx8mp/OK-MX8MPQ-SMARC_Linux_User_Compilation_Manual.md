@@ -28,7 +28,7 @@ Program source code: user data\\01-Software Documentation\\03-src\&img\\02-sourc
 
 Files with the md5sum suffix: The md5 value of the file is stored for validation.
 
-## 1.2 Compilation
+### 1.2 Compilation
 
 #### 1.2.1 Rootfs Preparation
 
