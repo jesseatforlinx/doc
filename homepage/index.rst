@@ -28,8 +28,8 @@ NXP Series
 i.MX8M Plus Series
 ^^^^^^^^^^^^^^^^^^^
 
-- `OKMX8MP-C User Manual <nxp/okmx8mp-c/index.html>`_
-- `OKMX8MP-SMARC User Manual <nxp/okmx8mp-smarc/index.html>`_
+- `OKMX8MP-C Manual <nxp/okmx8mp-c/index.html>`_
+- `OKMX8MP-SMARC Manual <nxp/okmx8mp-smarc/index.html>`_
 
 i.MX93 Series
 ^^^^^^^^^^^^^^

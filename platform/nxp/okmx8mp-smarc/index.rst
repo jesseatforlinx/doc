@@ -36,5 +36,7 @@ If you have any questions, please contact us at:
 - **Website**: `www.forlinx.net <https://www.forlinx.net>`_
 
 ----
+
 *Thank you for choosing Forlinx Embedded. We're committed to supporting your development journey.*
+
 ----
