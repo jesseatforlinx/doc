@@ -24,7 +24,9 @@ Rockchip Series
 NXP Series
 ^^^^^^^^^^^^
 
-- `i.MX8M Plus Series <nxp/imx8mp/index.html>`_
+- i.MX8M Plus Series
+  - `OKMX8MP-C User Manual <nxp/okmx8mp-c/index.html>`_
+  - `OKMX8MP-SMARC User Manual <nxp/okmx8mp-smarc/index.html>`_
 
 - `i.MX93 Series <nxp/imx9352/index.html>`_  
   ⏳ Detailed documentation will be available soon.
