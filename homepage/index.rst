@@ -6,38 +6,56 @@ Welcome to Forlinx Embedded Documentation
 This online documentation portal offers comprehensive technical resources to help developers quickly get started with our products.
 
 
-Available Platforms
-------------------------------
-
 Rockchip Series
-^^^^^^^^^^^^^^^^
+----------------
 
-- `RK3568 Series <rockchip/rk3568/index.html>`_  
+RK3568 Series
+^^^^^^^^^^^^^^
   ⏳ Detailed documentation will be available soon.
 
-- `RK3576 Series <rockchip/rk3576/index.html>`_  
+RK3576 Series
+^^^^^^^^^^^^^^^
   ⏳ Detailed documentation will be available soon.
 
-- `RK3588 Series <rockchip/rk3588/index.html>`_  
+RK3588 Series
+^^^^^^^^^^^^^^
+
   ⏳ Detailed documentation will be available soon.
 
 NXP Series
-^^^^^^^^^^^^
+-----------
 
-- `i.MX8M Plus Series <nxp/imx8mp/index.html>`_
+i.MX8M Plus Series
+^^^^^^^^^^^^^^^^^^^
 
-- `i.MX93 Series <nxp/imx9352/index.html>`_  
+- `OKMX8MP-C Manual <nxp/okmx8mp-c/index.html>`_
+- `OKMX8MP-SMARC Manual <nxp/okmx8mp-smarc/index.html>`_
+
+i.MX93 Series
+^^^^^^^^^^^^^^
+
   ⏳ Detailed documentation will be available soon.
+
+Texas Instruments Series
+-------------------------
+
+AM62x Series
+^^^^^^^^^^^^^
+
+  ⏳ Detailed documentation will be available soon.
+
 
 Allwinner Series
-^^^^^^^^^^^^^^^^^^
+-----------------
 
-- `T527 Series <allwinner/t527/index.html>`_  
+T527 Series
+^^^^^^^^^^^^
   ⏳ Detailed documentation will be available soon.
+
 
 
 Documentation Features
------------------------
+=======================
 
 - Covers BSP setup, peripheral drivers, and system configuration in detail
 - Includes practical examples and development tool walkthroughs
@@ -45,7 +63,7 @@ Documentation Features
 
 
 Contact Us
-----------
+===========
 
 If you have any questions, please contact us at:
 
