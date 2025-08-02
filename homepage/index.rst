@@ -19,14 +19,17 @@ Rockchip Series
 
 RK3588 Series
 --------------
+- OK3588-C Manual
   ⏳ Documentation coming soon.
 
 RK3576 Series
 --------------
+- OK3576-C Manual
   ⏳ Documentation coming soon.
 
 RK3568 Series
 --------------
+- OK3568-C Manual
   ⏳ Documentation coming soon.
 
 
@@ -37,12 +40,12 @@ NXP Series
 i.MX8M Plus Series
 ------------------
 
-- `OKMX8MP-C Manual <nxp/okmx8mp-c/index.html>`_
+- OKMX8MP-C Manual
 - `OKMX8MP-SMARC Manual <nxp/okmx8mp-smarc/index.html>`_
 
 i.MX93 Series
 -------------
-
+- OKMX9352-C Manual
   ⏳ Documentation coming soon.
 
 Texas Instruments Series
@@ -50,7 +53,7 @@ Texas Instruments Series
 
 AM62x Series
 -------------
-
+- OK62xx-C Manual
   ⏳ Documentation coming soon.
 
 
@@ -59,6 +62,7 @@ Allwinner Series
 
 T527 Series
 -------------
+- OK527N-C Manual
   ⏳ Documentation coming soon.
 
 
