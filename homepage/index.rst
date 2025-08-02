@@ -41,7 +41,7 @@ i.MX8M Plus Series
 ------------------
 
 - OKMX8MP-C Manual
-- `OKMX8MP-SMARC Manual <nxp/okmx8mp-smarc/index.html>`_
+- `OKMX8MPQ-SMARC Manual <nxp/okmx8mp-smarc/index.html>`_
 
 i.MX93 Series
 -------------
