@@ -40,8 +40,8 @@ NXP Series
 i.MX8M Plus Series
 ------------------
 
-- OKMX8MP-C Manual
-- `OKMX8MPQ-SMARC Manual <nxp/okmx8mp-smarc/index.html>`_
+- `OKMX8MP-C Manual <nxp/okmx8mpq-c/index.html>`_
+- `OKMX8MPQ-SMARC Manual <nxp/okmx8mpq-smarc/index.html>`_
 
 i.MX93 Series
 -------------
@@ -62,8 +62,8 @@ Allwinner Series
 
 T527 Series
 -------------
-- OK527N-C Manual
-  ⏳ Documentation coming soon.
+- `OK527N-C Manual <nxp/ok527n-c/index.html>`_
+ 
 
 
 
