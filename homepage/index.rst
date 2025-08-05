@@ -62,7 +62,7 @@ Allwinner Series
 
 T527 Series
 -------------
-- `OK527N-C Manual <nxp/ok527n-c/index.html>`_
+- `OK527N-C Manual <allwinner/ok527n-c/index.html>`_
  
 
 
