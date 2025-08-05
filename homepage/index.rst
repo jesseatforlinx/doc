@@ -32,7 +32,7 @@ RK3568 Series
 - OK3568-C Manual
   ⏳ Documentation coming soon.
 
-
+----
 
 NXP Series
 ================
@@ -48,6 +48,8 @@ i.MX93 Series
 - OKMX9352-C Manual
   ⏳ Documentation coming soon.
 
+----
+
 Texas Instruments Series
 ==========================
 
@@ -56,6 +58,8 @@ AM62x Series
 - OK62xx-C Manual
   ⏳ Documentation coming soon.
 
+
+----
 
 Allwinner Series
 ==================
@@ -66,7 +70,7 @@ T527 Series
  
 
 
-
+----
 
 
 
