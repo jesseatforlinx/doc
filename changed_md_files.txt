@@ -1,1 +1,1 @@
-platform/nxp/okmx8mpq-smarc/OK-MX8MPQ-SMARC_Hardware_Manual.md
+platform/nxp/okmx8mpq-c/OK-MX8MPQ-C_MCU_User_Manual.md
