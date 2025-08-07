@@ -23,6 +23,7 @@ OKMX8MPQ-C Manual
    :caption: SOFTWARE
    :maxdepth: 2
 
+   OK-MX8MPQ-C_MCU_User_Manual
   
 
 
