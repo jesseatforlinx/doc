@@ -1,4 +1,4 @@
-# MCU User’s Compilation Manual
+# MCU User’s Compilation Manual_V1.0
 
 Document classification: □ Top secret □ Secret □ Internal information ■ Open
 
