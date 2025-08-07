@@ -24,6 +24,7 @@ OKMX8MPQ-C Manual
    :maxdepth: 2
 
    OK-MX8MPQ-C_MCU_User_Manual
+   OK-MX8MPQ-C_MCU_User Compilation Manual
   
 
 
