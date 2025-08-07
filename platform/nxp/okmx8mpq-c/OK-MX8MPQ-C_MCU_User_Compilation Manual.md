@@ -56,7 +56,7 @@ Step1: In the M Core SDK package tools file， double-click the IAR installer to
 
 ![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/bc1479c81f604cbb8464d01073cb18bf.png)
 
-Step 2:<font style="color:#222222;">Click the “Next”</font>.
+Step 2: <font style="color:#222222;">Click the “Next”</font>.
 
 ![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/660cf32b02854c5ba01dcdfc6bc84bfc.png)
 
