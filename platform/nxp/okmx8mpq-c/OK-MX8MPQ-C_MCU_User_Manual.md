@@ -29,11 +29,11 @@ There are total five chapters:
 | **<font style="background-color:#D8DAD9;">Bold black on gray background</font>** | Key information in the serial port output message            |
 | //                                                           | Interpretation of input instructions or output information   |
 
-## <font style="color:rgb(38,38,38);background-color:rgb(255,255,255);">Application Scope</font>
+## Application
 
 <font style="color:rgb(38,38,38);background-color:rgb(255,255,255);">This software manual is applicable to the OKMX8MPQ-C platform Linux 5.4.70 operating system of Forlinx.</font>
 
-## **<font style="color:rgb(0,0,0);">Revision History</font>**
+## Revision History
 
 | <font style="color:rgb(0,0,0);">Date</font>       | <font style="color:rgb(0,0,0);">Version</font> | <font style="color:rgb(0,0,0);">Revision History</font>      |
 | ------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
