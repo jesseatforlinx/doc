@@ -40,7 +40,7 @@ There are total four chapters:
 |----------|----------|----------
 | <font style="color:rgb(0,0,0);">20/04/2023</font>| <font style="color:rgb(0,0,0);">v1.0</font>| <font style="color:rgb(0,0,0);">OKMX8MPQ-C M7 User’s Compilation Manual Intial Version</font>
 
-### 1. Environment Setup
+## 1. Environment Setup
 
 IAR’s Embedded Workbench series is an enhanced integrated development platform that integrates file editing, project management, compilation, linking, and debugging tools required for developing embedded systems. IAR’s distinctive CSPY debugger not only allows for pure software simulation without target hardware during the early stages of system development but also enables real-time on-line simulation and debugging in conjunction with the J-Link/J-Trace hardware emulator.
 
@@ -48,7 +48,7 @@ J-Link is an open source project of SEGGER. Its goal is to enable embedded devel
 
 For M-core development of the i.MX 8M Plus processor, IAR is used to manage program configuration, compilation, and software simulation, while J-Link is integrated for hardware emulation capabilities.
 
-#### 1.1 IAR
+### 1.1 IAR
 
 Users can download the IAR used by OKMX8MPQ-C development board routines, or use the installation package under the M-core SDK package tool file. Please select to use 9.20.1 and above.
 
@@ -76,7 +76,7 @@ Step 6: After the installation is completed, the following interface is displaye
 
 ![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/ff3ce445ae024bcbbca2d3463fafccde.png)
 
-#### 1.2 Installation of J-Link Driver
+### 1.2 Installation of J-Link Driver
 
 Step 1: In the M core SDK package tool->- file, double-click the- installer to install it. The J-Link version should be above 7.56<font style="color:#222222;">.</font>
 
@@ -108,7 +108,7 @@ Step 7: Replace the startup file, copy startup\_MIMX8ML8\_cm7.s to \<sdk\_path>\
 
 After completing the above steps, the IAR software and J-link have been installed and updated, and the M7 core of 8MP can use IAR to compile and simulate programs like other microcontrollers.
 
-#### 1.3 Development Environment Validation
+### 1.3 Development Environment Validation
 
 Step 1: As shown in the figure below, open the hello-world routine project in the SDK, and double-click to open the IAR project.
 
@@ -130,9 +130,9 @@ Step 5: The hello \_ world. bin under the debug folder is the executable file.
 
 ![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/7b3b7dd59da243ca91cb6c57408767f4.png)
 
-### 2\. Program Compilation \& Download
+## 2\. Program Compilation \& Download
 
-#### 2.1 Compilation Program
+### 2.1 Compilation Program
 
 There are three ways to load the M-core program for the i.MX 8M Plus processor, on-chip memory TCM, off-chip memory DDR, and off-chip Flash. The on-chip memory TCM has the highest execution efficiency but a relatively small capacity; the off-chip memory DDR has the second-highest efficiency and a larger capacity; the off-chip Flash has the lowest efficiency.
 
@@ -168,7 +168,7 @@ Step 2: The differences among the three loading methods are mainly reflected in 
 
 ![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/c092b57f4a3a4832aa3c45509952086a.png)
 
-#### 2.2 Program Download
+### 2.2 Program Download
 
 1. You can use the IAR software to compile the program of the Forlinx M-core software development kit to generate \*.bin and files in the project directory /IAR/debug directory.
 
