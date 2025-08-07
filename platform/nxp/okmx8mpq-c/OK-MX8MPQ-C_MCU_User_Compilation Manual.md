@@ -54,57 +54,57 @@ Users can download the IAR used by OKMX8MPQ-C development board routines, or use
 
 Step1: In the M Core SDK package tools file， double-click the IAR installer to install it<font style="color:#222222;">.</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526052222-bc1479c8-1f60-4cbb-8464-d01073cb18bf.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/bc1479c81f604cbb8464d01073cb18bf.png)
 
 Step 2:<font style="color:#222222;">Click the “Next”</font>.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526052661-660cf32b-0285-4c5b-a01d-cdfc6bc84bfc.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/660cf32b02854c5ba01dcdfc6bc84bfc.png)
 
 Step 3: Check the “I accept the terms of the license agreement”and click the “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526053173-4688cc71-9627-4bf1-9cea-da58d11e0bd5.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/4688cc7196274bf19ceada58d11e0bd5.png)
 
 Step 4: Select the default installation path of the software, and then click the “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526053411-6fac7488-e0ba-4445-af2d-a6c2106d760c.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/6fac7488e0ba4445af2da6c2106d760c.png)
 
 Step 5: Click the “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526053667-299d9b4b-42aa-4b88-811f-f2f18251e070.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/299d9b4b42aa4b88811ff2f18251e070.png)
 
 Step 6: After the installation is completed, the following interface is displayed. Click the “Finish” to complete the installation.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526053912-ff3ce445-ae02-4bcb-bca2-d3463fafccde.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/ff3ce445ae024bcbbca2d3463fafccde.png)
 
 #### 1.2 Installation of J-Link Driver
 
 Step 1: In the M core SDK package tool->- file, double-click the- installer to install it. The J-Link version should be above 7.56<font style="color:#222222;">.</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526054243-3241cc8f-6230-41e9-9e5a-4a0678141c8d.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/3241cc8f623041e99e5a4a0678141c8d.png)
 
 Step 2: <font style="color:#222222;">Click the “Next”</font>.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526054472-38596d07-352d-473a-aa12-7cac66ee297f.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/38596d07352d473aaa127cac66ee297f.png)
 
 Step 3: Click the <font style="color:#222222;">“I Agree”</font>.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526054837-4bc7de17-6e09-4e2a-8e40-f265d5a63839.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/4bc7de176e094e2a8e40f265d5a63839.png)
 
 Step 4: <font style="color:#222222;">Keep the default configuration and click the “Install</font>”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526055085-5e960e1a-6ee4-4e46-bca0-ee1cad72f647.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/5e960e1a6ee44e46bca0ee1cad72f647.png)
 
 Step 5: <font style="color:#222222;">Select the IAR software and click ”OK” to complete the installation</font>.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526055331-a4ae16c7-49e5-4827-bcb0-2fb6e97c1050.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/a4ae16c749e54827bcb02fb6e97c1050.png)
 
 Step 6: Replace the latest im8 driver, copy the NXP folder to the C: \\ Program Files \\ SEGGER \\ JLink \\ Devices directory, and paste and overwrite it.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526055536-ba9cc4bb-b70b-42da-b349-3f54b7bdf582.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/ba9cc4bbb70b42dab3493f54b7bdf582.png)
 
 Step 7: Replace the startup file, copy startup\_MIMX8ML8\_cm7.s to \<sdk\_path>\\devices\\MIMX8ML8\\iar\\ to overwrite, where is the location of the<sdk-path>SDK package on the computer.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526055766-d94c87ca-9638-4717-87ad-165b370c9e9b.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/d94c87ca9638471787ad165b370c9e9b.png)
 
 After completing the above steps, the IAR software and J-link have been installed and updated, and the M7 core of 8MP can use IAR to compile and simulate programs like other microcontrollers.
 
@@ -112,23 +112,23 @@ After completing the above steps, the IAR software and J-link have been installe
 
 Step 1: As shown in the figure below, open the hello-world routine project in the SDK, and double-click to open the IAR project.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526055975-6adb69d7-55c8-4c35-a844-90b96ea2c116.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/6adb69d755c84c35a84490b96ea2c116.png)
 
 Step 2: Click the Compile button on the toolbar or press the shortcut key F7 to finish compiling the program.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526056222-0595fe95-8ba3-4be1-b092-df87d12a7662.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/0595fe958ba34be1b092df87d12a7662.png)
 
 Step 3: You can see the program compilation success message in the information column.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526057322-a98804b5-ad70-4256-afab-44fcd6a46d84.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/a98804b5ad704256afab44fcd6a46d84.png)
 
 Step 4: Generate the settings and debug folders under the project directory.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526057650-f38e3ec0-9a6e-4e05-9dd3-205db8301a69.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/f38e3ec09a6e4e059dd3205db8301a69.png)
 
 Step 5: The hello \_ world. bin under the debug folder is the executable file.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526057864-7b3b7dd5-9da2-43ca-91cb-6c57408767f4.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/7b3b7dd59da243ca91cb6c57408767f4.png)
 
 ### 2\. Program Compilation \& Download
 
@@ -144,35 +144,35 @@ Step 1: Click the workspace drop-down option on the left side of the project, yo
 
 The “flash\_debug” is the debug version for the flash loading method and supports simulation; the “flash\_release” is the release version for the flash loading method and does not support simulation.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526161551-06c29a9b-a3a4-4f55-afbf-9be178f4a572.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/06c29a9ba3a44f55afbf9be178f4a572.png)
 
 Step 2: The differences among the three loading methods are mainly reflected in the following aspects:
 
 (1) In the left-hand project space, right-click and select Options. On the left side, select the Output column in the General Option option with a different catalog.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526161769-772e2eab-db81-494c-9954-0d6eaa8b8020.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/772e2eabdb81494c99540d6eaa8b8020.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526162056-e28831bf-1b56-4ca7-94c6-d9fe36b5aa50.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/e28831bf1b564ca794c6d9fe36b5aa50.png)
 
 (2) On the left, select C in the Static Analysis option-Output Directory under the STAT Static Analysis column. The directories are different.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526162316-d635d394-295a-4f88-920c-d5d25fa5a276.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/d635d394295a4f88920cd5d25fa5a276.png)
 
 (3) Select Output in the Output Converter option on the left side to change the name of the executable file. forlinx\_m7\_tcm\_firmware.bin is used by default when uboot loads the M-core program on the Forlinx Development Board.
 
 **Note: The file name is involved in the subsequent uboot manual loading and automatic loading, which should be consistent with the subsequent loading command.**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526162637-56551912-909c-4dee-9de0-9453aab63729.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/56551912909c4dee9de09453aab63729.png)
 
 (4) On the left side, select different scatter loading files in the “Config” option under the “Linker” settings. In this way, the compiled programs can be loaded and run on different media.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526162901-c092b57f-4a3a-4832-aa3c-45509952086a.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/c092b57f4a3a4832aa3c45509952086a.png)
 
 #### 2.2 Program Download
 
 1. You can use the IAR software to compile the program of the Forlinx M-core software development kit to generate \*.bin and files in the project directory /IAR/debug directory.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526163114-0efdc96a-f188-4f70-8064-cb34f9e3a536.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/0efdc96af1884f708064cb34f9e3a536.png)
 
 2. Use various methods such as serial port Xmodem, network FTP, SCP, USB flash drive, TF card, etc., to copy the \*.bin file from the computer to the /run/media/mmcblk2p1/ directory of the SoM. Then, enter the <font style="color:#0000FF;">sync </font>command to synchronize the program to the eMMC.
 
@@ -194,7 +194,7 @@ There are three ways of M core loading and running: TCM, DDR and Flash, and the 
 
 Step 1: Restart the OKMX8MPQ-C board and press the space bar to enter the uboot command line.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526203538-d807ca99-4ad3-47a5-ab2e-47e319527315.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/d807ca994ad347a5ab2e47e319527315.png)
 
 Step 2: Enter "1" to enter the uboot console. And enter the following commands in order, copy forlinx\_m7\_tcm\_firmware.bin from the/run/media/mmcblk2p1 directory to TCM and run it.
 
@@ -213,7 +213,7 @@ Step 3: Enter the <font style="color:#0000FF;">reset</font> command to restart t
 
 Step 1: Restart the OKMX8MPQ-C board and press the space bar to enter the uboot command line.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526203776-820966e3-b914-4071-9e6e-f97fabf34cba.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/820966e3b91440719e6ef97fabf34cba.png)
 
 Step 2: Enter "1" to enter the uboot console. And enter the following commands in order, copy forlinx\_m7\_tcm\_firmware.bin from the/run/media/mmcblk2p1 directory to DDR and run it.
 
@@ -230,7 +230,7 @@ Step 3: Enter the <font style="color:#0000FF;">reset</font> command to restart t
 
 Step 1: Restart the OKMX8MPQ-C board and press the space bar to enter the uboot command line.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526203958-54a6dbc6-1f84-4bc0-91db-3d4784d14ebe.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/54a6dbc61f844bc091db3d4784d14ebe.png)
 
 Step 2: Enter "1" to enter the uboot console. And enter the following commands in order, copy forlinx\_m7\_tcm\_firmware.bin from the/run/media/mmcblk2p1 directory to Flash and run it.
 
@@ -259,7 +259,7 @@ Manual loading is suitable for use in the debugging phase. When the product is f
 
 Step 1: Restart the OKMX8MPQ-C board and press the space bar to enter the uboot command line.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526204135-61d99aed-3d01-436b-b586-a0f66606fb5d.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/61d99aed3d01436bb586a0f66606fb5d.png)
 
 Step 2: Enter "1" to enter the uboot console. Enter the following commands in order to modify the uboot environment variable so that the M-core program can be loaded into the TCM.
 
@@ -279,7 +279,7 @@ Step 2: Enter "1" to enter the uboot console. Enter the following commands in or
 
 Step 1: Restart the OKMX8MPQ-C board and press the space bar to enter the uboot command line.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526204332-1d1a27c6-4d04-4d3f-8539-cb01e2aaef15.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/1d1a27c64d044d3f8539cb01e2aaef15.png)
 
 Step 2: Enter "1" to enter the uboot console. Enter the following commands in order to modify the uboot environment variable so that the M-core program can be loaded into the DDR.
 
@@ -297,7 +297,7 @@ Step 2: Enter "1" to enter the uboot console. Enter the following commands in or
 
 Step 1: Restart the OKMX8MPQ-C board and press the space bar to enter the uboot command line.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526204559-6320e806-fc14-4e0c-9b1e-ff90c2d32438.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/6320e806fc144e0c9b1eff90c2d32438.png)
 
 Step 2: Enter "1" to enter the uboot console. Enter the following commands in order to modify the uboot environment variable so that the M-core program can be loaded into the FLASH.
 
@@ -323,7 +323,7 @@ Forlinx OKMX8MPQ-C supports J-Link hardware emulation for M-core. Users can set 
 
 The computer and the development board can be connected through a J-Link and a 20-pin adapter board. Note that Pin 1 of the J-Link emulator should correspond to Pin 1 of the JTAG on the development board.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526244623-2d45fa4f-54b0-4dbc-b443-e6ea8fd487a3.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/2d45fa4f54b04dbcb443e6ea8fd487a3.png)
 
 #### 4.1.2 Hardware Simulation
 
@@ -331,44 +331,44 @@ After the program is compiled, place the executable program in the /run/media/mm
 
 (1) Enter the simulation: Click the simulation button on the toolbar or press the shortcut key Crtl + D to enter the program simulation;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526244929-3d2d728c-0b2b-4a8b-89fb-f12ff2eb29be.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/3d2d728c0b2b4a8b89fbf12ff2eb29be.png)
 
 (2) Breakpoint: The program stays at the entrance of the main function. Click the mouse on the left to set the breakpoint. Click again to cancel the breakpoint;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526245175-1825d26d-4657-427a-bf26-e5120567156a.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/1825d26d4657427abf26e5120567156a.png)
 
 (3) Execution: In the toolbar, you can select multiple execution modes, such as single-step execution, full-speed execution, jump in function, jump out function, etc;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526245426-581baf55-25c2-471d-bf40-29a365a513fb.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/581baf5525c2471dbf4029a365a513fb.png)
 
 (4) View the variables: Right click on the variable and select Add to Watch to see the real-time value of the variable in the watch window;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526245672-7dbe85aa-2d66-4cec-a024-5eb9f8e89c76.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/7dbe85aa2d664ceca0245eb9f8e89c76.png)
 
 (5) Modify the variable: Click the value under Value in the watch window to modify the variable;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526245896-e97395b3-72b0-4ebf-9c39-55af6bc8cf28.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/e97395b372b04ebf9c3955af6bc8cf28.png)
 
 (6) Memory view: Click the menu View-Memory to open the memory view window, and enter the memory address to view the real-time value of the memory;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526246154-f15fc7a6-f72b-4b86-947f-4f5283cbac02.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/f15fc7a6f72b4b86947f4f5283cbac02.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526246390-381b67b3-e7d6-455b-a456-f109c418579c.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/381b67b3e7d6455ba456f109c418579c.png)
 
 (7) Re-run: Click the reset button in the menu bar to re-run the program;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526246778-979cddff-6dfb-455b-9a78-9dcc907e92fd.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/979cddff6dfb455b9a789dcc907e92fd.png)
 
 (8) Exit the simulation: Click the stop button in the menu bar to exit the simulation program.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526246989-d7deecc2-63fd-4f1d-b448-edc8c3b3925c.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/d7deecc263fd4f1db448edc8c3b3925c.png)
 
 ### 4.2 Serial Port Output
 
 Through USB to Type-C, you can connect the computer and development board Debug port, the computer device manager will have two serial ports. One serial port is for debugging the A-core Linux, and the other one is for debugging the M-core. The serial port is configured as follows: the baud rate is 115200, the data bit is 8 bits, no flow control, and the stop bit is 1 bit.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526247235-cf9322b6-7130-4f01-99bd-36e3c068cd09.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/cf9322b671304f0199bd36e3c068cd09.png)
 
 In the application program, the PRINTF function can be used to output print information to the M-core serial port to understand the running process of the program.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/43555360/1728526247462-9f5c0b28-32ef-4007-a0df-bbe521b21cbe.png)
+![Image](./images/OKMX8MPQC_MCU_UserCompilationManual/9f5c0b2832ef4007a0dfbbe521b21cbe.png)
