@@ -1,1 +1,1 @@
-platform/allwinner/ok527n-c/OK527_Quick_Boot.md
+platform/allwinner/ok527n-c/OK527_Display_Interface.md
