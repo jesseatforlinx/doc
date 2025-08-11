@@ -12,53 +12,53 @@ The drivers and utilities used for the components are subject to the copyrights 
 
 ## Overview
 
-<font style="color:#333333;">This manual is designed to enable users of the Forlinx Embedded development board to quickly understand the </font><font style="color:#333333;">compilation process</font><font style="color:#333333;">of the products and familiarize themselves with the </font><font style="color:#333333;">compilation</font> <font style="color:#333333;">methods </font><font style="color:#333333;">of </font><font style="color:#333333;">Forlinx</font><font style="color:#333333;"> products. The application needs to be cross-compiled on an </font><font style="color:#333333;">ubuntu </font><font style="color:#333333;">host before it can run on the development board.</font> By following the methods provided in the compilation manual and performing practical operations, you will be able to successfully compile your own software code.
+<font style="color:#333333;">This manual is designed to help users quickly familiarize themselves with the product, and understand the interface functions and testing methods. It primarily covers the testing of interface functions on the development board, the methods for flashing images, and troubleshooting procedures for common issues encountered in use. In the process of testing, some commands are annotated to facilitate the</font>user's understanding, mainly for practical use. Please refer to “OK527N-C \_ Linux 5.15.147 + Qt5.15.8 User’s Compilation Manual” provided by Forlinx for kernel compilation, related application compilation methods and development environment construction.
 
-The manual will provide instructions for setting up the environment but there may be some unforeseen issues during the environment setup process. For beginners, it is recommended to use the pre-configured development environment provided by us. This will allow you to quickly get started and reduce development time.
+There are total six parts:
 
-Linux systems are typically installed in three ways: Dual system on a real machine, single system on a real machine, and virtual machine. Different installation methods have their advantages and disadvantages. This manual only provides methods to build ubuntu in a virtual machine. 
+Chapter 1. provides an overview of the product, briefly introducing the interface resources of the development board, the relevant driver paths in the kernel source code, supported flashing and booting methods, as well as explanations of key sections in the documentation;
 
-Computer Hardware Requirements: It is recommended to have at least 16GB memory or above. It allows for allocating a sufficient memory to the virtual machine (recommended to allocate 10GB or above), while still leaving enough resources for other operations on Windows. Insufficient memory allocation may result in slower performance on Windows.
+Chapter 2. is the fast boot/startup of the product, which can adopt two ways of serial port login and network login;
 
-The manual is mainly divided into five chapters:
+Chapter 3. is QT interface function test of the product;
 
-Chapter 1. is about the installation of virtual machine software, providing a brief introduction to the download and installation of VMware software;
+Chapter 4. is the command line operation of the product for functional testing;
 
-Chapter 2. offers the loading of the Ubuntu system;
+Chapter 5. is the multimedia test of the product, including the playback test of the camera and the video hardware codec test;
 
-Chapter 3. is about the setup, configuration and installation of necessary tools for the Ubuntu system, as well as common issues related to the development environment;
+Chapter 6. is the image update of the product, which mainly describes the method of updating the image to the storage device. Users can choose the corresponding flashing mode according to the actual situation.
 
-Chapter 4. is the data and compilation method required for the compilation of the source code of the product;
+A description of some of the symbols and formats in the manual:
 
-Chapter 5. Configuration of the Qt compilation environment and methods for compiling programs;
+|    **Format**     | **Meaning**                                                  |
+| :---------------: | ------------------------------------------------------------ |
+|        //         | Interpretation of input instructions or output information   |
+| Username@Hostname | root@OK527:~#: Development board serial port login account information, |
 
-A description of some of the symbols and formats associated with this manual:
+forlinx@ubuntu: Ubuntu development environment account information 
 
-| **Format**| **Meaning**|
-|:----------:|----------|
-| //| Interpretation of input instructions or output information|
-| Username@Hostname| root@forlinx： Development board login account information,                                                                                       forlinx@ubuntu Development environment: Ubuntu account information.                                                                                  You can use this information to determine the environment for functional operations. |
+Users can determine the operating environment for functional operations based on this information.
 
-For example, when copying source code, you can use the “ls” command to view the source code files:
+Example: After inserting the TF card, you can use the "ls" command to view the mounting directory.
 
 ```plain
-forlinx@ubuntu:~$ ls /mnt/hgfs/share/                                //View files in a shared directory
-OKT527-linux-sdk.tar.bz2
+root@OK527:/# ls /run/media                                //List files in the/run/media directory
+mmcblk0p1  mmcblk0p5  mmcblk1p1
 ```
 
-forlinx@ubuntu: The username is forlinx and the hostname is ubuntu, indicating that the user forlinx is used on the development environment ubuntu for operations.
+root@OK527: The username is ''root'', the hostname is ''OK527'', indicating operations are being performed on the development board using the root user.
 
 // : Explanation of ls /run/media operation, no input required.
 
 ## Application Scope
 
-This software manual is applicable to the<font style="color:rgb(0,0,0);">OK527 platform Linux 5.15 operating system of Forlinx.</font>
+This software manual applies to the Forlinx<font style="color:rgb(0,0,0);">OK527 （V1.3） platform Linux5.15.147 operating system.</font>
 
 ## Revision History
 
-| Date| Manual Version| Revision History|
-|:----------:|:----------:|----------|
-| 28/04/2025 | V1.0| User's Manual Initial Version |
+|  **Date**  | **Manual Version** | **SoM Version** | **Carrier Board Version** | **Revision History**          |
+| :--------: | :----------------: | :-------------: | :-----------------------: | ----------------------------- |
+| 28/04/2025 |        V1.0        |      V1.1       |      V1.1 and Above       | User's Manual Initial Version |
 
 ## 1. OK527 Development Board Description
 
