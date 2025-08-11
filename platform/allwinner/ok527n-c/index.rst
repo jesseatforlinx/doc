@@ -30,7 +30,7 @@ OK527N-C Manual
    :caption: APPLICATION NOTE
    :maxdepth: 2
 
-
+   OK527_Quick_Boot
 
 ===========
 Contact Us
