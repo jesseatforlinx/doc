@@ -26,6 +26,10 @@ OKMX8MPQ-C Manual
    OK-MX8MPQ-C_MCU_User_Manual
    OK-MX8MPQ-C_MCU_User_Compilation_Manual
   
+.. toctree::
+   :caption: APPLICATION NOTE
+   :maxdepth: 2
+
 
 
 ===========
