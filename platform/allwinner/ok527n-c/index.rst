@@ -26,6 +26,12 @@ OK527N-C Manual
    OK527N-C_Linux5.15.47_User_Manual
 
 
+.. toctree::
+   :caption: APPLICATION NOTE
+   :maxdepth: 2
+
+
+
 ===========
 Contact Us
 ===========
