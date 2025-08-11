@@ -66,7 +66,7 @@ This software manual is applicable to the<font style="color:rgb(0,0,0);">OK527 p
 
 <font style="color:black;">OK527 development board uses a </font>SoM<font style="color:black;">+ carrier board structure, designed and developed based on the AllWinner T527 processor. The processor features an ARM Cortex-A55, 2Tops NPU, HiFi4 DSP, G57 MC1 GPU multi-core heterogeneous architecture. The processor consists of four small cores with a frequency of 1.</font>4G<font style="color:black;">Hz and four big cores with a frequency of 1.8GHz. The SoM comes in two configurations: one with 4GB LPDDR4 memory and 32GB eMMC, and the other with 2GB LPDDR4 memory and 16GB eMMC. The OK527N-C development board offers rich interface resources and multiple peripheral interfaces, including network card, CPU built-in audio codec, GPADC, LRADC, TF Card, LVDS, HDM, DP, RGB, WiFi, 4G, PCIe, MIPI-CSI, and more.</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852560317-06c53e4a-05ac-401f-98df-a0199879ae61.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/06c53e4a05ac401f98dfa0199879ae61.png)
 
 **Note：**
 
@@ -128,7 +128,7 @@ Hardware preparation before system startup:
 - Check the booting method (the system will prioritize booting from the TF card if inserted; otherwise, it will boot from eMMC).
 
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852722068-94815d92-2930-446c-9def-31b24a302afb.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/94815d922930446c9def31b24a302afb.png)
 
 ### 2.2 Serial Port Login
 
@@ -148,11 +148,11 @@ The port number recognized by the computer should be considered as the accurate 
 
 Choose “USB-Enhanced-SERIAL-A CH342”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852752540-9e2cca09-69df-41fe-9a59-ca302f92aae7.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/9e2cca0969df41fe9a59ca302f92aae7.png)
 
 Step 2: Open and configure PuTTY; set the serial line to match the COM port of your computer with a baud rate of 115200.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852766412-cf849bee-2bee-4277-9e11-bcba90fd3e14.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/cf849bee2bee42779e11bcba90fd3e14.png)
 
 Step 3: Power on the development board. Serial port will output printing information until “root@OK527:/#” appears, indicating the completion of the boot process. The system defaults to the root account with no password required for login.
 
@@ -177,17 +177,17 @@ The specific method of operation is as follows:
 
 1\. Connect eth0 of the development board to the computer through the network and power up the development board. A red light on the SoM will blink after the kernel starts, and the network card connected to the computer will blink quickly after normal startup. At this point, we can test the network connection;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852786972-2c6fb190-a002-4aaa-a36d-36d1f6d5864e.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/2c6fb190a0024aaaa36d36d1f6d5864e.png)
 
 2\. Close the computer firewall (General computer operations, not described here in detail), then open the computer's run command;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852798819-2b9890db-2900-46fd-bb1d-34fb7ffc3c35.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/2b9890db290046fdbb1d34fb7ffc3c35.png)
 
 3\. Use cmd to open the administrator interface , and use the ping command to test the network connection status of the computer and the development board.
 
 A data return indicates a normal network connection.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852806972-0f90a319-5894-44cd-ac4c-5e7d58158bbb.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/0f90a319589444cdac4c5e7d58158bbb.png)
 
 #### 2.3.2 SSH server
 
@@ -197,11 +197,11 @@ A data return indicates a normal network connection.
 - **The default factory IP for eth0 is 192.168.0.232;**
 - **File transfers can be performed with scp.**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852828220-846ff8b1-62c5-46ac-9e26-8600a5dce468.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/846ff8b162c546ac9e268600a5dce468.png)
 
 Click "Open", the following dialog box will appear, click "Yes" to enter the login screen.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718852834871-326d584b-b5d2-47ff-a6bc-2f4c325934fc.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/326d584bb5d247ffa6bc2f4c325934fc.png)
 
 ```plain
 Login as：root
@@ -354,11 +354,11 @@ This chapter mainly explains the usage of the expansion interfaces on the develo
 
 The desktop of the OK527 development board appears as follows after startup:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800701714-847ac07f-a318-482c-be4b-2e8e4e8f95ed.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/847ac07fa318482cbe4b2e8e4e8f95ed.png)
 
 Click the arrow in the upper right corner togo to the next page.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800701804-4686cda3-f4b4-4555-bd99-ce394dfb54e7.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/4686cda3f4b44555bd99ce394dfb54e7.png)
 
 Video Player is not supported in the current version
 
@@ -370,7 +370,7 @@ Video Player is not supported in the current version
 
 **The IP and network configuration will be stored in the system file (/etc/network/interfaces), ensuring the settings persist across system restarts.**
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800701865-8c4ed03d-40d7-4850-bf31-dbac258f1ed8.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/8c4ed03d40d74850bf31dbac258f1ed8.png)
 
 Clicking on the network configuration icon will open a interface program that supports two modes: STATIC and DHCP.
 
@@ -386,7 +386,7 @@ After clicking on the network configuration icon, select the STATIC mode as show
 | gateway| Set up the gateway
 | dns| Set DNS
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853099491-6d4df335-a44e-43e1-846b-a7a5432797aa.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/6d4df335a44e43e1846ba7a5432797aa.png)
 
 DHCP Mode:
 
@@ -394,39 +394,39 @@ DHCP Mode:
 
 Check DHCP, select the NIC device needing to be configured, and click “Apply and Restart Network” at the bottom of the interface to restart the network and get the ip automatically.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853107651-99014da8-43c3-4819-a6c4-ddeedb9885a3.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/99014da843c34819a6c4ddeedb9885a3.png)
 
 ### 3.3 Browser Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800701929-4fdf6ce0-e5a9-4506-8ca0-af853ae7cda9.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/4fdf6ce0e5a945068ca0af853ae7cda9.png)
 
 Click the browser icon and ensure a smooth network connection with available DNS before accessing external sites. Upon browser startup, it defaults to visiting Forlinx Embedded's official website, as shown below:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853119024-492a4d35-8742-4cfb-a9b6-34f07b3e773c.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/492a4d3587424cfba9b634f07b3e773c.png)
 
 **Note: If the development board time is abnormal, it will cause certificate problems.**
 
 ## 3.4 4G Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800701994-13cbef63-36ce-49f4-a9c0-2543f92e5a08.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/13cbef6336ce49f4a9c02543f92e5a08.png)
 
 The "4G" test program is used to test the OK527 external 4G module (EC20). Before testing, power off the development board, insert the SIM card into the 4G module (ensure correct SIM direction), and launch the test application. This test employs the EC20 module as a reference.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853134759-967d5501-a0c1-4067-a933-5a9818759cb4.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/967d5501a0c14067a9335a9818759cb4.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853141138-17bcdf9c-b5db-451c-908a-4db324ea4496.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/17bcdf9cb5db451c908a4db324ea4496.png)
 
 Click the CONNECT button then the program will automatically enter the dialing process and get the IP to set the DNS, etc. After waiting patiently for a few seconds, click the ping button to test it.
 
 ### 3.5 UART Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702062-319b3678-12c0-4550-ba6b-0a7f9c3dc5dd.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/319b367812c04550ba6b0a7f9c3dc5dd.png)
 
 This test uses UART4 (ttyAS4) and conducts serial port testing through the serial tool.
 
 1\. Click the UART test icon to enter the following interface to set the serial port parameters:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853168898-b3b1fca6-41b1-447b-a0ae-4082f1f75014.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/b3b1fca641b1447ba0ae4082f1f75014.png)
 
 2\. Click thesetup button in the top left corner to align serial port parameters with those on the computer side, as depicted below:
 
@@ -439,29 +439,29 @@ This test uses UART4 (ttyAS4) and conducts serial port testing through the seria
 | Stop bits| Set stop bit (1 bit)
 | Flow control| Set flow control (no flow control)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853204104-9e9fe1f3-1252-43c7-8fbe-62cd15e131f2.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/9e9fe1f3125243c78fbe62cd15e131f2.png)
 
 3\. After setting the serial port parameters, click the connect button in the upper left corner, then the program can conduct data sending and receiving tests;
 
 4\. Open the serial port tool on the computer, and the data received by the serial port will be displayed on the screen at this time;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853216116-4c5a8a52-e55a-46d1-a07a-8d4e3b395589.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/4c5a8a52e55a46d1a07a8d4e3b395589.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853223109-9f91d3ea-d2d4-47ca-b272-3b06f556c49a.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/9f91d3ead2d447cab2723b06f556c49a.png)
 
 5\. Click on the black - screen area in the middle of the test interface, and a soft keyboard will pop up. After continuously entering 32 characters, the information printed by the serial port tool is the data sent by Qt.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853229802-89276bbe-be07-4fdd-ba99-0e93f6e40661.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/89276bbebe074fddba990e93f6e40661.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853235153-75db29ed-035a-44fd-8980-cc5f352e09f2.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/75db29ed035a44fd8980cc5f352e09f2.png)
 
 ### 3.6 ADC Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702143-f1617a1c-bcf9-416b-a23b-f07e8083d78e.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/f1617a1cbcf9416ba23bf07e8083d78e.png)
 
 OK527 supports 24 x, and 14 x GPADC are led out from the OK527 carrier board. By default, all channels are floated. The value of the potentiometer can be measured by shorting the corresponding pin. Max value of 4096 corresponds to a voltage of 1.8V.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853255909-9c70b203-9121-45a9-80d5-aa93e148bce8.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/9c70b203912145a980d5aa93e148bce8.png)
 
 ### 3.7 WIFI Test
 
@@ -471,49 +471,49 @@ OK527 supports 24 x, and 14 x GPADC are led out from the OK527 carrier board. By
 
 **"WIFI" is a tool for configuring and testing the STA (station) mode of Wi-Fi**.
 
-1\. Click icon![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702208-385fdc58-21e2-43f3-a949-e0c26d7873b9.png)to enter test interface, select module from dropdown, enter SSID for Wi-Fi connection.
+1\. Click icon![Image](./images/OK527NC_Linux51547_User_Manual/385fdc5821e243f3a949e0c26d7873b9.png)to enter test interface, select module from dropdown, enter SSID for Wi-Fi connection.
 
 Enter router name \& password in PAWD, click "connect" to WiFi；
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853283016-a9c7ff04-05bd-4de8-a0f9-a6470ad95792.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/a9c7ff0405bd4de8a0f9a6470ad95792.png)
 
 2\. After the connection is successful, click "ping" to test the network after setting the IP;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853291238-2d7a4589-42f6-44c7-9ad1-1fe78bfc79dd.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/2d7a458942f644c79ad11fe78bfc79dd.png)
 
 ### 3.8 RTC Test
 
 **Note: Ensure button cell batteries are installed \& voltage is normal.**
 
-Icon: ![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702270-2f6987d5-2ce6-4a82-b628-c7aaffa0bfc0.png)
+Icon: ![Image](./images/OK527NC_Linux51547_User_Manual/2f6987d52ce64a82b628c7aaffa0bfc0.png)
 
 RTC test includes setting time, power cycling, rerunning test software, and verifying RTC sync.
 
 Run the RTC test software to view and set the current system time with the following interface:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853301881-2e302918-8fd7-4566-9a09-a5325d549ec7.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/2e3029188fd745669a09a5325d549ec7.png)
 
 Click "set" to set the time. After setting, click the save button to save the setting.<font style="color:black;"> Then power off and power on after a period of time. Run the</font><font style="color:black;"> RTC </font><font style="color:black;">test software again to read the time automatically. It can be seen that the </font><font style="color:black;"> RTC </font><font style="color:black;">time has been synchronized and the</font><font style="color:black;">RTC</font><font style="color:black;"> test is normal.</font>
 
 ### 3.9 Key Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702329-583f89cf-f0cf-4ebd-8db8-a3baf67aefe2.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/583f89cff0cf4ebd8db8a3baf67aefe2.png)
 
 "Keypad" tests platform buttons' availability by checking if pressed buttons turn blue. Interface shown below.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853340133-a92e9fb9-82d6-497c-b5f6-e520b1b6c3a3.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/a92e9fb982d6497cb5f6e520b1b6c3a3.png)
 
 There are 6 physical buttons USER, VOL +, VOL-, HOME, MENU and ENTER on the side of OK527 carrier board, which respectively correspond to User, V +, V-, Home, Menu and Enter in the test program. When the button is pressed, the corresponding button in the test application will turn blue, indicating that the button function is normal.
 
 ### 3.10 Watchdog Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702406-01580cc9-162a-46b9-9b05-bc277e34fc0a.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/01580cc9162a46b99b05bc277e34fc0a.png)
 
 “WatchDog" tests the functionality of the watchdog feature. 
 
 Interface as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853348560-a54150d7-f789-4642-b8dc-c433b6e646ba.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/a54150d7f7894642b8dcc433b6e646ba.png)
 
 Checking "feed dog" \& clicking "open watchdog" starts watchdog function with dog-feeding. System shouldn't restart under normal conditions.
 
@@ -521,27 +521,27 @@ Unchecking "Feed Dog" \& clicking "Activate Watchdog” starts watchdog function
 
 ### 3.11 Ping Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702473-e2d8ef48-43d7-4284-97a0-4aa1209744f8.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/e2d8ef4843d7428497a04aa1209744f8.png)
 
 "Ping" is a graphical tool for network testing, offering a user-friendly interface for ping operations.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853360248-4e364094-3548-4ccd-ad5a-a645e0618579.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/4e36409435484ccdad5aa645e0618579.png)
 
 Write the target IP address in the "hostname" column. Click the "ping" button, and the "result" column will display the ping outcome. Click "stop" to end the ping test, and "clear" to erase the information in the "result" column.
 
 As shown in the figure, the network connection is smooth.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853366769-58cb2cca-95e5-4cf7-8502-e6511b2e3e2d.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/58cb2cca95e54cf78502e6511b2e3e2d.png)
 
 ### 3.12 Camera Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702533-41af9788-e1d5-4104-8cee-b0fb17f2f67a.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/41af9788e1d541048ceeb0fb17f2f67a.png)
 
 Click the icon to enter the camera test program, which supports MIPI CSI interface and UVC camera. During the test, the UVC camera or mipi ov5645 needs to be inserted first, the device name corresponding to the UVC is/dev/video1, and the device name of the MIPI OV5645 at the P48 position of the carrier board is/dev/video0. Carrier board P49 location MIPI OV5645 device name is/dev/video4. 
 
 Open the QT test program.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853377923-3353cea2-6e2d-4214-9a1e-3b539ac83ea6.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/3353cea26e2d42149a1e3b539ac83ea6.png)
 
 Choose the camera video device node;
 
@@ -559,17 +559,17 @@ Save the photo with a name and at a chosen path.
 
 Take mipiov5645 camera as an example for test.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853395029-968c3a23-60bf-47e5-bc7c-68132dbc8b73.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/968c3a2360bf47e5bc7c68132dbc8b73.png)
 
 Click "Picture" to take photos and save them in /root/. Use Windows built-in image viewer to view them.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853403166-2cef678e-66c2-4514-b5c1-1ede328b8c08.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/2cef678e66c24514b5c11ede328b8c08.png)
 
 The current MIPI OV5645 module supports resolutions of 1280x960, 1920x1080, and 2592x1944 respectively. 
 
 The following is an example test of the OV5645 resolution of 2592x1944 connected to the carrier board P48.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853410278-0ad75677-8eae-4ca1-a211-fe857eb432a8.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/0ad756778eae4ca1a211fe857eb432a8.png)
 
 **Note: If TP2855 is used for testing, the device tree needs to be modified and recompiled to generate an image.** 
 
@@ -578,23 +578,23 @@ Open OKT527-linux-sdk1.3/kernel/linux-5.15/arch/arm64/boot/dts/allwinner/OKT527-
 
 Uncomment TP2855 and comment out OV13855 at the same time, recompile the image after saving, and test with this application after flashing.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/45205328/1752635837501-f37b117e-81e0-45fb-bbf6-6e0c559dd297.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/f37b117e81e045fbbbf66e0c559dd297.png)
 
 ### 3.13 Backlight Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702606-a3360044-cf19-4d89-af09-4fb38842e517.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/a3360044cf194d89af094fb38842e517.png)
 
 "BackLight" is an LCD backlight adjustment App with a left-right progress bar for brightness control. 
 
 Click to open the interface as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853428224-e115fd38-6d75-465e-86da-4c6d1426b7ec.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/e115fd386d75465e86da4c6d1426b7ec.png)
 
 Drag the slider in the interface to set the LCD backlight brightness. 1 is the darkest, 255 is the brightest, and 0 needs to be set through the command line. Refer to“4.21 LCD Backlight Adjustment”.
 
 ### 3.14 Play/Record Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702671-2b35bce1-2a7c-40c9-b7d0-01af8eb1b902.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/2b35bce12a7c40c9b7d001af8eb1b902.png)
 
 Before conducting the audio recording test, please insert the prepared microphone into the mic port. Click the icon to enter the recording test application, which can be used to check if the sound card recording function is working properly.
 
@@ -602,19 +602,19 @@ Choose where to save the recording file. Click "Start" to begin recording and "S
 
 The interface is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853445711-275349cf-e1e2-4199-85ba-4358217ee8bd.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/275349cfe1e2419985ba4358217ee8bd.png)
 
 Click the Record button to test the recording. The recording file is saved in the root directory.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853455096-0cce15e5-8919-4f53-a050-7a2134926bc7.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/0cce15e589194f53a0507a2134926bc7.png)
 
 ### 3.15 Music Play Test
 
-Use the “ ![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702750-a953a796-2ad4-4738-98ab-a29091d51499.png)” app icon to conduct a music playback test.
+Use the “ ![Image](./images/OK527NC_Linux51547_User_Manual/a953a7962ad4473898aba29091d51499.png)” app icon to conduct a music playback test.
 
 "music player" is a simple audio test application that can be used to test the function of the sound card or as a simple audio player.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853468214-c3aa49a4-25fd-4931-97e6-52a27aae6cb2.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/c3aa49a425fd493197e652a27aae6cb2.png)
 
 Application Interfaces
 
@@ -624,13 +624,13 @@ Click the button in the lower left corner and select test audio /forlinx/media/t
 
 OK527 has CPU0 to CPU3 with a maximum frequency of 1.4GHz, and CPU4 to CPU7 with a maximum frequency of 1.8GHz. By default, the CPU dynamically adjusts its frequency based on load. Alternatively, you can set a fixed CPU frequency.
 
-Click the desktop setting icon to![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702814-56bd63f6-b4fc-47f0-ac37-6c3e38958002.png)enter the next menu:
+Click the desktop setting icon to![Image](./images/OK527NC_Linux51547_User_Manual/56bd63f6b4fc47f0ac376c3e38958002.png)enter the next menu:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853489823-98ab8bb8-1a52-4bcb-85ec-5b4b9b994427.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/98ab8bb81a524bcb85ec5b4b9b994427.png)
 
-Click the desktop icon![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853495816-aa3a65e6-63a7-49a6-8445-db7d202ae3c5.png)to enter the CPU main frequency setting page:
+Click the desktop icon![Image](./images/OK527NC_Linux51547_User_Manual/aa3a65e663a749a68445db7d202ae3c5.png)to enter the CPU main frequency setting page:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853502932-0d761d48-f870-491d-a7d2-e4c4437417e8.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/0d761d48f870491da7d2e4c4437417e8.png)
 
 Set OnDemand Governor：Dynamically adjust the main frequency on demand;
 
@@ -642,39 +642,39 @@ Set Frequency CPU4-7: Adjust the frequency of the big cores;
 
 As an example for setting the frequency of the small cores: First, click "Set Userspace Governor," then a dialog box will pop up; click "RUN."
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853509090-50711674-801f-456a-a2d4-59f3c8a571ef.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/50711674801f456aa2d459f3c8a571ef.png)
 
 Then, click “Set Frequency CPU0-3” to set a fixed frequency. (Click the arrow in the top right corner to return to the previous directory, and click the icon in the top right corner to return to the main directory).
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853519884-69dc2680-f28c-451e-8bcb-5b7185a9cd94.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/69dc2680f28c451e8bcb5b7185a9cd94.png)
 
 Select the desired frequency for configuration based on the needs.
 
 ### 3.17 SQLite3 Database Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702881-c8d4cf91-c8b5-429f-a6fa-06f1382c4b54.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/c8d4cf91c8b5429fa6fa06f1382c4b54.png)
 
 Click on the icon to access the database testing interface.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853570775-ce85234a-a570-4d1e-97b8-2d575987aed5.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/ce85234aa5704d1e97b82d575987aed5.png)
 
 Select the column that needs to be modified, and click on an empty area after making the changes.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853575981-1469680b-6b04-44e1-8925-123f54a951cc.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/1469680b6b0444e18925123f54a951cc.png)
 
 ### 3.18 SPI Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800702955-17530712-eb84-466f-afaa-35c8d4ba53a4.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/17530712eb84466fafaa35c8d4ba53a4.png)
 
 Click on the icon to enter the SPI testing interface. Short-circuit the SPI0\_MOSI and SPI0\_MISO pins, then click “send” below to receive the data sent out and complete the test.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718853586101-d2dd1036-2853-426a-a763-204ee8b303e3.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/d2dd10362853426aa763204ee8b303e3.png)
 
 Short-circuit the SPI0\_MOSI and SPI0\_MISO pins, then click "send" below to receive the data sent out and complete the test.
 
 ### 3.19 Switching Display Screen
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703022-9e994614-0b22-4a0c-a3c6-951bcf7752bb.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/9e9946140b224a0ca3c6951bcf7752bb.png)
 
 Click the icon to enter the interface, click the corresponding button to modify the display settings, and click “Apply” to save the configuration, which will take effect in the next restart.
 
@@ -694,33 +694,33 @@ b)	DP includes “dp 1080P60”“dp 2.5k”;
 
 c)    HDMI automatically configures resolution based on edid.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703087-b9e634b2-271a-44ab-91c0-78b142ae4abb.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/b9e634b2271a44ab91c078b142ae4abb.png)
 
 ### 3.20 OpenGL
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703171-92008941-182a-4bc4-8b3e-4e13084f0bc8.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/92008941182a4bc48b3e4e13084f0bc8.png)
 
 The current frame rate is only 20 frames.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703244-98f94324-a961-4905-8a26-54c3f7dabae9.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/98f94324a96149058a2654c3f7dabae9.png)
 
 ### 3.21 Video Player
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703312-7d833c2e-88dd-4f0e-9651-9b5400b138d6.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/7d833c2e88dd4f0e96519b5400b138d6.png)
 
 Click "open file" to select the test video to play.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703400-0d68d6be-0d70-478b-9139-091b031c72f1.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/0d68d6be0d70478b9139091b031c72f1.png)
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703491-807c6cc3-a731-47e5-858c-d07a7617f4e4.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/807c6cc3a73147e5858cd07a7617f4e4.png)
 
 ### 3.22 CAN Test
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703560-c2698aea-ce1e-4683-8242-64f3833a6aa7.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/c2698aeace1e4683824264f3833a6aa7.png)
 
 Configure can0 as shown in the figure below：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703628-4a72a646-b351-4a1f-933f-7ae0af0bc182.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/4a72a646b3514a1f933f7ae0af0bc182.png)
 
 ```plain
 root@OK527:/# ip link set awlink1 up type can bitrate 500000
@@ -731,17 +731,17 @@ root@OK527:/# cangen awlink1
 
 Configure can1 on the command line of the development board to send, and observe whether can0 receives data in the interface.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703697-8fc88a53-bc41-4870-bb4e-aff7bafc5403.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/8fc88a53bc414870bb4eaff7bafc5403.png)
 
 ### 3.23 NPU\_AI\_CAMERA
 
-Icon：![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703773-ce8c9af4-35aa-42a1-80f7-aa51130d092b.png)
+Icon：![Image](./images/OK527NC_Linux51547_User_Manual/ce8c9af435aa42a180f7aa51130d092b.png)
 
 Insert the UVC camera and click the start button.
 
 **Note: NPU testing is only supported in the OK 527N-C version.**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800703846-741afdef-eab5-47d7-af36-ecf0bf2e730f.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/741afdefeab547d7af36ecf0bf2e730f.png)
 
 ## 4. OK527 Command Line Function Test
 
@@ -1073,7 +1073,7 @@ The current version of SDK supports up to 1.5M bps.
 
 This test uses UART4 test, respectively UART4 A and B, to the USB to 485 to test the serial port.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854482534-9ac50873-3327-4ebe-b044-552742963dd6.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/9ac5087333274ebeb044552742963dd6.png)
 
 Enter the following command in the serial port of the development board:
 
@@ -1132,7 +1132,7 @@ root@OK527:/# ls /dev/ttyXRUSB*
 
 <font style="color:black;">3. </font><font style="color:black;">The mapping between the four extended serial ports and their corresponding device nodes is shown in the diagram below:</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854501284-ac1f795f-cf05-4062-98fc-3b552a167b5c.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/ac1f795fcf05406298fc3b552a167b5c.png)
 
 <font style="color:black;">4</font><font style="color:black;">Please refer to “UART Test” for the test method.
 
@@ -1140,7 +1140,7 @@ root@OK527:/# ls /dev/ttyXRUSB*
 
 The development board provides 14 channels for GPADC, with a voltage sampling range of 0 to 1.8V. Before testing the adjustable resistance value, it is necessary to short-circuit the P14 terminal. Through the P14 terminal, select which channel of the GPADC to connect to the R67 potentiometer:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854514588-2a65cf1e-64f9-4334-845a-3e9361c070d9.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/2a65cf1e64f94334845a3e9361c070d9.png)
 
 Each channel corresponds to the following:
 
@@ -1561,7 +1561,7 @@ After setting according to the actual situation, save and exit, use sync to sync
 D:\iperf-3.1.3-win64\iperf-3.1.3-win64>iperf3.exe -s
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854539950-06c8eebd-c99a-4250-9310-1b437aaa0257.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/06c8eebdc99a425093101b437aaa0257.png)
 
 <font style="color:black;">Development board</font><font style="color:black;">eth0</font><font style="color:black;"></font><font style="color:black;">ip</font><font style="color:black;">is</font><font style="color:black;">192.168.1.11</font><font style="color:black;">，</font><font style="color:black;">windows</font><font style="color:black;"></font><font style="color:black;">IP</font><font style="color:black;">is</font><font style="color:black;">192.168.1.39</font><font style="color:black;">, </font><font style="color:black;"> </font><font style="color:black;">input at the OK527 serial port debugging terminal</font>.
 
@@ -1628,7 +1628,7 @@ Eth1 upload speed 948Mbps， download speed 945Mbps
 
 The OK527 development board comes with the lighttpd web server pre-installed, and the lighttpd service has been automatically started at system startup. Enter the IP address of the board into the PC browser to view the web pages in the board's webserver, as shown in the following figure:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800705480-aaa38263-1113-4861-9ee5-b3ca3e5b19e0.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/aaa38263111348619ee5b3ca3e5b19e0.png)
 
 #### 4.17.2 SFTP
 
@@ -1640,9 +1640,9 @@ Install FileZilla tool on Windows and follow the steps shown in the image below 
 
 Open the filezilla tool, click on File and select Site Manager.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854565907-d6d577e4-3f10-40b1-be75-c0af16720c56.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/d6d577e43f1040b1be75c0af16720c56.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854578304-c6b101f0-d6c3-4756-91c1-fe5ae9b55718.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/c6b101f0d6c3475691c1fe5ae9b55718.png)
 
 Once we have successfully logged in, we can upload and download.
 
@@ -2009,7 +2009,7 @@ root@OK527:/# vi /etc/autorun.sh
 
 Modify the file reference as follows (users need to modify according to the actual situation):
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854651415-ad525e3b-3519-432f-ad11-78ebde105f37.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/ad525e3b3519432fad1178ebde105f37.png)
 
 2\. After modification, save and exit, and add execution permission to the script
 
@@ -2031,7 +2031,7 @@ Add a startup script during image flashing, you need to modify the source code i
 
 The format of the content is as follows, and the user can modify it according to the actual needs:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854671764-11a6e703-7780-404e-9e7f-1a2c5189ef6c.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/11a6e7037780404e9e7f1a2c5189ef6c.png)
 
 Use thechmod +x autorun.shcommand toadd execution permissions to the file.
 
@@ -2185,7 +2185,7 @@ There are 2 x CAN on the carrier board, which are led out to the P41 connecting 
 
 Short H, L, and GND of can0 and can1, respectively, to test.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854704682-13284de8-3806-4254-b731-2a29092d7d3a.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/13284de838064254b7312a29092d7d3a.png)
 
 Set the Can service：
 
@@ -2259,7 +2259,7 @@ ERR: rx != tx
 
 Take PJ24 as an example, PJ24 can control D10 blue led.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854721047-6dd87220-ebbc-4abc-bd85-2426841b9ebd.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/6dd87220ebbc4abcbd852426841b9ebd.png)
 
 Set PJ24 output low level
 
@@ -2281,7 +2281,7 @@ read: 1
 
 The buzzer of OK527-C is a passive buzzer, and the PWM signal can be input.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854729909-70d6614c-eaa7-49b3-8cb8-bf7eeb286785.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/70d6614ceaa749b38cb8bf7eeb286785.png)
 
 Set PJ24 output high level
 
@@ -2481,7 +2481,7 @@ Default agent request successful
 
 After the above settings, open the computer to search for Bluetooth, click "Add Bluetooth or other devices", a "OKT527" device will appear, click this Bluetooth to try to pair.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718854751055-40b40021-d9a9-4094-a8da-bf3e33ded013.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/40b40021d9a94094a8dabf3e33ded013.png)
 
 At the same time, the information printed on the development board is as follows. Enter yes:
 
@@ -2548,27 +2548,27 @@ After successful pairing, you can use Bluetooth to send files to the board on th
 
 Click on "Send or receive files via Bluetooth"
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855264803-546e43f0-8bac-4568-9251-aba4739cd77a.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/546e43f08bac45689251aba4739cd77a.png)
 
 Select "Send File"
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855270605-f7d30193-7a16-4d98-8dc8-9ebfd6d2c998.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/f7d301937a164d988dc89ebfd6d2c998.png)
 
 Select OKT527.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855278104-bf7b4b2e-47fa-4617-a410-a38274db9230.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/bf7b4b2e47fa4617a410a38274db9230.png)
 
 Select a file to send.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855311685-52169b3c-eae7-4cc7-a967-26ba5922d0b9.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/52169b3ceae74cc7a96726ba5922d0b9.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855332997-62ca2ac1-a48c-4274-a517-4a1fbdef84c2.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/62ca2ac1a48c4274a5174a1fbdef84c2.png)
 
 Wait for the send completion
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855339406-1f5060a0-9b8c-4600-8b72-a0bf7a216a6d.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/1f5060a09b8c46008b72a0bf7a216a6d.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855349195-a5a5d2db-09dc-4203-80c4-b9f46e2fe68f.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/a5a5d2db09dc420380c4b9f46e2fe68f.png)
 
 Received files are saved in the /tmp directory.
 
@@ -2580,7 +2580,7 @@ The test method is as follows:
 
 Select "Receive File" on the computer side.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718855360798-c018e7d4-f48b-4af9-86da-3b6f4e6741df.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/c018e7d4f48b4af986da3b6f4e6741df.png)
 
 ```plain
 root@OK527:~# bluetoothctl 
@@ -2796,7 +2796,7 @@ root@OK527:/# gst-launch-1.0 v4l2src device=/dev/video1 ! videoconvert ! video/x
 .
 ```
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745800707262-0c47f75b-548e-459f-aadb-fe8c36864519.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/0c47f75b548e459faadbfe8c36864519.png)
 
 ### 5.2 OV5645 Acquisition Test
 
@@ -2863,15 +2863,15 @@ Use the Type-C cable to connect the development board and the host. Press and ho
 
 Open the windows device manager, find an unknown device with a yellow exclamation mark, select to install the driver manually, right-click the unknown device, and select "Update Driver"
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865053037-e5f86fbc-1486-4659-92bb-e76cd757b12d.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/e5f86fbc1486465992bbe76cd757b12d.png)
 
 Select "Browse my computer for drivers" and then select the extracted V1.10 directory of the Phoenix Suit \_.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865068116-92a779fe-a126-4e2b-b070-bcac89d74dca.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/92a779fea1264e2bb070bcac89d74dca.png)
 
 Wait for the driver to finish installing, and run PhoenixSuit.exe, the bottom left corner shows "The device has been connected successfully".
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865079920-48ee2faa-0d54-4b98-b7f5-b783cbf42f3e.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/48ee2faa0d544b98b7f5b783cbf42f3e.png)
 
 #### 6.2.2 OTG Flashing Method
 
@@ -2881,11 +2881,11 @@ This method will flash the entire img image.
 
 As shown in the following interface:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865112609-75907aa3-20fc-4c73-b2c2-d53ad293a073.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/75907aa320fc4c73b2c2d53ad293a073.png)
 
 In the following interface, click on “One-click Flash” and then click on “Browse” to select the firmware image file.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865122731-b9d6ce35-261d-4598-9b61-599133445b73.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/b9d6ce35261d45989b61599133445b73.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key.
 
@@ -2893,11 +2893,11 @@ Connect the development board and the host using a Type-A to Type-C cable, do no
 
 In the following interface, click "Yes" to enter the formatting upgrade mode.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865136820-9e841ac8-3db7-4c3f-8252-cd462c7c9b8e.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/9e841ac83db74c3f8252cd462c7c9b8e.png)
 
 Waif for the flashing to finish, the following interface will pop up:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865143125-25e5db4b-cd22-4c4b-9093-2f18ba8fadf7.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/25e5db4bcd224c4b90932f18ba8fadf7.png)
 
 Power on and start the OK527 board.
 
@@ -2907,13 +2907,13 @@ Power on and start the OK527 board.
 
 In the following interface, check the checkbox "Single or Multi-zone Download (Check this option, the flashing tool downloads the partitions you selected)", check "BOOT-RESOURCE", "ENV", checkboxes.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865157502-cdd682f2-8efa-43f3-948b-34cf987a980f.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/cdd682f28efa43f3948b34cf987a980f.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key. Wait for flashing to finish, the following interface will pop up:
 
 **Note: Be sure to press the FEL key when the power is off.**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865176490-f58585e7-e2e5-409e-9916-f7fecc70266b.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/f58585e7e2e5409e9916f7fecc70266b.png)
 
 2\) Flash the kernel image and device tree (dtb) file via OTG
 
@@ -2921,25 +2921,25 @@ Check the "Single/Multiple Partition Download" box in the interface (flashing to
 
 Place the kernel image in the "BOOT" partition, and the device tree (DTB) file and U-Boot in the "BOOT-RESOURCE" partition.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865206218-897c8fbb-0039-44ce-b6cf-8fe34b68de83.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/897c8fbb003944ceb6cf8fe34b68de83.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key. Wait for flashing to finish, the following interface will pop up:
 
 **Note:Be sure to press the FEL key when the power is off.**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865214184-0b2663ee-9100-475d-aac0-85b38192c22d.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/0b2663ee9100475daac085b38192c22d.png)
 
 3\) OTG flashing File System
 
 Check the "Single/Multiple Partition Download" box in the interface (flashing tool downloads selected partitions), also check "ROOTFS".
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865247125-cd45f3ba-b230-48ec-97c5-8521e9db720c.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/cd45f3bab23048ec97c58521e9db720c.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key. Wait for flashing to finish, the following interface will pop up:
 
 **Note: Be sure to press the FEL key when the power is off.**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865260752-10322ba2-6a99-4533-b0a7-9b6f331f16af.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/10322ba26a994533b0a79b6f331f16af.png)
 
 #### 6.2.3 OTG Flashing Common Issues
 
@@ -2947,7 +2947,7 @@ Connect the development board and the host using a Type-A to Type-C cable, do no
 
 Some users still see an "Unknown Device" after installing USB drivers per the manual. Clicking on it shows a message about a third-party INF lacking digital signature info, as shown below.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865268647-add5cacc-0f39-44ca-9e28-1a9e532154e2.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/add5cacc0f3944ca9e281a9e532154e2.png)
 
 This occurs because some Windows systems disallow unsigned drivers to ensure system stability, resulting in failed installation of unsigned drivers. Users need to disable driver signature enforcement on their computers before installing drivers according to the manual.
 
@@ -2956,15 +2956,15 @@ This occurs because some Windows systems disallow unsigned drivers to ensure sys
 
 1）<font style="color:black;">First press and hold Shift + to restart</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865282319-8e077ae9-9f5c-4549-9a2e-0d5549cd10c2.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/8e077ae99f5c45499a2e0d5549cd10c2.png)
 
 2）<font style="color:black;">At startup, select Troubleshooting -- Advanced Options -- Startup Settings</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865476235-8a469de9-3ad1-45a9-929c-fa82a67562a1.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/8a469de93ad145a9929cfa82a67562a1.png)
 
 3\. <font style="color:black;">In the boot settings screen, click Reboot in the lower right corner to reboot into the boot settings; you can use the number keys 7 or functional keys F7; disable driver forced signing;</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865487473-58ad1236-653d-426e-af69-5631e1e5fce0.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/58ad1236653d426eaf695631e1e5fce0.png)
 
 2\. Improper use of FEL key
 
@@ -2972,11 +2972,11 @@ When flashing, do not power up the board first, press the FEL key and then power
 
 3\. The device name has appeared, but the board still cannot be recognized.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865537070-3e0d4969-1a2b-4c8b-a31b-7d31f69dd091.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/3e0d49691a2b4c8ba31b7d31f69dd091.png)
 
 Due to numerous unknown devices in Device Manager, choosing the wrong one might install the driver incorrectly. Right-click the device, uninstall it and the device driver.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865547495-2c3fbd23-dae1-4b61-bfc4-199fab45dab0.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/2c3fbd23dae14b61bfc4199fab45dab0.png)
 
 Then unplug other USB devices, set the development board to flashing mode, connect to the host, and reinstall the driver.
 
@@ -2992,7 +2992,7 @@ Creation path: 02-user information\\01-software information\\04-tools\\PhoenixCa
 
 As shown in the following interface:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865565334-ca21e827-50e0-406d-9531-ad7baec66c5a.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/ca21e82750e0406d9531ad7baec66c5a.png)
 
 **Note: When there are multiple partitions on the TF card, please click on “Restore Card” first, and then click on “Burn Card”. Otherwise, it may result in a failed burn process.**
 
@@ -3000,7 +3000,7 @@ As shown in the following interface:
 
 After flashing, as shown in the following interface:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865574992-564b183a-3bb5-4e87-ab1b-8cd8e33b8445.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/564b183a3bb54e87ab1b8cd8e33b8445.png)
 
 #### 6.3.2 TF Card Flashing
 
@@ -3069,6 +3069,6 @@ Path of recovery tool: 02-User information \\ 01-Software information \\ 04-Tool
 
 Copy PanasonicSDFormatter.zip to any window directory and unzip it, insert the TF card into the Windows host, and run SDFormatter.exe as administrator.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45383109/1718865591440-37b85de7-e4b7-429a-838d-3d8fc6bbd93b.png)
+![Image](./images/OK527NC_Linux51547_User_Manual/37b85de7e4b7429a838d3d8fc6bbd93b.png)
 
 Click on "Options Settings," select Erase and Format, and then click Format to restore the burned TF card to a regular TF card.
