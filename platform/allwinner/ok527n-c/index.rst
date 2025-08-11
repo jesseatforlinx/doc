@@ -31,6 +31,7 @@ OK527N-C Manual
    :maxdepth: 2
 
    OK527_Quick_Boot
+   OK527_Display_Interface
 
 ===========
 Contact Us
