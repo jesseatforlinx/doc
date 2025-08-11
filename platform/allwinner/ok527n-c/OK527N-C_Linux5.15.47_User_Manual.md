@@ -406,7 +406,7 @@ Click the browser icon and ensure a smooth network connection with available DNS
 
 **Note: If the development board time is abnormal, it will cause certificate problems.**
 
-## 3.4 4G Test
+### 3.4 4G Test
 
 Icon：![Image](./images/OK527NC_Linux51547_User_Manual/13cbef6336ce49f4a9c02543f92e5a08.png)
 
