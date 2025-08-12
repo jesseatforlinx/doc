@@ -13,11 +13,15 @@
 OK527N-C Manual
 ==================
 
+HARDWARE
+------------
+
 .. toctree::
    :caption: HARDWARE
    :maxdepth: 2
    
-   
+SOFTWARE
+------------
 
 .. toctree::
    :caption: SOFTWARE
@@ -25,6 +29,8 @@ OK527N-C Manual
 
    OK527N-C_Linux5.15.47_User_Manual
 
+APPLICATION NOTE
+-----------------
 
 .. toctree::
    :caption: APPLICATION NOTE
