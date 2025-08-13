@@ -1823,16 +1823,14 @@ Table 5-2 SMARC S-PIN Connector Pin Fan-out
 
 ## 6. Power Consumption of the Whole Development Board
 
-| Status:| Configuration| 
-|----------|----------|----------
-| | i.MX 8M Plus Quad 2GB LPDDR4 16GB eMMC| i.MX 8M Plus Quad 4GB LPDDR4 32GB eMMC
-| Idle (USB HUB Operating)| 3W| 3.3W
-| Same as above (VPU at full load when GPU is active)| 4.7W| 5.2W
-| The same as above, and with the CPU and LPDDR4 operating at full load.| 5.7W| 6W
-| Same as above, with 2 x GbE, Wi-Fi, and 2 x USB 3.0e.| 7.4W| 7.7W
-| RTC power consumption on VDD\_RTC (VDD\_IN is off)| 0.25 μ A| 
-
-
+| Status                                                       | Configuration                          |                                        |
+| ------------------------------------------------------------ | -------------------------------------- | -------------------------------------- |
+|                                                              | i.MX 8M Plus Quad 2GB LPDDR4 16GB eMMC | i.MX 8M Plus Quad 4GB LPDDR4 32GB eMMC |
+| Idle (USB HUB Operating)                                     | 3 W                                    | 3.3 W                                  |
+| Same as above (VPU at full load when GPU is active)          | 4.7 W                                  | 5.2 W                                  |
+| Same as above, and with the CPU and LPDDR4 operating at full load. | 5.7 W                                  | 6 W                                    |
+| Same as above, with 2 x GbE, Wi-Fi, and 2 x USB 3.0e.        | 7.4 W                                  | 7.7 W                                  |
+| RTC power consumption on VDD\_RTC (VDD\_IN is off)           | 0.25 μ A                               |                                        |
 
 ## 7. Environmental Specification
 
