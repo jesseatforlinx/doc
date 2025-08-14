@@ -120,7 +120,7 @@ Please ask your sales representative for the download link.
 
 There are two ways to use a virtual machine environment in VMware: one is to directly load an existing environment, and the other is to create a new environment. First talk about how to load an existing environment.
 
-First, download the development environment provided by Forlinx. There is an MD5 verification file in the development environment data. After downloading the development environment data, the user first performs MD5 verification on the compressed package of the development environment (02-User Data \\ 01-Software Data \\ 04-Tools \\ md5sums-1.2.zip) to check whether the verification code is consistent with the verification code in the verification file. If they are consistent, the downloaded file is normal; if not, the file may be damaged and needs to be downloaded again.
+First, download the development environment provided by Forlinx. There is an MD5 verification file in the development environment data. After downloading the development environment data, first performs MD5 verification on the compressed package of the development environment (02-User Data \\ 01-Software Data \\ 04-Tools \\ md5sums-1.2.zip) to check whether the verification code is consistent with the verification code in the verification file. If they are consistent, the downloaded file is normal; if not, the file may be damaged and needs to be downloaded again.
 
 ![Image](./images/OK527NC_Linux51547_User_Compilation_Manual/5822150fe7ea483d8743ea64e4ab08fd.png)
 
