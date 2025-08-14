@@ -54,7 +54,7 @@ forlinx@ubuntu: The username is forlinx and the hostname is ubuntu, indicating t
 
 This software manual is applicable to the <font style="color:rgb(0,0,0);">OK527 platform Linux 5.15 operating system of Forlinx.</font>
 
-# <font style="color:black;">Revision History</font>
+## <font style="color:black;">Revision History</font>
 
 | Date| Manual Version| Revision History|
 |:----------:|:----------:|----------|
