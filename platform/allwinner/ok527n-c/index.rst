@@ -28,6 +28,7 @@ SOFTWARE
    :maxdepth: 2
 
    OK527N-C_Linux5.15.47_User_Manual
+   OK527N-C_Linux5.15.47_User_Compilation_Manual.md
 
 APPLICATION NOTE
 -----------------
