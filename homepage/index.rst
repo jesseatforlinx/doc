@@ -92,7 +92,6 @@ LS1046A Series
        <a href="nxp/OK1046A-C2/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-doc">Docs</a>
      </div>
    </div>
-   </div>
 
 
 
