@@ -35,7 +35,7 @@ Development Manual
    :caption: Development Manual
    :maxdepth: 2
 
-   ../ls-development-manual/index
+   LS Development Manual <https://forlinxembedded.github.io/nxp/ls-development-manual/index.html>
 
 
 
