@@ -35,7 +35,7 @@ Development Manual
    :caption: Development Manual
    :maxdepth: 2
 
-   LS Development Manual <nxp/ls-development-manual>
+   nxp/ls-development-manual/index
 
 
 
