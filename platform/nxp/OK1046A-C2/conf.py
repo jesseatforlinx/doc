@@ -6,10 +6,9 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'NXP IMX9352 Documentation'
+project = 'NXP IMX8MP Documentation'
 author = 'Forlinx Embedded'
 copyright = 'Forlinx Embedded'
-
 # -- General configuration ---------------------------------------------------
 
 extensions = [
@@ -32,12 +31,23 @@ html_static_path = ['_static']
 
 # Logo (如果有，放在 _static 目录)
 html_logo = '_static/forlinx-logo.png'
-
+html_favicon = '_static/forlinx.png'
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
 }
 
 html_css_files = [
     'custom.css',
 ]
+
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        'relations.html',
+        'sourcelink.html',
+        'searchbox.html',
+        'footer.html',  # 👈 关键：显式加载我们自定义的 footer 模板
+    ]
+}
+
+html_show_sourcelink = False
