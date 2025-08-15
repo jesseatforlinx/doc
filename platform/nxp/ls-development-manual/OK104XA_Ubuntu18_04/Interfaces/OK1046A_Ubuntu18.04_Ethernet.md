@@ -16,7 +16,7 @@ The drivers and utilities used for the components are subject to the copyrights 
 
 This software manual is designed for the LS1046 platform running Ubuntu 18.04. While other platforms may also reference this manual, there could be differences that require adjustments for the specific use.
 
-# **Revision History**
+## **Revision History**
 
 | **Date** | **Version** | **Revision H** |
 |----------|----------|----------|
