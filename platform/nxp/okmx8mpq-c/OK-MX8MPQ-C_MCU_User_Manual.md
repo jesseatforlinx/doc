@@ -59,7 +59,7 @@ There are total five chapters:
 
 • 256 KB TCM
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/a538cec50ecd4a52842bbf0a44a9a6c3.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/a538cec50ecd4a52842bbf0a44a9a6c3.png)
 
 ## 2\. OKMX8MPQ-C Development Board M Core Description
 
@@ -98,9 +98,9 @@ The OKMX8MPQ-C development board supports 2 GPIO output (running water light).
 
 The demo does not have any special hardware connections, only utilizing the carrier board's 2 x LED.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/336fee040e814eca9b533580e32df38a.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/336fee040e814eca9b533580e32df38a.png)
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/1af0fda2b3b6444fb0d27b49664e49ec.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/1af0fda2b3b6444fb0d27b49664e49ec.png)
 
 #### 3.1.2 Software Implementation
 
@@ -166,7 +166,7 @@ After the GPIO initialization is completed, turn over the level of the GPIO ever
 
 (2) M-core debugging serial port displays the information shown below, and you will observe 2 LEDs blinking at the same time.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/2abff7e17314460bbf7408f027b38413.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/2abff7e17314460bbf7408f027b38413.png)
 
 ### 3.2  UART
 
@@ -174,7 +174,7 @@ In the M-core SDK package, there are 7 serial port examples. These include "auto
 
 #### 3.2.1 Hardware Connection
 
-By using a USB to Type-C connection, you can connect the debug port of a computer and a development board. The computer's Device Manager will generate two serial ports. One serial port is for debugging the A-core Linux, and the other one is for debugging the M-core. Serial port configuration: Baud rate is 115200, data bits are 8, no flow control, stop bits are 1.![Image](./images/OKMX8MPQC_MCU_User_Manual/b8c47dd10f4045e288d62591a5e6008f.png)
+By using a USB to Type-C connection, you can connect the debug port of a computer and a development board. The computer's Device Manager will generate two serial ports. One serial port is for debugging the A-core Linux, and the other one is for debugging the M-core. Serial port configuration: Baud rate is 115200, data bits are 8, no flow control, stop bits are 1.![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/b8c47dd10f4045e288d62591a5e6008f.png)
 
 #### 3.2.2 Software Implementation
 
@@ -238,7 +238,7 @@ After initialization, if data is received, an interrupt is triggered and the rec
 
 (2) Input any character in the M core debugging serial port, trigger the receiving interrupt, and then send it out. The typed character can be seen in the M core debugging serial port.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/2d1b818cdc494e31b563e6c972716dca.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/2d1b818cdc494e31b563e6c972716dca.png)
 
 ### 3.3 I2C
 
@@ -248,7 +248,7 @@ In the M Core SDK package, there are three serial port routines. Among them, “
 
 This routine mainly uses the RTC chip PCF8563 on the development board, and there is no other special connection.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/a3b1c21551b34991b36cb6713010deb5.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/a3b1c21551b34991b36cb6713010deb5.png)
 
 #### 3.3.2 Software Implementation
 
@@ -320,7 +320,7 @@ PUTCHAR(ch);  
 
 (2) Debugging via the M-core serial port, after entering ''s'', you can set the time. Enter the command ''2023-01-18 15:34:06'' to successfully set the time;
 
-(3) Debugging via the M-core serial port, after entering ''r'', you can read the time, observing it continuously running.![Image](./images/OKMX8MPQC_MCU_User_Manual/22616a2ca86a4f2888d5884699507480.png)
+(3) Debugging via the M-core serial port, after entering ''r'', you can read the time, observing it continuously running.![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/22616a2ca86a4f2888d5884699507480.png)
 
 ### 3.4  CAN
 
@@ -330,7 +330,7 @@ M-core SDK package contains four CAN examples. Among them, ‘‘loopbac” and 
 
 This routine demonstrates the process of CAN master-slave communication, which requires two 8mp development boards, using DuPont cables to connect the H and L of CAN1.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/6b01d0b6056f4ff598d6698ac6109e59.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/6b01d0b6056f4ff598d6698ac6109e59.png)
 
 #### 3.4.2 Software Implementation
 
@@ -416,11 +416,11 @@ LOG\_INFO(<font style="color:#0000FF;">"Press any key to trigger the next�
 
 （2）Debug the serial port in the M core. Input data B into the serial port of the development board which will act as the CAN slave station and wait for incoming data. Once data receiving is complete, print a message and return the received data;
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/d65aad04b95a400c8af19a270179817d.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/d65aad04b95a400c8af19a270179817d.png)
 
 （3）Debug the serial port in the M core, input A in the serial port of the other development board, input any key as the active transmission of the CAN master station, and then receive the return data from the slave station. After completing a transfer, enter any key to trigger the next transfer.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/a16145f6d56e48e588d7be200395cc75.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/a16145f6d56e48e588d7be200395cc75.png)
 
 ### 3.5  CAN-FD
 
@@ -430,7 +430,7 @@ There are four CAN-FD routines in the M-core SDK package, in which the loopback 
 
 This routine demonstrates the process of CAN-FD master-slave communication. Two 8mp development boards are required, and DuPont cable is used to connect the H and L of the two development boards CAN1.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/82652b8f9fe64d09a410f1a040b45c1d.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/82652b8f9fe64d09a410f1a040b45c1d.png)
 
 #### 3.5.2 Software Implementation
 
@@ -524,11 +524,11 @@ LOG\_INFO(<font style="color:#0000FF;">"Press any key to trigger the next�
 
 （2）Debug the serial port in the M core. Input data B into the serial port of the development board which will act as the CAN-FD slave station and wait for incoming data. Once data receiving is complete, print a message and return the received data.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/070133bd8d9e460497025da4777c07a4.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/070133bd8d9e460497025da4777c07a4.png)
 
 （3）Debug the serial port in the M core, input A in the serial port of the other development board, and then input any key as the active transmission of the CAN-FD master station, and then receive the return data from the slave station. After completing a transfer, enter any key to trigger the next transfer.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/fdc12c7afd3d4cbb8eb2c4d3b05e0390.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/fdc12c7afd3d4cbb8eb2c4d3b05e0390.png)
 
 ### 3.6  SPI
 
@@ -538,7 +538,7 @@ There are three SPI routines in the M-core SDK package, in which the ecspi \_ lo
 
 This routine demonstrates the process of SPI master-slave communication. Two 8 MP development boards are required. Connect the two development boards SPI with Dupont cable.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/258e2c0efab540f7866eb153e71c91e5.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/258e2c0efab540f7866eb153e71c91e5.png)
 
 Connect the SPI of the two development boards one-to-one using DuPont wires with the followingwire sequence:
 
@@ -669,11 +669,11 @@ Data transmission: Both the sending and receiving of the SPI bus are controlled 
 
 （4）Board 2 receives the data through the SPI, prints the received data through the serial port, and then sends the received data again;
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/828aed056c6e43fba75adf2d7e51866b.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/828aed056c6e43fba75adf2d7e51866b.png)
 
 （5） Board 1 receives the feedback information through the SPI, prints the received data through the serial port; Compare it with the sent data and output the result.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/9437d89e2da946b4989ab40471855f2c.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/9437d89e2da946b4989ab40471855f2c.png)
 
 （6）At this time, enter any key in the development board 1 debugging serial port, and it will start a new round of the SPI send and receive process.
 
@@ -749,7 +749,7 @@ After the initialization of the timed interrupt is completed, the timed interrup
 
 (2) After powering on the development board, the M-core program starts and completes the initialization of the timer interrupt. Press any key, and you will see the timer interrupt output printing information on the M-core’s debug serial port.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/04d130eb70cf4417b9868994582d51f5.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/04d130eb70cf4417b9868994582d51f5.png)
 
 ### 3.8  GPT-Capture
 
@@ -759,7 +759,7 @@ The capture in the M-core SDK package is an input capture routine.
 
 Channel 1 pin capture near resistor R206, defaulting to high level on the WM8960 audio chip attachment.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/b97a2e7e0b724ce2b2ea2f67b6e5a0f3.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/b97a2e7e0b724ce2b2ea2f67b6e5a0f3.png)
 
 #### 3.8.2 Software Implementation
 
@@ -821,7 +821,7 @@ captureVal = GPT\_GetInputCaptureValue(DEMO\_GPT\_BASE, BOARD\_GPT\_INPUT\_CA
 
 (2) To wait for a rising edge interrupt after timer capture initialization. When shorting the R206 pin to the GND pin repeatedly, you will observe the timer count at the moment of capturing the rising edge in the debugging serial port of the M core.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/b4f8684c12354f25aac172f7bbb10d49.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/b4f8684c12354f25aac172f7bbb10d49.png)
 
 ### 3.9  PWM
 
@@ -831,7 +831,7 @@ In the M-core SDK package, there is an example routine for PWM output with a con
 
 Use a DuPont wire to extend pin U36-4 (PWM4) on the development board, and connect an oscilloscope to this pin and GND.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/1fa57ee3628149268a040912e48cd169.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/1fa57ee3628149268a040912e48cd169.png)
 
 #### 3.9.2 Software Implementation
 
@@ -937,7 +937,7 @@ Reduce Duty Cycle: Once the duty cycle reaches 100%, begin to decrease the pwmDu
 
 (3) On the oscilloscope, you can observe the waveform, and if you look closely, you will see that the frequency is 1 kHz and the duty cycle is continuously changing.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/a2df94d7af41490ab36df86f86c1f4b9.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/a2df94d7af41490ab36df86f86c1f4b9.png)
 
 ### 3.10  Audio SAI
 
@@ -947,7 +947,7 @@ In the M-core SDK package, there are four audio routines/examples. interrupt\_tr
 
 Insert the headphones into the headphone jack and plug the speaker into the left or right speaker.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/05f7262411324b569c23979b560482e4.jpeg)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/05f7262411324b569c23979b560482e4.jpeg)
 
 #### 3.10.2 Software Implementation
 
@@ -1093,7 +1093,7 @@ There are three ASRC routines in the M-core SDK package. asrc\_m2m\_polling uses
 
 Insert the headphones.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/bf0b5e66f2b44bf9918fffd34b676f3d.jpeg)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/bf0b5e66f2b44bf9918fffd34b676f3d.jpeg)
 
 #### 3.11.2 Software Implementation
 
@@ -1197,7 +1197,7 @@ saiPlayAudio((uint8\_t\*)s\_asrcOutBuffer,ASRC\_GetContextOutSampleSize(DEMO\_AS
 
 (2) After the CPU completes the initialization of audio and ASRC, log the source audio information via the serial port, then play the sound at the original sampling rate. Next, start the ASRC to complete the audio sampling rate conversion, generating a new audio file. Finally, output the new source audio information via the serial port and play the sound at the converted sampling rate. **Two beeps can be heard through the headset.**
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/a34355a1c8a6401b9f0240e6f3c6ed09.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/a34355a1c8a6401b9f0240e6f3c6ed09.png)
 
 ### 3.12  Watchdog
 
@@ -1357,15 +1357,15 @@ When setting the watchdog timeout and feeding interval for normal operation, the
 
 (2) Upon device power-up, it resets due to power-up, forcing a software reset.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/b0062dc710c5475d8504896c954afc0e.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/b0062dc710c5475d8504896c954afc0e.png)
 
 After the program restarts due to a software reset, the watchdog is configured but not fed, causing a timeout and restart.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/67d69a1556c746d787fa0111c1513223.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/67d69a1556c746d787fa0111c1513223.png)
 
 After the program resets, the reset reason is a watchdog timeout. At this point, the watchdog is being fed properly, and the program runs normally.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/aaa42f3070984dff9126535bff6b6990.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/aaa42f3070984dff9126535bff6b6990.png)
 
 ### 3.13 Temperature Monitor TMU
 
@@ -1439,7 +1439,7 @@ TMU\_ClearInterruptStatusFlags(DEMO\_TMU\_BASE, intStatus);  
 
 (3) After waiting for the temperature to exceed 50°C, display the current temperature, trigger the interrupt, and disable the interrupt.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/55ffc744c0ca4c8ba1bbc2f62c1a8c34.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/55ffc744c0ca4c8ba1bbc2f62c1a8c34.png)
 
 ### 3.14  SDMA
 
@@ -1511,7 +1511,7 @@ SDMA\_StartTransfer(\&g\_SDMA\_Handle); 
 
 (2) After the CPU completes the DMA initialization, the serial port prints the value of the destination memory, initiates the transfer process, completes the copying of data from the source address to the destination address in the DDR memory, and then prints the value of the destination memory from the serial port.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/154998628bab44f89c93e32563a0d465.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/154998628bab44f89c93e32563a0d465.png)
 
 ### 3.15  RDC
 
@@ -1621,7 +1621,7 @@ RDC\_SetMemAccessConfig(APP\_RDC, \&memConfig); 
 
 (4) The M7 core configuration cannot access the memory. At this time, accessing this segment of memory triggers a hardware error and restores the access right to this segment of memory.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/3495fdc05ce74aeeb40016f5b9f6fb83.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/3495fdc05ce74aeeb40016f5b9f6fb83.png)
 
 ### 3.16  IPC
 
@@ -1735,7 +1735,7 @@ msg.DATA = 0U;     
 
 <font style="color:#0000FF;">insmod /lib/modules/5.4.70-2.3.0-00009-gd79f62857237/kernel/drivers/rpmsg/imx\_rpmsg\_tty.ko</font>，This operation is required only once and is not required after subsequent power-up. (Where 5.4.70-2.3.0-00009-gd79f62857237 is the kernel version number, it may vary with Linux version upgrades, requiring users to synchronize and adjust commands accordingly.)
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/4058a06e6d5f48d7b231fe67dc9cc4d2.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/4058a06e6d5f48d7b231fe67dc9cc4d2.png)
 
 ③ After power-on, you can directly enter or automatically run the script  <font style="color:#0000FF;">modprobe imx\_rpmsg\_tty</font>. Enter the command <font style="color:#0000FF;">ls /dev</font>, and you can see the device file ttyRPMSG30.
 
@@ -1745,11 +1745,11 @@ msg.DATA = 0U;     
 
 At this time, when debugging the serial port in the M core, you will see the receiving and sending information.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/ad4f316e5b4247f694b745f02a679837.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/ad4f316e5b4247f694b745f02a679837.png)
 
 At this time, when debugging the serial port in the A core, you will see the receiving and sending information.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/ea74d6a6edf64109bc62f460e6098adb.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/ea74d6a6edf64109bc62f460e6098adb.png)
 
 ## 4\.  Freertos Routines Design with Software
 
@@ -2021,7 +2021,7 @@ Exception Handling: When memory allocation fails, a stack error occurs, or the t
 
 (4) Semaphore: Every 5ms, the system clock tick interrupt calls a function. After exceeding 500 times, the semaphore is released. Semaphore task acquires the semaphore, transitions from the blocked state to the running state, and prints the count.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/0bf91e122bd44eeca4f733a717176616.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/0bf91e122bd44eeca4f733a717176616.png)
 
 ### 4.2 Freertos-Peripheral
 
@@ -2219,7 +2219,7 @@ ev = xEventGroupWaitBits(handle->rxEvent,RTOS\_UART\_COMPLETE \| RTOS\_UART\
 
 (2) After the device is powered on, it prints program information through the serial port. Then, by entering four characters through the keyboard, the M-core debugging serial port will echo those characters. The process is repeated to demonstrate that the program is running successfully.
 
-![Image](./images/OKMX8MPQC_MCU_User_Manual/a619473b714a43c286475104878fae78.png)
+![Image](./images/OK-MX8MPQ-C_MCU_User_Manual/a619473b714a43c286475104878fae78.png)
 
 ## 5\. Use of OK8MP platform M-core SDK
 
