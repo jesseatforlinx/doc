@@ -66,11 +66,11 @@ RK3588 is a low-power, high-performance processor based on ARM64 architecture, w
 
 The connection of OK3588 SoM and the carrier board is board-to-board, and the main interfaces are as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954716859-19d55d72-2378-422a-918f-831427f4bb79.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954716859_19d55d72_2378_422a_918f_831427f4bb79.png)
 
 **Front**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954717240-37bbcad9-dae7-4ca7-b8fa-6ae064d91400.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954717240_37bbcad9_dae7_4ca7_b8fa_6ae064d91400.png)
 
 **Back**
 
@@ -103,7 +103,7 @@ To switch to "normal mode", you need to add the following to the reference in th
 
 path: OK3588\_Linux\_fs/kernel/arch/arm64/boot/dts/rockchip/OK3588-C-common.dtsi
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954717604-ba8c8389-6605-43fe-8331-d12b42f92b2a.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954717604_ba8c8389_6605_43fe_8331_d12b42f92b2a.png)
 
 **RK3588 commercial grade SoM frequencies are described below:**
 
@@ -173,7 +173,7 @@ The debug serial port on the development board is a Type-C USB jack, so users ca
 + Network cable (for network login)
 + Screen: Connect the screen according to the development board interface (optional if display is not needed).
 
-![](https://cdn.nlark.com/yuque/0/2025/png/45535139/1735881117957-0d439ed2-55f1-4bca-a4dc-d022c67a04a9.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1735881117957_0d439ed2_55f1_4bca_a4dc_d022c67a04a9.png)
 
 ### 2.2 Debugging Serial Driver Installation
 
@@ -201,15 +201,15 @@ In the following, we take the putty terminal software as an example to introduce
 
 Step 1: Connect the serial port number of the computer---check the serial port number from the device manager (Based on the port actually recognized by the computer).
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954727852-9c9b1c4a-e1c9-4599-b47f-7248258645a1.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954727852_9c9b1c4a_e1c9_4599_b47f_7248258645a1.png)
 
 Step 2: Open and set up putty, then set the line according to the COM port of the computer used, baud rate 115200.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954728047-b3584dd0-c73c-41c5-9d2f-88f10230261c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954728047_b3584dd0_c73c_41c5_9d2f_88f10230261c.png)
 
 Step 3: After the setting, input the COM port used by the computer in Saved Sessions. The following figure takes COM24 as an example, save the settings, open the serial port again later, and click on the saved port number.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954728245-98417d68-58ab-4ee7-a137-04e15add214c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954728245_98417d68_58ab_4ee7_a137_04e15add214c.png)
 
 Step 4: Turn on the power switch of the development board, then there will be a print message output from the serial port (no need to login).
 
@@ -242,11 +242,11 @@ The specific method of operation is as follows:
 
 2\. Close the computer firewall (General computer operations, not described here in detail), then open the computer's run command;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954728414-9f9a202c-0ba7-47f1-a14e-b10aa678fa01.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954728414_9f9a202c_0ba7_47f1_a14e_b10aa678fa01.png)
 
 3\. Use cmd to open the administrator interface , and the ping command to test the network connection status of the computer and the development board.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954728585-22cc0ffd-0558-45ae-90c2-d581345a261a.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954728585_22cc0ffd_0558_45ae_90c2_d581345a261a.png)
 
 A data return indicates a normal network connection.
 
@@ -260,11 +260,11 @@ A data return indicates a normal network connection.
 
 1\. Use ssh to log in the development board
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1721610891693-b0ef8b04-31c0-4a9c-a227-afa062aa4ac8.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1721610891693_b0ef8b04_31c0_4a9c_a227_afa062aa4ac8.png)
 
 Click "Open", the following dialog box will appear, click "Yes" to enter the login screen.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954728936-f3f3edb5-5891-4323-b079-34f7601d46b9.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954728936_f3f3edb5_5891_4323_b079_34f7601d46b9.png)
 
 ```plain
 Login as：forlinx
@@ -282,13 +282,13 @@ Install the FileZilla tool on Windows and follow the steps shown in the image be
 
 Open the filezilla tool, click on File and select Site Manager.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954729099-282246fe-f588-46d3-b4ea-4c670fb661bc.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954729099_282246fe_f588_46d3_b4ea_4c670fb661bc.png)
 
 
 
 After successful login, you can upload and download.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954729427-adb43e9d-3117-426a-a8ef-84eac179aad8.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954729427_adb43e9d_3117_426a_a8ef_84eac179aad8.png)
 
 ### 2.5 Screen Switching
 
@@ -364,7 +364,7 @@ The device tree path: kernel/arch/arm64/boot/dts/rockchip/OK3588-C-common.dtsi
 
 In the kernel source code, open the device dtsi file and find the following node:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954729754-1cd542f1-5686-472b-a7bc-954bb05e7fa0.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954729754_1cd542f1_5686_472b_a7bc_954bb05e7fa0.png)
 
 The node has a default disabled state and needs to be changed to an okay enabled node. Change according to screen requirements.
 
@@ -420,7 +420,7 @@ The optional parameters for disp\_type are: "sync" and "async".
 
 Assign VP0 to HDMI0, VP1 to HDMI1, VP2 unused, and VP3 for RGB use. Set the main screen to HDMI0.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954729981-047114a6-2fe3-4934-8ffe-88812222c98c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954729981_047114a6_2fe3_4934_8ffe_88812222c98c.png)
 
 After saving, recompile to generate the image.
 
@@ -438,17 +438,17 @@ OK3588 platform has excellent support for Qt, especially for multimedia-related 
 
 The desktop is displayed as follows after the board booting:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053223756-9cbec827-f85f-4330-afb0-a51129acd1fc.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053223756_9cbec827_f85f_4330_afb0_a51129acd1fc.png)
 
 ### 3.2 Hardware Decoding 
 
 Click the desktop icon to open the video player.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053223868-ce5f49dc-37d2-41bb-b379-ca0008f46c75.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053223868_ce5f49dc_37d2_41bb_b379_ca0008f46c75.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954742140-33ef4eb1-dbbe-4857-b103-0449d47e9168.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954742140_33ef4eb1_dbbe_4857_b103_0449d47e9168.png)
 
 **Note: The test video file is located in the directory: /userdata/me\*.mp4. Please test 8K video playback with only one display turned on.**
 
@@ -456,21 +456,21 @@ Application Icons
 
 OK3588 supports OpenGL ES3.2; click the desktop icon for OpenGL test.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053223976-605398dc-e6f0-4d13-9a74-9bc7d3e154fc.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053223976_605398dc_e6f0_4d13_9a74_9bc7d3e154fc.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224064-1354666a-5e4d-4dca-bb03-4c5a928e001f.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224064_1354666a_5e4d_4dca_bb03_4c5a928e001f.png)
 
 ### 3.4 Music Play Test
 
 "music player" is a simple audio test application that can be used to test the function of the sound card or as a simple audio player.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224220-c5662bd5-8050-499d-add1-4b9fd668bf0b.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224220_c5662bd5_8050_499d_add1_4b9fd668bf0b.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224320-f33c56b0-3a64-449e-b048-aa115e81f7d5.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224320_f33c56b0_3a64_449e_b048_aa115e81f7d5.png)
 
 Application Interfaces
 
@@ -490,11 +490,11 @@ The "4G/5G" test program is used to test the OK3588 external 5G module (RM500U).
 
 Meanwhile, the test supports the 4G module (EM05-CE), inserts the 4G module and SIM card in the case of power failure, and opens the test application after powering up the system to start.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224425-fd1b1ba7-c7ba-4350-a09d-0a4ab2971f45.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224425_fd1b1ba7_c7ba_4350_a09d_0a4ab2971f45.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224585-ae5b0597-ca25-4095-8bb2-4d2e110e16a7.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224585_ae5b0597_ca25_4095_8bb2_4d2e110e16a7.png)
 
 Application Interfaces
 
@@ -504,11 +504,11 @@ Click the connect button, the program will automatically enter the dialing proce
 
 "WIFI" is a tool to configure wifi. The OK3588 platform has the AW-XM458 module on board by default. The wifi module exists in the system as a mlan node, and this test corresponds to mlan0 (other corresponding nodes are used for multiple devices):
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224687-5cbea6da-6347-4812-a540-fc3263068270.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224687_5cbea6da_6347_4812_a540_fc3263068270.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224782-3dd40a5f-88ce-44c9-bfd3-fcb88844d693.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224782_3dd40a5f_88ce_44c9_bfd3_fcb88844d693.png)
 
 Application Interfaces
 
@@ -520,25 +520,25 @@ Open the Wifi test app, enter the correct network name and password, click CONNE
 
 After the connection is successful, click ping to test the network.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224864-dbcb5d88-193b-43c6-a130-a6e376219e66.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224864_dbcb5d88_193b_43c6_a130_a6e376219e66.png)
 
 ### 3.7 Network Configuration Test
 
 When the OK3588 starts up, the default setting of the NIC is dhcp. The two modes of dhcp and static can be selected through the "Network" configuration application, and the static mode can be configured with ip address, subnet mask, gateway, and DNS.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053224980-1f02ba2f-c029-46d6-bb53-9b9656910152.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053224980_1f02ba2f_c029_46d6_bb53_9b9656910152.png)
 
 Application Icons
 
 The DHCP mode interface is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225064-2c44f29a-77d7-4f5c-bcd0-d5919fc9b6b2.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225064_2c44f29a_77d7_4f5c_bcd0_d5919fc9b6b2.png)
 
 Check DHCP, select the NIC device needing to be configured, and click Apply and Restart Network at the bottom of the interface to restart the network and get the ip automatically.
 
 The static mode interface is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225196-1232af09-7ed9-451b-9ad9-31d2dfa25fa9.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225196_1232af09_7ed9_451b_9ad9_31d2dfa25fa9.png)
 
 Select the NIC device to be configured in the interface, and enter the ip to be set in the ip field, enter the subnet mask in the netmask field, the gateway in the geteway field, and DNS in the dns field.
 
@@ -548,11 +548,11 @@ Select the NIC device to be configured in the interface, and enter the ip to be 
 
 "Ping" is an interface application of the common network testing command ping.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954745453-24d4f300-19ce-4448-abaf-dabe0990e8bd.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954745453_24d4f300_19ce_4448_abaf_dabe0990e8bd.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954745698-252561e9-00ef-4ed6-b3f2-9a2026f88e3a.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954745698_252561e9_00ef_4ed6_b3f2_9a2026f88e3a.png)
 
 Application Interfaces
 
@@ -564,7 +564,7 @@ Write the target ip needing ping in the hostname field; after clicking the ping 
 
 **Note: If the development board time is abnormal, it will cause certificate problems. Do not shut down the power immediately after using the browser or the sync command at the command line. Otherwise, it may cause the browser to exit abnormally and not work properly, and can only be solved by re-burning.**
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718954745936-2b14cb7c-5b24-4d52-b285-03c603531ff6.jpeg)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954745936_2b14cb7c_5b24_4d52_b285_03c603531ff6.jpeg)
 
 Exit this browser via the upper navigation bar File->Quit.
 
@@ -572,11 +572,11 @@ Exit this browser via the upper navigation bar File->Quit.
 
 "WatchDog" is an application used to test the watchdog status.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225320-82d8a07e-c271-4de3-86ca-e286b36b4b91.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225320_82d8a07e_c271_4de3_86ca_e286b36b4b91.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225449-9da8c2bf-5599-45cf-9af2-54e87e0dda54.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225449_9da8c2bf_5599_45cf_9af2_54e87e0dda54.png)
 
 Application Interfaces
 
@@ -586,11 +586,11 @@ Check feed dog and click the open watchdog key, then the watchdog will be activa
 
 The "Keypad" is used to test whether the platform's own keys are available:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225580-f1b482e0-d867-4d84-a35b-e8e87a207737.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225580_f1b482e0_d867_4d84_a35b_e8e87a207737.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225677-6e2a4584-016a-41fd-a9d6-41c154108208.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225677_6e2a4584_016a_41fd_a9d6_41c154108208.png)
 
 Application Interfaces
 
@@ -602,11 +602,11 @@ By default, OK3588 platform configures the four physical buttons V+, V-, Home, a
 
 The "RTC" application allows you to view and set the current system time:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225759-25931508-fc33-4d70-af32-e569136725d9.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225759_25931508_fc33_4d70_af32_e569136725d9.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225843-b781f518-e8ff-4084-b411-1bdd8e5a9a1c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225843_b781f518_e8ff_4084_b411_1bdd8e5a9a1c.png)
 
 Application Interfaces
 
@@ -622,17 +622,17 @@ Click on the desktop icon QtMultScreen to test Multi Screen.
 
 Open multiple screens according to the UBOOT menu configuration section to configure HDMI as the main screen.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954747615-b7ae9f58-d366-4a13-a966-7ca6acedae9a.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954747615_b7ae9f58_d366_4a13_a966_7ca6acedae9a.png)
 
 After clicking the "show" button, a window will pop up on the other screen, and the QT window can be moved on the other screen with the mouse.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954747849-aa7365c7-ba29-429c-807a-2d7e9308691c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954747849_aa7365c7_ba29_429c_807a_2d7e9308691c.png)
 
 ### 3.14 UART Test
 
 Click on the desktop icon to use it to test the OK3588 on-board UART interface.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053225920-129c1bb6-a9f9-4b83-a588-121297e8e01d.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053225920_129c1bb6_a9f9_4b83_a588_121297e8e01d.png)
 
 Application Icons
 
@@ -647,21 +647,21 @@ UART2, UART4, UART6, UART9, a total of four serial ports led out from the OK3588
 
 Use the command fltest\_qt\_terminal to open the uart's qt test program (refer to Setup at the beginning of this section for qt test method). This test uses UART4 (ttyS4) to perform serial port test by sending and receiving data between the development board's UART and the computer's serial port tool software.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954748405-4166e8b5-f06c-4e5e-80f9-78af5f59b990.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954748405_4166e8b5_f06c_4e5e_80f9_78af5f59b990.png)
 
 1\. First, connect the development board and computer with the TTL to the USB module, then power up the development board and check in the computer's device manager recognized as COM4 (users set the parameters with their actual recognized COM port);
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954748622-c72bd518-65af-4d62-8faa-ce04aef130e9.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954748622_c72bd518_65af_4d62_8faa_ce04aef130e9.png)
 
 2\. Open the computer serial port tool, set the serial port parameters: Baud rate 115200, 8 data bits, 1 stop bit, no parity, no flow control, and open the serial port;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1721638493475-d3d954e1-408b-45ab-a489-16a3a1167efc.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1721638493475_d3d954e1_408b_45ab_a489_16a3a1167efc.png)
 
 3\. Click the UART test icon to enter the following interface to set the serial port parameters:
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718954749000-98287ab8-efd2-48b4-8648-318545498c44.jpeg)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954749000_98287ab8_efd2_48b4_8648_318545498c44.jpeg)
 
-Click the setup button in the upper left corner![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954749178-50754fdd-090e-43f7-833d-0881f8596f62.png)to set the serial port parameters to be consistent with the parameters of the serial port tool on the computer side, as shown below:
+Click the setup button in the upper left corner![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954749178_50754fdd_090e_43f7_833d_0881f8596f62.png)to set the serial port parameters to be consistent with the parameters of the serial port tool on the computer side, as shown below:
 
 | **Relevant Parameter**| **Meaning**
 |----------|----------
@@ -672,49 +672,49 @@ Click the setup button in the upper left corner![](https://cdn.nlark.com/yuque/0
 | Stop bits| Set stop bit (1 bit)
 | Flow control| Set flow control (no flow control)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954749367-09e3127f-84a3-44b5-b339-7c64b19ba656.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954749367_09e3127f_84a3_44b5_b339_7c64b19ba656.png)
 
 After setting the serial port parameters, click the connection button in the upper left corner. At this time, the test program can carry out the data receiving and sending test.
 
 4\. The serial port tool of the computer sends: "forlinx\_uart\_test.1234567890...", the test interface will receive the data:
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718954749795-538f093d-27bb-4cc4-8604-c3a123ca224f.jpeg)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954749795_538f093d_27bb_4cc4_8604_c3a123ca224f.jpeg)
 
 Click on the test interface will pop up the soft keyboard, enter "abcdefg", press enter on the soft keyboard to send data to the serial port tool on the computer:
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718954749970-1a4fb96f-5011-4aa9-9f33-524dae7ce276.jpeg)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954749970_1a4fb96f_5011_4aa9_9f33_524dae7ce276.jpeg)
 
 The data received by the serial port tool on the computer side:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1721639690809-63a3196c-c12b-4ff3-97d3-cbe2d837d7cb.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1721639690809_63a3196c_c12b_4ff3_97d3_cbe2d837d7cb.png)
 
 ### 3.15 Database Test
 
 After clicking the desktop icon, the Sqlite test database will be ready.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053226012-126491da-8598-4417-8bae-d7bb758aa596.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053226012_126491da_8598_4417_8bae_d7bb758aa596.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053226103-30863d1f-5705-4056-85c0-34ca9cff96d8.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053226103_30863d1f_5705_4056_85c0_34ca9cff96d8.png)
 
 ### 3.16 Backlight Test
 
 "BackLight" is the lcd backlight adjustment application:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053226273-f8775d1c-041a-43b0-8c66-84a18b047231.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053226273_f8775d1c_041a_43b0_8c66_84a18b047231.png)
 
 Application Icons
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053226373-dafc8166-e107-49c9-bbe8-a202467a7670.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053226373_dafc8166_e107_49c9_bbe8_a202467a7670.png)
 
 Drag the slider in the interface to set the Lcd backlight brightness, level 0 is no backlight, level 255 is the highest level.
 
 ### 3.17  UbootMenu
 
-Click on the desktop icon![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053226474-485a8384-4028-4aad-bce8-9744fd0658e0.png)to configure the Uboot menu.
+Click on the desktop icon![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053226474_485a8384_4028_4aad_bce8_9744fd0658e0.png)to configure the Uboot menu.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053226627-c6bee14c-7226-415c-9fac-ffdbe0197e44.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053226627_c6bee14c_7226_415c_9fac_ffdbe0197e44.png)
 
 After the configuration is complete, reboot the development board to take effect.
 
@@ -722,7 +722,7 @@ After the configuration is complete, reboot the development board to take effect
 
 The OK3588 development board comes with the lighttpd web server pre-installed, and the lighttpd service has been automatically started at system startup. Enter the IP address of the board into the PC browser to view the web pages in the board's webserver, as shown in the following figure:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053226847-20a0e978-a65d-420c-8c8b-5a3a2e326545.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053226847_20a0e978_a65d_420c_8c8b_5a3a2e326545.png)
 
 **Note: To use this function properly, the network IP of the development board needs to be the same network segment as the network IP of the PC, or the PC is under the subnet of the network where the development board is located.**
 
@@ -739,7 +739,7 @@ Configure OK3588 to different display mode, connect two MIPI display screens, an
 1. Install Tftpd64.4.64.exe
 2. Open Tftpd64.4.64.exe and run the test
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954752164-298a591f-2c3b-4bb7-80ae-91908538e041.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954752164_298a591f_2c3b_4bb7_80ae_91908538e041.png)
 
 CurrentDirectory: Select the OK3588-C partition firmware storage path.
 
@@ -749,9 +749,9 @@ Server interfaces: Select the local IP address.
 
 1. Open the desktop Tftp Update icon
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053227013-e7482a3f-f3a5-482f-8ef1-932f0ae36a23.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053227013_e7482a3f_f3a5_482f_8ef1_932f0ae36a23.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954752607-68c786b5-539f-4b82-8460-44b1d961acea.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954752607_68c786b5_539f_4b82_8460_44b1d961acea.png)
 
 Please fill in the form according to the actual situation. Select the firmware to update.
 
@@ -759,7 +759,7 @@ Click Tftp: Off to become Tftp: On; reboot the board.
 
 The serial port printing information is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954752821-bc7cd981-3cb1-4067-a55d-446e3a41cd6c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954752821_bc7cd981_3cb1_4067_a55d_446e3a41cd6c.png)
 
 ### 3.21 CPU Frequency Configuration Test
 
@@ -767,7 +767,7 @@ The serial port printing information is as follows:
 
 Click the desktop icon to enter the next menu:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954753126-80537975-b46f-4148-a54c-14f4ecfb3aef.png)**->**![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954753325-4499b669-ec46-4b4d-becd-eb3b24ec0bdd.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954753126_80537975_b46f_4148_a54c_14f4ecfb3aef.png)**->**![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954753325_4499b669_ec46_4b4d_becd_eb3b24ec0bdd.png)
 
 Application Icons
 
@@ -775,7 +775,7 @@ The maximum CPU clock frequency of OK3588 is 1.8 GHz. By default, the CPU will d
 
 Click the Power icon on the desktop to enter the CPU clock frequency setting page.
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718954753503-b94b7b9b-6a51-42da-83b2-8ab3f5d52159.jpeg)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954753503_b94b7b9b_6a51_42da_83b2_8ab3f5d52159.jpeg)
 
 Set Userspace Governor: Set the clock frequency in user mode.
 
@@ -783,7 +783,7 @@ Set Frequency A55: Set the main frequency.
 
 Taking setting the clock frequency as an example, if you need to set a fixed frequency, first click “Set Userspace Governor”, then click “run”. After that, return to the above operation interface and click “Set Frequency A55” to make the setting.
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718954753742-7766e8da-4e6a-4842-a77a-3c04a57d51b5.jpeg)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954753742_7766e8da_4e6a_4842_a77a_3c04a57d51b5.jpeg)
 
 Select the corresponding frequency for setting according to your needs.
 
@@ -1151,15 +1151,15 @@ UART2, UART4, UART6, UART9, a total of four serial ports led out from the OK3588
 
 UART4 (ttyS4) is used in this test, and the transceiver pins UART4 are short-circuited according to the schematic diagram of the development board, corresponding to PIN 7 and PIN 10 respectively. Serial port testing is performed by sending and receiving data between the development board's UART and the computer's serial port tool software.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954754043-49789947-2230-467b-94e8-811528fac838.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954754043_49789947_2230_467b_94e8_811528fac838.png)
 
 1\. First, connect the development board and computer with the TTL to the USB module, then power up the development board and check in the computer's device manager recognized as COM4 (users set the parameters with their actual recognized COM port);
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954754264-bafeb07d-6346-455b-bc94-86876b66d6f9.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954754264_bafeb07d_6346_455b_bc94_86876b66d6f9.png)
 
 2\. Open the computer serial port tool, set the serial port parameters: baud rate 115200, 8 data bits, 1 stop bit, no parity, no flow control, and open the serial port;
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1721639992165-b124c989-eb0c-4460-89d3-02b8a163d02e.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1721639992165_b124c989_eb0c_4460_89d3_02b8a163d02e.png)
 
 Enter the following command into the serial port of the development board (the test program has a fixed baud rate of 115200):
 
@@ -1177,7 +1177,7 @@ forlinx_uart_test.1234567890...                                             //Se
 
 The test program automatically se"forlinx\_uart\_test.1234567890...". The message is received when the serial aide is viewed:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1721639829473-47f93c6e-4274-497e-8941-b48b1d88e9c5.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1721639829473_47f93c6e_4274_497e_8941_b48b1d88e9c5.png)
 
 PC serial tool sends "forlinx\_uart\_test.1234567890...". At this point, the development board receives the message and the related printout is as follows:
 
@@ -1193,7 +1193,7 @@ forlinx_uart_test.1234567890...                                             //Re
 
 OK3588-C development board provides an internal 8-channel ADC. An adjustable resistor connects to the saradc2, saradc4, saradc5, saradc6, and saradc7 channels, and saradc2 is selected for testing. The ADC pin hardware diagram is shown below, and the voltage is inputted at pin 1 of P12. The current chip uses a 1.8V reference voltage corresponding to a 12-bit ADC maximum of 4096.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954754798-54d027c1-628b-4d34-ab5b-797c40cd9e55.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954754798_54d027c1_628b_4d34_ab5b_797c40cd9e55.png)
 
 Test adjustable resistance value
 
@@ -1211,7 +1211,7 @@ root@ok3588:/sys/bus/iio/devices/iio:device0# cat in_voltage2_raw
 
 1\. Insert the TF card into the TF card slot on the carrier board before powe-up . Then power up and start, run the command dmesg, and the terminal will have the following printed information:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954755132-b8fa31c3-71ab-44c2-a7a5-47be2cdf23f6.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954755132_b8fa31c3_71ab_44c2_a7a5_47be2cdf23f6.png)
 
 2\. Check the mount directory:
 
@@ -1276,7 +1276,7 @@ root@ok3588-buildroot:/# dd if=/test of=/dev/null bs=1M
 
 <font style="color:#000000;">Connect the USB mouse to the USB interface of the OK3588 platform and use the dmesg command, the serial terminal prints the following information:</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053228830-5fb0b889-72cb-430f-b8b1-7d6598afa586.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053228830_5fb0b889_72cb_430f_b8b1_7d6598afa586.png)
 
 <font style="color:#000000;">At this time, the arrow cursor appears on the screen, the mouse can work normally.</font>
 
@@ -1288,7 +1288,7 @@ The terminal prints information about the USB flash drive, and since many types 
 
 1. After the development board booting, connect the USB interface disk to the USB host interface of the development board. The default log print information is low, so there will be no print information. Use the dmesg command to view and get information about the USB flash drive.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053228927-c4898f1e-b98e-4c60-96db-2ea878bf5a75.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053228927_c4898f1e_b98e_4c60_96db_2ea878bf5a75.png)
 
 1. View the mount directory:
 
@@ -1342,13 +1342,13 @@ OK3588-C includes 2 x TYPE-C. The HOST/DEVICE mode of TYPE-C0 is automatically d
 
 Device Mode:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954755736-a5acc21c-f6b2-4915-9f89-0c5a95090beb.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954755736_a5acc21c_f6b2_4915_9f89_0c5a95090beb.png)
 
 Host Mode:
 
 View the insertion information via demsg.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053229031-ba43be22-88e1-4f7e-9439-f1cecdf4256a.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053229031_ba43be22_88e1_4f7e_9439_f1cecdf4256a.png)
 
 ### 4.15 Ethernet Configuration
 
@@ -1515,7 +1515,7 @@ Default agent request successful
 
 At this point, open the PC Bluetooth search, then a "BlueZ 5.72" device will appear, and select the pairing.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954756108-4860c91f-be25-4556-9756-af80fe60d925.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954756108_4860c91f_be25_4556_9756_af80fe60d925.png)
 
 At the same time the printing message displays on the development board as follows, enter "yes".
 
@@ -1588,7 +1588,7 @@ Request confirmation
 
 After successful pairing, on the PC side, Bluetooth can send files to the OK3568-C.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954756310-3c1f25c1-0b75-43b3-806f-4fb6e0be3aac.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954756310_3c1f25c1_0b75_43b3_806f_4fb6e0be3aac.png)
 
 Received files are saved in the /tmp directory.
 
@@ -1609,7 +1609,7 @@ Connection successful
 [C4:E1:A1:BA:A4:9E]# send /userdata/media/audio/test.mp3	         //Send the files
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954756493-8837d97b-4be8-492e-a394-61d52b1812b1.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954756493_8837d97b_4be8_492e_a394_61d52b1812b1.png)
 
 <font style="color:#000000;">The phone will receive the incoming file request, click Accept to transfer the file.</font>
 
@@ -1815,11 +1815,11 @@ root@ok3588-buildroot:/# echo 125 > /sys/class/backlight/backlight-dsi0/brightne
 
 <font style="color:#000000;">Short press the power button, the effect is as follows:</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053229122-bddca433-d609-417d-84b7-cf763d497a7a.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053229122_bddca433_d609_417d_84b7_cf763d497a7a.png)
 
 Short press the power button here to wake up:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053229217-203e3f36-d829-4657-ac35-88406ccf78da.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053229217_203e3f36_d829_4657_ac35_88406ccf78da.png)
 
 ### 4.22 PCIE Test
 
@@ -1827,7 +1827,7 @@ OK3588-C board has 1×PCIE 2.0 and 1×PCIE 3.0 x4 interface.
 
 Before powering up the system, insert the PCIE module into the PCIE card slot on the carrier board. After powering up and booting, from lspci we can see that the corresponding device enumeration is successful.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053229382-e2dcce17-6918-4c51-a1f4-b1e7695f28b7.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053229382_e2dcce17_6918_4c51_a1f4_b1e7695f28b7.png)
 
 Due to the many types of pcie devices, it may not be supported by the kernel by default, so you need to add the corresponding driver for the compiled device by yourself.
 
@@ -1855,9 +1855,9 @@ root@ok3588-buildroot:/# echo performance  > /sys/devices/system/cpu/cpufreq/pol
 
 <font style="color:#000000;">Test bandwidth with iperf3</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053229456-5022d76d-c31d-4613-bcae-c233420e48a1.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053229456_5022d76d_c31d_4613_bcae_c233420e48a1.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053229538-37af1b03-9427-411a-b4c5-d3cf95b4e6a2.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053229538_37af1b03_9427_411a_b4c5_d3cf95b4e6a2.png)
 
 ### 4.23 RKNPU Test
 
@@ -1909,7 +1909,7 @@ root@ok3588-buildroot:/#
 
 The OK3588 carrier board schematic exports the extended IO pin, located at P11 on the carrier board.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954759014-d61c0905-7a0e-46a2-81b5-ba7ccfc72c9c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954759014_d61c0905_7a0e_46a2_81b5_ba7ccfc72c9c.png)
 
 Take GPIO\_P17 PIN as an example for test
 
@@ -1932,7 +1932,7 @@ Temporarily adding a self-starting script
 root@ok3588-buildroot:/# vi /etc/init.d/S99autorun.sh
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954759444-1c5fae4b-039e-4ab8-905b-ec7126d47786.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954759444_1c5fae4b_039e_4ab8_905b_ec7126d47786.png)
 
 Save and Exit
 
@@ -2097,7 +2097,7 @@ Setting pipeline to NULL ...
 Freeing pipeline ...
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954764988-9058f57e-457d-4602-8cae-e89b29192d03.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954764988_9058f57e_457d_4602_8cae_e89b29192d03.png)
 
 ### 5.3 Video Hardware Decoding
 
@@ -2404,7 +2404,7 @@ Freeing pipeline ...
 
 For raw sensors such as OV13855, each sensor corresponds to 5 device nodes:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053231280-b47026e0-5fef-4e49-baeb-ba9070a676ee.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053231280_b47026e0_5fef_4e49_baeb_ba9070a676ee.png)
 
 Mainpath, refers to an output node of Rockchip ISP, which can output full-resolution images, generally used to take photos and capture Raw images.
 
@@ -2733,11 +2733,11 @@ Extract the above path file to any directory and run it with administrator privi
 
 Open DriverInstall.exe
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954770958-7280a596-73c8-4d3b-8dd9-1b700589b2ee.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954770958_7280a596_73c8_4d3b_8dd9_1b700589b2ee.png)
 
 Click "Driver Installation”
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954771127-ac31e017-7d41-4796-982f-a0df857b0b02.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954771127_ac31e017_7d41_4796_982f_a0df857b0b02.png)
 
 #### 6.1.2 OTG Full Flashing Test
 
@@ -2751,21 +2751,21 @@ It is a development tool provided by Rockchip Micro. Unzip it to a full English 
 
 Open the Rockchip development tool:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954771331-3c66878d-d73a-47c8-865f-9a4eb5f49209.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954771331_3c66878d_d73a_47c8_865f_9a4eb5f49209.png)
 
 Click the "Upgrade Firmware" tab, click the "Firmware" button to select the full upgrade image update.img. The program will be parsing the firmware, so wait a while.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954771591-5d774abb-6e41-40e1-8d0d-73340b5643f8.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954771591_5d774abb_6e41_40e1_8d0d_73340b5643f8.png)
 
 Click "Switch" and wait for a while to enter the LOADER device, then click "Erase Flash" to erase. Then click the "Upgrade" button to upgrade.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954771969-5ba39de6-62b5-4379-9452-3f3739805ae4.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954771969_5ba39de6_62b5_4379_9452_3f3739805ae4.png)
 
 **Introduction to MASKROM mode**
 
 <font style="color:#000000;">If the loader is damaged and cannot enter the Loader mode, press and hold the Maskrom key and then press the reset key to enter the maskrom mode for flashing.</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954772220-bc93846b-eb6c-4c2b-b2e1-38ddd588d30d.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954772220_bc93846b_eb6c_4c2b_b2e1_38ddd588d30d.png)
 
 At this time, the system will prompt the discovery of a maskrom device. The burning process is consistent with the loader mode, so it is best to use an update.img burning.
 
@@ -2775,7 +2775,7 @@ At this time, the system will prompt the discovery of a maskrom device. The burn
 
 This feature is useful when you need to download a separate image. This function is only applicable in loader flashing mode.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954342599-b1262b6f-1982-49ad-a6f5-fddbcd9c3a23.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954342599_b1262b6f_1982_49ad_a6f5_fddbcd9c3a23.png)
 
 1. Click ① Download image tab
 2. Click ② Device partition table to read the mirror partition location
@@ -2792,13 +2792,13 @@ FactoryTool is a factory batch OTG burning tool. It does not need to read the im
 
 Open the Rockchip development tool:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954772473-26bee7ca-3b03-43c8-92e1-d2c4ff28924f.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954772473_26bee7ca_3b03_43c8_92e1_d2c4ff28924f.png)
 
 Click to select the firmware, and click to start. At this time to recognize the loader device will automatically start burning.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954772819-25bc8c6e-5cb3-4e8c-9dad-94a807f63371.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954772819_25bc8c6e_5cb3_4e8c_9dad_94a807f63371.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954773204-75771ece-ead6-47b3-8eba-234d2c216f69.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954773204_75771ece_ead6_47b3_8eba_234d2c216f69.png)
 
 ### 6.2 TF Card Flashing
 
@@ -2808,13 +2808,13 @@ TF card furning and testing.
 
 Copy SDDiskTool\_v1.69.zip from the user profile tools directory to any directory on windows. Run SD\_Firmware\_Tool.exe with administrator privileges.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954773532-d168a0e4-cdcd-4da0-bca8-404343bc90d8.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954773532_d168a0e4_cdcd_4da0_bca8_404343bc90d8.png)
 
 Select the disk device, check "Firmware Upgrade" and select update.img. Click Start Creating.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954773716-99d4dd8c-0a74-47ce-afde-dc7bef62ad5e.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954773716_99d4dd8c_0a74_47ce_afde_dc7bef62ad5e.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718954773901-c73f5df7-46e8-4a58-b766-073778b22e1c.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1718954773901_c73f5df7_46e8_4a58_b766_073778b22e1c.png)
 
 Insert the TF card into the development board and start, the system will automatically enter the flashing process. When the flashing is complete, both the screen and the serial port will prompt:
 
@@ -2831,6 +2831,6 @@ During mass production, check the flashing status by SoM heartbeat light.  Heart
 
 Serial port information during the burning process:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/49874024/1731053233110-9ea4d541-929c-4ed9-af30-ca082a9f0b70.png)
+![Image](./images/OK3588-C_Linux5_10_209_User_Manual/1731053233110_9ea4d541_929c_4ed9_af30_ca082a9f0b70.png)
 
 If the automatic restart does not occur after removing the TF card, a manual restart can also complete the burning. Please be patient during the burning process.
