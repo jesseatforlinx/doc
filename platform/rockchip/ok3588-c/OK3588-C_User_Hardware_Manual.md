@@ -1,4 +1,4 @@
-# OK3588-C_User's Hardware Manual_V1.3
+# User's Hardware Manual_V1.3
 
 Document classification: □ Top secret □ Secret □ Internal information ■ Open
 
