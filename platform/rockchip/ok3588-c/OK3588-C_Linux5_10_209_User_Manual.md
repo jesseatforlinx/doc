@@ -1,4 +1,4 @@
-# Linux5.10.209+ Qt5.15.10 User’s Manual_V1.0
+# Linux5.10.209_User’s Manual_V1.0
 
 Document classification: □ Top secret □ Secret □ Internal information ■ Open
 
