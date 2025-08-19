@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Forlinx Embedded OKMX8MP-C Documentation'
+project = 'Forlinx Embedded i.MX 8M Plus Documentation'
 author = 'Forlinx Embedded'
 copyright = 'Forlinx Embedded'
 # -- General configuration ---------------------------------------------------
