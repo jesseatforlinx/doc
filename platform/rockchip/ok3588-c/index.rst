@@ -10,7 +10,7 @@
 
 
 ====================
-OKMX8MPQ-C Manual
+OK3588-C Manual
 ====================
 
 HARDWARE
