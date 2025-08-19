@@ -64,27 +64,27 @@ Target Applications:
 
 **RK3588 Block Diagram**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683826106-a8519d36-1ac2-4b5f-abf4-8f83c9803edd.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683826106_a8519d36_1ac2_4b5f_abf4_8f83c9803edd.png)
 
 ## 2\. FET3588-C SoM Description
 
 ### 2.1 FET3588-C SoM
 
-![](https://cdn.nlark.com/yuque/0/2025/png/45533304/1738804876668-b204cab4-12a8-4c91-b1b2-e1165d4b811c.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1738804876668_b204cab4_12a8_4c91_b1b2_e1165d4b811c.png)
 
 **Front**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/45533304/1738804893584-3eb3e211-68a0-42da-bb6e-a30682b9b0de.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1738804893584_3eb3e211_68a0_42da_bb6e_a30682b9b0de.png)
 
 **Back**
 
 ### 2.2 FET3588-C SoM Dimension Diagram
 
-![](https://cdn.nlark.com/yuque/0/2025/png/45533304/1738828374787-8e384b72-3008-41c6-b47a-70428499f2d3.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1738828374787_8e384b72_3008_41c6_b47a_70428499f2d3.png)
 
 **Top Layer Dimension Diagram**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/45533304/1738828424052-d85fd8c2-1797-4a2b-bf3a-15d7203c3868.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1738828424052_d85fd8c2_1797_4a2b_bf3a_15d7203c3868.png)
 
 **Bottom Layer Dimension Diagram**
 
@@ -202,11 +202,11 @@ You can refer to the development board design and use M2, L=1.5mm patch nuts on 
 
 #### 2.5.1  FET3588-C SoM Pins Schematic
 
-![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731113531371-84d644b8-4d0a-4d15-9a16-ef3876f188c7.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731113531371_84d644b8_4d0a_4d15_9a16_ef3876f188c7.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731113584306-017c855b-7f11-403c-a4ea-f9cee7ce3855.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731113584306_017c855b_7f11_403c_a4ea_f9cee7ce3855.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731113605303-fc695008-b9d8-45e9-b417-0f04c945d461.png)![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731113605445-29e69de6-b757-4fa6-ba64-e7e8bffa0cc9.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731113605303_fc695008_b9d8_45e9_b417_0f04c945d461.png)![Image](./images/OK3588-C_User_Hardware_Manual/1731113605445_29e69de6_b757_4fa6_ba64_e7e8bffa0cc9.png)
 
 #### 2.5.2 FET3588-C SoM Pins Description
 
@@ -674,7 +674,7 @@ Default Function——Please don’t make any modifications for all SoM pin func
 
 The FET3588-C SoM integrates power and storage circuits into a compact module, requiring minimal external circuitry. A minimum system can operate with just power supply and boot configuration, as shown in the figure below:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731113696186-d39edf18-814b-4b5e-8b24-68de432ba81c.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731113696186_d39edf18_814b_4b5e_8b24_68de432ba81c.png)
 
 Please refer to “Appendix IV“ for the minimal system schematic diagram However, in most cases, it is recommended to connect some external devices in addition to the minimal system, such as a debugging serial port, otherwise, the user can not check whether the system is booted. After completing these steps, additional user-specific functions can be added based on the default interface definitions provided by Forlinx for the SoM.
 
@@ -686,17 +686,17 @@ Please refer to section 3.5 in “Chapter 3. OK3588-C Carrier Board Description�
 
 Connection method is board-to-board, and main interfaces are shown in the figure below:
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45533304/1720683836169-b4d7f262-e3d0-4181-ae83-16af963b0d08.jpeg)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683836169_b4d7f262_e3d0_4181_ae83_16af963b0d08.jpeg)
 
 Front
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45533304/1720683836613-ddccbf3d-ab6f-4665-8309-9fcb4ab9dcb6.jpeg)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683836613_ddccbf3d_ab6f_4665_8309_9fcb4ab9dcb6.jpeg)
 
 Back
 
 ### 3.2 OK3588-C SoM Dimension Diagram
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683836940-572b12c8-c893-41a5-bbd7-4a949dece8fa.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683836940_572b12c8_c893_41a5_bbd7_4a949dece8fa.png)
 
 PCB Size: 190mm × 130mm.
 
@@ -706,7 +706,7 @@ Plate making process: thickness 1.6mm, 4-layer PCB.
 
 The OK3588-C carrier board reserves an installation hole with a diameter of 3.2 mm for a heat sink. You can choose to install the heat sink according to the on - site environment. Please add a layer of insulating thermal conductive silicone pad on the contact surface between the heat sink and the SoM. 38Mm×38mm×23mm. For more detailed dimensions, please refer to the following figure.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/47801913/1753163869278-810a90a6-0db8-4609-b67b-fbe7b535e8c7.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1753163869278_810a90a6_0db8_4609_b67b_fbe7b535e8c7.png)
 
 ### 3.3 Carrier Board Naming Rules
 
@@ -768,19 +768,19 @@ A - B - C + D E F : G - H
 
 It uses a 12V power adapter for the power supply, and the power connector is a DC005 socket. S1(DIP switch) is the power switch, which moves according to the screen printing indication on the board. The rear of S1 has TVS for electrostatic protection, F1 for over-current protection, and D1 and F1 cooperate for anti-reverse connection protection. VCC12V\_ DCIN supplies power to SoM and carrier board at the same time.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731114126712-39146e1a-d11a-449b-aade-da809b4313f6.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731114126712_39146e1a_d11a_449b_aade_da809b4313f6.png)
 
 VCC12V\_ DCIN is decreased to VCC \_ 5V via U2. VCC\_ 5V supplies power for some of the peripherals on  the carrier board. To meet the power-up timing, the carrier board power-up is controlled by  CARRIER\_BOARD\_EN--a signal of SoM. (the electrical level is 3.3V, and the driving ability is 10K pull-up. If the required driving ability of the enabling pin of the enabling device exceeds this range, a buffer or gate circuit needs to be added for increasing the driving ability to ensure SoM and carrier board power-up normally).
 
-![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731114196801-ed48e0cf-95a4-4cd0-8c0f-36482747dbfd.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731114196801_ed48e0cf_95a4_4cd0_8c0f_36482747dbfd.png)
 
 VCC\_5V is decreased to VCC\_3V3 via U3 VCC\_3V3 supplies power for partial carrier board configurations.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/47801913/1731114207432-6beb6592-003d-44e7-b8c5-61afa2979d72.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731114207432_6beb6592_003d_44e7_b8c5_61afa2979d72.png)
 
 VCC\_3V3 is decreased to VCC\_1V8 via U1. VCC\_1V8 supplies power for partial carrier board configurations.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062327942-75594a5e-1191-4127-abb2-c766106adbe0.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062327942_75594a5e_1191_4127_abb2_c766106adbe0.png)
 
 **Note:**
 
@@ -791,11 +791,11 @@ VCC\_3V3 is decreased to VCC\_1V8 via U1. VCC\_1V8 supplies power for partial ca
 
 RESET\_L is SoM resetting signal input connected to the key for convenient debugging.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062356571-5dfb687c-e2a9-4e67-9554-569ca16c2d60.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062356571_5dfb687c_e2a9_4e67_9554_569ca16c2d60.png)
 
 PWRON\_L is an On/Off signal input connected to the key for convenient debugging.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062368813-c7d30311-73d4-47cb-9fb7-08b59d0b6a14.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062368813_c7d30311_73d4_47cb_9fb7_08b59d0b6a14.png)
 
 #### 3.5.3 Boot Configuration
 
@@ -827,11 +827,11 @@ Table 3.5.2.1 Boot Sequence Configuration
 
 BOOT\_SARADC\_IN0 on SoM is 10K pull-up, so the SoM defaults to start from eMMC The pull-down resistor can be added to the carrier board to achieve other boot sequences. According to the above LEVEL1 setting, OK3588-C connects BOOT\_ SARADC\_ IN0 to GND by the touch key to achieve Maskrom mode.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062393594-0a7293a7-ac47-46d2-8595-cefdbf60643a.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062393594_0a7293a7_ac47_46d2_8595_cefdbf60643a.png)
 
 SARADC\_ VIN1 is used to enter the recovery state due to a short circuit to the ground, and the SoM pulls it up to a 1.8V power supply using a 10K resistor. On RK3588, the key array adopts a parallel type, which can adjust the input key value by increasing or decreasing the keys and adjusting the proportion of the voltage divider resistor to achieve multi-key input to meet customer product requirements; It is recommended in the design that any two key values must be greater than ± 35, i.e. the center voltage difference must be greater than 123mV. As shown below:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062406441-010d202f-970e-4f96-a3ce-162925e62062.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062406441_010d202f_970e_4f96_a3ce_162925e62062.png)
 
 **Note:**
 
@@ -845,7 +845,7 @@ GPIO0\_A4 (PIN: P3\_90) (default function is SDMMC\_DET): determines whether P1\
 
 The ARM JTAG function of RK3588 is multiplexed with SDMMC function, and IOMUX function is switched via SDMMC\_DET pin, so this pin also needs to be configured before power-up, otherwise, no output of the ARM JTAG function will affect the debugging of the boot stage, while no output of SDMMC will affect the SDMMC boot function.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683837900-38879d8a-43e2-451e-a062-3fa3f8fe0d3e.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683837900_38879d8a_43e2_451e_a062_3fa3f8fe0d3e.png)
 
 ·When this pin detects high level, the corresponding IO switches to the ARM JTAG function;
 ·When this pin detects low level (Most SD cards inserted will pull down this pin, if not need special treatment), the corresponding IO switches to SDMMC function;
@@ -873,7 +873,7 @@ Table 3.5.5.1 RK3588 JTAG Debug
 
 The JTAG connections and standard connector pin definitions are shown as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062742882-ac035e9c-a523-4282-9e08-16e72864fee1.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062742882_ac035e9c_a523_4282_9e08_16e72864fee1.png)
 
 FET3588 UART Debug selects UART2\_TX\_M0\_DEBUG (P2\_7)/UART2\_RX\_M0\_DEBUG (P2\_9) by default. UART Debug signal needs to be connected with 100ohm resistor in series, if plug-in is used, and TVS tube needs to be added near the plug-in position.
 
@@ -881,7 +881,7 @@ To facilitate user debugging, OK3588 uses a USB to UART chip to convert the UART
 
 The schematic is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062766127-4bb88bd0-e1c0-40b7-8af3-0198a73993e2.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062766127_4bb88bd0_e1c0_40b7_8af3_0198a73993e2.png)
 
 **Note:**
 
@@ -893,7 +893,7 @@ The schematic is as follows:
 
 To introduce more diverse interfaces, the enable and reset signals of the carrier board are completed by the IIC to IO chip U4. At the same time, the U4 spare part of IO is led out by P11 to facilitate the expansion. The principle is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062788292-fe382857-7d1b-407a-b920-3462c85c4e3a.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062788292_fe382857_7d1b_407a_b920_3462c85c4e3a.png)
 
 #### 3.5.7 SARADC
 
@@ -901,7 +901,7 @@ The OK3588 introduces SARADC\_VIN2/VIN4/VIN5/VIN6/VIN7 through P12, while P13 ca
 
 As shown in the figure below:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062801557-251c1998-cb27-449a-b2d3-a7b6ceda3681.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062801557_251c1998_cb27_449a_b2d3_a7b6ceda3681.png)
 
 **Note: When using the SARADC\_VINx, 1nF capacitor must be added near the pin to eliminate jitter.**
 
@@ -911,13 +911,13 @@ The OK3588-C has a fan power interface, which can adjust the power supply curren
 
 As shown in the figure below:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062817624-afae1a7e-7622-4d26-93d1-3f2be58b0afa.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062817624_afae1a7e_7622_4d26_93d1_3f2be58b0afa.png)
 
 #### 3.5.9 TF Card
 
 The carrier board P16 is a TF Card interface, which can support system boot and flash.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062834507-dd23abee-7936-424c-90a7-b36bfac18d48.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062834507_dd23abee_7936_424c_90a7_b36bfac18d48.png)
 
 **<font style="color:#FF0000;">Note:</font>**
 
@@ -929,15 +929,15 @@ The carrier board P16 is a TF Card interface, which can support system boot and 
 
 The OK3588 provides an on-board external RTC function for more accurate timing and lower power consumption. As shown in the figure below:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731062857914-1e1dda8e-fd36-41ca-95cc-93b9302f64fe.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731062857914_1e1dda8e_fd36_41ca_95cc_93b9302f64fe.png)
 
 #### 3.5.11  Ethernet Circuit
 
 The carrier board supports dual 1000/100/10M Ethernet interfaces, which are led out via RJ45.
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/47801913/1731114987157-e89f7fda-a019-4670-894b-0706a8d566a5.jpeg)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731114987157_e89f7fda_a019_4670_894b_0706a8d566a5.jpeg)
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/47801913/1731115108372-5195d027-264d-464f-a47b-a20f152dce97.jpeg)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731115108372_5195d027_264d_464f_a47b_a20f152dce97.jpeg)
 
 **<font style="color:#FF0000;">Note:</font>**
 
@@ -984,19 +984,19 @@ The carrier board supports dual 1000/100/10M Ethernet interfaces, which are led 
 
 The OK3588 has an RS485 transceiver chip U9 on board, and its signal is TDH341S485S, with isolation withstand voltage up to 5000VDC, bus static protection up to 15kV (HBM), and transient immunity >25Kv/us. Meanwhile, the OK3588 carrier board is compatible with a higher level of surge pulse group multi-level protection circuit, as shown in the following figure:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731063808213-cfd801b1-b9c3-4dd9-a60f-45d6daa3b1f9.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731063808213_cfd801b1_b9c3_4dd9_a60f_45d6daa3b1f9.png)
 
 #### 3.5.13 Audio
 
 The OK3588 has an I2S interface Codec chip U29 on board, which supports MIC input, headphone output, and 1W 8Ω speaker output. The principle shown as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731063865911-ff7fe764-1a9f-4f99-9555-964f568c2fa7.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731063865911_ff7fe764_1a9f_4f99_9555_964f568c2fa7.png)
 
 #### 3.5.14 4G\&5G Interface
 
 The OK3588 integrates an M.2 Key-B interface that is compatible with 4G and 5G modules. Since 4G and 5G modules have different power supply voltages, you need to toggle S2 to select the corresponding power supply voltage.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731063896445-af7e21ea-8138-4fcd-8b32-a6101450c1d6.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731063896445_af7e21ea_8138_4fcd_8b32_a6101450c1d6.png)
 
 #### 3.5.15 USB2.0/USB3.0 Circuit
 
@@ -1004,15 +1004,15 @@ The RK3588 chip has 2 x built-in USB 3.0 OTG controllers (with 2 x USB 2.0 OTG b
 
 The internal multiplexing diagram of these controllers with the PHY is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731063923380-6b3c0b8a-55c2-4181-aeec-491f6c837ca0.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731063923380_6b3c0b8a_55c2_4181_aeec_491f6c837ca0.png)
 
 USB3.0 OTG0 controller supports SS/HS/FS/LS, and the embedded USB2.0 (HS/FS/LS) signal uses USB2.0 OTG PHY (the signal names are shown in the red box as follows); RK3588 currently only TYPEC0\_OTG\_DM/TYPEC0\_OTG\_DP supports Fireware Download, please be sure to reserve this interface in the application (at the same time TYPEC0\_USB20\_VBUSDET must also be connected).
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683840455-bdaef524-0fbf-4468-a8a5-ae521d03ad53.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683840455_bdaef524_0fbf_4468_a8a5_ae521d03ad53.png)
 
 The SS signal (5Gbps) of USB3.0 is multiplexed with DP1.4, using the Combo PHY of USB/DP; the signal is in the red box as follows.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683840734-4c5ea3e8-928f-418a-b61f-72aeecf2ec93.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683840734_4c5ea3e8_928f_418a_b61f_72aeecf2ec93.png)
 
 The multiplexing relationship of the USB and DP is as follows:Table
 
@@ -1039,41 +1039,41 @@ This USB3.0/DP1.4 Combo PHY supports inter-Lane switching (SWAP), so a TYPEC sta
 
 Configuration I: Type-C 4Lane (with DP function)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064049001-2c74bc56-cb59-4e38-9b33-b010f4c41491.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064049001_2c74bc56_cb59_4e38_9b33_b010f4c41491.png)
 
 Configuration II: USB2.0 OTG+DP 4Lane（Swap OFF）
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064064523-cff31c83-4cbc-4c45-a49f-becc623d4be5.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064064523_cff31c83_4cbc_4c45_a49f_becc623d4be5.png)
 
 Configuration III: USB2.0 OTG+DP 4Lane(Swap ON)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064078250-4037d4bb-2bca-4190-b500-0a38f0e6b724.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064078250_4037d4bb_2bca_4190_b500_0a38f0e6b724.png)
 
 Configuration IV: USB3.0 OTG0+DP 2Lane（Swap OFF）
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064087737-49cffcab-5c63-45cb-a875-cf176246f8d7.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064087737_49cffcab_5c63_45cb_a875_cf176246f8d7.png)
 
 Configuration V: USB3.0 OTG+DP 2Lane（Swap ON）
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064103954-1a0ca44f-7705-459f-98c9-125c0e858f94.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064103954_1a0ca44f_7705_459f_98c9_125c0e858f94.png)
 
 The default configuration of OK3588 is dual Type-C 4Lane (with DP function) , schematic is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731063973627-796fc243-20e3-4e97-8806-733e2c97da76.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731063973627_796fc243_20e3_4e97_8806_733e2c97da76.png)
 
 As the USB3.0 HOST controller only has USB3.0 HOST without built-in USB2.0, it needs to be combined with USB2.0 HOST Controller1 (configuration 1) or USB2.0 HOST Controller0 (configuration 2) to form a standard USB3.0 HOST. The internal link block diagram is as follows:
 
 Configuration I: USB3.0 HOST2+USB2.0 HOST1
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064119378-3a34771c-1ae3-4c8a-8c4c-2f5c3dc56781.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064119378_3a34771c_1ae3_4c8a_8c4c_2f5c3dc56781.png)
 
 Configuration II: USB3.0 HOST2+USB2.0 HOST0
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064128581-156ab63e-f610-40ae-8093-070abccd7569.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064128581_156ab63e_f610_40ae_8093_070abccd7569.png)
 
 USB2.0 HOST controller, using USB2.0 HOST0PHY, the signals in the box below make up the USB2.0 HOST interface:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683842636-c3a95766-7842-475a-ae42-8922b4b151c8.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683842636_c3a95766_7842_475a_ae42_8922b4b151c8.png)
 
 **<font style="color:#FF0000;">Note:</font>**
 
@@ -1116,19 +1116,19 @@ The RK3588 chip has 3 SATA3.0 controllers and multiplexes PIPE PHY0/1/2 with PCI
 - Support eSATA.
 
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064144041-81642541-25af-4d9f-8184-36f246c82271.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064144041_81642541_25af_4d9f_8184_36f246c82271.png)
 
 SATA0 controller uses PIPE\_PHY0 (multiplexes with PCIe3.0x1\_2 Controller).
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683843491-9cb67f23-ba05-42a9-8dd7-8d84ed47fe3e.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683843491_9cb67f23_ba05_42a9_8dd7_8d84ed47fe3e.png)
 
 SATA1 controller uses PIPE\_PHY1 (multiplexes with PCIe3.0x1\_0 Controller).
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683843708-eec029a1-d553-45e2-92ae-dbeeb111e42a.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683843708_eec029a1_d553_45e2_92ae_dbeeb111e42a.png)
 
 SATA2 controller uses PIPE\_PHY2 (multiplexes with the PCIe3.0x1\_1 Controller as well as the USB30 HOST2 Controller).
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683844004-ef52bb7f-0a9b-4853-9a01-fe95fa190425.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683844004_ef52bb7f_0a9b_4853_9a01_fe95fa190425.png)
 
 The control IO associated with the SATA0/1/2 controller are:
 
@@ -1175,7 +1175,7 @@ The RK3588 has 5 PCIe 3.0 controllers: (DM stands for Dual Mode and RC stands fo
 
 Mapping diagram between Controller and PHY:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683844241-c4bd7cd5-5871-4382-b54c-82ce5b1cb4e2.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683844241_c4bd7cd5_5871_4382_b54c_82ce5b1cb4e2.png)
 
 Controller 0(4L) Lane0 can only be combined with PCIe3.0 PHY0 Lane0;
 
@@ -1256,11 +1256,11 @@ Multiple modes can be supported based on the above description. If all use the P
 
 The RK3588 PCIe multiple combination modes are as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064240115-90223234-d28d-4b26-ad5b-5f1c5ebd7387.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064240115_90223234_d28d_4b26_ad5b_5f1c5ebd7387.png)
 
 PCIE20\_REFCLKP/N can support either output or input, and the default output is provided to EP devices.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064252913-8eabe29b-70c8-440d-a7f3-019b0b1dffaf.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064252913_8eabe29b_70c8_440d_a7f3_019b0b1dffaf.png)
 
 PCIE30\_REF\_CLKP/N only supports input
 
@@ -1270,33 +1270,33 @@ It is necessary to provide clocking requirements to meet PCIe 3.0 or higher
 
 ·RK3588 PCIe3.0 X4Lane RC mode. It is compatible with PCIe3.0 X2Lane RC mode and PCIe3.0 X1Lane RC mode. The reference clock path is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064267196-b5f2d7d0-eafb-472f-84fc-5d8d36fe6849.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064267196_b5f2d7d0_eafb_472f_84fc_5d8d36fe6849.png)
 
 ·Another case, if it is 2 RK3588 cascade docking, equivalent to the above figure EP device is also RK3588. Reference clock path is the same, data Lane TX docking RX, RX docking TX.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064280836-87cb2263-c215-45c9-a0d1-de1d14d048d2.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064280836_87cb2263_c215_45c9_a0d1_de1d14d048d2.png)
 
 ·RK3588 PCIe 3.0 x4 Lane EP mode. It is compatible with PCIe3.0 X2Lane EP mode and PCIe3.0 X1Lane EP mode. The reference clock path is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064295180-ed9aeb2e-c941-40bd-bdc5-a2c019805399.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064295180_ed9aeb2e_c941_40bd_bdc5_a2c019805399.png)
 
 **OK3588-C development board configuration is as follows:**
 
 Controller 0(4L) + PCIe3.0 PHY0 + PCIe3.0 PHY1 to form PCIe3.0 X4Lane RC or EP mode for 4Lane. The principle is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064311581-fee04157-9b19-4314-a5c0-25e16bfbe12c.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064311581_fee04157_9b19_4314_a5c0_25e16bfbe12c.png)
 
 It should be noted that PCIE30\_REFCLK\_SLOT\_P/N, PCIE30\_PORT0\_REFCLK\_IN\_P/N, PCIE30\_PORT1\_REFCLK\_IN\_P/N are generated by the clock chip U38, and the principle is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064329127-88d4546e-19d0-4500-9c27-9e4124e40b8d.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064329127_88d4546e_19d0_4500_9c27_9e4124e40b8d.png)
 
 Controller 2(1L0) + PCIe2.0/SATA3.0 Combo PHY1 to form PCIe2.0 X1Lane RC mode. The principle is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064340309-8d738866-265d-4382-a05e-c787a38e0da8.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064340309_8d738866_265d_4382_a05e_c787a38e0da8.png)
 
 Controller 4(1L2)) + PCIe2.0/SATA3.0 Combo PHY0, to form the PCIe2.0 X1Lane RC mode for 1Lane; The principle of a WIFI module compatible with PCIe interface led out by M.2 Key E , the principle is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064358550-f80d62ff-cf00-4c1f-a5d1-8bf9936f24ff.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064358550_f80d62ff_cf00_4c1f_a5d1_8bf9936f24ff.png)
 
 **<font style="color:#FF0000;">PCIe2.0 Design Notes:</font>**
 
@@ -1344,7 +1344,7 @@ Controller 4(1L2)) + PCIe2.0/SATA3.0 Combo PHY0, to form the PCIe2.0 X1Lane RC m
 
 **<font style="color:#FF0000;">3.</font>** **<font style="color:#FF0000;">The correspondence between PCIE30\_CLKREQn, PCIE30\_WAKEn, PCIE30\_PERSTn, PCIE30X4\_BUTTON\_RSTN control signals and the controller should be as per the provided diagram:</font>**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064429551-f2748b36-ccdf-4825-b6fc-f94976a492b7.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064429551_f2748b36_ccdf_4825_b6fc_f94976a492b7.png)
 
 **<font style="color:#FF0000;">4.</font>** **<font style="color:#FF0000;">The PCIE30\_CLKREQn and PCIE30\_WAKEn must use the functional pins and cannot be replaced by GPIOs. Specifically, when making a selection, you must choose either all \_M0, all \_M1, or all \_M2. You cannot choose one \_M0 and one \_M1;</font>**
 
@@ -1395,7 +1395,7 @@ RK3588 video input interface includes three kinds of interfaces: MIPI RX, CIF, H
 
 RK3588 has two MIPI DPHY CSI RX, both support MIPI V1.2 version, the maximum data rate of each channel is 2.5Gbps. The FET3588-C MIPI DPHY CSI RX pin division is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683846568-9d1b02ec-2ed6-4f4f-a391-777d1b84a286.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683846568_9d1b02ec_2ed6_4f4f_a391_777d1b84a286.png)
 
 MIPI DPHY CSI0 RX interface mode:
 
@@ -1440,13 +1440,13 @@ C-PHY supports V1.1 version, C-PHY mode has 0/1/2 Trio, 3 lines per Trio A/B/C, 
 
 The OK3588 is configured for D-PHY function by default and the signal pins are as follows. If you need to configure it for C-PHY, please check the Pin Mux table for the multiplexing key.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683846877-1840eb50-0b1b-4733-b5ed-1beee942ec21.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683846877_1840eb50_0b1b_4733_b5ed_1beee942ec21.png)
 
 DPHY and CPHY configuration support:
 
 The RK3588 has two D/CPHY Combo PHY, both supporting RX and TX interfaces, CPU pins are as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683847115-1b1ae624-76cf-47b3-b3f8-581e3025b733.png)![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683847419-1747c0ee-c564-45d2-96b0-ff87d1ff2d26.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683847115_1b1ae624_76cf_47b3_b3f8_581e3025b733.png)![Image](./images/OK3588-C_User_Hardware_Manual/1720683847419_1747c0ee_c564_45d2_96b0_ff87d1ff2d26.png)
 
 - MIPI D-PHY/C-PHY Combo PHY0 TX and RX can only be configured as DPHY0 TX, DPHY0 RX mode or CPHY0 TX, CPHY0 RX mode at the same time, and it does not support one configured as DPHY0 TX and another configured as CPHY0 RX;
 
@@ -1480,7 +1480,7 @@ MIPI D/C-PHY1 support (In C-PHY time mode):
 
 The OK3588 is configured with 5 Camera interfaces by default: MIPI\_DPHY0\_RX 4Lane, MIPI\_DPHY1\_RX 4Lane, MIPI CSI0 4Lane, MIPI CSI1 2Lane + MIPI CSI1 2Lane. The principle is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064470870-eb65694d-02e2-422d-907f-1cc69e28b906.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064470870_eb65694d_02e2_422d_907f_1cc69e28b906.png)
 
 **<font style="color:#FF0000;">MIPI RX Design Considerations:</font>**
 
@@ -1614,23 +1614,23 @@ RK3588 chip supports HDMI 2.0 RX, downward compatible with HDMI 1.4b; supports R
 
 HDMI RX TMDS signal is shown below and requires a 2.2ohm resistor to be reserved near the HDMI RX seat, which must not be removed to enhance anti-static surge capability.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064536420-24cdcbbe-0f48-4e5f-ac8a-3ca1a3ba7baf.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064536420_24cdcbbe_0f48_4e5f_ac8a_3ca1a3ba7baf.png)
 
 HDMI\_RX\_HPDOUT is a function where the HDMI RX controller is multiplexed to a general GPIO. Its level depends on the voltage of the power domain it's in. Check the Pin Mux table for specific multiplexed pins and levels. 
 
 As the HDMI RX controller does not support hardware detection Source plug-in, detection can only be done on software, the hardware circuit is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064552563-e9977132-e170-43f3-ab9a-0439937fd49b.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064552563_e9977132_e170_43f3_ab9a_0439937fd49b.png)
 
 After detecting the HDMI\_RX\_DET\_L pull-down action, HDMI\_RX\_HPDOUT\_M2 outputs a high level, Q10 conducts, and VCC5V\_HDMIRX\_PORT sends 5V to HDMI\_RX\_HPD\_PORT to complete the handshaking action with the Source side.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064562559-b4f2bfaf-98d6-49b2-97aa-3fb73977129a.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064562559_b4f2bfaf_98d6_49b2_97aa_3fb73977129a.png)
 
 HDMI\_RX\_CEC is the HDMI controller CEC function multiplexed to the general GPIO, the specific pins, please check the Pin Mux table; level with the power domain voltage where the power domain supply voltage has changed, the peripheral circuit pull-up resistor power must also be adjusted synchronously.
 
 The selected CEC signal for HDMI\_RX\_CEC\_M2; the pin level is 1.8V, so the external need to add a level conversion circuit, Q6 default selection 2SK3018, if you want to change other models, the junction capacitance must be equivalent; if the junction capacitance is too large, not only will affect the work, the certification will not pass. Reference schematic diagram as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064581491-b7ecd66e-0fe3-4faa-a15c-f98d291c55a1.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064581491_b7ecd66e_0fe3_4faa_a15c_f98d291c55a1.png)
 
 HDMI\_RX DDC\_SCL/DDC\_SDA is the HDMI RX controller I2C/DDC bus, which is led out from general GPIO, please refer to the Pin Mux table for the specific pins that can be multiplexed on IO; the level changes with the voltage of the power supply domain where it is located, and the pull-up resistor power supply of the peripheral circuit must also be adjusted simultaneously.
 
@@ -1638,7 +1638,7 @@ Although the DDC\_SCL/DDC\_SDA protocol specifies a 5V level, the RK3588 IO does
 
 It is recommended to refer to the default value for the pull-up resistance and can not be modified arbitrarily.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064595250-463d0225-d23a-431f-9ce8-63d4496e5391.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064595250_463d0225_d23a_431f_9ce8_63d4496e5391.png)
 
 **<font style="color:#FF0000;">Design Considerations:</font>**
 
@@ -1662,7 +1662,7 @@ Up to 4 screens are allowed to be displayed differently, such as 4K+4K+4K+2K, an
 
 VOP and video interface output path diagrams are as follows:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064628913-6c85c6d7-f2ad-4060-8c20-e55e13bb5f9c.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064628913_6c85c6d7_f2ad_4060_8c20_e55e13bb5f9c.png)
 
 ##### **3.5.19.1 HDMI2.1/eDP TX Interface**
 
@@ -1674,7 +1674,7 @@ RK3588 has 2 x built-in HDMI/eDP TX Combo PHY.
 
 -eDP TX mode: Maximum resolution support 4K@60Hz, support RGB/YUV422(Up to 10bit) format.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683849061-31b0e4ab-feaa-46ea-895a-03cd2fcc8f41.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683849061_31b0e4ab_feaa_46ea_895a_03cd2fcc8f41.png)
 
 **·HDMI2.1 TX Mode**
 
@@ -1692,7 +1692,7 @@ When operating in HDMI 2.0 and below mode, HDMI0\_TX\_ON\_H is configured high, 
 
 **<font style="color:#FF0000;">When only HDMI 2.0 and lower modes need to be supported, components Q15, Q16, Q17, and Q18 must not be omitted. It is essential to ensure that the transistors remain non-conductive when the device is powered off, as the HDMI CTS Test ID 7-3 TMDS Voff test requires that the Voff voltage stays within ±10mV of AVcc when the Device Under Test (DUT) is unpowered; otherwise, this test item will fail.</font>**
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064683921-c13df62e-0c35-4501-9247-8fc719d8e8c7.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064683921_c13df62e_0c35_4501_9247_8fc719d8e8c7.png)
 
 FRL mode: In the traditional TMDS architecture, a separate channel is used to transmit the Clock. But in the FRL architecture, the Clock is embedded in the Data channel, and the Clock is resolved at the Sink side through the Clock Recovery.
 
@@ -1709,7 +1709,7 @@ FRL rate vs. channel relationship:
 
 It supports ARC/eARC via HDMI0\_TX\_SBDP/HDMI0\_TX\_SBDN signal to parse out audio data inside RK3588.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064704018-237edc9b-2b1e-4c15-aeb0-114074a76443.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064704018_237edc9b_2b1e_4c15_aeb0_114074a76443.png)
 
 HDMI\_TX0\_HPD is the HDMI TX controller multiplexed to the general GPIO; the level changes with the voltage of the power supply domain where it is located, and the pull-up resistor power supply of the peripheral circuit must also be adjusted simultaneously.
 
@@ -1717,11 +1717,11 @@ HDMI\_TX0\_CEC is the multiplexing of the HDMI controller's CEC function to a ge
 
 The CEC protocol specifies a 3.3V level. However, the protocol requires that the leakage should not exceed 1.8uA when adding 3.3V to the CEC pin through a 27K resistor.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064720766-91ef1d7d-4064-4e8f-902a-6c8386e1d5d9.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064720766_91ef1d7d_4064_4e8f_902a_6c8386e1d5d9.png)
 
 RK3588 IO Domain Leakage will occur if there is a voltage at IO in the power-down state. For example, the RK3588 is a power failure, and its HDMI cable is in connection to the Sink side (TV or monitor); meanwhile, the CEC at the Sink side has power and leaks through the HDMI cable to the RK3588 IO, which will cause the CEC to leak more than 1.8uA, so an external isolation circuit is necessary. We can not modify the R158 resistance at will, and we need to use 27Kohm, Q14 default, and selection 2SK3018. If needing to change other models, the junction capacitor must be the equivalent, if not, it will not only affect the work but will also affect the certification through.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064730922-25472de8-fb99-40f6-9e8b-0ffc02ee3176.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064730922_25472de8_fb99_40f6_9e8b_0ffc02ee3176.png)
 
 HDMI\_TX0/1 DDC\_SCL/DDC\_SDA is the HDMI TX0/1 controller I2C/DDC bus, which is led out from general GPIO; the level changes with the voltage of the power supply domain where it is located, and the pull-up resistor power supply of the peripheral circuit must also be adjusted simultaneously.
 
@@ -1733,7 +1733,7 @@ The D11 diode cannot be removed and is used to prevent leakage from the Sink sid
 
 1K in series between MOS gate for SDA signal level conversion and power supply; A 100pF is connected in parallel between the MOS gate and source to improve the timing and can not be removed.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064745897-9e2629d3-fe3c-43b3-9899-4a1b88169c99.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064745897_9e2629d3_fe3c_43b3_9899_4a1b88169c99.png)
 
 HDMI holder Pin18 voltage needs to be kept between 4.8-5.3V, 1uF decoupling capacitor needs to be placed on the pin, which must not be deleted, and the layout is placed close to the HDMI holder pin.
 
@@ -1774,7 +1774,7 @@ Take eDP TX0 as an example, eDP TX1 is the same as eDP TX0.
 
 eDP\_TX0\_D0P/D0N, eDP\_TX0\_D1P/D1N, eDP\_TX0\_D2P/D2N, eDP\_TX0\_D3P/D3N need 100nF AC coupling capacitor in series; because the lower ESR and ESL can also reduce the impedance change on the line, it is recommended to use the 0201 packaging for the AC coupling capacitor, and the layout is placed close to the FET3588-C pin.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1731064767274-3c827f8a-6e07-4346-b566-5adb3cdd4e6c.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1731064767274_3c827f8a_6e07_4346_b566_5adb3cdd4e6c.png)
 
 **<font style="color:#FF0000;">Design Considerations:</font>**
 
@@ -1798,7 +1798,7 @@ RK3588 has two MIPI D-PHY/C-PHY Combo PHY TX:
 - C-PHY supports V1.1 version, C-PHY mode has 0/1/2 Trio, 3 lines per Trio A/B/C, data transfer rate up to 5.7Gbps/Trio (2.5Gsps).
 
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720683849998-e6c367fc-6283-46df-a00f-87ba841737e9.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720683849998_e6c367fc_6283_46df_a00f_87ba841737e9.png)
 
 DPHY and CPHY configuration support:
 
@@ -1955,11 +1955,11 @@ Data correspondence relationship in BT1120 output, supporting YC Swap.
 
 SoM Connector Dimension:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720685535446-3945d33b-c2f5-4df5-b64e-55f90c70bfda.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720685535446_3945d33b_c2f5_4df5_b64e_55f90c70bfda.png)
 
 Carrier board Connector Dimension:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1720685535697-d69ef192-a7d4-4e83-895e-54dbf684b36f.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1720685535697_d69ef192_a7d4_4e83_895e_54dbf684b36f.png)
 
 ## 5\. OK3588-C Development Board Power Consumption Table
 
@@ -1993,11 +1993,11 @@ Table 2. Linux system power consumption
 
 ## 6\. Minimum System Schematic
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609426616-4790d3d7-876e-4f8e-8467-db7b4d54c14b.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1721609426616_4790d3d7_876e_4f8e_8467_db7b4d54c14b.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609548442-50922fdd-267f-4088-946d-ce5e92d6fc8e.png)![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609552427-91b3f9b0-a747-49e9-9881-4b44cff9fb06.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1721609548442_50922fdd_267f_4088_946d_ce5e92d6fc8e.png)![Image](./images/OK3588-C_User_Hardware_Manual/1721609552427_91b3f9b0_a747_49e9_9881_4b44cff9fb06.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609574321-e24d5b40-2960-4883-b7e1-25f64fe23fb1.png)![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609591009-4a4881f9-3a16-4bec-93fe-f6a287ae7237.png)![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609575250-3c121a2a-920d-454f-ac19-3568ff1bb567.png)![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609575180-6c688743-9882-4a91-a6c2-8379a790fb5b.png)![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609575863-3e99ed8a-720b-4446-afc4-14498c83813f.png)![](https://cdn.nlark.com/yuque/0/2024/png/45533304/1721609577925-f53c20a0-53a9-4969-b0d9-65611609538e.png)
+![Image](./images/OK3588-C_User_Hardware_Manual/1721609574321_e24d5b40_2960_4883_b7e1_25f64fe23fb1.png)![Image](./images/OK3588-C_User_Hardware_Manual/1721609591009_4a4881f9_3a16_4bec_93fe_f6a287ae7237.png)![Image](./images/OK3588-C_User_Hardware_Manual/1721609575250_3c121a2a_920d_454f_ac19_3568ff1bb567.png)![Image](./images/OK3588-C_User_Hardware_Manual/1721609575180_6c688743_9882_4a91_a6c2_8379a790fb5b.png)![Image](./images/OK3588-C_User_Hardware_Manual/1721609575863_3e99ed8a_720b_4446_afc4_14498c83813f.png)![Image](./images/OK3588-C_User_Hardware_Manual/1721609577925_f53c20a0_53a9_4969_b0d9_65611609538e.png)
 
 **<font style="color:#FF0000;">Note: </font>**
 
