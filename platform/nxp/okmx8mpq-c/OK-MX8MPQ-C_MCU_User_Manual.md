@@ -542,14 +542,14 @@ This routine demonstrates the process of SPI master-slave communication. Two 8 M
 
 Connect the SPI of the two development boards one-to-one using DuPont wires with the followingwire sequence:
 
-| <font style="color:#0000FF;">Development Board 1-SPI Master Mode</font>| | <font style="color:#FF0000;">Development Board 2-SPI Slave Mode</font>| 
-|:----------:|----------|:----------:|----------
-| <font style="color:#0000FF;">Pin name</font>| <font style="color:#0000FF;">Development board location</font>| <font style="color:#FF0000;">Pin name</font>| <font style="color:#FF0000;">Development board location</font>
-| <font style="color:#0000FF;">MISO</font>| <font style="color:#0000FF;">P40-10</font>| <font style="color:#FF0000;">MISO</font>| <font style="color:#FF0000;">P40-10</font>
-| <font style="color:#0000FF;">MOSI</font>| <font style="color:#0000FF;">P40-8</font>| <font style="color:#FF0000;">MOSI</font>| <font style="color:#FF0000;">P40-8</font>
-| <font style="color:#0000FF;">SCK</font>| <font style="color:#0000FF;">P40-1</font>| <font style="color:#FF0000;">SCK</font>| <font style="color:#FF0000;">P40-1</font>
-| <font style="color:#0000FF;">SS0</font>| <font style="color:#0000FF;">P40-3</font>| <font style="color:#FF0000;">SS0</font>| <font style="color:#FF0000;">P40-3</font>
-| <font style="color:#0000FF;">GND</font>| <font style="color:#0000FF;">P40-4/P40-7</font>| <font style="color:#FF0000;">GND</font>| <font style="color:#FF0000;">P40-4/P40-7</font>
+| <font style="color:#0000FF;">Development Board 1--SPI Mast Mode</font> | | <font style="color:#FF0000;">Development Board 2--SPI Slave Mode</font> |
+| :---: | --- | :---: |
+| <font style="color:#0000FF;">Pin Name</font> | <font style="color:#0000FF;">Development Board Location</font> | <font style="color:#FF0000;">Pin Name</font> | <font style="color:#FF0000;">Development Board Location</font> |
+| <font style="color:#0000FF;">MISO</font> | <font style="color:#0000FF;">P40-10</font> | <font style="color:#FF0000;">MISO</font> | <font style="color:#FF0000;">P40-10</font> |
+| <font style="color:#0000FF;">MOSI</font> | <font style="color:#0000FF;">P40-8</font> | <font style="color:#FF0000;">MOSI</font> | <font style="color:#FF0000;">P40-8</font> |
+| <font style="color:#0000FF;">SCK</font> | <font style="color:#0000FF;">P40-1</font> | <font style="color:#FF0000;">SCK</font> | <font style="color:#FF0000;">P40-1</font> |
+| <font style="color:#0000FF;">SS0</font> | <font style="color:#0000FF;">P40-3</font> | <font style="color:#FF0000;">SS0</font> | <font style="color:#FF0000;">P40-3</font> |
+| <font style="color:#0000FF;">GND</font> | <font style="color:#0000FF;">P40-4/P40-7</font> | <font style="color:#FF0000;">GND</font> | <font style="color:#FF0000;">P40-4/P40-7</font> |
 
 #### 3.6.2 Software Implementation
 
