@@ -13,7 +13,10 @@ copyright = 'Forlinx Embedded'
 
 extensions = [
     'myst_parser',         # 支持 Markdown
+    'sphinx_sitemap',      # 添加 sitemap 扩展
 ]
+html_baseurl = "https://forlinxembedded.github.io/nxp/ls-development-manual/"
+
 
 templates_path = ['_templates']
 exclude_patterns = []
