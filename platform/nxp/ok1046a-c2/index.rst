@@ -6,7 +6,7 @@
 
    🔗 Official product overview:
    
-   `FET1046A-C System On Module <https://www.forlinx.net/product/ls1046a-system-on-module-21.html>`_
+   `FET1046A-C System On Module <https://www.forlinx.net/product/ls1046a-system-on-module-21.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
 
 
 ====================

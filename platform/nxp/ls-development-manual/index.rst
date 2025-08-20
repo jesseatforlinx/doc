@@ -6,7 +6,7 @@
 
    🔗 Official product overview:
    
-   `LS10XX Series System On Module <https://www.forlinx.net/product-list-170.html>`_
+   `LS10XX Series System On Module <https://www.forlinx.net/product-list-170.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
 
 
 ======================
