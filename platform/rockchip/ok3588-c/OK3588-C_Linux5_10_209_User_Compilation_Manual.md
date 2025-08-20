@@ -70,7 +70,7 @@ This manual is mainly applicable to the Linux5.10.209 operating system on the Fo
 
 Go to the VMware website https://www.vmware.com/cn.html to download Workstation Pro and get the product key. VMware is a paid software that requires purchasing, or you can choose to use a trial version.
 
-![1](C:\Users\1\Desktop\images\1.png)
+![C:\Users\1\Desktop\images](C:/Users/1/Desktop/images/1.png)
 
 <font style="color:#000000;">After the download is complete, double-click the startup file to start the installer.</font>
 
@@ -78,7 +78,7 @@ Go to the VMware website https://www.vmware.com/cn.html to download Workstation 
 
 <font style="color:#000000;">Double-click the startup program to enter the installation wizard, and click on "Next".</font>
 
-![![](httpscdn.nlark.comyuque02024jpeg455351391718949366000-e93d3524-0f65-4365-8c35-fd502cdeb864.jpeg)](C:\Users\1\Desktop\images\![](httpscdn.nlark.comyuque02024jpeg455351391718949366000-e93d3524-0f65-4365-8c35-fd502cdeb864.jpeg).png)
+![](C:/Users/1/Desktop/images/2.png)
 
 <font style="color:#000000;">Check I accept the terms in the license agreement and click Next.</font>
 
