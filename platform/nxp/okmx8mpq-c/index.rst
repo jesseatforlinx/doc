@@ -6,7 +6,7 @@
 
    🔗 Official product overview:
    
-   `FETMX8MP-C System On Module <https://www.forlinx.net/product/fetmx8mp-c-system-on-module-119.html>`_
+   `FETMX8MP-C System On Module <https://www.forlinx.net/product/fetmx8mp-c-system-on-module-119.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
 
 
 ====================

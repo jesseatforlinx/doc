@@ -6,7 +6,7 @@
 
    🔗 Official product overview:
    
-   `FET527N-C System On Module <https://www.forlinx.net/product/t527-c-system-on-module-149.html>`_
+   `FET527N-C System On Module <https://www.forlinx.net/product/t527-c-system-on-module-149.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
 
 
 ==================

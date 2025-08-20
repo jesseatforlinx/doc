@@ -6,7 +6,7 @@
 
    🔗 Official product overview:
    
-   `FET3588-C System On Module <https://www.forlinx.net/product/rk3588-som-134.html>`_
+   `FET3588-C System On Module <https://www.forlinx.net/product/rk3588-som-134.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
 
 
 ====================

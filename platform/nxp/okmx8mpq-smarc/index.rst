@@ -6,7 +6,7 @@
 
    🔗 Official product overview:
    
-   `FET-MX8MPQ-SMARC System on Module <https://www.forlinx.net/product/imx8mpq-smarc-system-on-module-153.html>`_
+   `FET-MX8MPQ-SMARC System on Module <https://www.forlinx.net/product/imx8mpq-smarc-system-on-module-153.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
 
 
 ======================
