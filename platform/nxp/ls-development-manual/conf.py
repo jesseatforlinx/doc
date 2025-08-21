@@ -16,7 +16,6 @@ extensions = [
     'sphinx_sitemap',      # 添加 sitemap 扩展
 ]
 html_baseurl = "https://forlinxembedded.github.io/nxp/ls-development-manual/"
-language = None
 
 templates_path = ['_templates']
 exclude_patterns = []

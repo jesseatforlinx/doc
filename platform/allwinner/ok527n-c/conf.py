@@ -17,7 +17,6 @@ extensions = [
 ]
 html_baseurl = "https://forlinxembedded.github.io/allwinner/ok527n-c/"
 
-language = None
 
 templates_path = ['_templates']
 exclude_patterns = []
