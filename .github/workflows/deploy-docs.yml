@@ -46,6 +46,18 @@ jobs:
           fi
         done
 
+
+    # 清理 /en/
+    - name: Remove /en/ from sitemap URLs
+      run: |
+        for sm in docs_build/*/*/sitemap.xml; do
+          if [ -f "$sm" ]; then
+            echo "Cleaning $sm ..."
+            sed -i 's#/en/#/#g' "$sm"
+          fi
+        done
+
+
     # 6️⃣ 生成总 sitemap_index.xml
     - name: Generate sitemap_index.xml
       run: |
