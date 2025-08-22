@@ -1,6 +1,7 @@
 ---
 
 typora-copy-images-to: images\OK3588-C_Forlinx22_04_User_Manual
+typora-root-url: images\OK3588-C_Forlinx22_04_User_Manual
 ---
 
 # Forlinx Desktop22.04\_User’s Manual_V1.1
