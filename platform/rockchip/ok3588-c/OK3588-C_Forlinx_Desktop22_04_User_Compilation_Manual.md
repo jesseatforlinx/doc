@@ -1,5 +1,5 @@
 ---
-typora-root-url: images\OK3588-C_Forlinx_Desktop_User_Compilation_Manual
+typora-root-url: images\OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual
 ---
 
 # Forlinx Desktop22.04\_User’s Compilation Manual_V1.0
