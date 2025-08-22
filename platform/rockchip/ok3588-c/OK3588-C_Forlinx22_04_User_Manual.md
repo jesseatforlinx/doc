@@ -78,9 +78,7 @@ The connection of OK3588 SoM and the carrier board is board-to-board, and the ma
 
 **Back**
 
-**Note：**
-
-The software manual no longer includes hardware parameter details. Prior to software development, please read the "OK3588-C\_Hardware User’s Manual" located at "Hardware Information\\User Manual" path. This manual clarifies product naming conventions and specific hardware configuration. It aids in understanding and utilizing the product effectively.
+**Note：The software manual no longer includes hardware parameter details. Prior to software development, please read the "OK3588-C\_Hardware User’s Manual" located at "Hardware Information\\User Manual" path. This manual clarifies product naming conventions and specific hardware configuration. It aids in understanding and utilizing the product effectively.**
 
 ### 1.2 CPU/GPU/NPU Frequency Description
 
