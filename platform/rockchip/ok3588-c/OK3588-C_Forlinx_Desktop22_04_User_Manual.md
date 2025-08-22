@@ -1,3 +1,7 @@
+---
+typora-root-url: images\OK3588-C_Forlinx_Desktop22_04_User_Manual
+---
+
 # Forlinx Desktop22.04\_User’s Manual_V1.1
 
 Document classification: □ Top secret □ Secret □ Internal information ■ Open
