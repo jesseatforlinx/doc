@@ -31,7 +31,8 @@ SOFTWARE
 
    OK3588-C_Linux5_10_209_User_Manual
    OK3588-C_Linux5_10_209_User_Compilation_Manual
-   OK3588-C_Forlinx22_04_User_Manual
+   OK3588-C_Forlinx_Desktop22_04_User_Manual
+   OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual
 
 APPLICATION NOTE
 -----------------
