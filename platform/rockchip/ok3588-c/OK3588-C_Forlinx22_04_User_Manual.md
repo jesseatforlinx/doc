@@ -474,7 +474,7 @@ Test program source code path:
 
 User profiles/linux/source code (OK3588-desktop-release/app/forlinx/forlinx\_ubuntu\_qt/)
 
-#### 3.1 Desktop Function Test
+### 3.1 Desktop Function Test
 
 Forlinx Desktop 22.04 system is a desktop operating system built by Forlinx on the basis of Ubuntu. It is fully compatible with Ubuntu 22.04 and supports apt-get. Compared with the traditional Linux system, it is easier to use.
 
