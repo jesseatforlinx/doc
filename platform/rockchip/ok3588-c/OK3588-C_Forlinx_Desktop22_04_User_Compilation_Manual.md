@@ -296,7 +296,7 @@ The system interface after the reboot is complete.
 
 The ubuntu system installation is complete.
 
-### 3.1.3 Ubuntu Basic Configuration
+#### 3.1.3 Ubuntu Basic Configuration
 
 After installing the Ubuntu20.04 operating system, there are a few configurations to make.
 
@@ -350,7 +350,7 @@ Also, the default hibernation is 5min, if you don't want to set hibernation, jus
 
 ![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951646137_f8d5b537_90fc_458f_a057_1cea0b9a14e6.png)
 
-### 3.1.4 Network Settings for Virtual Machines
+#### 3.1.4 Network Settings for Virtual Machines
 
 ##### 3.1.4.1 NAT Connection Method
 
