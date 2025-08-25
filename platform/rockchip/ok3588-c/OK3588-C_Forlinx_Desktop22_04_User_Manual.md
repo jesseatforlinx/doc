@@ -76,7 +76,7 @@ RK3588 is a low-power, high-performance processor based on ARM64 architecture, w
 
 The connection of OK3588 SoM and the carrier board is board-to-board, and the main interfaces are as follows:
 
-![Image](/1718953695308_3a5d8690_eee1_46cd_b38f_15e12e2cf6bb-1756103535589-7.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Manual/1718953695308_3a5d8690_eee1_46cd_b38f_15e12e2cf6bb-1756103535589-7.png)
 
 **Front**
 
@@ -186,7 +186,7 @@ The debug serial port on the development board is a Type-C USB jack, so you can 
 + Network cable (for network login)
 + Screen: Connect the screen according to the development board interface (optional if display is not needed).
 
-![Image](/1718953705899_d5052341_1cda_43db_953c_82585b4e2d0d-1756103658502-9.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Manual1718953705899_d5052341_1cda_43db_953c_82585b4e2d0d-1756103658502-9.png)
 
 ### 2.2 Debugging Serial Driver Installation
 
