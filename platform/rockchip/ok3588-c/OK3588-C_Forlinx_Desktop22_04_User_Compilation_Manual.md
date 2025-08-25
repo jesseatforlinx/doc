@@ -94,7 +94,7 @@ Go to the VMware website https://www.vmware.com/cn.html to download Workstation 
 
 <font style="color:#000000;">Check Add Shortcut and click "Next".</font>
 
-![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951626468_ce1d391e_1ad3_4c4c_89cf_08a3e8b4300a.jpeg)
+![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/6.png)
 
 <font style="color:#000000;">Click "Installation"</font>
 
