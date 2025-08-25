@@ -186,7 +186,7 @@ The debug serial port on the development board is a Type-C USB jack, so you can 
 + Network cable (for network login)
 + Screen: Connect the screen according to the development board interface (optional if display is not needed).
 
-![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Manual/1718953705899_d5052341_1cda_43db_953c_82585b4e2d0d.png)
+![Image](/1718953695308_3a5d8690_eee1_46cd_b38f_15e12e2cf6bb.png)
 
 ### 2.2 Debugging Serial Driver Installation
 
