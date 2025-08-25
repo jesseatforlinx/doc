@@ -90,7 +90,7 @@ Go to the VMware website https://www.vmware.com/cn.html to download Workstation 
 
 <font style="color:#000000;">Uncheck and click on "Next".</font>
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951626143_b61a1a08_2863_4a8b_907f_f974037dfb25.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951626143_b61a1a08_2863_4a8b_907f_f974037dfb25.png)
 
 <font style="color:#000000;">Check Add Shortcut and click "Next".</font>
 
