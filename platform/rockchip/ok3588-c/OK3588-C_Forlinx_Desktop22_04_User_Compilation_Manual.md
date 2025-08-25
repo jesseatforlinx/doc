@@ -74,7 +74,7 @@ This manual is mainly applicable to the Forlinx Desktop22.04 operating system on
 
 Go to the VMware website https://www.vmware.com/cn.html to download Workstation Pro and get the product key. VMware is a paid software that requires purchasing, or you can choose to use a trial version.
 
-![image-20250822143241023](/../OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/image-20250822143241023.png)
+![image-20250822143241023](/platform/rockchip/ok3588-c/images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/image-20250822143241023.png)
 
 <font style="color:#000000;">After the download is complete, double-click the startup file to start the installer.</font>
 
