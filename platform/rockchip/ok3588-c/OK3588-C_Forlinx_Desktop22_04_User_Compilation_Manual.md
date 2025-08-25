@@ -70,7 +70,7 @@ This manual is mainly applicable to the Forlinx Desktop22.04 operating system on
 
 Go to the VMware website https://www.vmware.com/cn.html to download Workstation Pro and get the product key. VMware is a paid software that requires purchasing, or you can choose to use a trial version.
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718951625344-a710f445-4ece-4d5c-8d15-39b97428a9f4.jpeg)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951625344_a710f445_4ece_4d5c_8d15_39b97428a9f4.jpeg)
 
 <font style="color:#000000;">After the download is complete, double-click the startup file to start the installer.</font>
 
@@ -78,35 +78,35 @@ Go to the VMware website https://www.vmware.com/cn.html to download Workstation 
 
 <font style="color:#000000;">Double-click the startup program to enter the installation wizard, and click on "Next".</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951625522-cb165245-64a1-4b09-944c-65b847ce2a7d.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951625522_cb165245_64a1_4b09_944c_65b847ce2a7d.png)
 
 <font style="color:#000000;">Check I accept the terms in the license agreement and click Next.</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951625731-11a6a5c0-c339-47e8-bf9a-8d71515e308f.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951625731_11a6a5c0_c339_47e8_bf9a_8d71515e308f.png)
 
 <font style="color:#000000;">Modify the installation location to the partition of your computer where the software is installed, and click "Next".</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951625957-209bed27-f6b3-4fdb-abb8-a63f8bb12d36.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951625957_209bed27_f6b3_4fdb_abb8_a63f8bb12d36.png)
 
 <font style="color:#000000;">Uncheck and click on "Next".</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718951626143-b61a1a08-2863-4a8b-907f-f974037dfb25.jpeg)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951626143_b61a1a08_2863_4a8b_907f_f974037dfb25.jpeg)
 
 <font style="color:#000000;">Check Add Shortcut and click "Next".</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/45535139/1718951626468-ce1d391e-1ad3-4c4c-89cf-08a3e8b4300a.jpeg)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951626468_ce1d391e_1ad3_4c4c_89cf_08a3e8b4300a.jpeg)
 
 <font style="color:#000000;">Click "Installation"</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951626653-ca5237ce-0c6e-46de-bc9f-d7a0d0012c30.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951626653_ca5237ce_0c6e_46de_bc9f_d7a0d0012c30.png)
 
 <font style="color:#000000;">Wait for the installation to complete.</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951626876-61d37f3f-a03a-4a83-a739-debe27391297.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951626876_61d37f3f_a03a_4a83_a739_debe27391297.png)
 
 <font style="color:#000000;">Click "Finish" to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951627049-5ae5219f-e831-4b6e-9648-746bd79838d0.png)<font style="color:#000000;">   </font>
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951627049_5ae5219f_e831_4b6e_9648_746bd79838d0.png)<font style="color:#000000;">   </font>
 
 <font style="color:#000000;">     </font>
 
@@ -122,11 +122,11 @@ There are two ways to use a virtual machine environment in VMware: one is to dir
 
 First, download the development environment provided by Forlinx. In the development environment documentation, there should be an MD5 checksum file. After downloading the development environment, you should verify the integrity of the compressed package using the MD5 checksum. (You can use an on-line MD5 checksum tool or download a specific MD5 checksum tool for this purpose). To check if the checksum in the verification file matches the checksum of the file itself. If they match, the file download is successful. If they don't match, it suggests that the file may be corrupt, and you should consider downloading it again.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951630682-5929a683-d5a7-4aba-914c-7ba224385245.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951630682_5929a683_d5a7_4aba_914c_7ba224385245.png)
 
 Select all compressed files, right-click and extract to the current folder or your own directory:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951630871-696d6c3c-1be3-495f-872b-b234ec827998.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951630871_696d6c3c_1be3_495f_872b_b234ec827998.png)
 
 After the extraction is complete, you will obtain the development environment OK3588-VM15.1.0-ubuntu20.04.
 
@@ -134,19 +134,19 @@ The file "3588 development environment.vmx" in the OK3588-VM15.1.0-ubuntu20.04 f
 
 Open the installed virtual machine.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951631065-f817141f-92c2-45bd-9957-a5b767f393cd.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951631065_f817141f_92c2_45bd_9957_a5b767f393cd.png)
 
 Navigate to the directory where the recently extracted OK3588-VM15.1.0-ubuntu20.04 virtual machine file is located, and double-click on the startup file to open it.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951631269-d55c5375-a6f3-49a1-a67a-c3542de9b480.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951631269_d55c5375_a6f3_49a1_a67a_c3542de9b480.png)
 
 Turn on this virtual machine after loading is complete to run it and enter the system's interface.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951631486-5fee59c6-d97e-489e-af7d-09b4741fa477.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951631486_5fee59c6_d97e_489e_af7d_09b4741fa477.png)
 
 The default automatic login account is forlinx, and the password is forlinx.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951631728-e75e9c8c-e34a-47c3-81d1-c896ab94e8e3.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951631728_e75e9c8c_e34a_47c3_81d1_c896ab94e8e3.png)
 
 ## 3\. New Ubuntu Development Environment Setup
 
@@ -160,63 +160,63 @@ This chapter mainly explains the building process of Ubuntu system.
 
 Step 1: Open the VMware software and click \[File]/ \[New Virtual Machine]. Enter the following interface.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951638342-464809a2-9f5f-4dac-888e-a5746043ad0b.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951638342_464809a2_9f5f_4dac_888e_a5746043ad0b.png)
 
 Step 2: Select Custom and click “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951638536-86827a80-5d27-48b4-b208-ee8083bf6ccb.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951638536_86827a80_5d27_48b4_b208_ee8083bf6ccb.png)
 
 Select the compatibility with the corresponding version of VMware, which can be found in Help->About VMware Workstation, and click “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951638721-fe9bc2dd-1e32-4d80-9b0a-bdff8cd89ad7.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951638721_fe9bc2dd_1e32_4d80_9b0a_bdff8cd89ad7.png)
 
 Select Install the operating system later and click “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951638971-22918bac-3ec7-4b64-ac89-bd4182f1ea6d.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951638971_22918bac_3ec7_4b64_ac89_bd4182f1ea6d.png)
 
 Keep the default settings and click “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951639126-ff733ee7-68a3-49c7-9c19-c24704ff1ea8.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951639126_ff733ee7_68a3_49c7_9c19_c24704ff1ea8.png)
 
 Modify the name and installation location of your virtual machine, and click “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951639301-f09778f0-269d-44c3-a846-3b41845e9f3b.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951639301_f09778f0_269d_44c3_a846_3b41845e9f3b.png)
 
 Configure the number of CPU based on your computer's actual specifications.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951639491-31c1c0cd-aee7-4902-a789-3ffc9bb1997c.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951639491_31c1c0cd_aee7_4902_a789_3ffc9bb1997c.png)
 
 Set the memory size according to the actual situation. It is recommended to use 16g
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951639646-ed14af7d-0c4f-405a-998f-3bfc0a88cf12.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951639646_ed14af7d_0c4f_405a_998f_3bfc0a88cf12.png)
 
 Set the network type, default to NAT mode then click “Next”. Keep the default values for the remaining steps until you reach the step to specify the disk capacity.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951639822-7084bbd5-54f8-49d9-b562-76db3af18201.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951639822_7084bbd5_54f8_49d9_b562_76db3af18201.png)
 
 The default selection for the IO controller type here is LSI
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951640027-eb89d3ce-8f4c-4a44-879f-2c91c4a78e4c.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951640027_eb89d3ce_8f4c_4a44_879f_2c91c4a78e4c.png)
 
 The default selection here is also SCSI.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951640219-f37ed71b-8075-4e8e-8a2d-c5b7c14d95f4.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951640219_f37ed71b_8075_4e8e_8a2d_c5b7c14d95f4.png)
 
 Choose to create a new virtual disk here.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951640366-37c6d086-2df6-4450-bf9b-20176f5e231f.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951640366_37c6d086_2df6_4450_bf9b_20176f5e231f.png)
 
 Set the disk size to 500G, select the disk provisioning format, and then click “Next”.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951640527-bd46fceb-7c10-4e7e-ab9a-bf537f55c02f.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951640527_bd46fceb_7c10_4e7e_ab9a_bf537f55c02f.png)
 
 Specify the disk file, the default one here is fine.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951640687-af33ae96-8192-4bbd-abf7-1d964863aa88.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951640687_af33ae96_8192_4bbd_abf7_1d964863aa88.png)
 
 Click “Finish” by default.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951640914-0bb1ebab-eb5d-458b-aef8-0b082fa127a0.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951640914_0bb1ebab_eb5d_458b_aef8_0b082fa127a0.png)
 
 The virtual machine creation is now complete.
 
@@ -234,65 +234,65 @@ Because the source code is compiled and verified on the 20.04, select and instal
 
 Download “ubuntu-20.04.3-desktop-amd64.iso”
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951641124-ee455983-73cb-43a8-be17-8c031f89c7f2.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951641124_ee455983_73cb_43a8_be17_8c031f89c7f2.png)
 
 After downloading the mirror image, you can proceed with the system installation operation.
 
 Right-click on the created virtual machine name and select “Settings” from the pop-up menu.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951641328-a21500a5-8693-4944-b17a-f291b26e0334.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951641328_a21500a5_8693_4944_b17a_f291b26e0334.png)
 
 The “Virtual Machine Settings” menu will pop up.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951641499-1836bb44-8661-4532-ba3f-bbf5c2af5a59.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951641499_1836bb44_8661_4532_ba3f_bbf5c2af5a59.png)
 
 Click on CD/DVD (SATA), select “Use ISO image file,” browse and choose the previously downloaded Ubuntu image, then click “OK” to confirm.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951641717-a4556adf-755e-44bd-a08e-59d4147cc9cc.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951641717_a4556adf_755e_44bd_a08e_59d4147cc9cc.png)
 
 After setting up the image, ensure that the network is available. Then, start the virtual machine and proceed with the installation of the Ubuntu image.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951641894-e368cb6d-ca27-4644-ae58-ba5d9d8b0e3f.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951641894_e368cb6d_ca27_4644_ae58_ba5d9d8b0e3f.png)
 
 After starting the virtual machine, wait for the installation interface to appear as shown below.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951642091-63b79615-9324-4a49-a408-e868a520ed91.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951642091_63b79615_9324_4a49_a408_e868a520ed91.png)
 
 After selecting the language on the left side as shown in the image, click “Install Ubuntu”, and the language selection interface will pop up. The default language of Ubuntu is English, but of course, you can also choose Others.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951642289-8b188be6-a670-4068-bd06-11b215931677.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951642289_8b188be6_a670_4068_bd06_11b215931677.png)
 
 The default selected language can also be reset at a later stage, after the selection is complete continue.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951642493-eebc2e44-bb26-415f-aed6-75baa52f1a12.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951642493_eebc2e44_bb26_415f_aed6_75baa52f1a12.png)
 
 Next, select "Continue" as the default option to proceed with the installation. The installation process might be slow. Then, click "Continue" again.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951642660-e7f1147c-b152-4e9d-9a25-f1b30cff07ae.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951642660_e7f1147c_b152_4e9d_9a25_f1b30cff07ae.png)
 
 By default, when you click on "Install Now", a dialog box will appear as shown in the image. Simply click "Continue" to proceed.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951642872-00583a34-5832-4d9f-ba57-2a57a94bb424.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951642872_00583a34_5832_4d9f_ba57_2a57a94bb424.png)
 
 Next, select the timezone. You can either click on the Shanghai timezone or enter "Shanghai" (or choose the appropriate timezone based on your location). Then, click "Continue" to proceed.
 
 Finally, set your username and password. You can choose either automatic login or login with a username and password. Click "Continue" to start the automatic installation.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951643112-017eb6d2-b696-4b3b-91ec-aa7259b3fbd2.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951643112_017eb6d2_b696_4b3b_91ec_aa7259b3fbd2.png)
 
 If the internet connection is poor, you can Skip without affecting the installation process.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951643360-9b3c645a-0776-40ee-a609-877139147c6d.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951643360_9b3c645a_0776_40ee_a609_877139147c6d.png)
 
 Click “Restart” Now to reboot.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951643688-c6c040c5-f930-4e95-a1e6-6c222608222d.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951643688_c6c040c5_f930_4e95_a1e6_6c222608222d.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951643999-6b8ad166-01b1-448e-9f7b-a6b50ad063b7.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951643999_6b8ad166_01b1_448e_9f7b_a6b50ad063b7.png)
 
 The system interface after the reboot is complete.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951644349-b4f25a5b-8c79-49b3-b0a6-6c1987983543.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951644349_b4f25a5b_8c79_49b3_b0a6_6c1987983543.png)
 
 The ubuntu system installation is complete.
 
@@ -304,15 +304,15 @@ VMware Tools Installation:
 
 Next, install VMware Tools. Without installing this tool, you won't be able to copy and paste and drag file between the Windows host and the virtual machine. First click on "Virtual Machine" on the VMware navigation bar, then click "Install VMware Tools" in the drop-down box.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951644601-96eb01f4-f8f7-4d9a-8e25-55a63c905781.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951644601_96eb01f4_f8f7_4d9a_8e25_55a63c905781.png)
 
 Once done, enter Ubuntu and the VMware Tools CD will appear on your desktop and click into it.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951644800-57c0b6ec-a192-4929-a456-ab6e3560f46b.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951644800_57c0b6ec_a192_4929_a456_ab6e3560f46b.png)
 
 Enter and see a compressed file VMwareTools-10.3.10-12406962.tar.gz (it may be different for different VM versions); copy the file under the home directory (i.e. the directory with the home personal username)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951644994-ad4636ee-d112-4c34-9430-fa09206597e5.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951644994_ad4636ee_d112_4c34_9430_fa09206597e5.png)
 
 Press \[Ctrl+Alt+T] to bring up the Terminal Command Interface and enter the command:
 
@@ -320,17 +320,17 @@ Press \[Ctrl+Alt+T] to bring up the Terminal Command Interface and enter the com
 forlinx@ubuntu:~$ sudo tar xvf VMwareTools-10.3.10-12406962.tar.gz
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951645172-2e3e160c-7bc4-4589-93f5-0bd0163449b4.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951645172_2e3e160c_7bc4_4589_93f5_0bd0163449b4.png)
 
 After the extraction is complete, a file named “vmware-tools-distrib" will appear.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951645424-a5baebfd-d321-4cb2-b740-36e587a06cfc.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951645424_a5baebfd_d321_4cb2_b740_36e587a06cfc.png)
 
 Go back to the terminal and type cd vmware-tools-distrib to enter the directory.
 
 Enter: sudo ./vmware-install.pl followed by pressing Enter. Then, enter your password and the installation process will begin. When prompted, you can input "yes" and press Enter to proceed. For any other inquiries, simply press Enter to go with the default installation settings.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951645591-b2eeca8e-77fb-4ac5-9b9d-8790ce509625.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951645591_b2eeca8e_77fb_4ac5_9b9d_8790ce509625.png)
 
 Once the VMware tools is complete, we can implement file copy and paste between Windows and Ubuntu.
 
@@ -338,17 +338,17 @@ The virtual machine is displayed full screen:
 
 If the virtual machine is not able to be displayed in full screen, you can resolve this issue by clicking on "View" and selecting "Autofit Guest." This will adjust the display to fit the screen automatically, enabling you to have a full-screen experience in the virtual machine.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951645788-5cffa2e2-327f-44d2-ad6c-daa3af506c39.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951645788_5cffa2e2_327f_44d2_ad6c_daa3af506c39.png)
 
 Make most of the system settings in the location shown. A lot of the setup requirements on Ubuntu can be done here.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951645944-353579a5-9c8b-458e-9df6-2da137d4f17d.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951645944_353579a5_9c8b_458e_9df6_2da137d4f17d.png)
 
 Virtual machine hibernation settings:
 
 Also, the default hibernation is 5min, if you don't want to set hibernation, just set it to Never by setting Power->Blank screen.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951646137-f8d5b537-90fc-458f-a057-1cea0b9a14e6.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951646137_f8d5b537_90fc_458f_a057_1cea0b9a14e6.png)
 
 ### 3.1.4 Network Settings for Virtual Machines
 
@@ -358,13 +358,13 @@ By default, after the virtual machine is installed, the network connection metho
 
 When the VMware virtual NIC is set to NAT mode in a virtual machine, the network in the Ubuntu environment can be set to dynamic IP. In this mode the virtual NAT device and the host NIC are connected to communicate for Internet access. This is the most common way to access the external network.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951646429-6414f8a2-d9ed-4983-9dfb-d1d8b2d6e937.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951646429_6414f8a2_d9ed_4983_9dfb_d1d8b2d6e937.png)
 
 ##### 3.1.4.2 Connections for Bridges
 
 When the VMware virtual NIC device is in bridge mode, the host NIC and the virtual machine NIC communicate through the virtual bridge, and the network IP and the host need to be set in the same network segment in the Ubuntu environment. If accessing an external network, you need to set the DNS to be consistent with the host NIC. If TFTP, SFTP and other servers are used, the network contact mode of the virtual machine needs to be set as the bridge mode.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951646661-1ba28248-fc7b-47fe-8edf-5118e8156279.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951646661_1ba28248_fc7b_47fe_8edf_5118e8156279.png)
 
 ### 3.2 Libraries for Installing Linux Compilation System
 
@@ -399,39 +399,39 @@ Path: OK3588-C-C（Linux）user’s profile\\Linux\\source code\\qt-creator-open
 forlinx@ubuntu:~/3588$ ./qt-creator-opensource-linux-x86_64-4.7.0.run                   
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951646841-41afafa7-1af6-44bb-b2ac-87118ffadb23.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951646841_41afafa7_1af6_44bb_b2ac_87118ffadb23.png)
 
 Then the installation window of the graphical interface will pop up, and install according to the instructions:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951647124-d5514a7e-0883-4fb4-8434-ef21eb43ee4a.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951647124_d5514a7e_0883_4fb4_8434_ef21eb43ee4a.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951647333-1aeaeb93-ee6e-4170-adc5-c70de75a4fe6.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951647333_1aeaeb93_ee6e_4170_adc5_c70de75a4fe6.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951647531-546d2277-2723-4033-a3b7-20cf832e6e69.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951647531_546d2277_2723_4033_a3b7_20cf832e6e69.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951647730-1bd0db08-6c49-49cb-972b-13d74334e5fb.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951647730_1bd0db08_6c49_49cb_972b_13d74334e5fb.png)
 
 For online installation, register a Qt account (log in directly if you already have one). Password must include capital letters, uppercase, lowercase letters and numbers. After successful registration/login, click next. Skip this step for offline installation. 
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951647904-f74602e9-ffa0-4467-a5d5-d0ef9a974857.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951647904_f74602e9_ffa0_4467_a5d5_d0ef9a974857.png)
 
 Click "Next".
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951648062-f18dff3a-66f3-4524-bbe3-7fe22817892d.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951648062_f18dff3a_66f3_4524_bbe3_7fe22817892d.png)
 
 You can set the installation path according to your own habits. It is set by default here, so click "Next".
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951648230-95be32f0-e63d-4c47-8f31-ee38ba97ed27.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951648230_95be32f0_e63d_4c47_8f31_ee38ba97ed27.png)
 
 Installation completes, click "Next".
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951648450-ce9abe45-dcf6-4c05-b24f-cb3c1f1354e6.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951648450_ce9abe45_dcf6_4c05_b24f_cb3c1f1354e6.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951648656-c5ff3037-ad0f-4e76-92a7-6fe19bb4926e.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951648656_c5ff3037_ad0f_4e76_92a7_6fe19bb4926e.png)
 
 Click "Install" and wait for the installation to complete.
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951648849-37a9798d-2b90-446b-80cb-5ed184b46659.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951648849_37a9798d_2b90_446b_80cb_5ed184b46659.png)
 
 At this time, the Qt interface will be opened automatically. You can also start it through the command line. Execute the following command to open Qt Creator in the backstage. When the you open it, the actual installation path shall prevail:
 
@@ -440,7 +440,7 @@ forlinx@ubuntu:~$ cd /home/forlinx/qtcreator-4.7.0/bin
 forlinx@ubuntu:~$ ./qtcreator &
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951649012-a745c94e-d45b-45b8-91fa-96dd5c94c344.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951649012_a745c94e_d45b_45b8_91fa_96dd5c94c344.png)
 
 The Qt Creator tool screen appears. Qt Creator is installed.
 
@@ -500,7 +500,7 @@ The following operations need to be operated under the source code directory, an
 forlinx@ubuntu: ~/3588/OK3588-linux-source$ ./build.sh BoardConfig-ubuntu-ok3588.mk
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951655263-0b8cdd0b-b93f-480f-9944-6a645f773702.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951655263_0b8cdd0b_b93f_480f_9944_6a645f773702.png)
 
 2\. Full Compilation Test
 
@@ -529,11 +529,11 @@ forlinx@ubuntu: ~/3588/OK3588-linux-source$ ./build.sh
 
 When compiling for the first time, the following interface will appear. Compile Ubuntu and select 2:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/45444988/1737337666329-54e21ada-537d-4e1a-81d3-c4907b792c25.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1737337666329_54e21ada_537d_4e1a_81d3_c4907b792c25.png)
 
 After successful compilation, the system image will be generated under the rockdev folder, as shown in the following figure:
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951655478-0d01ce2b-df0c-4ce9-bfad-b8025d0e8c42.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951655478_0d01ce2b_df0c_4ce9_bfad_b8025d0e8c42.png)
 
 **Note: The update. img is packaged for full programming of OTG or TF card, and other files are programmed step by step.**
 
@@ -547,7 +547,7 @@ Perform the operation in the kernel source code path.
 forlinx@ubuntu: ~/3588/OK3588_Linux_fs$ sudo ./build.sh kernel
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951655653-da370a04-fd55-4c0e-aff5-0f5b40970048.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951655653_da370a04_fd55_4c0e_aff5_0f5b40970048.png)
 
 The kernel in the update. img is not updated after successful compilation. Please flash the kernel/boot. img file step by step.
 
@@ -561,7 +561,7 @@ Perform the operation in the source code path.
 forlinx@ubuntu: ~/3588/OK3588_Linux_fs$ sudo ./build.sh cleanall
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951655838-1f361d13-b3cc-4d82-bed2-12f04532e267.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951655838_1f361d13_b3cc_4d82_bed2_12f04532e267.png)
 
 This operation clears all intermediate files. However, it does not affect the source files, including those that have already had changes made to them.
 
