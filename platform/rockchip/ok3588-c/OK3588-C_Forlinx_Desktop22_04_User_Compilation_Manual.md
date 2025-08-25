@@ -98,15 +98,15 @@ Go to the VMware website https://www.vmware.com/cn.html to download Workstation 
 
 <font style="color:#000000;">Click "Installation"</font>
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/7.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/7.png)
 
 <font style="color:#000000;">Wait for the installation to complete.</font>
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/8.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/8.png)
 
 <font style="color:#000000;">Click "Finish" to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</font>
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/9.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/9.png)
 
 <font style="color:#000000;">     </font>
 
@@ -126,7 +126,7 @@ First, download the development environment provided by Forlinx. In the developm
 
 Select all compressed files, right-click and extract to the current folder or your own directory:
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/10.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/10.png)
 
 After the extraction is complete, you will obtain the development environment OK3588-VM15.1.0-ubuntu20.04.
 
@@ -134,15 +134,15 @@ The file "3588 development environment.vmx" in the OK3588-VM15.1.0-ubuntu20.04 f
 
 Open the installed virtual machine.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/11.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/11.png)
 
 Navigate to the directory where the recently extracted OK3588-VM15.1.0-ubuntu20.04 virtual machine file is located, and double-click on the startup file to open it.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951630871_696d6c3c_1be3_495f_872b_b234ec827998.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951630871_696d6c3c_1be3_495f_872b_b234ec827998.png)
 
 Turn on this virtual machine after loading is complete to run it and enter the system's interface.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/12.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/12.png)
 
 The default automatic login account is forlinx, and the password is forlinx.
 
@@ -158,63 +158,63 @@ This chapter mainly explains the building process of Ubuntu system.
 
 Step 1: Open the VMware software and click \[File]/ \[New Virtual Machine]. Enter the following interface.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/13.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/13.png)
 
 Step 2: Select Custom and click “Next”.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/14.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/14.png)
 
 Select the compatibility with the corresponding version of VMware, which can be found in Help->About VMware Workstation, and click “Next”.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/15.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/15.png)
 
 Select Install the operating system later and click “Next”.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/16.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/16.png)
 
 Keep the default settings and click “Next”.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/17.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/17.png)
 
 Modify the name and installation location of your virtual machine, and click “Next”.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/18.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/18.png)
 
 Configure the number of CPU based on your computer's actual specifications.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/19.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/19.png)
 
 Set the memory size according to the actual situation. It is recommended to use 16g
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/20.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/20.png)
 
 Set the network type, default to NAT mode then click “Next”. Keep the default values for the remaining steps until you reach the step to specify the disk capacity.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/21.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/21.png)
 
 The default selection for the IO controller type here is LSI
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/22.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/22.png)
 
 The default selection here is also SCSI.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/23.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/23.png)
 
 Choose to create a new virtual disk here.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/24.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/24.png)
 
 Set the disk size to 500G, select the disk provisioning format, and then click “Next”.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/25.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/25.png)
 
 Specify the disk file, the default one here is fine.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/26.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/26.png)
 
 Click “Finish” by default.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/27.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/27.png)
 
 The virtual machine creation is now complete.
 
@@ -238,17 +238,17 @@ After downloading the mirror image, you can proceed with the system installation
 
 Right-click on the created virtual machine name and select “Settings” from the pop-up menu.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/28.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/28.png)
 
 The “Virtual Machine Settings” menu will pop up.
 
 Click on CD/DVD (SATA), select “Use ISO image file,” browse and choose the previously downloaded Ubuntu image, then click “OK” to confirm.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/29.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/29.png)
 
 After setting up the image, ensure that the network is available. Then, start the virtual machine and proceed with the installation of the Ubuntu image.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/30.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/30.png)
 
 After starting the virtual machine, wait for the installation interface to appear as shown below.
 
@@ -284,7 +284,7 @@ Click “Restart” Now to reboot.
 
 ![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/1718951643688_c6c040c5_f930_4e95_a1e6_6c222608222d.png)
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/35.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/35.png)
 
 The system interface after the reboot is complete.
 
@@ -300,7 +300,7 @@ VMware Tools Installation:
 
 Next, install VMware Tools. Without installing this tool, you won't be able to copy and paste and drag file between the Windows host and the virtual machine. First click on "Virtual Machine" on the VMware navigation bar, then click "Install VMware Tools" in the drop-down box.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/31.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/31.png)
 
 Once done, enter Ubuntu and the VMware Tools CD will appear on your desktop and click into it.
 
@@ -334,7 +334,7 @@ The virtual machine is displayed full screen:
 
 If the virtual machine is not able to be displayed in full screen, you can resolve this issue by clicking on "View" and selecting "Autofit Guest." This will adjust the display to fit the screen automatically, enabling you to have a full-screen experience in the virtual machine.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/32.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/32.png)
 
 Make most of the system settings in the location shown. A lot of the setup requirements on Ubuntu can be done here.
 
@@ -354,13 +354,13 @@ By default, after the virtual machine is installed, the network connection metho
 
 When the VMware virtual NIC is set to NAT mode in a virtual machine, the network in the Ubuntu environment can be set to dynamic IP. In this mode the virtual NAT device and the host NIC are connected to communicate for Internet access. This is the most common way to access the external network.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/33.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/33.png)
 
 ##### 3.1.4.2 Connections for Bridges
 
 When the VMware virtual NIC device is in bridge mode, the host NIC and the virtual machine NIC communicate through the virtual bridge, and the network IP and the host need to be set in the same network segment in the Ubuntu environment. If accessing an external network, you need to set the DNS to be consistent with the host NIC. If TFTP, SFTP and other servers are used, the network contact mode of the virtual machine needs to be set as the bridge mode.
 
-![Image](images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/34.png)
+![Image](./images/OK3588-C_Forlinx_Desktop22_04_User_Compilation_Manual/34.png)
 
 ### 3.2 Libraries for Installing Linux Compilation System
 
