@@ -76,7 +76,7 @@ RK3588 is a low-power, high-performance processor based on ARM64 architecture, w
 
 The connection of OK3588 SoM and the carrier board is board-to-board, and the main interfaces are as follows:
 
-![Image](/1718953695308_3a5d8690_eee1_46cd_b38f_15e12e2cf6bb.png)
+![Image](/1718953695308_3a5d8690_eee1_46cd_b38f_15e12e2cf6bb-1756102906796-1.png)
 
 **Front**
 
