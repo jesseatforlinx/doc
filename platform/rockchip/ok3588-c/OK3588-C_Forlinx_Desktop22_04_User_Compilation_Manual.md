@@ -350,7 +350,7 @@ Also, the default hibernation is 5min, if you don't want to set hibernation, jus
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951646137-f8d5b537-90fc-458f-a057-1cea0b9a14e6.png)
 
-#### 3.1.4 Network Settings for Virtual Machines
+### 3.1.4 Network Settings for Virtual Machines
 
 ##### 3.1.4.1 NAT Connection Method
 
@@ -366,13 +366,13 @@ When the VMware virtual NIC device is in bridge mode, the host NIC and the virtu
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/45535139/1718951646661-1ba28248-fc7b-47fe-8edf-5118e8156279.png)
 
-1. ### 3.2 Libraries for Installing Linux Compilation System
+### 3.2 Libraries for Installing Linux Compilation System
 
-   Note: If you use the development environment provided by us, this section can be skipped directly.
+Note: If you use the development environment provided by us, this section can be skipped directly.
 
-   Compiling for Linux requires the installation of a number of toolkits. Make sure that your computer or virtual machine can be connected to the Internet normally before the operation in this section. If the network is disconnected during the installation, please follow the following steps to install.
+Compiling for Linux requires the installation of a number of toolkits. Make sure that your computer or virtual machine can be connected to the Internet normally before the operation in this section. If the network is disconnected during the installation, please follow the following steps to install.
 
-   1. Install the necessary packages for compiling Linux.
+1. Install the necessary packages for compiling Linux.
 
 ```plain
 forlinx@ubuntu:~$ sudo apt-get update
