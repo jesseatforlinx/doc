@@ -174,7 +174,7 @@ The OK3588 development board has two system login methods, serial and network lo
 
 The debug serial port on the development board is a Type-C socket, allowing users to connect the development board to a PC using a USB to Type-C cable to monitor the status of the development board.
 
-![Image](images/OK3588-C_Android_12_User_Manual/1.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/1.png)
 
 ### **2.2 Debugging Serial Driver Installation**
 
@@ -199,7 +199,7 @@ In the following, we take the putty terminal software as an example to introduce
 
 Step 1: Connect the serial port number of the computer---check the serial port number from the device manager (Based on the port actually recognized by the computer );
 
-![Image](images/OK3588-C_Android_12_User_Manual/2.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/2.png)
 
 Step 2: Open and set up putty, then set the“ line according to the COM port of the computer used, baud rate 115200;
 
@@ -413,7 +413,7 @@ In general, the power can be turned off directly. If there is data storage, func
 
 Swipe up on the main screen to bring up the following screen.
 
-![Image](images/OK3588-C_Android_12_User_Manual/3.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/3.png)
 
 **Note: After software version updates, there may be minor differences, which do not represent the actual images for each subsequent version update and are provided for reference only.**
 
@@ -421,19 +421,19 @@ Swipe up on the main screen to bring up the following screen.
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940852445_596f8ecb_5e13_45b8_a0a9_eb9b20e905cd.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/4.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/4.png)
 
 Click application interface to enter the system interface.
 
-![Image](images/OK3588-C_Android_12_User_Manual/5.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/5.png)
 
 Click "Language and input method" to enter the language setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/6.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/6.png)
 
 Click "Language" to enter the language selection interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/7.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/7.png)
 
 Click "Add Language" to add a new language.
 
@@ -449,13 +449,13 @@ Click "![Image](./images/OK3588-C_Android_12_User_Manual/1718940853535_9a11c3e1_
 
 Configure permissions:
 
-![Image](images/OK3588-C_Android_12_User_Manual/8.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/8.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/9.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/9.png)
 
 After configuration, enter the picture and video view:
 
-![Image](images/OK3588-C_Android_12_User_Manual/10.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/10.png)
 
 Click on the pictures and videos to view:
 
@@ -467,11 +467,11 @@ Store the audio file to be played into the TF card, and insert the TF card into 
 
 Click "![Image](./images/OK3588-C_Android_12_User_Manual/1718940855553_619a0b2a_7e14_4f3f_ae84_01e76703daf9.png)" in the application interface to enter the music player interface.
 
-![Image](images/OK3588-C_Android_12_User_Manual/11.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/11.png)
 
 Click "![Image](./images/OK3588-C_Android_12_User_Manual/1718940855977_8cea84b4_558d_4351_9370_08b40b4a8bd3.png)" in the interface to enter the song list interface.
 
-![Image](images/OK3588-C_Android_12_User_Manual/12.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/12.png)
 
 Click Play Music to enter the play interface.
 
@@ -483,61 +483,61 @@ The priority of sound playback is headphone > HDMI audio > carrier board speaker
 
 Click the video "![Image](./images/OK3588-C_Android_12_User_Manual/1718940856611_8bb56dd9_9cfa_4a14_9df7_12b8308fa6a2.png)" in the application interface to enter the recorder interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/13.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/13.png)
 
 Configure permissions:
 
-![Image](images/OK3588-C_Android_12_User_Manual/14.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/14.png)
 
 Click the round button to start recording: (Note: the pointer will swing according to the sound level during normal recording).
 
-![Image](images/OK3588-C_Android_12_User_Manual/17.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/17.png)
 
 Click the square button to stop recording, and finally click the done button to save.
 
-![Image](images/OK3588-C_Android_12_User_Manual/18.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/18.png)
 
 Click the "![Image](./images/OK3588-C_Android_12_User_Manual/1718940857811_48b7d1f3_2894_43fc_aae3_3424122ac6a7.png)" button below to display the previously recorded audio file.
 
-![Image](images/OK3588-C_Android_12_User_Manual/19.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/19.png)
 
 Click on the audio file you want to play, and the recording will start playing.
 
-![Image](images/OK3588-C_Android_12_User_Manual/20.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/20.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/21.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/21.png)
 
 ### **3.7 Volume Adjustment**
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940858645_25cf73f5_ebd1_4f1e_a54b_407d27052933.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/22.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/22.png)
 
 Click "Sound" in the settings interface to enter the volume settings interface.
 
-![Image](images/OK3588-C_Android_12_User_Manual/23.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/23.png)
 
 This interface allows you to adjust each section's volume and supports media volume adjustment using the physical buttons VOL- and VOL+ on the base plate. The default alarm tone is Cesium. Click "Default Alarm Tone" to modify it.
 
-![Image](images/OK3588-C_Android_12_User_Manual/24.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/24.png)
 
 ### **3.8 Display Settings**
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940859453_95a99126_d6b7_4096_a0d7_5dcfba9d61c0.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/25.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/25.png)
 
 Click "Display" in the setting interface, enter the display setting interface, and select "Brightness" for the backlight setting, then the brightness adjustment slider will appear, adjust the brightness. Because the development board provided by Forlinx does not have a power sensing chip, the automatic screen rotation function in the advanced options does not work.
 
-![Image](images/OK3588-C_Android_12_User_Manual/26.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/26.png)
 
 The default setting of OK3588 is to never turn off the screen. If you need to sleep and wake up, please click the "Screen timeout" option to select the sleep time.
 
-![Image](images/OK3588-C_Android_12_User_Manual/27.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/27.png)
 
 Select screen sleep time.
 
-![Image](images/OK3588-C_Android_12_User_Manual/28.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/28.png)
 
 If there is no operation on the interface within the set sleep time, the screen will enter the sleep mode, and pressing the PWRON physical button on the carrier board will wake up the screen.
 
@@ -545,25 +545,25 @@ If there is no operation on the interface within the set sleep time, the screen 
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940860464_22ea1d4e_1a24_405a_b710_bd64a3294b1f.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/29.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/29.png)
 
 Select "System," where you can change the date and time, and even after power failure, the time can still be synchronized (ensure that the button battery is installed on the board).
 
-![Image](images/OK3588-C_Android_12_User_Manual/30.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/30.png)
 
 The default is "Turn off network-provided time" and the time format is 24 hours.
 
 Set the date and time separately：
 
-![Image](images/OK3588-C_Android_12_User_Manual/31.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/31.png)
 
 Click on “Set Date.”
 
-![Image](images/OK3588-C_Android_12_User_Manual/32.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/32.png)
 
 Click on “Set Time.”
 
-![Image](images/OK3588-C_Android_12_User_Manual/33.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/33.png)
 
 ### **3.10 Ethernet Test**
 
@@ -579,37 +579,37 @@ Prepare a router and a network cable that can be connected to the external netwo
 
 After inserting the network cable, click "![Image](./images/OK3588-C_Android_12_User_Manual/1718940861904_5044199e_b450_41db_a258_99db21943c31.png)" on the application interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/34.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/34.png)
 
 Click "Network and Internet":
 
-![Image](images/OK3588-C_Android_12_User_Manual/35.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/35.png)
 
 Click "Ethernet ETH0" to choose to automatically obtain IP DHCP or static IP. DHCP is recommended. If you set a static IP, make sure your network parameters are available.
 
 Click "Ethernet":
 
-![Image](images/OK3588-C_Android_12_User_Manual/36.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/36.png)
 
 The default IP acquisition method is "dhcp". If you want to set a static IP, click "Ethernet" Ip mode:
 
-![Image](images/OK3588-C_Android_12_User_Manual/37.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/37.png)
 
 Select Static for static IP configuration:
 
-![Image](images/OK3588-C_Android_12_User_Manual/38.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/38.png)
 
 Click "CONNECT" to complete the configuration:
 
-![Image](images/OK3588-C_Android_12_User_Manual/39.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/39.png)
 
 Click Lightning on the application interface for network test:
 
-![Image](images/OK3588-C_Android_12_User_Manual/40.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/40.png)
 
 Enter "[http://www.forlinx. net](http://www.forlinx.com)” in the domain name column and click "Start" to enter the official website of Forlinx.
 
-![Image](images/OK3588-C_Android_12_User_Manual/41.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/41.png)
 
 ### **3.11 WiFi Internet**
 
@@ -620,19 +620,19 @@ Enter "[http://www.forlinx. net](http://www.forlinx.com)” in the domain name c
 
 The OK3588 supports two modules onboard, the AW-CM276MA and the AW-XM458. Open Settings, select "Network \& Internet", and click "WLAN":
 
-![Image](images/OK3588-C_Android_12_User_Manual/42.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/42.png)
 
 Click "Use WLAN":
 
-![Image](images/OK3588-C_Android_12_User_Manual/43.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/43.png)
 
 Click on the WIFI to be connected and enter the password:
 
-![Image](images/OK3588-C_Android_12_User_Manual/44.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/44.png)
 
 After successful connection, you can open the browser and enter the URL for network test:
 
-![Image](images/OK3588-C_Android_12_User_Manual/45.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/45.png)
 
 ### **3.12 WiFi Hotspot Test**
 
@@ -640,25 +640,25 @@ OK3588 supports the sharing of Ethernet or mobile networks through WIFI for WIFI
 
 Click "Hotspot \&tethering":
 
-![Image](images/OK3588-C_Android_12_User_Manual/46.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/46.png)
 
 Click WLAN Hotspot:
 
-![Image](images/OK3588-C_Android_12_User_Manual/47.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/47.png)
 
 Enable the WLAN hotspot and set the hot spot name and password:
 
-![Image](images/OK3588-C_Android_12_User_Manual/48.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/48.png)
 
 First set the hotspot name:
 
-![Image](images/OK3588-C_Android_12_User_Manual/49.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/49.png)
 
 Click “Confirm”.
 
 Set hotspot password:
 
-![Image](images/OK3588-C_Android_12_User_Manual/50.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/50.png)
 
 Click “Confirm”.
 
@@ -676,23 +676,23 @@ The OK3588 carrier board supports 4G modules (EM05) and 5G modules (RM500U, RM50
 
 Open Settings, select "Network and Internet", and click "SIM card":
 
-![Image](images/OK3588-C_Android_12_User_Manual/51.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/51.png)
 
 The default mobile network is on:
 
-![Image](images/OK3588-C_Android_12_User_Manual/52.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/52.png)
 
 Link 4G is displayed in the drop-down menu for successful links.
 
-![Image](images/OK3588-C_Android_12_User_Manual/53.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/53.png)
 
 After successful connection, you can open the browser for network test:
 
-![Image](images/OK3588-C_Android_12_User_Manual/54.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/54.png)
 
 The test method of 5G is the same as that of 4G, and the difference is that the icon display is different:
 
-![Image](images/OK3588-C_Android_12_User_Manual/55.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/55.png)
 
 ### **3.14 Bluetooth Test**
 
@@ -705,21 +705,21 @@ The testing method is as follows:
 
 Click  “![Image](./images/OK3588-C_Android_12_User_Manual/1718940867672_c4726e29_409b_4b9c_9c13_fbf2c62f6f27.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/56.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/56.png)
 
 Click "Connected device" to enter the Bluetooth setting interface.
 
-![Image](images/OK3588-C_Android_12_User_Manual/57.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/57.png)
 
 Click "+ pair with new device", open PC Bluetooth to scan at the same time, and click the Bluetooth device to be connected.
 
-![Image](images/OK3588-C_Android_12_User_Manual/58.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/58.png)
 
 Click "Pairing", the mobile phone performs the corresponding pairing operation, and the interface of successful Bluetooth connection displays:
 
-![Image](images/OK3588-C_Android_12_User_Manual/59.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/59.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/60.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/60.png)
 
 1\. File transfer file test:
 
@@ -727,29 +727,29 @@ Accept the file:
 
 The mobile phone shares photos to the OK3588 using Bluetooth; click "Accept" will start the outgoing.
 
-![Image](images/OK3588-C_Android_12_User_Manual/61.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/61.png)
 
 The transfer progress will be displayed in the prompt bar, and you can view the picture after the transfer is completed.
 
-![Image](images/OK3588-C_Android_12_User_Manual/62.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/62.png)
 
 2\. File transfer test:
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940869617_06edf6aa_22e3_4f59_af5d_270bc2e68288.png)” File Application to enter the file system interface.
 
-![Image](images/OK3588-C_Android_12_User_Manual/63.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/63.png)
 
 Select an image and click the share button in the top right corner "![Image](./images/OK3588-C_Android_12_User_Manual/1718940870088_cacd908e_01fa_4c16_ac60_1f739f41acb3.png)".
 
-![Image](images/OK3588-C_Android_12_User_Manual/64.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/64.png)
 
 Send via Bluetooth.
 
-![Image](images/OK3588-C_Android_12_User_Manual/65.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/65.png)
 
 Select the previously paired device, select the phone to receive the file, and the Bluetooth transfer will start.
 
-![Image](images/OK3588-C_Android_12_User_Manual/66.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/66.png)
 
 You can view the transfer progress in the notification bar, and after the transfer is complete, you can view the received images on your phone.
 
@@ -799,25 +799,25 @@ It is a test of TF card and USB storage device. Insert the USB device into the O
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940870904_e0b170d3_9008_46d8_94b6_6d9a01ebbc64.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/67.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/67.png)
 
 Click "Storage" to view the internal storage device and the inserted U disk device:
 
-![Image](images/OK3588-C_Android_12_User_Manual/68.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/68.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/69.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/69.png)
 
 Click "MASS U disk" to view the contents of the U disk for reading and writing:
 
-![Image](images/OK3588-C_Android_12_User_Manual/70.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/70.png)
 
 Click the “File”.
 
-![Image](images/OK3588-C_Android_12_User_Manual/71.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/71.png)
 
-The TF card reading and writing method is the same as the U disk reading and writing test method. Insert the TF card into the TF card slot, and the system will automatically detect the insertion of the TF card. You can also view the contents of the TF card in the storage interface:![Image](images/OK3588-C_Android_12_User_Manual/72.png)
+The TF card reading and writing method is the same as the U disk reading and writing test method. Insert the TF card into the TF card slot, and the system will automatically detect the insertion of the TF card. You can also view the contents of the TF card in the storage interface:![Image](./images/OK3588-C_Android_12_User_Manual/72.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/73.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/73.png)
 
 ### **3.17 USB Mouse Test**
 
@@ -829,7 +829,7 @@ The OK3588 development board supports USB OTG functionality.
 
 Typec0 of the development board is connected to the computer through the otg cable, and the computer will recognize the board as follows:
 
-![Image](images/OK3588-C_Android_12_User_Manual/74.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/74.png)
 
 ### **3.19 Serial Port Test**
 
@@ -867,7 +867,7 @@ Click the "CONSOLE" option in the previous menu to perform the send-receive test
 
 Click![Image](./images/OK3588-C_Android_12_User_Manual/1718940877395_f50e79a6_5822_45bb_ab34_43f1f2dd0f9a.png) "forlinux \_ watchdog \_ test" "on the application interface to enter the watchdog test:
 
-![Image](images/OK3588-C_Android_12_User_Manual/75.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/75.png)
 
 ![Image](./images/OK3588-C_Android_12_User_Manual/1718940877945_df761718_b899_45c8_9b4c_82f4f8c301b8.png)
 
@@ -885,27 +885,27 @@ If a timeout (timeout of 10S) is not performed to feed the dog, the system reboo
 
 Click on the camera in the application interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/79.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/79.png)
 
 Configure permissions:
 
-![Image](images/OK3588-C_Android_12_User_Manual/80.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/80.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/81.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/81.png)
 
 Enter the preview interface and click the photo button on the right to take a photo:
 
-![Image](images/OK3588-C_Android_12_User_Manual/82.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/82.png)
 
 Swipe the screen to the right to open the options for switching between photo and video mode, as well as accessing settings.
 
-![Image](images/OK3588-C_Android_12_User_Manual/83.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/83.png)
 
 
 
 Tap on the settings button in the top right corner to adjust settings such as resolution and image quality.
 
-![Image](images/OK3588-C_Android_12_User_Manual/84.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/84.png)
 
 Click the video button to enter the video preview interface:
 
@@ -921,13 +921,13 @@ Please power off first, plug in two OV13850 Cameras, and power on to start.
 
 Click on the camera in the application interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/86.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/86.png)
 
 Configure permissions:
 
-![Image](images/OK3588-C_Android_12_User_Manual/87.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/87.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/88.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/88.png)
 
 Enter the preview interface and click the photo button on the right to take a photo:<u><font style="color:#000000;"> </font></u>![Image](./images/OK3588-C_Android_12_User_Manual/1721891522720_eb5d5aeb_42f4_4d65_922b_c9d18c969360.png)<u><font style="color:#000000;"></font></u>![Image](./images/OK3588-C_Android_12_User_Manual/1721891610968_dc014b4a_f46b_49bc_adea_a9d9fd012028.png)
 
@@ -951,17 +951,17 @@ OK3588 platform supports dynamic setting of HDMI resolution.
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940883852_a3c1f1bf_e337_4385_a7a7_d93b311dd079.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/89.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/89.png)
 
 Click "Display", select "Advanced", and click "HDMI" to configure HDMI:
 
-![Image](images/OK3588-C_Android_12_User_Manual/90.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/90.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/91.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/91.png)
 
 You can dynamically select the desired resolution based on the resolution supported by the current HDMI screen:
 
-![Image](images/OK3588-C_Android_12_User_Manual/92.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/92.png)
 
 After restarting, the device will take effect.
 
@@ -971,19 +971,19 @@ The OK3588 platform supports restoring factory settings.
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940884897_dfc7fe83_d595_4703_89e0_38963a2b0609.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/93.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/93.png)
 
 Click "System":
 
-![Image](images/OK3588-C_Android_12_User_Manual/94.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/94.png)
 
 Click "Reset option" and select "Clear all data (restore factory settings)":
 
-![Image](images/OK3588-C_Android_12_User_Manual/95.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/95.png)
 
 Then click "Clear All Data".
 
-![Image](images/OK3588-C_Android_12_User_Manual/96.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/96.png)
 
 Wait for OK3588 to restore the default factory settings. Please do not power off during the process of restoring the factory settings.
 
@@ -991,21 +991,21 @@ Wait for OK3588 to restore the default factory settings. Please do not power off
 
 After loading the TF card according to the previous steps, you can see an APK file after entering the TF card directory.
 
-![Image](images/OK3588-C_Android_12_User_Manual/97.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/97.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/98.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/98.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/99.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/99.png)
 
 Double-click the APK file to install and configure permissions:
 
-![Image](images/OK3588-C_Android_12_User_Manual/100.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/100.png)
 
 Click "Install" to complete the installation:
 
-![Image](images/OK3588-C_Android_12_User_Manual/101.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/101.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/102.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/102.png)
 
 ### **3.25 WiFi ADB Test**
 
@@ -1013,47 +1013,47 @@ Click "Install" to complete the installation:
 
 Follow the previous section to connect to WIFI, click "![Image](./images/OK3588-C_Android_12_User_Manual/1718940888104_c9c97cbc_3d2b_4115_979a_dcdce047e2d1.png)" after successfully connecting to WIFI:
 
-![Image](images/OK3588-C_Android_12_User_Manual/103.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/103.png)
 
 Click on "About Tablet":
 
-![Image](images/OK3588-C_Android_12_User_Manual/104.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/104.png)
 
 Continuously click the "version number" prompt to enter the development mode:
 
-![Image](images/OK3588-C_Android_12_User_Manual/105.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/105.png)
 
 Return to the previous layer and select "System" in the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/106.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/106.png)
 
 Select the developer option, turn off "USB Debugging" and turn on "Wireless Debugging":
 
-![Image](images/OK3588-C_Android_12_User_Manual/107.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/107.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/108.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/108.png)
 
 Record the IP address and port of the current WIFI
 
-![Image](images/OK3588-C_Android_12_User_Manual/109.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/109.png)
 
 Open the window command control window and enter "adb connect 192.168. 1.61: 43985" to connect to wifi:
 
-![Image](images/OK3588-C_Android_12_User_Manual/110.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/110.png)
 
 Type "adb devices" to see the connected devices. Enter "adb shell" to access the device terminal.
 
-![Image](images/OK3588-C_Android_12_User_Manual/111.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/111.png)
 
 Type "adb disconnect" to disconnect, and then type "adb devices" to see the devices.
 
-![Image](images/OK3588-C_Android_12_User_Manual/112.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/112.png)
 
 ### **3.26 ROOT Permission Test**
 
 Follow the previous sections to enter developer mode.
 
-![Image](images/OK3588-C_Android_12_User_Manual/113.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/113.png)
 
 Click "Root Authorization" to restart the OK 3588 board.
 
@@ -1073,7 +1073,7 @@ The current version supports showing/hiding navigation bar and slide bar.
 
 Follow the previous sections to enter developer mode.
 
-![Image](images/OK3588-C_Android_12_User_Manual/113.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/113.png)
 
 Select "Allow navigation bar to be hidden" and "Allow top slide bar to be hidden".
 
@@ -1121,7 +1121,7 @@ Test by placing the item in front of the camera will automatically recognize the
 
 OK3588 does not lock the screen by default. If you need to lock the screen, you can modify it through Settings-> Security-> Screen Lock, as follows:
 
-![Image](images/OK3588-C_Android_12_User_Manual/116.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/116.png)
 
 Under Screen Lock, you can specify how to lock the screen.
 
@@ -1303,11 +1303,11 @@ Click "STOP" to stop the test:
 
 Click “![Image](./images/OK3588-C_Android_12_User_Manual/1718940901692_caf76820_7a46_478c_81e4_54789c411b9e.png)”, on the application interface to enter the setting interface:
 
-![Image](images/OK3588-C_Android_12_User_Manual/118.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/118.png)
 
 Click on "Network and Internet" to enter.
 
-![Image](images/OK3588-C_Android_12_User_Manual/119.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/119.png)
 
 Click "Controller Area Network" to enter the can setting interface. Set the mode and use frequency of the two can in this interface.
 
@@ -1341,11 +1341,11 @@ Extract the above path file to any directory and run it with administrator privi
 
 Open DriverInstall.exe
 
-![Image](images/OK3588-C_Android_12_User_Manual/130.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/130.png)
 
 Click "Driver Installation”
 
-![Image](images/OK3588-C_Android_12_User_Manual/131.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/131.png)
 
 #### **4.1.2 OTG Flashing Test**
 
@@ -1361,11 +1361,11 @@ It is a development tool provided by Rockchip Micro. Unzip it to a full English 
 
 Open the Rockchip development tool:
 
-![Image](images/OK3588-C_Android_12_User_Manual/140.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/140.png)
 
 Click the "Upgrade Firmware" tab, click the "Firmware" button to select the full upgrade image update.img. The program will be parsing the firmware, so wait a while.
 
-![Image](images/OK3588-C_Android_12_User_Manual/141.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/141.png)
 
 Click the "Upgrade" button to upgrade.
 
@@ -1373,7 +1373,7 @@ Click the "Upgrade" button to upgrade.
 
 If the loader is damaged and cannot enter the Loader mode, press and hold the red Maskrom key and then press the reset key to enter the maskrom mode for flashing.
 
-![Image](images/OK3588-C_Android_12_User_Manual/142.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/142.png)
 
 At this time, the system will prompt the discovery of a maskrom device. The flashing process is consistent with the loader mode, so it is best to use an update.img burning.
 
@@ -1383,7 +1383,7 @@ At this time, the system will prompt the discovery of a maskrom device. The flas
 
 This feature is useful when you need to download a separate image. This function is only applicable in loader flashing mode.
 
-![Image](images/OK3588-C_Android_12_User_Manual/143.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/143.png)
 
 1. Click ① Download image tab
 2. Click ② Device partition table to read the mirror partition location
@@ -1400,13 +1400,13 @@ Factory Tool is a factory batch OTG flashing tool, which does not need to read t
 
 Open the Rockchip development tool:
 
-![Image](images/OK3588-C_Android_12_User_Manual/144.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/144.png)
 
 Click to select the firmware, and click to start. At this time to recognize the loader device will automatically start burning.
 
-![Image](images/OK3588-C_Android_12_User_Manual/145.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/145.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/146.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/146.png)
 
 ### **4.2 TF Card Flashing**
 
@@ -1416,13 +1416,13 @@ TF card production, flashing and testing
 
 Copy SDDiskTool\_v1.69.zip from the user profile tools directory to any directory on windows. Run SD\_Firmware\_Tool.exe with administrator privileges.
 
-![Image](images/OK3588-C_Android_12_User_Manual/147.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/147.png)
 
 Select the disk device, check "Firmware Upgrade" and select update.img. Click Start Creating.
 
-![Image](images/OK3588-C_Android_12_User_Manual/148.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/148.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/149.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/149.png)
 
 Insert the TF card into the development board and start, the system will automatically enter the flashing process. When the flashing is complete, both the screen and the serial port will prompt:
 
@@ -1473,7 +1473,7 @@ adb push updata.zip /data/media/0/
 
 After waiting for a while, the interface prompts whether to install the upgrade package window.
 
-![Image](images/OK3588-C_Android_12_User_Manual/150.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/150.png)
 
 Click "Installation”.
 
@@ -1487,7 +1487,7 @@ When completed, it will automatically restart to the main Android interface.
 
 After the system restarts, a dialog box pops up on the interface to prompt congratulations on the success of the upgrade.
 
-![Image](images/OK3588-C_Android_12_User_Manual/151.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/151.png)
 
 Click "Yes".
 
@@ -1524,13 +1524,13 @@ Disable apache-tomcat
 
 Connect network and power up OK3588 board, and the prompt dialog box will pop up to prompt system upgrading.
 
-![Image](images/OK3588-C_Android_12_User_Manual/152.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/152.png)
 
 Click "Yes", the upgrade 1.0.1.zip file will be downloaded via http protocol.
 
-![Image](images/OK3588-C_Android_12_User_Manual/153.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/153.png)
 
-![Image](images/OK3588-C_Android_12_User_Manual/154.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/154.png)
 
 The system will restart automatically, and the serial port terminal will print as follows:
 
@@ -1538,7 +1538,7 @@ The system will restart automatically, and the serial port terminal will print a
 
 After this reboot, the android interface prompts that the upgrade is complete.
 
-![Image](images/OK3588-C_Android_12_User_Manual/155.png)
+![Image](./images/OK3588-C_Android_12_User_Manual/155.png)
 
 Click “Yes”.
 
