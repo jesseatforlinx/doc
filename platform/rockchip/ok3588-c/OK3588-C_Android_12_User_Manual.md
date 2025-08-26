@@ -664,7 +664,7 @@ Click “Confirm”.
 
 After connecting to the hotspot through the mobile phone, you can surf the Internet normally.
 
-### **3.13 4G/ 4G Module Test **
+### **3.13 4G/ 4G Module Test**
 
 **Description:**
 
