@@ -72,9 +72,9 @@ The connection of OK-MX8MPX-C SoM and the carrier board is board-to-board, and t
 
 **Front**
 
-![](https://cdn.nlark.com/yuque/0/2025/jpeg/50461850/1745908626781-6918661d-e69c-4e6e-9f87-30435731f989.jpeg)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908626781_6918661d_e69c_4e6e_9f87_30435731f989.jpeg)
 
-**Back**![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908626905-40e3abd0-4cc4-47dc-bdf7-743d1d729e38.png)
+**Back**![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908626905_40e3abd0_4cc4_47dc_bdf7_743d1d729e38.png)
 
 **Note：**
 
@@ -143,7 +143,7 @@ The debug serial port on the development board is a Type-C USB jack, so users ca
 + Network cable (for network login)
 + According to the development board interface to connect the screen (Based on display needs).
 
-![](https://cdn.nlark.com/yuque/0/2025/jpeg/50461850/1745908628675-0b2af7eb-68d2-411d-8444-1f7fcc4b3106.jpeg)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908628675_0b2af7eb_68d2_411d_8444_1f7fcc4b3106.jpeg)
 
 ### 2.2 Debugging Serial Driver Installation
 
@@ -167,15 +167,15 @@ In the following, we take the putty terminal software as an example to introduce
 
 Step 1: First, you need to confirm the serial port number of the device connected to the computer. The OK-MX8MPX-C will generate two serial port numbers. Among them, SERIAL-A is the Linux debugging serial port. Check the serial port number in the Device Manager, and the actual port number recognized by the computer shall prevail.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908628806-971ca6ed-1e5a-4196-b8d8-82b3ddb228cc.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908628806_971ca6ed_1e5a_4196_b8d8_82b3ddb228cc.png)
 
 Step 2: Open and set up putty, then set the“ line according to the COM port of the computer used, baud rate 115200;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908628873-baa71895-283e-4a4b-b419-ff88f1316b1a.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908628873_baa71895_283e_4a4b_b419_ff88f1316b1a.png)
 
 Step 3: After the setting, input the COM port used by the computer in Saved Sessions. The following figure takes COM3 as an example, save the settings, open the serial port again later, and click on the saved port number;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908628962-f2db0f80-37be-440b-bfa8-0faed4ebbd44.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908628962_f2db0f80_37be_440b_bfa8_0faed4ebbd44.png)
 
 Step 4: Turn on the power switch of the development board, then there will be a print message output from the serial port (no need to login).
 
@@ -223,11 +223,11 @@ Before logging into the network, ensure that the direct network connection betwe
 
 2\. Close the computer firewall (General computer operations, not described here in detail), then open the computer's run command;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908629029-aef97609-6a61-491d-b623-a64b29db71ae.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908629029_aef97609_6a61_491d_b623_a64b29db71ae.png)
 
 3\. Use cmd to open the administrator interface , and the ping command to test the network connection status of the computer and the development board.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908629111-824b4802-f307-4d2d-9f27-b1f1e88b646c.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908629111_824b4802_f307_4d2d_9f27_b1f1e88b646c.png)
 
 A data return indicates a normal network connection.
 
@@ -253,11 +253,11 @@ eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 root@OK-MX8MPX-C:~# 
 ```
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908629185-af08a7dd-e19b-430b-b898-5cc41bca3a95.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908629185_af08a7dd_e19b_430b_b898_5cc41bca3a95.png)
 
 2\. Click "Open", the following dialog box will appear, click "Accept" to enter the login interface.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908629320-934dd0cc-11a0-478f-b5cf-d46e540c63a7.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908629320_934dd0cc_11a0_478f_b5cf_d46e540c63a7.png)
 
 ```plain
 Login as：root //No password required for root login                      
@@ -274,7 +274,7 @@ Install the FileZilla tool on Windows and follow the steps shown in the image be
 
 Open the FileZilla tool, click on File and select Site Manager.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908629401-8a3ce9de-f9d5-48f0-b2d3-0d733333294b.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908629401_8a3ce9de_f9d5_48f0_b2d3_0d733333294b.png)
 
 After successful login, you can upload and download.
 
@@ -324,7 +324,7 @@ Device tree path: OK-MX8-linux-kernel/arch/arm64/boot/dts/freescale/OK8MP-C.dts
 
 In the kernel source code, open the device dtsi file and find the following node:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908629483-9167d46f-797b-4045-b931-0fb4ef02dbc6.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908629483_9167d46f_797b_4045_b931_0fb4ef02dbc6.png)
 
 The node has a default disabled state and needs to be changed to an okay enabled node. Change according to screen requirements.
 
@@ -395,9 +395,9 @@ This chapter mainly explains the usage of the expansion interfaces on the develo
 
 The desktop is displayed as follows after the board booting:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908630898-0ce73d2e-8b84-4c31-a099-0c78cae419fb.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908630898_0ce73d2e_8b84_4c31_a099_0c78cae419fb.png)
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908630975-afcec349-50c2-41d1-932a-4b8af85b1334.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908630975_afcec349_50c2_41d1_932a_4b8af85b1334.png)
 
 **Note: Icon order may vary.**
 
@@ -410,7 +410,7 @@ The desktop is displayed as follows after the board booting:
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908631090-8a712dac-0c30-4a03-85a5-accb861a7f51.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908631090_8a712dac_0c30_4a03_85a5_accb861a7f51.png)
 
 Clicking on the network configuration icon will open a interface program that supports two modes: STATIC and DHCP.
 
@@ -427,7 +427,7 @@ After clicking on the network configuration icon, select the STATIC mode as show
 | dns| Input the DNS address
 | Apply and Restart Network| Apply and restart the network
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908631177-7b49aa9e-fa11-4e9e-b474-161c9d1c2297.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908631177_7b49aa9e_fa11_4e9e_b474_161c9d1c2297.png)
 
 #### 3.2.2 DHCP Mode
 
@@ -435,7 +435,7 @@ Check DHCP, select the NIC device needing to be configured, and click “Apply a
 
 Note: The test must be performed on a router that can automatically assign IP.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908631274-96dc36bd-9cd3-4f99-b303-a48f83af2de8.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908631274_96dc36bd_9cd3_4f99_b303_a48f83af2de8.png)
 
 Restart the development board, and you can see that the network configuration is in effect.
 
@@ -445,24 +445,24 @@ OK-MX8MPX-C supports OpenGL ES3.2, click the desktop icon for OpenGL test.
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908631397-5581bef3-94d5-4a7a-89f9-533c9617f5da.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908631397_5581bef3_94d5_4a7a_89f9_533c9617f5da.png)
 
 OK-MX8MPX-C supports EGL 1.5，OpenGL ES2.0.   
 Click the icon to enter the OpenGL test interface.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908631497-4f3ed29c-f0e7-4fbd-a0d1-aa5f62c37324.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908631497_4f3ed29c_f0e7_4fbd_a0d1_aa5f62c37324.png)
 
 ### 3.4 4G/5G Test
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908631813-2be48c1b-ead5-4ca6-a227-1a7c4a5e0b8b.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908631813_2be48c1b_ead5_4ca6_a227_1a7c4a5e0b8b.png)
 
 The 4G test procedure is used to test the OK-MX8MPX-C external 4G module (EM05-CE) and 5G module (RM500Q-GL). Before the test, please power off the development board, connect the module, insert the SIM card (pay attention to the direction of the SIM card), toggle the switch (S3) to select the 4G, 5G mode, and start the development board to open the test application. This test takes 4G as an example:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632030-3bacd6c5-a315-4327-ae53-2b6a9d5cdc39.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632030_3bacd6c5_a315_4327_ae53_2b6a9d5cdc39.png)
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632133-7d7283ef-3f76-4ec8-8916-e898a41a5743.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632133_7d7283ef_3f76_4ec8_8916_e898a41a5743.png)
 
 Click the CONNECT button then the program will automatically enter the dialing process and get the IP to set the DNS, etc. After waiting patiently for a few seconds, click the ping button to test it.
 
@@ -470,7 +470,7 @@ Click the CONNECT button then the program will automatically enter the dialing p
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632225-59ce1a94-95c4-4194-ae0a-064a94dccce2.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632225_59ce1a94_95c4_4194_ae0a_064a94dccce2.png)
 
 1. Click the UART test icon to enter the test application interface, click the gear icon setting button in the upper left corner, and set the serial port parameters as shown in the figure below:
 
@@ -484,7 +484,7 @@ Icon：
 | Flow control| Select flow control
 | Apply| Application Settings:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632318-b7bb2f82-aa89-4e34-afe9-7a019f155bc5.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632318_b7bb2f82_aa89_4e34_afe9_7a019f155bc5.png)
 
 2. After setting the serial port parameters, click the connect button in the upper left corner, then the program can conduct data sending and receiving tests;
 3. Run the serial port send test command in the terminal. The received data will be displayed on the screen;
@@ -493,7 +493,7 @@ Icon：
 root@OK-MX8MPX-C:~# fltest_uarttest -d /dev/ttymxc2  -w		tx_0: XEiNKcpIXrzQF4t9PqirDCTqWKgLnKoK									 
 ```
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632394-5a69db66-531e-4621-8556-0726d8d759b3.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632394_5a69db66_531e_4621_8556_0726d8d759b3.png)
 
 4. Run the serial port receive test command in the terminal. When you click the test interface, a virtual keyboard will appear. After entering 32 consecutive characters, the terminal will print the data sent by QT.
 
@@ -501,7 +501,7 @@ root@OK-MX8MPX-C:~# fltest_uarttest -d /dev/ttymxc2  -w		tx_0: XEiNKcpIXrzQF4t9P
 root@OK-MX8MPX-C:~# fltest_uarttest -d /dev/ttymxc2  -r		rx_0: 12345678901234567890123456789012									 
 ```
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632461-a65527bd-415b-4444-8a5b-9d23a100c711.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632461_a65527bd_415b_4444_8a5b_9d23a100c711.png)
 
 **Note: The data input by the soft keyboard will not be displayed on the test interface until the Enter key is pressed.**
 
@@ -511,26 +511,26 @@ root@OK-MX8MPX-C:~# fltest_uarttest -d /dev/ttymxc2  -r		rx_0: 12345678901234567
 
 + **The OK - MX8MPX - C SoM is soldered with an AW - CM276NF WiFi chip, and its operating frequency supports 2.4 GHz/5 GHz.**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632533-1a0fb928-be88-47b3-a2fb-d311d166c4b4.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632533_1a0fb928_be88_47b3_a2fb_d311d166c4b4.png)
 
 1. Click the WIFI test icon to enter the test application interface. Select the corresponding module from the drop - down menu. Enter the name of the router you need to connect to via WiFi in the SSID field, and enter the router password in the PAWD field. Then click “connect” to connect to the router via WiFi;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632607-4a18a4da-d73c-47aa-99bb-ea43b0c97104.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632607_4a18a4da_d73c_47aa_99bb_ea43b0c97104.png)
 
 2. After a successful connection, click the ping button to check if the currently used WiFi network is working properly;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632681-3a8abb1d-192a-41b1-8c1d-08a5538068ea.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632681_3a8abb1d_192a_41b1_8c1d_08a5538068ea.png)
 
 ### 3.7 RTC Test
 
 **Note: Ensure that button cell batteries are installed on the board and the battery voltage is normal Icon：**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632742-835fab74-76c5-4411-ad6e-301f3f18787b.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632742_835fab74_76c5_4411_ad6e_301f3f18787b.png)
 
 RTC test includes setting time, power cycling, rerunning test software, and verifying RTC sync.   
 Run the RTC test software to view and set the current system time with the following interface:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632837-8c33abed-d0dc-4035-9085-feba7da0f129.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632837_8c33abed_d0dc_4035_9085_feba7da0f129.png)
 
 Click “set” to adjust the time settings, then click “save” to finish the settings. After powering off and waiting, reboot and rerun the RTC test software to synchronize and confirm the RTC test is normal.
 
@@ -538,11 +538,11 @@ Click “set” to adjust the time settings, then click “save” to finish the
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908632914-4afffdf5-7cd7-42cc-b7c2-dc78bb22038f.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908632914_4afffdf5_7cd7_42cc_b7c2_dc78bb22038f.png)
 
 “WatchDog" tests the functionality of the watchdog feature. Interface as follows:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633005-4fd1369a-945e-483b-ac5c-e01942447ec3.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633005_4fd1369a_945e_483b_ac5c_e01942447ec3.png)
 
 Check feed dog and click the open watchdog key, then the watchdog will be activated, the program will carry out the feeding operation, and the system will not reboot under normal circumstances; when unchecking feed dog and clicking open watchdog key, the watchdog function will be activated, the program will not carry out the feeding operation, and the system enters into a reboot after the watchdog is activated for about 10s, which indicates that the watchdog function is normal.
 
@@ -550,25 +550,25 @@ Check feed dog and click the open watchdog key, then the watchdog will be activa
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633087-9e74fa75-046e-46ff-9ede-84a608f0f10f.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633087_9e74fa75_046e_46ff_9ede_84a608f0f10f.png)
 
 "Ping" is a graphical tool for network testing, offering a user-friendly interface for ping operations.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633156-777ca5ff-ea67-4eab-9c6c-61504ea86d7c.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633156_777ca5ff_ea67_4eab_9c6c_61504ea86d7c.png)
 
 Write the target ip needing ping in the hostname field;  after clicking the ping button, the RESULT column will indicate the result, click stop to end the ping test and clear to clean the information in the result.   
 As shown in the figure, the network connection is smooth.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633233-f293a788-8298-4acd-a9f1-2a402954d297.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633233_f293a788_8298_4acd_a9f1_2a402954d297.png)
 
 ### 3.10 Camera Test
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633293-be4e7d27-9f8f-4067-b821-0ba412e9e016.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633293_be4e7d27_9f8f_4067_b821_0ba412e9e016.png)
 
 Click the icon to enter the camera test program and insert the USB camera.   
-Note: If the CSI ov5645 camera is used, please disconnect the power and plug it; the current test program does not support basler \_ camera.![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633381-248dc298-466e-4f31-8e6b-daeee9da4e3c.png)
+Note: If the CSI ov5645 camera is used, please disconnect the power and plug it; the current test program does not support basler \_ camera.![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633381_248dc298_466e_4f31_8e6b_daeee9da4e3c.png)
 
 Choose the camera video device node;
 
@@ -583,7 +583,7 @@ Click "Picture" to take a photo;
 Save the photo with a name and at a chosen path.   
 Take the Logitech UVC camera as an example to conduct the camera test.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633468-ddec3c6f-ddba-409e-a58f-7fe1c2a9b96f.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633468_ddec3c6f_ddba_409e_a58f_7fe1c2a9b96f.png)
 
 After Start, click the picture button to take a picture, the file save directory is /home/root/, and the format is jpg, please select the appropriate tool on Windows to view.
 
@@ -591,11 +591,11 @@ After Start, click the picture button to take a picture, the file save directory
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633569-d1c1e3ac-1b29-4787-a041-8d0557be757d.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633569_d1c1e3ac_1b29_4787_a041_8d0557be757d.png)
 
 “BackLight” is a backlight adjustment application. You can adjust the backlight brightness by dragging the progress bar left or right. Here, “dsi” is used to set the brightness of the MIPI - DSI screen, and “lvds” is for setting the brightness of the LVDS screen. After clicking to open it, the interface is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633636-357897b4-2589-434e-898f-576405e10e13.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633636_357897b4_2589_434e_898f_576405e10e13.png)
 
 You can set the backlight brightness of the corresponding screen by dragging the slider for that screen on the interface. Level 1 represents the lowest brightness, and 255 represents the highest brightness. Forlinx has made restrictions on this application. It is not allowed to use the QT application to completely turn off the backlight. If you want to completely turn off the backlight, please use the command line program or modify the QT test routine.
 
@@ -603,12 +603,12 @@ You can set the backlight brightness of the corresponding screen by dragging the
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633748-e1894519-d98c-4905-8d12-395a8bbe9cd8.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633748_e1894519_d98c_4905_8d12_395a8bbe9cd8.png)
 
 Before the recording test, please insert the prepared microphone or earphone with microphone into the 3.5mm interface, and click the icon to enter the recording test application, which can be used to test whether the recording function of the sound card is normal.   
 Select the location to save the recording file, press the "Start" button to start recording, press the "Stop" button to stop recording, click the Audio Codec radio box to select "Wave", click the FILE Container radio box to select "Wave File", click the Channels radio box to select 2, and the interface is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633821-a22bfcce-452a-49cc-a0e8-ce480b110b66.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633821_a22bfcce_452a_49cc_a0e8_ce480b110b66.png)
 
 Click the Record button to test the recording. The recording file is saved to the/tmp/record \_ \*.wav file in the root directory.
 
@@ -616,42 +616,42 @@ Click the Record button to test the recording. The recording file is saved to th
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633897-abce7818-1aed-4210-8b05-e8a7824c1c68.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633897_abce7818_1aed_4210_8b05_e8a7824c1c68.png)
 
 "music player" is a simple audio test application that can be used to test the function of the sound card or as a simple audio player. To switch the default playback device before use, click to select the fourth item; open the playback file, click the button in the lower left corner, select test audio/home/forlinx/audio/30s.mp3, and click to play after loading.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908633973-bafc76d6-9d8d-4bba-94fd-3c9cbe3aaea9.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908633973_bafc76d6_9d8d_4bba_94fd_3c9cbe3aaea9.png)
 
 ### 3.14 Qml Video Playback Test
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908634040-24559968-bbc2-4b81-8504-712576e1f714.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908634040_24559968_bbc2_4b81_8504_712576e1f714.png)
 
 Qml Video supports video playback in H264 and H265 formats, with a maximum of 1080p 60fps.   
 The qml video test program can play video based on qml. Click the icon to enter the test program interface.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908634145-dfcb6a62-cea4-47f6-b317-d7fd85205027.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908634145_dfcb6a62_cea4_47f6_b317_d7fd85205027.png)
 
 Click Select File 1 at the top to select the video file. The path of the test video file is shown in the following figure:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908634224-bb32c2f6-105e-4636-a215-7f860dd6aca2.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908634224_bb32c2f6_105e_4636_a215_7f860dd6aca2.png)
 
 Click Full Screen-inverted to start playing the video in full screen.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908634315-28a314a1-358c-470a-a1a0-6b7572aa8556.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908634315_28a314a1_358c_470a_a1a0_6b7572aa8556.png)
 
 ### 3.15 Browser Test
 
 Icon：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908634389-89a34a8a-2b07-4ae5-9486-4b1826841153.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908634389_89a34a8a_2b07_4ae5_9486_4b1826841153.png)
 
 **Note: Before testing, check whether the time of the development board is accurate. If the time of the development board is abnormal, it will cause certificate problems. Check the network.**
 
 Click the icon to enter the browser interface and enter the official website of forlinx by default.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908634478-3eebeac7-ca0d-48dd-a2c1-2bd9c58403f7.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908634478_3eebeac7_ca0d_48dd_a2c1_2bd9c58403f7.png)
 
 ## 4\. Command Line Function Test
 
@@ -915,7 +915,7 @@ Fri Mar 22 12:01:22 PM CST 2024
 ### 4.7 RS485 Test
 
 OK8MP platform UART3 is used as RS485. In this section, another mx8mpx-c mainboard is used to connect 485 serial port for transceiver test when testing 485 function.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908635952-b091aa49-1d7b-423a-bae5-0f24929bdbc1.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908635952_b091aa49_1d7b_423a_bae5_0f24929bdbc1.png)
 
 The receiving end prints as follows:
 
@@ -1109,7 +1109,7 @@ root@OK-MX8MPX-C:~# umount /run/media/sda1
 
 The OK-MX8MPX-C board is equipped with a USB-to-UART chip XR21V1414IM48. The board positions P35, P36, P37, and P39 correspond to tty device names /dev/ttyUSB0, /dev/ttyUSB1, /dev/ttyUSB2, and /dev/ttyUSB3, respectively.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908636034-008700c5-4d87-4b92-8000-fc114dc195fa.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908636034_008700c5_4d87_4b92_8000_fc114dc195fa.png)
 
 Test method: short circuit TXD and RXD.
 
@@ -1270,7 +1270,7 @@ Run iperf3 in server mode from the cmd command terminal on Windows:
 D:\iperf-3.1.3-win64\iperf-3.1.3-win64>iperf3.exe -s
 ```
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908636101-5162ea38-5f80-4fcf-a6cc-97caf4a3b735.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908636101_5162ea38_5f80_4fcf_a6cc_97caf4a3b735.png)
 
 Connect the network cable to the eth1 interface. After the system starts, eth1 will automatically obtain an IP address. Then, enter the following command in the OK-MX8MPX-C serial debugging terminal:
 
@@ -1329,7 +1329,7 @@ The upload bandwidth of the gigabit network of the OK - MX8MPX - C is 950Mbps, a
 
 **Note: The IP address of the PC needs to be in the same network segment as that of the development board for this function to work properly.**
 
-The OK - MX8MPX - C development board comes pre - installed with the lighttpd web server, and the lighttpd service is automatically started when the system boots. You can browse the web pages on the development board’s web server by entering the IP address of the development board in your browser, as shown in the following figure:![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908636170-8969ca12-fac1-4ecd-828e-49810dcb8396.png)
+The OK - MX8MPX - C development board comes pre - installed with the lighttpd web server, and the lighttpd service is automatically started when the system boots. You can browse the web pages on the development board’s web server by entering the IP address of the development board in your browser, as shown in the following figure:![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908636170_8969ca12_fac1_4ecd_828e_49810dcb8396.png)
 
 ### 4.14 WiFi/BT Test
 
@@ -1977,7 +1977,7 @@ root@OK-MX8MPX-C:~# echo 255 > /sys/class/backlight/dsi_backlight/brightness
 #### 4.20.1 CAN Bus Test
 
 The OK8MP-C platform has two FlexCAN bus interfaces and connection methods: The “H” terminal of CAN should be connected to the “H” terminal of other CAN devices. The “L” terminal of CAN should be connected to the “L” terminal of other CAN devices.   
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908636280-babb55b5-9867-41e8-aa10-e90afff6b622.png)Set can service.
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908636280_babb55b5_9867_41e8_aa10_e90afff6b622.png)Set can service.
 
 ```plain
 root@OK-MX8MPX-C:~# ip link set can0 up type can bitrate 500000
@@ -2100,7 +2100,7 @@ root@OK-MX8MPX-C:~# ip -details -statistics link show can0
 ### 4.21 SPI Interface Test
 
 An SPI interface is led out from the OK-MX8MPX-C carrier board, and the default software configures it as spidev for loopback test. When testing, refer to the schematic to short MOSI and MISO, and then use the commands below to test them separately  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908636445-dad16c15-7ce5-4457-bf53-f787389c0b41.png)  
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908636445_dad16c15_7ce5_4457_bf53_f787389c0b41.png)  
 Short circuit SPI2\_MOSI and SPI2\_MISO.
 
 ```plain
@@ -2126,7 +2126,7 @@ F0 0D
 
 #### 4.22.1  GPIO-LEDS Test
 
-The OK8MP-C SoM has a controllable blue LED, and the OKT507 SoM blue LED blinks when the board is powered up and started. You can turn off this function. Just modify the device tree file arch/arm64/boot/dts/freescale/OK8MP - C.dts and change the attribute state = "on" of the leds node to "off".![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908636558-d80586e5-3825-4299-9a7d-338bab3b6fb4.png)
+The OK8MP-C SoM has a controllable blue LED, and the OKT507 SoM blue LED blinks when the board is powered up and started. You can turn off this function. Just modify the device tree file arch/arm64/boot/dts/freescale/OK8MP - C.dts and change the attribute state = "on" of the leds node to "off".![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908636558_d80586e5_3825_4299_9a7d_338bab3b6fb4.png)
 
 ```plain
 leds {
@@ -2541,7 +2541,7 @@ root@OK-MX8MPX-C:~# gst-launch-1.0 imxcompositor_g2d name=comp sink_0::width=640
 The OK-MX8MPX-C development board is equipped with an iMX8MPLUS processor, which integrates an NPU with a computing power of up to 2.3 TOPS inside the CPU.
 
 1. TensorFlow Lite testing  
-Demo recognizes information such as people, animals, plants, and places in the input image (grace\_copper. bp).![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908638245-145df179-b4b8-4360-9c13-3944425659e4.png)
+Demo recognizes information such as people, animals, plants, and places in the input image (grace\_copper. bp).![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908638245_145df179_b4b8_4360_9c13_3944425659e4.png)
 
 Run the demo on the CPU.
 
@@ -3032,7 +3032,7 @@ Image path: User materials\\Software materials\\2 - Images and source code\\0 - 
 
 The specific image files are as shown in the figure.    
 
- ![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908641443-f01e2c2e-8a3a-4ee5-b542-32d736942d54.png)                                                                                                                        
+ ![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908641443_f01e2c2e_8a3a_4ee5_b542_32d736942d54.png)                                                                                                                        
 
 **Note: **
 
@@ -3188,7 +3188,7 @@ end !!!
 
 ramdisk.img.gz is already packaged by Forlinx, with a built-in flash script update.sh, which will be executed by default during the file system initialisation process. You can also make your own ramdsik through tools such as busybox.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908641521-9e4b4103-6808-4584-873b-6d32a997252e.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908641521_9e4b4103_6808_4584_873b_6d32a997252e.png)
 
 Copy files such as amdisk.img, okmx8mp-c-linux-fs.sdcard.a\*, Image, OK-8MP-C.dtb, OK8MP-BOOT.bin to the tf card
 
@@ -3253,10 +3253,10 @@ cd /mnt/OK-MX8-linux-sdk/freertos_8mp/boards/evkmimx8mp/demo_apps/hello_world/ar
 ```
 
 The compilation output is as follows:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908642928-f210ad13-5ab5-41b5-8ab4-fa7957d39c1f.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908642928_f210ad13_5ab5_41b5_8ab4_fa7957d39c1f.png)
 
 The hello\_world.bin file generated by compilation is in the release directory.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643003-4bc150bc-5001-42c2-9119-156bbf0c0dcb.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643003_4bc150bc_5001_42c2_9119_156bbf0c0dcb.png)
 
 Note: You can also compile other versions here, such as build\_ddr\_release.sh. There will be differences when running. Refer to the next section.
 
@@ -3266,12 +3266,12 @@ You can enter the u-boot command line during the startup of the development boar
 
 1. Serial port connection                                                                                        Since the hello\_world program uses uart4 as the debugging serial port output, please connect uart4 to the USB port of the PC using a USB to TTL converter according to the schematic diagram before starting the test. And use the serial port debugging tool to open the corresponding COM port, baud rate and other parameters set and OK8MP Debug port parameters are the same.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643077-d152bb26-7aa9-425f-82c5-6b6a4972138c.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643077_d152bb26_7aa9_425f_82c5_6b6a4972138c.png)
 
 2. Open the M7 debugging serial port.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643159-ec1a9f2b-d273-4a60-aa33-18b4633eeb89.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643159_ec1a9f2b_d273_4a60_aa33_18b4633eeb89.png)
 3. Copy the compiled hello\_world.bin to the root directory of the SD card (Fat32). Insert the SD card into the development board, restart the development board, press the space bar, select 1, and enter the u - boot command line.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643267-c680973f-71ee-490b-bd7e-46fa24d984d8.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643267_c680973f_71ee_490b_bd7e_46fa24d984d8.png)
 4. Execute the following commands in the u - boot command line:  
 For the bin files of the debug/release versions, which run on the TCM, execute the following commands (the mmc loading address may need to be adjusted according to the actual partition situation of the TF card):
 
@@ -3281,16 +3281,16 @@ u-boot=>bootaux 0x7e0000
 ```
 
 The output of uart4 is as follows:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643361-7708b8f8-0ff7-4a78-aba0-4575239ce41b.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643361_7708b8f8_0ff7_4a78_aba0_4575239ce41b.png)
 
 The output of the hello\_world program running on the M7 is as follows:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643453-8b0874c0-36cf-4e57-826c-791e5c579142.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643453_8b0874c0_36cf_4e57_826c_791e5c579142.png)
 
 ### 8.3 Heterogeneous Multi-core Communication Test
 
 Cortex A53 communicates with Cortex M7 using RPMsg (Remote Processor Messaging).   
 RPMsg is a virtio-based message-passing bus that allows kernel drivers to communicate with remote processors available on the system, such as the Cortex M7. The following figure shows a multi - core communication architecture:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643534-37372fa3-f9d1-4a0b-9da2-4009aeb1a0f8.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643534_37372fa3_f9d1_4a0b_9da2_4009aeb1a0f8.png)
 
 The MCUXpresso SDK for OK8MP includes a demo called "rpmsg\_lite\_pingpong\_rtos". This demo implements data transfer between the Cortex A53 and the Cortex M7 using shared memory. Additionally, it runs a FreeRTOS task on the Cortex M7.   
 Implement this function on the Cortex A53 side through a kernel module. The code is located at: drivers/rpmsg/imx\_rpmsg\_pingpong.c.
@@ -3305,7 +3305,7 @@ cd /mnt/OK-MX8-linux-sdk/freertos_8mp/boards/evkmimx8mp/multicore_examples/rpmsg
 ```
 
 The compilation output is as follows:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643605-d598837c-9a19-4a4c-857a-4fc924aa14e8.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643605_d598837c_9a19_4a4c_857a_4fc924aa14e8.png)
 
 The rpmsg\_lite\_pingpong\_rtos\_linux\_remote.bin file generated by compilation is in the release directory.  
 
@@ -3335,9 +3335,9 @@ u-boot=>booti 0x40400000 - 0x43000000
 ```
 
 After running the bin file, you can see the following output on the serial terminal of uart4:   
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643693-3fefe57e-7564-4ab1-a72c-cc8254c79e20.png)  
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643693_3fefe57e_7564_4ab1_a72c_cc8254c79e20.png)  
 Then enter “boot” in the A53 U - boot command line to start the kernel. At this time, you can see the following output on the serial terminal of the Cortex M7:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643781-e2dbc822-076f-4e80-9861-6aab7ccf3696.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643781_e2dbc822_076f_4e80_9861_6aab7ccf3696.png)
 
 5\. After the system to start, load the following kernel modules on the serial terminal of the Cortex A53:
 
@@ -3346,10 +3346,10 @@ modprobe imx_rpmsg_pingpong
 ```
 
 After the modules are loaded, the Cortex A53 starts to transmit data with the Cortex M7. At this time, you can see the following output on the serial terminal of the Cortex M7:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908643847-51a6df21-8804-4b7f-8dc7-20ae3bf29751.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908643847_51a6df21_8804_4b7f_8dc7_20ae3bf29751.png)
 
 At this time, you can see the following output on the serial terminal of the Cortex A53:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908644029-9f8b30a4-dffb-4fc4-a251-83377b662a70.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908644029_9f8b30a4_dffb_4fc4_a251_83377b662a70.png)
 
 ### 8.4 FreeRTOS Test
 
@@ -3364,7 +3364,7 @@ cd /mnt/OK-MX8-linux-sdk/freertos_8mp/boards/evkmimx8mp/freertos_examples/freert
 ```
 
 The compilation output is as follows:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908644108-65145d20-6fa9-4b85-85a1-526298833cd7.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908644108_65145d20_6fa9_4b85_85a1_526298833cd7.png)
 
 The freertos\_swtimer.bin file generated by compilation is in the release directory.
 
@@ -3376,6 +3376,6 @@ bootaux 0x7e0000
 ```
 
 At this time, you can see the following output on the serial terminal of the Cortex M7:  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908644196-d5d097dc-6dc9-4c5d-be30-982bac7fd514.png)
+![Image](./images/OK-MX8MPQ-C_Linux6_1_36_User_Manual/1745908644196_d5d097dc_6dc9_4c5d_be30_982bac7fd514.png)
 
 You can see that the terminal periodically prints out the Tick character, indicating that the timer task in the FreeRTOS application is running.
