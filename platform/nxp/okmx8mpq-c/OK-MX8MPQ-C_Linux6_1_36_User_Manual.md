@@ -1,4 +1,4 @@
-# OKMX8MPQ-C_Linux 6.1.36\_User’s Manual_V1.0
+# Linux 6.1.36\_User’s Manual_V1.0
 
 Document classification: □ Top secret □ Secret □ Internal information ■ Open
 
