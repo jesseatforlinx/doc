@@ -87,7 +87,7 @@ Go to the VMware website https://www.vmware.com/cn.html[ ](https://www.vmware.co
 
 <font style="color:#000000;">Modify the installation location to the partition of your computer where the software is installed, and click "Next".</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/37336.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual/37336.png)
 
 <font style="color:#000000;">Uncheck and click on "Next".</font>
 
@@ -107,7 +107,7 @@ Go to the VMware website https://www.vmware.com/cn.html[ ](https://www.vmware.co
 
 <font style="color:#000000;">Click "Finish" to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/2.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual/2.png)
 
 ## 2\. Loading the Existing Ubuntu Development Environment
 
