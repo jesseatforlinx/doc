@@ -69,7 +69,7 @@ This manual is mainly applicable to the Linux6.1.36 operating system on the Forl
 
 <font style="color:#000000;">Go to the VMware website https://www.vmware.com/cn.html <font style="color:#000000;">to download </font><font style="color:#000000;">Workstation Pro and get the product key. VMware is a paid software that requires purchasing, or you can choose to use a trial version.</font>
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647042-b60e46a1-289e-46e1-9c8d-d4138dc0a9ec.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647042_b60e46a1_289e_46e1_9c8d_d4138dc0a9ec.png)
 
 <font style="color:#000000;">After the download is complete, double-click the startup file to start the installer.</font>
 
@@ -77,31 +77,31 @@ This manual is mainly applicable to the Linux6.1.36 operating system on the Forl
 
 Step 1: Double-click the startup program to enter the installation instructions, and click "Next";
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647129-31efe30d-c142-4267-bca2-0676a8221910.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647129_31efe30d_c142_4267_bca2_0676a8221910.png)
 
 Step 2: Check "I accept the terms of the license agreement" and click "Next";
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647205-2435cc9a-3500-46d9-bec8-805e42852382.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647205_2435cc9a_3500_46d9_bec8_805e42852382.png)
 
 Step 3: You can modify the installation location, install it to the partition where your computer installs software, and click "Next";
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647306-d2db4dbe-cc36-46d1-8289-5e2075a3560b.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647306_d2db4dbe_cc36_46d1_8289_5e2075a3560b.png)
 
 Step 4: Check the option and click "Next";
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647377-37b9fd9a-7a3e-4800-9c3a-c764907d867a.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647377_37b9fd9a_7a3e_4800_9c3a_c764907d867a.png)
 
 Step 5: Check the option to add the shortcuts and click "Next"；
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647442-89d74b7b-b867-4b4f-9531-85e80149c571.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647442_89d74b7b_b867_4b4f_9531_85e80149c571.png)
 
 Step 6：Click "Install"；
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647507-ee998c68-f04b-44ef-8c3f-6f9520680834.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647507_ee998c68_f04b_44ef_8c3f_6f9520680834.png)
 
 Step 7：Wait for the installation to complete；
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908647590-2cbc793c-e0bc-4881-8583-3bfd31fb5f23.png)****
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647590_2cbc793c_e0bc_4881_8583_3bfd31fb5f23.png)****
 
 Step 8：Click "Finish" to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</font>
 
@@ -117,11 +117,11 @@ There are two ways to use a virtual machine environment in VMware: one is to dir
 
 Step 1: Download the development environment provided by Forlinx. There is MD5 verification file in the development environment data. After downloading the development environment data, first perform MD5 verification on the compressed package of the development environment (MD5 verification can be performed by selecting MD5 online tools on the network, or by downloading MD5 verification tools, which can be selected according to the actual situation). Check whether the verification code is consistent with the verification code in the verification file. If they are consistent, the downloaded file is normal; otherwise, the file may be damaged and needs to be downloaded again;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908649110-27d0fbbd-e8b8-4059-8c4f-2973eecc3b98.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908649110_27d0fbbd_e8b8_4059_8c4f_2973eecc3b98.png)
 
 Step 2: Select all compressed files, right-click and extract to the current folder or your own directory:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908649184-11c577be-bb04-4bb9-8ced-451882b9484a.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908649184_11c577be_bb04_4bb9_8ced_451882b9484a.png)
 
 Step 3: After decompression, get the development environment OK8MP-Linux6.1.36-VM\_17\_5\_2-ubuntu20\_04
 
@@ -129,19 +129,19 @@ The file "forlinx.vmx" in the OK8MP-Linux6.1.36-VM\_17\_5\_2-ubuntu20\_04 folder
 
 Step4: Open the installed virtual machine;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908649254-dc996e40-3873-44e9-a8a2-3c4bbaa5b4cf.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908649254_dc996e40_3873_44e9_a8a2_3c4bbaa5b4cf.png)
 
 Step 5: Select the directory where the OK8MP-Linux6.1.36-VM\_17\_5\_2-ubuntu20\_04 file you just unzipped and generated is located, and double-click to open the startup file:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908649467-d893a4e8-530c-46c5-af3e-240510624164.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908649467_d893a4e8_530c_46c5_af3e_240510624164.png)
 
 Step 6: Turn on this virtual machine after loading is complete to run it and enter the system's interface;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908649545-b820cf82-e557-4946-95a0-1fd2d5fef10d.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908649545_b820cf82_e557_4946_95a0_1fd2d5fef10d.png)
 
 Step 7: The default automatic login account is forlinx, and the password is forlinx.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908649618-bb26c8f1-7490-4626-a08a-d28ccd113f3f.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908649618_bb26c8f1_7490_4626_a08a_d28ccd113f3f.png)
 
 ## 3\. New Ubuntu Development Environment Setup
 
@@ -160,53 +160,53 @@ The specific method is as follows:
 
 The version of Ubuntu we chose to install is 20.04, and the introduction and development in this maual are all carried out on Ubuntu20.04. First, go to the Ubuntu official website to get the Ubuntu 20.04 64-bit image. The download address is: [[http://releases.ubuntu.com/20.04/](http://releases.ubuntu.com/20.04/)](http://releases.ubuntu.com/20.04/)
 
-Step 1: Download "Ubuntu-20.04.6-desktop-amd64.iso" (you can download the version that you actually need; this is just an example with 20.04.6);![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651020-84722bb6-07c4-4a04-a3ca-e539121e7584.png)
+Step 1: Download "Ubuntu-20.04.6-desktop-amd64.iso" (you can download the version that you actually need; this is just an example with 20.04.6);![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651020_84722bb6_07c4_4a04_a3ca_e539121e7584.png)
 
 Step 2: Open the VMware software and click \[File]/ \[New Virtual Machine]. Enter the following interface, check "Customize" and click "Next":
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651128-c3f53071-c03f-429f-943d-6b24e9985348.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651128_c3f53071_c03f_429f_943d_6b24e9985348.png)
 
 Step 3: Select the compatibility of the corresponding VMware version. The version can be viewed in Help-> About VMware Workstation. Click "Next" after confirmation:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651227-7e02a7ab-0efd-4c2a-bd4e-941fd481ce39.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651227_7e02a7ab_0efd_4c2a_bd4e_941fd481ce39.png)
 
 Step 4: Select “Install program from disc image file”, then click “Next”；
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651326-9c7584ae-8058-4a01-8e9c-c891ff759f3d.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651326_9c7584ae_8058_4a01_8e9c_c891ff759f3d.png)
 
 Step 5: Enter full name, user name and password, and click "Next":
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651419-e1a0703a-3115-4096-b169-35aab8d47841.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651419_e1a0703a_3115_4096_b169_35aab8d47841.png)
 
 Step 6: Enter the virtual machine name and configuration installation location and click "Next":
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651553-bafa9b74-675f-4ff5-ab5a-5a9640320b2c.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651553_bafa9b74_675f_4ff5_ab5a_5a9640320b2c.png)
 
 Step 7: Allocate a disk size of 80G and divide the virtual disk into multiple files (it is recommended to allocate at least 80G of space for the virtual machine environment), and click Next:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651653-75310dc2-f844-4c4f-a914-e553061d8df8.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651653_75310dc2_f844_4c4f_a914_e553061d8df8.png)
 
 Step 8: Enter the virtual machine name and configuration installation location and click "Next":
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651747-9f3369df-c24d-4dd0-9d50-3f535809b217.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651747_9f3369df_c24d_4dd0_9d50_3f535809b217.png)
 
 Step 9: Allocate memory. It is recommended to allocate more than 8GB of memory: 
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651847-bac65ed7-e499-4b64-b6fb-17d8c3288b91.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651847_bac65ed7_e499_4b64_b6fb_17d8c3288b91.png)
 
 Step 10: Configure the number of CPU cores. It is recommended to allocate more than 4 CPUs: 
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908651995-7fe4e5e1-9ed9-496b-801f-53d42f500f9d.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651995_7fe4e5e1_9ed9_496b_801f_53d42f500f9d.png)
 
 Step 11: The basic configuration is as follows:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652061-423b243b-cd10-41ff-bda5-ec2a20e58a49.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652061_423b243b_cd10_41ff_bda5_ec2a20e58a49.png)
 
 The virtual machine creation is now complete.
 
 Step 12: Then click "Start this virtual machine" to start installing the image. Wait patiently.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652129-3d0b79ab-82de-413c-b24f-dd28484ed470.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652129_3d0b79ab_82de_413c_b24f_dd28484ed470.png)
 
 The ubuntu system installation is complete.
 
@@ -218,13 +218,13 @@ VMware Tools will be installed automatically after the virtual machine is create
 If you do not install the tool, you cannot use copy-paste file drag and drop between the Windows host and the virtual machine.
 
 Step 1: First, click on “Virtual Machine” in the VMware navigation bar, and then click on “Install VMware Tools” in the drop-down box;  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652201-41ce57e0-d350-4277-9340-84b88220d157.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652201_41ce57e0_d350_4277_9340_84b88220d157.png)
 
 Step 2: Enter Ubuntu after completion. The VMware Tools CD will appear on the desktop. Click to enter it;  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652272-fc37611c-f753-4f29-b64c-c80ac4e7d1b4.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652272_fc37611c_f753_4f29_b64c_c80ac4e7d1b4.png)
 
 Step 3: Enter, you’ll see a compressed file named VMwareTools - 10.3.10 - 12406962.tar.gz (the name may vary depending on different virtual machine versions). Copy this file to the home directory (i.e., the directory under the personal username in the home folder);  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652338-baeac982-16bf-477a-bda3-c46162c58d27.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652338_baeac982_16bf_477a_bda3_c46162c58d27.png)
 
 Step 4: Press 【Ctrl + Alt + T】 to bring up the terminal command interface and enter the commands:
 
@@ -232,24 +232,24 @@ Step 4: Press 【Ctrl + Alt + T】 to bring up the terminal command interface an
 forlinx@ubuntu:~$ sudo tar -xvf VMwareTools-10.3.10-12406962.tar.gz
 ```
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652447-df74001b-ff34-4f41-8069-6f882e3f020f.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652447_df74001b_ff34_4f41_8069_6f882e3f020f.png)
 
 Step 5: After the extraction is completed, a folder named vmware-tools-distrib will appear;  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652526-0f8ce776-944a-4d09-831e-7858208a9267.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652526_0f8ce776_944a_4d09_831e_7858208a9267.png)
 
 Step 6: Go back to the terminal. Enter: cd vmware-tools-distrib to enter this directory.   
-Then enter: sudo ./vmware-install.pl. Press Enter and then enter your password. After that, the installation will start. When prompted with a question, enter yes. For other prompts, just press Enter to accept the default settings for installation.![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652592-bc432f9d-3f5a-4970-9a48-63f13b17a711.png)
+Then enter: sudo ./vmware-install.pl. Press Enter and then enter your password. After that, the installation will start. When prompted with a question, enter yes. For other prompts, just press Enter to accept the default settings for installation.![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652592_bc432f9d_3f5a_4970_9a48_63f13b17a711.png)
 
 #### 3.2.2 Virtual Machine Full Screen Display
 
 If the virtual machine is not able to be displayed in full screen, you can resolve this issue by clicking on "View" and selecting "Autofit Guest." This will adjust the display to fit the screen automatically, enabling you to have a full-screen experience in the virtual machine.   
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652657-32689299-dfe4-45bf-aff4-87ad250d5b21.png)  
-Make most of the system settings in the location shown. A lot of the setup requirements on Ubuntu can be done here.![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652731-d4212ee3-83e6-4ad0-bb1c-e00d90053a3a.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652657_32689299_dfe4_45bf_aff4_87ad250d5b21.png)  
+Make most of the system settings in the location shown. A lot of the setup requirements on Ubuntu can be done here.![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652731_d4212ee3_83e6_4ad0_bb1c_e00d90053a3a.png)
 
 #### 3.2.3 Virtual Machine Hibernation Settings
 
 Also, the default hibernation is 5min, if you don't want to set hibernation, just set it to Never by setting Power->Blank screen.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652838-e817ff45-b12e-4ff3-afb1-350648931e81.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652838_e817ff45_b12e_4ff3_afb1_350648931e81.png)
 
 ### 3.3 Virtual Machines Network Settings
 
@@ -257,12 +257,12 @@ Also, the default hibernation is 5min, if you don't want to set hibernation, jus
 
 By default, after the virtual machine is installed, the network connection method is set to NAT, which shares the host machine's IP address. This configuration does not need to be changed when performing tasks like installing dependencies or compiling code.   
 When the VMware virtual NIC is set to NAT mode in a virtual machine, the network in the Ubuntu environment can be set to dynamic IP. In this mode the virtual NAT device and the host NIC are connected to communicate for Internet access. This is the most common way for VM to access the external network.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908652910-be5fb1fc-33f7-4731-9fe0-feea72f53e03.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652910_be5fb1fc_33f7_4731_9fe0_feea72f53e03.png)
 
 #### 3.3.2 Bridge Connection
 
 When the VMware virtual NIC device is in bridge mode, the host NIC and the virtual machine NIC communicate through the virtual bridge, and the network IP and the host need to be set in the same network segment in the Ubuntu environment. If accessing an external network, you need to set the DNS to be consistent with the host NIC. If TFTP, SFTP and other servers are used, the network contact mode of the virtual machine needs to be set as the bridge mode.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653041-83342dc2-8c56-47bd-8f77-941474d88088.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653041_83342dc2_8c56_47bd_8f77_941474d88088.png)
 
 ### 3.4 Virtual Machine Software Installation 
 
@@ -304,31 +304,31 @@ Step 1: The following interface pops up, and click "Next" to enter the next step
 
 Note: Turn off the network and install Qt Creator without logging in to the Qt account.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653134-2db7bdb6-84de-4c62-a774-3d80769e210e.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653134_2db7bdb6_84de_4c62_a774_3d80769e210e.png)
 
 Step 2: Click "Next" to go to the next step:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653206-30cf0ec1-ad79-44c7-a61c-3f393b04378a.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653206_30cf0ec1_ad79_44c7_a61c_3f393b04378a.png)
 
 Step 3: In the following interface, click "Browse..." to select the installation path of Qtcreator, after the selection is complete, click "Next" to enter the next step:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653276-9e3f087f-2623-4ad7-b7b1-e854ff91fab8.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653276_9e3f087f_2623_4ad7_b7b1_e854ff91fab8.png)
 
 Step 4: The following interface pops up, and click "Next" to enter the next step:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653340-295a02c4-37d5-4beb-ad8b-9ab7192834b3.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653340_295a02c4_37d5_4beb_ad8b_9ab7192834b3.png)
 
 Step 5: Agree to the agreement and click "Next":
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653407-d105a010-6c8e-4483-a3b7-6119ad6c15f9.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653407_d105a010_6c8e_4483_a3b7_6119ad6c15f9.png)
 
 Step 6: Click Install to install:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653476-de9616d4-a8b7-442d-a9e0-56031c7c2e97.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653476_de9616d4_a8b7_442d_a9e0_56031c7c2e97.png)
 
 Step 7: After the installation is completed, the following interface will be displayed. Uncheck the option "Launch Qt Creator" "and click" Finish "to complete the installation steps of Qt Creator:
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653546-00bc34fb-4d0a-4c70-ab7d-2772bad587e3.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653546_00bc34fb_4d0a_4c70_ab7d_2772bad587e3.png)
 
 Go to the /home/forlinx/ -11.0. 3/bin/ directory of the actual qtcreator installation directory:
 
@@ -340,7 +340,7 @@ QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
 QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
 ```
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653611-afe15eb1-569c-43ac-afb9-50be0e93c0ba.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653611_afe15eb1_569c_43ac_afb9_50be0e93c0ba.png)
 
 The Qt Creator tool screen appears. Qt Creator is installed.
 
@@ -376,66 +376,66 @@ QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
 
 Step 2: Launch the Qt Creator program. Click on “Edit” -> “Preferences”;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653673-1ef201b5-9d67-483a-a4e8-4e30b4ed1427.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653673_1ef201b5_9d67_483a_a4e8_4e30b4ed1427.png)
 
 Step 3: Once you’re in the Preferences interface, click on “Kits” on the left side. Then click on the “Compilers” tab in the upper - middle area. Click on “Add -> GCC -> C++” on the right side, as shown in the figure;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653742-2f3b4f2b-1ba7-4c1f-bc3d-28d6a200922d.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653742_2f3b4f2b_1ba7_4c1f_bc3d_28d6a200922d.png)
 
 specify the Compiler path. Click on “Browse”. Find “aarch64 - poky - linux - g++” under /opt/fsl - imx - xwayland/6.1 - mickledore - imx8mp/sysroots/x86\_64 - pokysdk - linux/usr/bin/aarch64 - poky - linux/. After selecting it, click on “Open”. Change the Name to “G++”, and finally click on “Apply” to save the configuration;
 
 Step 4: Add the GCC compiler in the same way. Click on “Add -> GCC -> C” on the right side. The Compiler path for GCC is: /opt/fsl - imx - xwayland/6.1 - mickledore - imx8mp/sysroots/x86\_64 - pokysdk - linux/usr/bin/aarch64 - poky - linux/aarch64 - poky - linux - gcc, as shown in the figure;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653809-3b1a62e6-6ccd-4b57-869c-b7d742845595.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653809_3b1a62e6_6ccd_4b57_869c_b7d742845595.png)
 
 Step 5: Refer to the steps for adding compilers to add Debuggers. The Path for Debuggers is: /opt/fsl - imx - xwayland/6.1 - mickledore - imx8mp/sysroots/x86\_64 - pokysdk - linux/usr/bin/aarch64 - poky - linux/aarch64 - poky - linux - gdb;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653880-a5f444f1-754c-4aea-aaad-97f2ff08e449.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653880_a5f444f1_754c_4aea_aaad_97f2ff08e449.png)
 
 Step 6: Click on the “Qt Versions” tab and then click on “Add”. Find “qmake” in the directory /opt/fsl - imx - xwayland/6.1 - mickledore - imx8mp/sysroots/x86\_64 - pokysdk - linux/usr/bin/. After selecting it, click on “Open”. After adding, it will be displayed as follows. Then click on “Apply”;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908653962-b9b1c87f-5d91-4225-bf3d-75e146092430.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908653962_b9b1c87f_5d91_4225_bf3d_75e146092430.png)
 
 Step 7: Click on the “Kits” tab. Click on “Add” on the right side to add a new Kit. Name it “imx8mp”. Make modifications according to the content in the following figure and then click on “Apply”;
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654042-2f27ed3d-ff0f-4969-a495-6901426cb450.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654042_2f27ed3d_ff0f_4969_a495_6901426cb450.png)
 
 ### 3.5 Handling Virtual Machine Error Reports
 
 **Error 1: Unable to connect to MKS: Too many socket connection attempts; giving up.**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654137-b230e9a1-893f-468f-af79-737ce2f943c6.png)  
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654137_b230e9a1_893f_468f_af79_737ce2f943c6.png)  
 Solution:   
 My Computer -> Right click -> Management -> Services and Applications -> Services: turn on all the services about VMware.   
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654217-533de949-6e65-420a-851c-42d1b0e1bba8.png)  
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654217_533de949_6e65_420a_851c_42d1b0e1bba8.png)  
 After the service has started successfully, restart the virtual machine; or hang the virtual machine first, wait for it to start, and then continue to run the hung virtual machine
 
 **Error 2: Internal error**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654324-b6d80e7e-40bb-4989-9a40-573992e2aad5.png)  
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654324_b6d80e7e_40bb_4989_9a40_573992e2aad5.png)  
 Solution: Refer to solution 1
 
 **Error 3: Unable to install service VMware Authorization Service (VMAuthdService)**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654426-57fe45f5-74d9-4ec2-a1b8-0f13fc71786d.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654426_57fe45f5_74d9_4ec2_a1b8_0f13fc71786d.png)
 
 Solution:   
 win+R Enter the services. Msc.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654529-9d639335-46f1-476d-b1d5-e88a7d34af75.png)  
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654529_9d639335_46f1_476d_b1d5_e88a7d34af75.png)  
 Then find the service and start it up as an authorization and authentication service for starting and accessing virtual machines.   
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654636-bde763fb-3fec-4b0a-8667-bb7fbf00262f.png)  
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654636_bde763fb_3fec_4b0a_8667_bb7fbf00262f.png)  
 WMI must start first.  
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654729-0c1b097a-3e98-4e4f-a0ff-8dc31642cb86.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654729_0c1b097a_3e98_4e4f_a0ff_8dc31642cb86.png)
 
 **Error 4：Failed to install the hcmon driver**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654802-0a4a859a-4dc5-4b26-878c-90cbabd15ed9.png)  
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654802_0a4a859a_4dc5_4b26_878c_90cbabd15ed9.png)  
 Solution: Delete C:\\Windows\\System32\\drivers\\hcmon.sys, then install again.
 
 **Error 5: Intel VT-x is disabled**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654869-20ad29ca-2121-4399-9ad5-b9eb57c73532.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654869_20ad29ca_2121_4399_9ad5_b9eb57c73532.png)
 
 Solution:   
 ①Enter the BIOS interface (F2 or F12) when booting.  
@@ -445,20 +445,20 @@ If that doesn't work, just turn the firewall off and reopen the VM. (varies by m
 
 **Error 6: The virtual machine appears to be in use... Acquiring Ownership (T)**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908654942-b504bda9-f961-4f05-a719-39e838217cd4.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908654942_b504bda9_f961_4f05_a719_39e838217cd4.png)
 
 Solution:   
 1\. Shut down the virtual machine;
 
 2\. Navigate to the storage directory of the virtual machine and delete all files with the extension \*.lck. Here, the ".lck" extension indicates locked files;
 
-3\. Open the Windows Task Manager and terminate all VMware - related processes;![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908655040-444da5e9-5747-4989-b46f-185862b10a1b.png)
+3\. Open the Windows Task Manager and terminate all VMware - related processes;![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908655040_444da5e9_5747_4989_b46f_185862b10a1b.png)
 
 4. Restart the virtual machine, and the issue should be resolved. 
 
 **Error 7: Failed to lock file**
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908655103-f82ce558-3368-4830-83ca-bbd1bbe891e6.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908655103_f82ce558_3368_4830_83ca_bbd1bbe891e6.png)
 
 Solution:   
 ①Enter the storage directory of the virtual machine  
@@ -470,7 +470,7 @@ Solution:
 Solution:   
 The virtual machine does not have enough memory to run the image's maximum requirements; increase the virtual machine's memory and reboot the virtual machine.
 
-![](https://cdn.nlark.com/yuque/0/2025/png/50461850/1745908655178-2fb6d560-8178-4dd1-a06b-28a3af6b7dbb.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908655178_2fb6d560_8178_4dd1_a06b_28a3af6b7dbb.png)
 
 ## 4\. Related Code Compilation
 
