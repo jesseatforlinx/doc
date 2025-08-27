@@ -71,7 +71,7 @@ This manual is mainly applicable to the Android12.0 operating system on the Forl
 
 Go to the VMware website https://www.vmware.com/cn.html[ ](https://www.vmware.com/cn.html)<font style="color:#000000;"> to download</font><font style="color:#000000;">Workstation Pro and get the product key. VMware is a paid software that requires purchasing, or you can choose to use a trial version.</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/10988.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/10988.png)
 
 <font style="color:#000000;">After the download is complete, double-click the startup file to start the installer.</font>
 
@@ -79,11 +79,11 @@ Go to the VMware website https://www.vmware.com/cn.html[ ](https://www.vmware.co
 
 <font style="color:#000000;">Double-click the startup program to enter the installation wizard, and click on "Next".</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1.png)
 
 <font style="color:#000000;">Check I accept the terms in the license agreement and click Next.</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/11291.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/11291.png)
 
 <font style="color:#000000;">Modify the installation location to the partition of your computer where the software is installed, and click "Next".</font>
 
@@ -91,19 +91,19 @@ Go to the VMware website https://www.vmware.com/cn.html[ ](https://www.vmware.co
 
 <font style="color:#000000;">Uncheck and click on "Next".</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/11451.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/11451.png)
 
 <font style="color:#000000;">Check Add Shortcut and click "Next".</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/11506.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/11506.png)
 
 <font style="color:#000000;">Click "Install"</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/11537.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/11537.png)
 
 <font style="color:#000000;">Wait for the installation to complete.</font>
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/11578.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/11578.png)
 
 <font style="color:#000000;">Click "Finish" to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</font>
 
@@ -121,11 +121,11 @@ There are two ways to use a virtual machine environment in VMware: one is to dir
 
 First, download the development environment provided by Forlinx. In the development environment documentation, there should be an MD5 checksum file. After downloading the development environment, you should verify the integrity of the compressed package using the MD5 checksum. (You can use an on-line MD5 checksum tool or download a specific MD5 checksum tool for this purpose). To check if the checksum in the verification file matches the checksum of the file itself. If they match, the file download is successful. If they don't match, it suggests that the file may be corrupt, and you should consider downloading it again.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/13027.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/13027.png)
 
 Select all compressed files, right-click and extract to the current folder or your own directory:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/13128.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/13128.png)
 
 After the extraction is complete, you will obtain the development environment OK3588-VM16.2.3-ubuntu20.04.
 
@@ -133,19 +133,19 @@ The file "3588 development environment.vmx" in the OK3588-VM16.2.3-ubuntu20.04 f
 
 Open the installed virtual machine.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/13425.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/13425.png)
 
 Navigate to the directory where the recently extracted OK3588-VM16.2.3-ubuntu20.04 virtual machine file is located, and double-click on the startup file to open it.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/13592.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/13592.png)
 
 Turn on this virtual machine after loading is complete to run it and enter the system's interface.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/13699.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/13699.png)
 
 The default login account for automatic login in the development environment is "forlinx".
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/13792.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/13792.png)
 
 ## 3\. New Ubuntu Development Environment Setup
 
@@ -159,63 +159,63 @@ The default login account for automatic login in the development environment is 
 
 Step 1: Open the VMware software and click \[File]/ \[New Virtual Machine]. Enter the following interface:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1.png)
 
 Step 2: Select Custom and click “Next”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/14339.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/14339.png)
 
 Select the compatibility with the corresponding version of VMware, which can be found in Help->About VMware Workstation, and click “Next”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/14480.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/14480.png)
 
 Select Install the operating system later and click “Next”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/14542.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/14542.png)
 
 Keep the default settings and click “Next”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/14588.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/14588.png)
 
 Modify the name and installation location of your virtual machine, and click “Next”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/14675.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/14675.png)
 
 Configure the number of CPU based on your computer's actual specifications.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/14753.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/14753.png)
 
 The memory size is also set according to the actual situation, and 16 gigabytes is recommended for Android 12 compilation.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/14878.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/14878.png)
 
 Set the network type, default to NAT mode then click “Next”. Keep the default values for the remaining steps until you reach the step to specify the disk capacity.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/15042.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/15042.png)
 
 The default selection for the IO controller type here is LSI
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/15106.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/15106.png)
 
 The default selection here is also SCSI.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/15149.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/15149.png)
 
 Choose to create a new virtual disk here.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/15193.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/15193.png)
 
 Set the disk size to 500G, select the disk provisioning format, and then click “Next”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/15283.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/15283.png)
 
 Specify the disk file, the default one here is fine.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/15338.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/15338.png)
 
 Click “Finish” by default.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/15367.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/15367.png)
 
 The virtual machine creation is now complete.
 
@@ -233,65 +233,65 @@ Because the source code is compiled and verified on the 20.04, select and instal
 
 Download “ubuntu-20.04.3-desktop-amd64.iso”
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/16338.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/16338.png)
 
 After downloading the mirror image, you can proceed with the system installation operation.
 
 Right-click on the created virtual machine name and select “Settings” from the pop-up menu.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/16526.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/16526.png)
 
 The “Virtual Machine Settings” menu will pop up.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/16579.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/16579.png)
 
 Click on CD/DVD (SATA), select “Use ISO image file,” browse and choose the previously downloaded Ubuntu image, then click “OK” to confirm.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/16724.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/16724.png)
 
 After setting up the image, ensure that the network is available. Then, start the virtual machine and proceed with the installation of the Ubuntu image.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/16879.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/16879.png)
 
 After starting the virtual machine, wait for the installation interface to appear as shown below.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/16979.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/16979.png)
 
 After selecting the language on the left side as shown in the image, click “Install Ubuntu”, and the language selection interface will pop up. The default language of Ubuntu is English, but of course, you can also choose Others.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/17217.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/17217.png)
 
 The default selected language can also be reset at a later stage, after the selection is complete continue.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/17327.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/17327.png)
 
 Next, select "Continue" as the default option to proceed with the installation. The installation process might be slow. Then, click "Continue" again.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/17479.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/17479.png)
 
 By default, when you click on "Install Now", a dialog box will appear as shown in the image. Simply click "Continue" to proceed.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/17610.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/17610.png)
 
 Next, select the timezone. You can either click on the Shanghai timezone or enter "Shanghai" (or choose the appropriate timezone based on your location). Then, click "Continue" to proceed.
 
 Finally, set your username and password. You can choose either automatic login or login with a username and password. Click "Continue" to start the automatic installation.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/17973.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/17973.png)
 
 If the internet connection is poor, you can Skip without affecting the installation process.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/18068.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/18068.png)
 
 Click “Restart” Now to reboot.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/18107.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/18107.png)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/18109.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/18109.png)
 
 The system interface after the reboot is complete.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/18162.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/18162.png)
 
 The ubuntu system installation is complete.
 
@@ -303,15 +303,15 @@ VMware Tools Installation:
 
 Next, install VMware Tools. Without installing this tool, you won't be able to copy and paste and drag file between the Windows host and the virtual machine. First click on "Virtual Machine" on the VMware navigation bar, then click "Install VMware Tools" in the drop-down box.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/18637.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/18637.png)
 
 Once done, enter Ubuntu and the VMware Tools CD will appear on your desktop and click into it.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/18737.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/18737.png)
 
 Enter and see a compressed file VMwareTools-10.3.10-12406962.tar.gz (it may be different for different VM versions); copy the file under the home directory (i.e. the directory with the home personal username)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/18948.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/18948.png)
 
 Press \[Ctrl+Alt+T] to bring up the Terminal Command Interface and enter the command:
 
@@ -319,17 +319,17 @@ Press \[Ctrl+Alt+T] to bring up the Terminal Command Interface and enter the com
 forlinx@ubuntu:~$ sudo tar xvf VMwareTools-10.3.10-12406962.tar.gz
 ```
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/19103.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/19103.png)
 
 After the extraction is complete, a file named “vmware-tools-distrib" will appear.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/19189.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/19189.png)
 
 Go back to the terminal and type cd vmware-tools-distrib to enter the directory.
 
 Enter: sudo ./vmware-install.pl followed by pressing Enter. Then, enter your password and the installation process will begin. When prompted, you can input "yes" and press Enter to proceed. For any other inquiries, simply press Enter to go with the default installation settings.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/19573.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/19573.png)
 
 Once the VMware tools is complete, we can implement file copy and paste between Windows and Ubuntu.
 
@@ -337,17 +337,17 @@ The virtual machine is displayed full screen:
 
 If the virtual machine is not able to be displayed in full screen, you can resolve this issue by clicking on "View" and selecting "Autofit Guest." This will adjust the display to fit the screen automatically, enabling you to have a full-screen experience in the virtual machine.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/20000.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/20000.png)
 
 Make most of the system settings in the location shown. A lot of the setup requirements on Ubuntu can be done here.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/20119.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/20119.png)
 
 Virtual machine hibernation settings:
 
 Also, the default hibernation is 5min, if you don't want to set hibernation, just set it to Never by setting Power->Blank screen.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/20301.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/20301.png)
 
 #### 3.1.4 Network Settings for Virtual Machines
 
@@ -357,13 +357,13 @@ By default, after the virtual machine is installed, the network connection metho
 
 When the VMware virtual NIC is set to NAT mode in a virtual machine, the network in the Ubuntu environment can be set to dynamic IP. In this mode the virtual NAT device and the host NIC are connected to communicate for Internet access. This is the most common way to access the external network.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/20931.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/20931.png)
 
 ##### 3.1.4.2 Connections for Bridges
 
 When the VMware virtual NIC device is in bridge mode, the host NIC and the virtual machine NIC communicate through the virtual bridge, and the network IP and the host need to be set in the same network segment in the Ubuntu environment. If accessing an external network, you need to set the DNS to be consistent with the host NIC. If TFTP, SFTP and other servers are used, the network contact mode of the virtual machine needs to be set as the bridge mode.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/21434.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/21434.png)
 
 ## 3.2 Installation of the Library Needed to Compile Android
 
@@ -415,13 +415,13 @@ To view the installed version:
 forlinx@ubuntu:~$ update-java-alternatives -l
 ```
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/23121.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/23121.png)
 
 ```plain
 forlinx@ubuntu:~$ sudo update-alternatives --config java
 ```
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/23181.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/23181.png)
 
 Enter the option corresponding to java8 and press Enter to confirm.
 
@@ -472,7 +472,7 @@ Adding the following at the end of the/etc/fstab file:
 
 2\. It is recommended to adjust the memory of the development environment to 16G. Low memory may cause the compilation to fail.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/25119.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/25119.png)
 
 The source code package of the Android 12 system is placed in the data in the form of a volume compression package. Copy all the compression packages to the/home/forlinx/work/directory of the development environment, which is described below.
 
@@ -490,11 +490,11 @@ There are many kinds of file transfers between ubuntu and Windows hosts. After i
 
 Click "Virtual Machine" on the menu bar and select "Settings".
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/26252.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/26252.png)
 
 Click "Options", enable "Shared Folders", set the shared directory on the Windows host, and click "OK".
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/26358.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/26358.png)
 
 After the file-sharing setup of the virtual machine is complete, place the source zip in the shared folder of the Windows host, here we name it “share”.
 
@@ -607,11 +607,11 @@ Since the Android application code is written in Java, you need to install the J
 
 It is recommended to install Java 8, visit the website [https://www.oracle.com/java/technologies/downloads](https://www.oracle.com/java/technologies/downloads), and select the Windows x64 version of Java 8 in the page. You can also directly visit the website [https://www.oracle.com/java/technologies/downloads/#java8-windows](https://www.oracle.com/java/technologies/downloads/#java8-windows) to enter the download page.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1727339415_7255.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1727339415_7255.png)
 
 Accept the agreement and proceed with the download.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1727339415_7256.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1727339415_7256.png)
 
 Currently, download JDK from the official Oracle website requires registration for an Oracle account. You may also choose alternative download methods.
 
@@ -629,15 +629,15 @@ After the installation is complete, you need to add the JDK command to the Path 
 
 The following is a screenshot of the win7 system:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1727339415_7257.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1727339415_7257.png)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1727339415_7258.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1727339415_7258.png)
 
 The following is a screenshot of the win10 system:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/32457.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/32457.png)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/32460.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/32460.png)
 
 5) Check that the installation was successful.
 
@@ -647,7 +647,7 @@ After completing the above settings, restart the computer, open the command prom
 javac -version
 ```
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1727339415_7261.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1727339415_7261.png)
 
 The correct display of the Java version indicates a successful installation.
 
@@ -657,39 +657,39 @@ Android Studio is a new development tool for Android launched by Google at I/O 2
 
 After downloading, follow the prompts to install it. When the installation is complete, the following figure appears:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1727339415_7263.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1727339415_7263.png)
 
 Select “Do not import settings ":
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1727339415_7264.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1727339415_7264.png)
 
 Select “Cancel ":
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/30436.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/30436.png)
 
 Click "Next" to go to the next step:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/30475.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/30475.png)
 
 Select "custom" here:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/30499.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/30499.png)
 
 Choose a UI theme based on your personal preference:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/30554.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/30554.png)
 
 Select the installation path of Android SDK according to the actual situation:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/30635.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/30635.png)
 
 Select the memory size for the emulator:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/30678.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/30678.png)
 
 Click “Finish”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/30698.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/30698.png)
 
 When the installation is complete, click“Finish”.
 
@@ -697,19 +697,19 @@ When the installation is complete, click“Finish”.
 
 1. Select “start a new android studio project”：
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/32819.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/32819.png)
 
 2. Choose “Empty Activity”：
    
-   ![](./images/OK3588-C_Android_12_User_Compilation_Manual/32941.png)
+   ![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/32941.png)
 
 Click "Next" to modify the project name and select the minimum supported android version:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/32961.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/32961.png)
 
 Click “Finish”.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/33163.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/33163.png)
 
 Tools such as Gradle will be downloaded for the first use, so please be patient.
 
@@ -717,7 +717,7 @@ Tools such as Gradle will be downloaded for the first use, so please be patient.
 
 Click "File"-> "settings" to search SDK and open the interface as shown in the figure below:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/33217.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/33217.png)
 
 Check "Android 12.0)" and click "OK" to install.
 
@@ -725,11 +725,11 @@ Check "Android 12.0)" and click "OK" to install.
 
 Modify all 32 in the file to 31, and press Ctrl + s to save the modified file.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1731900867_12690.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1731900867_12690.png)
 
 5. Compilation
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1731900867_12691.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1731900867_12691.png)
 
 Click "build"-> "Make Project" to recompile.
 
@@ -737,9 +737,9 @@ Click "build"-> "Make Project" to recompile.
 
 After compiling, link the OTG cable to the USB port of your PC and click the green triangle icon in the menu bar.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/1731900867_12692.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/1731900867_12692.png)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/33519.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/33519.png)
 
 ### 5.2 Apk Platform Signature
 
@@ -780,33 +780,33 @@ android:sharedUserId="android.uid.system">
 
 Click “File”->“project structure”:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/35214.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35214.png)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/35216.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35216.png)
 
 Click “OK”.
 
 To add the signature configuration for the debug and release versions, click "Build"in the Android Studio menu bar and "Edit Build Type...".
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/35370.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35370.png)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/35373.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35373.png)
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/35375.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35375.png)
 
 Click "OK" when the modification is completed.
 
-Click the run button "" of android studio to ![](./images/OK3588-C_Android_12_User_Compilation_Manual/35469.png) start the app. Enter in the serial port:
+Click the run button "" of android studio to ![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35469.png) start the app. Enter in the serial port:
 
 ps –AZ
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/35519.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35519.png)
 
 Confirm whether your app has become system \_ app.
 
 If the app prints the following error when running:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/35623.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/35623.png)
 
 Solution: Uninstall the APP in the system, restart the board, and reinstall and run it.
 
@@ -867,17 +867,17 @@ The OK3588 platform supports app invocation of “su” to gain root privileges.
 
 1. Open the Settings and click "About Tablet PC" to enter the interface as follows:
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/37115.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/37115.png)
 
 Click the "version number" continuously, and there will be a prompt at the bottom, "You are now in developer mode".
 
 2. Click "System","Advanced", "Developer Options":
    
-   ![](./images/OK3588-C_Android_12_User_Compilation_Manual/37287.png)
+   ![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/37287.png)
 
 3. Turn on the root authorization option:
    
-   ![](./images/OK3588-C_Android_12_User_Compilation_Manual/37336.png)
+   ![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/37336.png)
 
 4. Restart the system.
 
@@ -887,10 +887,10 @@ Path: OK3588-C (Android) User Profile \\ Android \\ Testers \\ su \_ exec. Zip
 
 Copy su\_exec.zip to any directory in Windows and unzip it. Connect the OK3588 board to the PC via USB using a USB OTG cable. Navigate to the su\_exec\\app\\build\\outputs\\apk\\debug directory using the Windows Command Prompt and install the apk software package using the adb install command.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/37756.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/37756.png)
 
 After the installation is completed, click "su \_ exec" "on the application interface.
 
-![](./images/OK3588-C_Android_12_User_Compilation_Manual/37844.png)
+![Image](./images/OK3588-C_Android_12_User_Compilation_Manual_local/37844.png)
 
 Users can test if they have permission to view by typing cat /proc/bootevent in the OK3588 terminal.
