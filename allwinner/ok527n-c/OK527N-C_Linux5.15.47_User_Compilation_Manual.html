@@ -1,0 +1,1000 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linux5.15.147_User’s Compilation Manual &mdash; Forlinx Embedded T527 Documentation  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=30170994" />
+
+  
+    <link rel="shortcut icon" href="_static/forlinx.png"/>
+    <link rel="canonical" href="https://forlinxembedded.github.io/allwinner/ok527n-c/OK527N-C_Linux5.15.47_User_Compilation_Manual.html" />
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Quick Boot" href="OK527_Quick_Boot.html" />
+    <link rel="prev" title="Linux5.15.147_User’s Manual" href="OK527N-C_Linux5.15.47_User_Manual.html" />
+   
+
+  <!-- Load Font Awesome from CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8EJPNL8NR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-N8EJPNL8NR');
+  </script>
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html">
+            
+              <img src="_static/forlinx-logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">SOFTWARE</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="OK527N-C_Linux5.15.47_User_Manual.html">Linux5.15.147_User’s Manual</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Linux5.15.147_User’s Compilation Manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#copyright">Copyright</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#overview"><font style="color:black;">Overview</font></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#application-scope">Application Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#revision-history"><font style="color:black;">Revision History</font></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vmware-virtual-machine-software-installation">1. VMware Virtual Machine Software Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vmwaresoftware-download-purchase"><font style="color:black;">1.1</font><font style="color:black;">  </font><font style="color:black;">VMware</font><font style="color:black;">Software Download &amp; Purchase</font></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vmware-software-installation"><font style="color:black;">1.2 VMware Software</font> Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#loading-the-existing-ubuntu-development-environment">2. Loading the Existing Ubuntu Development Environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#new-ubuntu-development-environment-setup">3. New Ubuntu Development Environment Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ubuntusystem-setup"><font style="color:black;">3.1</font><font style="color:black;">  </font><font style="color:black;">Ubuntu</font><font style="color:black;">System Setup</font></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ubuntu-virtual-machine-setup"><font style="color:black;">3.1.1 Ubuntu Virtual Machine Setup</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ubuntubasic-configuration"><font style="color:black;">3.1.2 Ubuntu</font><font style="color:black;">Basic Configuration</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#vmswapfilesettings"><font style="color:black;">3.1.3</font><font style="color:black;">  </font><font style="color:black;">VM</font><font style="color:black;">Swapfile</font><font style="color:black;">Settings</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#virtual-machines-network-settings"><font style="color:black;">3.1.4</font><font style="color:black;">  </font><font style="color:black;">Virtual Machines Network Settings</font></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#toolkit-installation"><font style="color:black;">3.2</font><font style="color:black;">  </font><font style="color:black;">Toolkit Installation</font></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#qt-creatorinstallation"><font style="color:black;">3.3</font><font style="color:black;">  </font><font style="color:black;">Qt Creator</font><font style="color:black;">Installation</font></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#qt-compilation-environment-configuration"><font style="color:black;">3.4</font><font style="color:black;">  </font><font style="color:black;">Qt</font> <font style="color:black;">Compilation Environment Configuration</font></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vmwaresolution-to-error-reporting"><font style="color:black;">3.5</font><font style="color:black;">  </font><font style="color:black;">VMware</font><font style="color:black;">Solution to Error Reporting</font></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ubuntu-compilation">4. Ubuntu Compilation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#preparation-before-startup"><font style="color:black;">4.1</font><font style="color:black;">  </font><font style="color:black;">Preparation Before Startup</font></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#versions"><font style="color:black;">4.1.1</font><font style="color:black;">  </font><font style="color:black;">Versions</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#source-code-copy-and-release"><font style="color:black;">4.1.2</font><font style="color:black;">  </font><font style="color:black;">Source Code </font><font style="color:black;">Copy and Release</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#common-file-path-of-source-code"><font style="color:black;">4.1.3</font><font style="color:black;">  </font><font style="color:black;">Common File Path of Source Code</font></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#source-code-compilation"><font style="color:black;">4.2</font><font style="color:black;">  </font><font style="color:black;">Source Code Compilation</font></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#full-compilation"><font style="color:black;">4.2.1</font><font style="color:black;">  </font><font style="color:black;">Full Compilation</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#individual-kernel-device-tree-compilation"><font style="color:black;">4.2.2</font><font style="color:black;">  </font><font style="color:black;">Individual Kernel </font><font style="color:black;">Device Tree Compilation</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#individual-test-program-compilation"><font style="color:black;">4.2.3</font><font style="color:black;">  </font><font style="color:black;"><strong>Individual Test Program Compilation</strong></font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#individual-u-boot-compilation"><font style="color:black;">4.2.4  <strong>Individual U-Boot Compilation</strong></font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#individual-filesystem-compilation"><font style="color:black;">4.2.5 <strong>Individual Filesystem Compilation</strong></font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#okt527-linux-sdk-clearance"><font style="color:black;">4.2.6 OKT527-linux-sdk Clearance</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#boot-logo-replacement"><font style="color:black;">4.2.7 Boot Logo Replacement</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#individual-development-board-firmware-update"><font style="color:black;">4.2.8  Individual Development Board Firmware Update</font></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#qt-configuration-and-use"><font style="color:black;">4.3</font><font style="color:black;">  </font><font style="color:black;">Qt </font><font style="color:black;">Configuration and Use</font></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#okt527-linux-sdk-installation"><font style="color:black;">4.3.1</font><font style="color:black;">  </font><font style="color:black;">OKT527-linux-sdk</font> Installation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#qt-creator-environment-configuration"><font style="color:black;">4.3.2</font><font style="color:black;">  </font><font style="color:black;">Qt Creator </font><font style="color:black;">Environment </font><font style="color:black;">Configuration</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#qt-creator-development-examples"><font style="color:black;">4.3.3</font><font style="color:black;">  </font><font style="color:black;">Qt Creator </font><font style="color:black;">Development Examples</font></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#qt-creator-fqa"><font style="color:black;">4.3.4 </font><font style="color:black;"> </font><font style="color:black;">Qt Creator </font><font style="color:black;">FQA</font></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">APPLICATION NOTE</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="OK527_Quick_Boot.html">Quick Boot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OK527_Display_Interface.html">Display Interface</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Forlinx Embedded T527 Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Linux5.15.147_User’s Compilation Manual</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="linux5-15-147-users-compilation-manual">
+<h1>Linux5.15.147_User’s Compilation Manual<a class="headerlink" href="#linux5-15-147-users-compilation-manual" title="Link to this heading"></a></h1>
+<p>Document classification: □ Top secret □ Secret □ Internal information ■ Open</p>
+<section id="copyright">
+<h2>Copyright<a class="headerlink" href="#copyright" title="Link to this heading"></a></h2>
+<p>The copyright of this manual belongs to Baoding Folinx Embedded Technology Co., Ltd. Without the written permission of our company, no organizations or individuals have the right to copy, distribute, or reproduce any part of this manual in any form, and violators will be held legally responsible.</p>
+<p>Forlinx adheres to copyrights of all graphics and texts used in all publications in original or license-free forms.</p>
+<p>The drivers and utilities used for the components are subject to the copyrights of the respective manufacturers. The license conditions of the respective manufacturer are to be adhered to. Related license expenses for the operating system and applications should be calculated/declared separately by the related party or its representatives.</p>
+</section>
+<section id="overview">
+<h2><font style="color:black;">Overview</font><a class="headerlink" href="#overview" title="Link to this heading"></a></h2>
+<p><font style="color:#333333;">This manual is designed to enable users of the Forlinx Embedded development board to quickly understand the</font> <font style="color:#333333;">compilation process</font><font style="color:#333333;">of the products and familiarize themselves with the </font><font style="color:#333333;">compilation</font> <font style="color:#333333;">methods </font><font style="color:#333333;">of</font> <font style="color:#333333;">Forlinx</font><font style="color:#333333;"> products. The application needs to be cross-compiled on an </font><font style="color:#333333;">ubuntu</font> <font style="color:#333333;">host before it can run on the development board.</font>By following the methods provided in the compilation manual and performing practical operations, you will be able to successfully compile your own software code.</p>
+<p>The manual will provide instructions for setting up the environment but there may be some unforeseen issues during the environment setup process. For beginners, it is recommended to use the pre-configured development environment provided by us. This will allow you to quickly get started and reduce development time.</p>
+<p>Linux systems are typically installed in three ways: Dual system on a real machine, single system on a real machine, and virtual machine. Different installation methods have their advantages and disadvantages. This manual only provides methods to build ubuntu in a virtual machine.</p>
+<p>Computer Hardware Requirements: It is recommended to have at least 16GB memory or above. It allows for allocating a sufficient memory to the virtual machine (recommended to allocate 10GB or above), while still leaving enough resources for other operations on Windows. Insufficient memory allocation may result in slower performance on Windows.</p>
+<p>The manual is mainly divided into five chapters:</p>
+<p>Chapter 1. is about the installation of virtual machine software, providing a brief introduction to the download and installation of VMware software;</p>
+<p>Chapter 2. offers the loading of the Ubuntu system;</p>
+<p>Chapter 3. is about the setup, configuration and installation of necessary tools for the Ubuntu system, as well as common issues related to the development environment;</p>
+<p>Chapter 4. is the data and compilation method required for the compilation of the source code of the product;</p>
+<p>Chapter 5. Configuration of the Qt compilation environment and methods for compiling programs;</p>
+<p>A description of some of the symbols and formats associated with this manual:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p><strong>Format</strong></p></th>
+<th class="head"><p><strong>Meaning</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>//</p></td>
+<td><p>Interpretation of input instructions or output information</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Username&#64;Hostname</p></td>
+<td><p>root&#64;forlinx： Development board login account information,                                                                                          forlinx&#64;ubuntu Development environment: Ubuntu account information.                                                                                Users can use this information to determine the environment for functional operations.</p></td>
+</tr>
+</tbody>
+</table>
+<p>For example, when copying source code, you can use the “ls” command to view the source code files:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ ls /mnt/hgfs/share/                                //View files in a shared directory
+OKT527-linux-sdk.tar.bz2
+</pre></div>
+</div>
+<p>forlinx&#64;ubuntu: The username is forlinx and the hostname is ubuntu, indicating that the user forlinx is used on the development environment ubuntu for operations.</p>
+<p>// : Explanation of ls /run/media operation, no input required.</p>
+</section>
+<section id="application-scope">
+<h2>Application Scope<a class="headerlink" href="#application-scope" title="Link to this heading"></a></h2>
+<p>This software manual is applicable to the <font style="color:rgb(0,0,0);">OK527 platform Linux 5.15 operating system of Forlinx.</font></p>
+</section>
+<section id="revision-history">
+<h2><font style="color:black;">Revision History</font><a class="headerlink" href="#revision-history" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Date</p></th>
+<th class="head text-center"><p>Manual Version</p></th>
+<th class="head"><p>Revision History</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>28/04/2025</p></td>
+<td class="text-center"><p>V1.0</p></td>
+<td><p>User’s Compilation Manual Initial Version</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="vmware-virtual-machine-software-installation">
+<h2>1. VMware Virtual Machine Software Installation<a class="headerlink" href="#vmware-virtual-machine-software-installation" title="Link to this heading"></a></h2>
+<p>This chapter mainly introduces the installation of VMware virtual machines, using VMware Workstation 15 Pro v15.5.6 as an example to demonstrate the installation and configuration process of the operating system.</p>
+<section id="vmwaresoftware-download-purchase">
+<h3><font style="color:black;">1.1</font><font style="color:black;">  </font><font style="color:black;">VMware</font><font style="color:black;">Software Download &amp; Purchase</font><a class="headerlink" href="#vmwaresoftware-download-purchase" title="Link to this heading"></a></h3>
+<p>Visit Vmware official website <a class="reference external" href="https://www.vmware.com/cn.html">https://www.vmware.com/cn.html</a> for downloading Workstation Pro and obtaining the product key. VMware is a paid software that requires purchasing, or you can choose to use a trial version.</p>
+<p><img alt="Image" src="_images/b1781bd8d4da4103bf22b85ea7b85834.png" /></p>
+<p>After the download is complete, double-click the installation file to start the installation program.</p>
+</section>
+<section id="vmware-software-installation">
+<h3><font style="color:black;">1.2 VMware Software</font> Installation<a class="headerlink" href="#vmware-software-installation" title="Link to this heading"></a></h3>
+<p>Double-click the startup program to enter the installation wizard.</p>
+<p><img alt="Image" src="_images/4a15056bc7744cdf82852bb081323c93.png" /></p>
+<p>Click on “Next”.</p>
+<p><img alt="Image" src="_images/f1bc696acc534b7d8df19f0660cc88c5.png" /></p>
+<p>Check the terms in the license agreement that I accept, then click “Next”.</p>
+<p><img alt="Image" src="_images/f70aee38d83e4d75b875bbc0968ef617.png" /></p>
+<p>Modify the installation location to the partition where you want to install the software on your computer, then click ‘“Next”.</p>
+<p><img alt="Image" src="_images/1cdf6c734a924713959547a8c36c164c.png" /></p>
+<p>Check and click on “Next”.</p>
+<p><img alt="Image" src="_images/5c9c9b4c9a5141ef9bcbc157ed98e036.png" /></p>
+<p>Check the box to add a shortcut, then click “Next”.</p>
+<p><img alt="Image" src="_images/fb94bed8c4c340e6badda9336c61b81d.png" /></p>
+<p>Click “Installation”.</p>
+<p><img alt="Image" src="_images/575059633f304034ab793febbe1b8959.png" /></p>
+<p>Wait for the installation to complete.</p>
+<p><img alt="Image" src="_images/a6d19fda9c5c40cf853bc76a62f3f3b6.png" /></p>
+<p>Click “Finish” to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</p>
+</section>
+</section>
+<section id="loading-the-existing-ubuntu-development-environment">
+<h2>2. Loading the Existing Ubuntu Development Environment<a class="headerlink" href="#loading-the-existing-ubuntu-development-environment" title="Link to this heading"></a></h2>
+<p><strong>Note:</strong></p>
+<p><strong>It is recommended for beginners to directly use the pre-built virtual machine environment provided by Forlinx, which already includes installed cross-compiler and Qt environment. After understanding this chapter, you can directly jump to the compilation chapter for further study.</strong></p>
+<p><strong>The development environment provided for general users is: forlinx (username), forlinx (password). The superuser is: root (username), root (password).</strong></p>
+<p>Please ask your sales representative for the download link.</p>
+<p>There are two ways to use a virtual machine environment in VMware: one is to directly load an existing environment, and the other is to create a new environment. First talk about how to load an existing environment.</p>
+<p>First, download the development environment provided by Forlinx. There is an MD5 verification file in the development environment data. After downloading the development environment data, first performs MD5 verification on the compressed package of the development environment (02-User Data \ 01-Software Data \ 04-Tools \ md5sums-1.2.zip) to check whether the verification code is consistent with the verification code in the verification file. If they are consistent, the downloaded file is normal; if not, the file may be damaged and needs to be downloaded again.</p>
+<p><img alt="Image" src="_images/5822150fe7ea483d8743ea64e4ab08fd.png" /></p>
+<p>Select OK527-VM15.5.6-ubuntu20.04 and right click to extract to the current folder or your own directory:</p>
+<p><img alt="Image" src="_images/5aa3ea5e8d974cab98ecf9689e6e2f7f.png" /></p>
+<p>After the extraction is complete, you will obtain the development environment OK527-VM15.5.6-ubuntu20.04.</p>
+<p>OK527-VM15.5.6-ubuntu20.04 folder in the OK527-VM15.5.6-ubuntu20.04.vmx is the file to be opened by the virtual machine.</p>
+<p>Open the installed virtual machine.</p>
+<p><img alt="Image" src="_images/61bdd056eea7412ebb472ca27326221e.png" /></p>
+<p>Navigate to the directory where the recently extracted OK527-VM15.5.6-ubuntu20.04 virtual machine file is located, and double-click on the startup file to open it.</p>
+<p><img alt="Image" src="_images/24fdc770800f4c2b8a574541461a3d0c.png" /></p>
+<p>Turn on this virtual machine after loading is complete to run it and enter the system’s interface.</p>
+<p><img alt="Image" src="_images/d85ceac29abb47c0bf448b57fe5189bc.png" /></p>
+<p>The default login account for automatic login in the development environment is “forlinx”.</p>
+</section>
+<section id="new-ubuntu-development-environment-setup">
+<h2>3. New Ubuntu Development Environment Setup<a class="headerlink" href="#new-ubuntu-development-environment-setup" title="Link to this heading"></a></h2>
+<p><strong>Note: Beginners are not recommended to set up a system on their own. It is recommended to use an existing virtual machine environment. If you do not need to set up the environment, you can skip this section.</strong></p>
+<p>This chapter mainly explains the process of setting up the Ubuntu system and installing Qt Creator. If the user is not using Qt, the installation of Qt Creator can be ignored.</p>
+<section id="ubuntusystem-setup">
+<h3><font style="color:black;">3.1</font><font style="color:black;">  </font><font style="color:black;">Ubuntu</font><font style="color:black;">System Setup</font><a class="headerlink" href="#ubuntusystem-setup" title="Link to this heading"></a></h3>
+<p>The version of Ubuntu we chose to install is 20.04, and the introduction and development in this maual are all carried out on Ubuntu20.04. First, go to the Ubuntu official website to get the Ubuntu 20.04 64-bit image. The download address is: [<a class="reference external" href="http://releases.ubuntu.com/20.04/">http://releases.ubuntu.com/20.04/</a>](http://releases.ubuntu.com/20.04/)</p>
+<p>Download “Ubuntu-20.04.6-desktop-amd64.iso” (you can download the version that you actually need; this is just an example with 20.04.6).</p>
+<p><img alt="Image" src="_images/ec162f187e2d4487ac4de38cdc5ed1fa.png" /></p>
+<section id="ubuntu-virtual-machine-setup">
+<h4><font style="color:black;">3.1.1 Ubuntu Virtual Machine Setup</font><a class="headerlink" href="#ubuntu-virtual-machine-setup" title="Link to this heading"></a></h4>
+<p>Step 1: Open the VMware software and click on “Create New Virtual Machine”. Enter the following interface, check “Customize (Advanced)” and click “Next”:</p>
+<p><img alt="Image" src="_images/e3590cfb74394651924fa2d10374da9f.png" /></p>
+<p>Step 2: Select the compatibility of the corresponding VMware version. The version can be viewed in Help-&gt; About VMware Workstation. Click “Next” after confirmation:</p>
+<p><img alt="Image" src="_images/9511048de2d74f7a83950821cef9cb79.png" /></p>
+<p>Select “Install program from disc image file”, then click “Next”；</p>
+<p><img alt="Image" src="_images/e5167620f7bc445192780138cdc7719c.png" /></p>
+<p>Enter full name, user name and password and click “Next”:</p>
+<p><img alt="Image" src="_images/6bc05b9fe9f74f6999586601680f096b.png" /></p>
+<p>Enter the virtual machine name and configuration installation location, and click “Next”:</p>
+<p><img alt="Image" src="_images/573e7818db79447f87be7300ada8564f.png" /></p>
+<p>To configure the number of cores, click “Next”:</p>
+<p><img alt="Image" src="_images/34f18366f6924a22b57b54d17b6c25ad.png" /></p>
+<p>To configure at least 8GB of memory, select Next:</p>
+<p><img alt="Image" src="_images/abdb4dd394ff4717aae849ff1552ddc5.png" /></p>
+<p>Set the network type, use the default NAT form for networking, and click “Next”. Keep the default values for the remaining steps until you reach the step to specify the disk capacity.</p>
+<p><img alt="Image" src="_images/6494b5a11357440c95d599782ec611f7.png" /></p>
+<p>Use the recommended I/O controller; click “Next”:</p>
+<p><img alt="Image" src="_images/ff464474be294f7a8bd4947d20c6330c.png" /></p>
+<p>Use the recommended disk type; click “Next”:</p>
+<p><img alt="Image" src="_images/98ee5751ae4f458794b0471fc1a3ae2a.png" /></p>
+<p>Use the default options; create a new virtual disk and click “Next”:</p>
+<p><img alt="Image" src="_images/8782adbb56d44831bb1c31b4156f3740.png" /></p>
+<p>Allocate a disk size of 80G and divide the virtual disk into multiple files, and click “Next”:</p>
+<p><img alt="Image" src="_images/213bc0bac5c34af7b2bfe376f015b5c7.png" /></p>
+<p>Click “Next” by default:</p>
+<p><img alt="Image" src="_images/746f65a337d54f62947ba5569544f780.png" /></p>
+<p>Click “Finish”:</p>
+<p><img alt="Image" src="_images/bc902643637a486d9ac461a49f72171d.png" /></p>
+<p><img alt="Image" src="_images/fcd76a84fea5451cad59800cd108292e.png" /></p>
+<p>The virtual machine creation is now complete.</p>
+<p>Then click “Open this virtual machine” to start installing the image and wait patiently.</p>
+<p>The ubuntu system installation is complete.</p>
+</section>
+<section id="ubuntubasic-configuration">
+<h4><font style="color:black;">3.1.2 Ubuntu</font><font style="color:black;">Basic Configuration</font><a class="headerlink" href="#ubuntubasic-configuration" title="Link to this heading"></a></h4>
+<section id="vmware-toolsinstallation">
+<h5><font style="color:black;">3.1.2.1</font><font style="color:black;">  </font><font style="color:black;">VMware Tools</font><font style="color:black;">Installation</font><a class="headerlink" href="#vmware-toolsinstallation" title="Link to this heading"></a></h5>
+<p>VMware Tools will be installed automatically after the virtual machine is created. If it is not successful, follow the steps below.</p>
+<p>If you do not install the tool, you cannot use copy-paste file drag and drop between the Windows host and the virtual machine.</p>
+<p>First click on “Virtual Machine” on the VMware navigation bar, then click “Install VMware Tools” in the drop-down box.</p>
+<p><img alt="Image" src="_images/f3e921144eea4b65862cdbb8304364f9.png" /></p>
+<p>Once done, enter Ubuntu and the VMware Tools CD will appear on your desktop and click into it.</p>
+<p><img alt="Image" src="_images/ba856cf3705941d296eda599e55d10fc.png" /></p>
+<p>Enter and see a compressed file VMwareTools-10.3.10-12406962.tar.gz (it may be different for different VM versions); copy the file under the home directory (i.e. the directory with the home personal username)</p>
+<p><img alt="Image" src="_images/91210da6b0d44d43a4b760b589eaf39f.png" /></p>
+<p>Press [Ctrl+Alt+T] to bring up the Terminal Command Interface and enter the command:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ sudo tar xvf VMwareTools-10.3.10-12406962.tar.gz
+</pre></div>
+</div>
+<p><img alt="Image" src="_images/ae4f707bf5e849aead9a70858568cbe2.png" /></p>
+<p>After the extraction is complete, a file named “vmware-tools-distrib” will appear.</p>
+<p><img alt="Image" src="_images/e8c547ab60de4c4ca5bb9f73fff7b700.png" /></p>
+<p>Go back to the terminal and enter:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>cd vmware-tools-distrib
+</pre></div>
+</div>
+<p>Enter the directory:</p>
+<p>Input again:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>sudo ./vmware-install.pl
+</pre></div>
+</div>
+<p>Enter the password, and then start the installation. Enter yes when asked, and enter the default installation.</p>
+<p><img alt="Image" src="_images/4216de1f7cf94c489d11262568195cdb.png" /></p>
+<p>Once the VMware tools is complete, we can implement file copy and paste between Windows and Ubuntu.</p>
+</section>
+<section id="virtual-machine-full-screen-display">
+<h5><font style="color:black;">3.1.2.2</font><font style="color:black;">  </font><font style="color:black;">Virtual Machine Full Screen Display</font><a class="headerlink" href="#virtual-machine-full-screen-display" title="Link to this heading"></a></h5>
+<p>If the virtual machine is not able to be displayed in full screen, you can resolve this issue by clicking on “View” and selecting “Autofit Guest.” This will adjust the display to fit the screen automatically, enabling you to have a full-screen experience in the virtual machine.</p>
+<p><img alt="Image" src="_images/abac797cfb2147c290a5951390afdaee.png" /></p>
+<p>Make most of the system settings in the location shown. A lot of the setup requirements on Ubuntu can be done here.</p>
+<p><img alt="Image" src="_images/a7f619414de249c9acc84e93358132b0.png" /></p>
+</section>
+<section id="virtual-machine-hibernation-settings">
+<h5><font style="color:black;">3.1.2.3</font><font style="color:black;">  </font><font style="color:black;">Virtual Machine Hibernation Settings</font><a class="headerlink" href="#virtual-machine-hibernation-settings" title="Link to this heading"></a></h5>
+<p>Also, the default hibernation is 5min, if you don’t want to set hibernation, just set it to Never by setting Power-&gt;Blank screen.</p>
+<p><img alt="Image" src="_images/2c75187801cd4e46ad0f9af78af1ccaf.png" /></p>
+</section>
+</section>
+<section id="vmswapfilesettings">
+<h4><font style="color:black;">3.1.3</font><font style="color:black;">  </font><font style="color:black;">VM</font><font style="color:black;">Swapfile</font><font style="color:black;">Settings</font><a class="headerlink" href="#vmswapfilesettings" title="Link to this heading"></a></h4>
+<p>The memory allocated when creating the virtual machine is 8GB. If the 8GB memory is not enough during compilation, the size of the swapfile needs to be modified.</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ sudo swapoff /swapfile
+forlinx@ubuntu:~$ sudo dd if=/dev/zero of=/swapfile bs=1M count=16384
+forlinx@ubuntu:~$ sudo mkswap /swapfile
+forlinx@ubuntu:~$ sudo swapon /swapfile
+</pre></div>
+</div>
+</section>
+<section id="virtual-machines-network-settings">
+<h4><font style="color:black;">3.1.4</font><font style="color:black;">  </font><font style="color:black;">Virtual Machines Network Settings</font><a class="headerlink" href="#virtual-machines-network-settings" title="Link to this heading"></a></h4>
+<section id="natconnection-method">
+<h5><font style="color:black;">3.1.4.1</font><font style="color:black;">  </font><font style="color:black;">NAT</font><font style="color:black;">Connection Method</font><a class="headerlink" href="#natconnection-method" title="Link to this heading"></a></h5>
+<p>By default, after the virtual machine is installed, the network connection method is set to NAT, which shares the host machine’s IP address.</p>
+<p>This configuration does not need to be changed when performing tasks like installing dependencies or compiling code.</p>
+<p>When the VMware virtual NIC is set to NAT mode in a virtual machine, the network in the Ubuntu environment can be set to dynamic IP. In this mode the virtual NAT device and the host NIC are connected to communicate for Internet access. This is the most common way for our VM to access the external network.</p>
+<p><img alt="Image" src="_images/ecabd60418e64ed48e9914b964deb1c9.png" /></p>
+</section>
+<section id="bridge-connection">
+<h5><font style="color:black;">3.1.4.2</font><font style="color:black;">  </font><font style="color:black;">Bridge Connection</font><a class="headerlink" href="#bridge-connection" title="Link to this heading"></a></h5>
+<p>When the VMware virtual NIC device is in bridge mode, the host NIC and the virtual machine NIC communicate through the virtual bridge, and the network IP and the host need to be set in the same network segment in the Ubuntu environment. If accessing an external network, you need to set the DNS to be consistent with the host NIC. If TFTP, SFTP and other servers are used, the network contact mode of the virtual machine needs to be set as the bridge mode.</p>
+<p><img alt="Image" src="_images/36c6f2e180d04fa68fad8e99fe54be14.png" /></p>
+</section>
+</section>
+</section>
+<section id="toolkit-installation">
+<h3><font style="color:black;">3.2</font><font style="color:black;">  </font><font style="color:black;">Toolkit Installation</font><a class="headerlink" href="#toolkit-installation" title="Link to this heading"></a></h3>
+<p>To install the necessary toolkit for T527N compilation, please execute the following command to install it, and make sure that the network can be used normally and you can access the external network before installation:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ sudo apt-get update
+forlinx@ubuntu:~$ sudo apt-get install openssh-server vim git fakeroot make automake \
+autoconf libtool libssl-dev bc dosfstools mtools parted iproute2 kmod \
+libyaml-dev device-tree-compiler python flex bison build-essential \
+u-boot-tools libncurses-dev lib32stdc++6 lib32z1 libc6:i386 \
+nodejs gyp ninja-build  bison flex gperf ruby 
+</pre></div>
+</div>
+</section>
+<section id="qt-creatorinstallation">
+<h3><font style="color:black;">3.3</font><font style="color:black;">  </font><font style="color:black;">Qt Creator</font><font style="color:black;">Installation</font><a class="headerlink" href="#qt-creatorinstallation" title="Link to this heading"></a></h3>
+<p>Path: 02-User Information\01-Software Information\04-Tools\qt-opensource-linux-x64-5.12.9.run</p>
+<p>Copy qt-opensource-linux-x64-5.12.9.run to any directory in the current user’s home directory and execute it:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ chmod 777 qt-opensource-linux-x64-5.12.9.run
+forlinx@ubuntu:~$ ./qt-opensource-linux-x64-5.12.9.run
+</pre></div>
+</div>
+<p>The following interface will pop up. Click “Next” to enter the next step:</p>
+<p><img alt="Image" src="_images/8f03f041918e488fb607c28206d44892.png" /></p>
+<p>Click “Next” to go to the next step:</p>
+<p><img alt="Image" src="_images/5a89edca94ba4209913af43bf8b6d99c.png" /></p>
+<p>In the following interface, click “Browse…” to select the installation path of Qtcreator, after the selection is complete, click “Next” to enter the next step:</p>
+<p><img alt="Image" src="_images/caaa5ebb5e9544fcb70fcfae68a38a59.png" /></p>
+<p>In the following screen, click “Next” to the next step:</p>
+<p><img alt="Image" src="_images/8c7d69c618154e7bad12c64a75c87cbf.png" /></p>
+<p>Agree to the agreement and click “Next”:</p>
+<p><img alt="Image" src="_images/f1d0408a296a4e43b693d158f2c84508.png" /></p>
+<p>Click Install to install:</p>
+<p><img alt="Image" src="_images/eea0045323fc48c281e247f755e7a935.png" /></p>
+<p>After the installation is completed, the following interface will be displayed. Uncheck the option “Launch Qt Creator” “and click” Finish “to complete the installation steps of Qt Creator:</p>
+<p><img alt="Image" src="_images/de2da63e1e6d4d0cbdbac87880e5c665.png" /></p>
+<p>Go to the /home/forlinx/Qt5.12.9/Tools/QtCreator/bin/ directory of the actual qtcreator installation directory:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cd /home/forlinx/Qt5.12.9/Tools/QtCreator/bin/
+</pre></div>
+</div>
+<p>Boot Qt Creator ：</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/Qt5.12.9/Tools/QtCreator/bin $ sudo./qtcreator
+[sudo] password for forlinx: forlinx                         //Enter the password of the forlinx user without any response
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#39;/tmp/runtime-root&#39;
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#39;/tmp/runtime-root&#39;
+</pre></div>
+</div>
+<p><img alt="Image" src="_images/73e1f5416fdf461cb19bf0b884b4a91b.png" /></p>
+<p>The Qt Creator tool screen appears. Qt Creator is installed.</p>
+</section>
+<section id="qt-compilation-environment-configuration">
+<h3><font style="color:black;">3.4</font><font style="color:black;">  </font><font style="color:black;">Qt</font> <font style="color:black;">Compilation Environment Configuration</font><a class="headerlink" href="#qt-compilation-environment-configuration" title="Link to this heading"></a></h3>
+<p>Path: User profile \ software profile \ 3-tools \ host. tar. gz</p>
+<p>There are libraries and cross-compilation tools required for compiling Qt programs in the host. tar. gz.</p>
+<p>The configuration steps are as follow:</p>
+<p>1. Unzip the compilation environment zip;</p>
+<p>Because the qmake tool depends on local paths, this toolkit can only be placed in a fixed path: /opt/. Avoid unrecognized due to source code path change</p>
+<p>Unzip the tool kit</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ sudo tar -xf host.tar.gz -C /opt/
+</pre></div>
+</div>
+<p>If you cannot find the compressed package, you can also compile the source code first and copy out/t527/okt527/buildroot/buildroot/host/to the/opt/directory</p>
+<p>2. Qt Creator environment configuration</p>
+<p>First open the Qt Creator software.</p>
+<p>Go to the /home/forlinx/Qt5.12.9/Tools/QtCreator/bin/ directory of the actual qtcreator installation directory:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cd /home/forlinx/Qt5.12.9/Tools/QtCreator/bin/
+</pre></div>
+</div>
+<p>Boot Qt Creator ：</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/Qt5.12.9/Tools/QtCreator/bin $ sudo./qtcreator
+[sudo] password for forlinx: forlinx                         //输入forlinx用户的密码，无回显
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#39;/tmp/runtime-root&#39;
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to &#39;/tmp/runtime-root&#39;
+</pre></div>
+</div>
+<p>Start the Qt Creator program and click on the Tools-&gt;option:</p>
+<p><img alt="Image" src="_images/e1cd171c54a14fab8ca57de0fc03a81b.png" /></p>
+<p>Enter the Options interface, click “Kits” on the left side, then click the “Compilers” tab in the upper center, and click “Add-&gt;GCC-&gt;C++” on the right side, as shown in the figure:</p>
+<p><img alt="Image" src="_images/59b3a76ff68c40ae90f4152bdb04cec3.png" /></p>
+<p>Find “aarch64-none-linux-gnu-g + +” under/opt/host/bin, select it, click Open, and modify the Name</p>
+<p>Follow the same method to add GCC compiler and click “Add-&gt;GCC-&gt;C” on the right side; as shown in the figure:</p>
+<p><img alt="Image" src="_images/9cd2f4a7299249178fcdb229f5a1d75d.png" /></p>
+<p>Find “aarch64-none-linux-gnu-gcc” under/opt/host/bin, select it, click Open, and modify the Name</p>
+<p>Click on the Qt Versions tab and click on “Add”:</p>
+<p>Find qmake in the directory /opt/host/bin, select it and click Open, add it and display it as below, click “ Apply”.</p>
+<p><img alt="Image" src="_images/7cba0a6020d6475fa245d4c27902b9d1.png" /></p>
+<p>Click the Kits tab, click Add on the right, add a new kit, modify it according to the following figure, and click “Apply”.</p>
+<p><img alt="Image" src="_images/51736641badb40ad925e770572d9f90d.png" /></p>
+</section>
+<section id="vmwaresolution-to-error-reporting">
+<h3><font style="color:black;">3.5</font><font style="color:black;">  </font><font style="color:black;">VMware</font><font style="color:black;">Solution to Error Reporting</font><a class="headerlink" href="#vmwaresolution-to-error-reporting" title="Link to this heading"></a></h3>
+<p>Error 1: Unable to connect to MKS. Too many socket connection attempts; giving up.</p>
+<p><img alt="Image" src="_images/b1270a238379465e8ebb074c27535b1b.png" /></p>
+<p>Solution:</p>
+<p>My Computer -&gt; Right click -&gt; Management -&gt; Services and Applications -&gt; Services: turn on all the services about VMware.</p>
+<p><img alt="Image" src="_images/c1daea0f13a94afeb69489126fbb76a2.png" /></p>
+<p>After the service starts successfully, restart the virtual machine; or hang the virtual machine first, and when the service starts, continue to run the hung virtual machine;</p>
+<p>Error 2: Internal error</p>
+<p><img alt="Image" src="_images/a7871f85aa0b41e9a60d1f1ad1d485b5.png" /></p>
+<p>Solution: Refer to solution 1</p>
+<p>Error 3: Unable to install service VMware Authorization Service (VMAuthdService)</p>
+<p><img alt="Image" src="_images/6d4136242cac4adf870d859727b1d73f.png" /></p>
+<p>Solution:</p>
+<p>win+R</p>
+<p>Enter services.msc</p>
+<p><img alt="Image" src="_images/dcf3ba1f510440fda040cec6bed9d893.png" /></p>
+<p>Then find the service and start it up as an authorization and authentication service for starting and accessing virtual machines.</p>
+<p><img alt="Image" src="_images/21d1856a834a4efe88073d190d83ebdf.png" /></p>
+<p>WMI must start first.</p>
+<p><img alt="Image" src="_images/c350c7e6c2cb49e6a5b5501d59205fd5.png" /></p>
+<p>Error 4：Failed to install the hcmon driver</p>
+<p><img alt="Image" src="_images/dc11008b5c1e4f2890bb265e2b879287.png" /></p>
+<p>Solution: Delete C:\Windows\System32\drivers\hcmon.sys, then install again.</p>
+<p>Error 5: Intel VT-x in disabled state</p>
+<p><img alt="Image" src="_images/3343a477e16a4f01b661072c7cd3620f.png" /></p>
+<p>Solution:</p>
+<p>①Enter the BIOS screen while booting (F2 or F12)</p>
+<p>②configuration–》intel virtual technology–》–“change disabled to enabled–“save the setting, exit and reboot.</p>
+<p>③Reopen VMware and turn on the virtual machine.</p>
+<p>If that doesn’t work, just turn the firewall off and reopen the VM. (varies by machine)</p>
+<p>Error 6: The virtual machine appears to be in use… Acquiring Ownership (T)</p>
+<p><img alt="Image" src="_images/0d094cf534e2401eb8cb600a9a4006e0.png" /></p>
+<p>Solution:</p>
+<p>①Shut down the virtual machine</p>
+<p>② Enter the storage directory of the virtual machine and delete the *.lck file, where lck represents the locked file.</p>
+<p>③ Open the Windows Task Manager and kill the VMware process</p>
+<p><img alt="Image" src="_images/3b24662e114f4a86b27eed85982cf247.png" /></p>
+<p>④Reopen the virtual machine</p>
+<p>Error 7: Failed to lock file</p>
+<p><img alt="Image" src="_images/20b50f59a57a4be7acf4667c16512c5e.png" /></p>
+<p>Solution:</p>
+<p>①Go to the virtual machine’s storage directory</p>
+<p>②Delete.vmem.lck，.vmdk.lck，*.vmx.lck</p>
+<p>③Reopen the VM, you can enter the VM normally</p>
+<p>Error 8：The virtual machine could not be started because there was not enough memory available on the host.</p>
+<p>Solution:</p>
+<p>The virtual machine does not have enough memory to run the image’s maximum requirements; increase the virtual machine’s memory and reboot the virtual machine</p>
+<p><img alt="Image" src="_images/738cd08003194274b23959c91a70a889.png" /></p>
+</section>
+</section>
+<section id="ubuntu-compilation">
+<h2>4. Ubuntu Compilation<a class="headerlink" href="#ubuntu-compilation" title="Link to this heading"></a></h2>
+<p><strong>Note: Please do not skip this paragraph.</strong></p>
+<p>The development environment is the hardware and software platform that developers need during the development process. Development environment is not a fixed style . In the previous article, it explains in detail how to build an embedded Linux development environment. If you already know a lot about embedded development, you can build the environment according to your needs. If you encounter some problems, you can search for related information from some big Linux forums and websites to solve them. The operations mentioned in this section are performed on the development environment provided by us, which has been tested by Forlinx. If you are not very familiar with embedded development, recommend you to use the environment provided by Forlinx.</p>
+<p>**The development environment provided for general users is: forlinx (username), forlinx (password). **</p>
+<p><strong>The superuser is: root (username), root (password).</strong></p>
+<section id="preparation-before-startup">
+<h3><font style="color:black;">4.1</font><font style="color:black;">  </font><font style="color:black;">Preparation Before Startup</font><a class="headerlink" href="#preparation-before-startup" title="Link to this heading"></a></h3>
+<section id="versions">
+<h4><font style="color:black;">4.1.1</font><font style="color:black;">  </font><font style="color:black;">Versions</font><a class="headerlink" href="#versions" title="Link to this heading"></a></h4>
+<p>Virtual Machine Software: Vmware 15.1.0</p>
+<p>Recommended Development Environment OS: Ubuntu 20.04 64-bit</p>
+<p>Cross toolchain: gcc-arm-10.3-2021.07-x86 _ 64-aarch64-none-linux-gnu (kernel)</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>aarch64-buildroot-linux-gnu_sdk-buildroot（应用）
+</pre></div>
+</div>
+<p>Bootloader version: u-boot-2018.07</p>
+<p>Kernel version: linux-5.15.147</p>
+<p>Development board QT version: qt5.15.8</p>
+</section>
+<section id="source-code-copy-and-release">
+<h4><font style="color:black;">4.1.2</font><font style="color:black;">  </font><font style="color:black;">Source Code </font><font style="color:black;">Copy and Release</font><a class="headerlink" href="#source-code-copy-and-release" title="Link to this heading"></a></h4>
+<p>Kernel source code path: user data \ software data \ 2-image and source code \ 1-source code \ OKT527-linux-sdk 1.3.tar.bz2.</p>
+<p>1. Copy Source Code</p>
+<p>OKT527-linux-sdk1.3.tar.bz2 includes the toolchain, user SDK, Linux kernel, file system, source code for test programs, and some tools.</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ mkdir /home/forlinx/work                                            //Create working path
+</pre></div>
+</div>
+<p>Copy the source package to the virtual machine /home/forlinx/work directory.</p>
+<p>You can directly drag and drop the source package from your computer to a folder on the desktop of the virtual machine, or use a shared folder to copy it using the command; here we focus on the use of shared folders</p>
+<p>There are many kinds of file transfers between ubuntu and Windows hosts. After installing VMware Tools, you can set up a virtual machine shared folder to mount the file directory of the Windows host to ubuntu for file sharing.</p>
+<p>Click “Virtual Machine” on the menu bar and select “Settings”.</p>
+<p><img alt="Image" src="_images/aa38c988c012440680826a9a28411890.png" /></p>
+<p>Click “Options”, enable “Shared Folders”, set the shared directory on the Windows host, and click “OK”.</p>
+<p><img alt="Image" src="_images/7efbad0f793c4665ba229b194e4fd765.png" /></p>
+<p>After completing the virtual machine’s file sharing setup, place the source code package OKT527-linux-sdk1.3.tar.bz2 into the Windows host’s shared folder. Here, we’ll name it “share”.</p>
+<p>The shared folder is in the mount directory /mnt/hgfs/share in ubuntu; view the files in the mount directory.</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ ls /mnt/hgfs/share/                                //View files in the shared directory
+OKT527-linux-sdk1.3.tar.bz2
+</pre></div>
+</div>
+<p>Copy the source code from the shared folder to ubuntu’s /home/forlinx/work directory for md5 checksum:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cp /mnt/hgfs/share/OKT527-linux-sdk1.3.tar.bz2.* /home/forlinx/work/       
+forlinx@ubuntu:~$ cd /home/forlinx/work
+forlinx@ubuntu:~/work$ md5sum OKT527-linux-sdk1.3.tar.bz2.*
+</pre></div>
+</div>
+<p>The returned md5 checksum is the same as the one in the profile, so you can unzip the source code:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work$ cat OKT527-linux-sdk1.3.tar.bz2.0* | tar jxv
+</pre></div>
+</div>
+</section>
+<section id="common-file-path-of-source-code">
+<h4><font style="color:black;">4.1.3</font><font style="color:black;">  </font><font style="color:black;">Common File Path of Source Code</font><a class="headerlink" href="#common-file-path-of-source-code" title="Link to this heading"></a></h4>
+<p>OK527-C platform, the software configuration file path (starting under the SDK source code OKT527-linux-sdk path) is as follows:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Document type</p></th>
+<th class="head"><p>path</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Kernel configuration file</p></td>
+<td><p>device/config/chips/t527/configs/okt527/linux-5.15/bsp_defconfig</p></td>
+</tr>
+<tr class="row-odd"><td><p>Device tree file</p></td>
+<td><p>kernel/linux-5.15/bsp/configs/linux-5.15/sun55iw3p1.dtsi</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>kernel/linux-5.15/arch/arm64/boot/dts/allwinner/OKT527-C-Common.dtsi</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>kernel/linux-5.15/arch/arm64/boot/dts/allwinner/OKT527-C-Linux.dts</p></td>
+</tr>
+<tr class="row-even"><td><p>sysconfig.fex</p></td>
+<td><p>device/config/chips/t527/configs/okt527/sys_config.fex</p></td>
+</tr>
+<tr class="row-odd"><td><p>File system source files.</p></td>
+<td><p>File add path<br/>buildroot/buildroot-202205/board/forlinx/okt527/fs-overlay/<br/>Final packaging path<br/>out/t527/okt527/buildroot/buildroot/target</p></td>
+</tr>
+<tr class="row-even"><td><p>uboot environment variable settings file</p></td>
+<td><p>Device/config/chips/t527/configs/okt527/buildroot/env.cfg                                                                                                          You can modify this file if you need to modify or add default environment variables.</p></td>
+</tr>
+</tbody>
+</table>
+<p>OK527-C platform, the test program path (SDK source code starts under OKT527-linux-sdk path) is as follows:</p>
+<p>platform/framework/auto/cmd_demo Command Line Test Program Source Directory</p>
+<p>platform/framework/auto/qt_demo Qt test program source directory</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p>Source code path</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>qt-demo</p></td>
+<td><p>4G</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/4g</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>ADC</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/adc</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Backlight</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/backlight</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>SQL</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/books</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Browser</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/browser</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Camera test</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/camera</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Sound recording</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/fltest_qt_audiorecorder</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Video play</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/fltest_qt_musicplayer</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Key test</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/keypad</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Desktop</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/matrix-browser</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Network Configuration</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/network</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>ping</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/ping_test</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/qopenglwidget</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>rtc</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/rtc</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Spi</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/spitest</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Serial test</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/terminal</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Watchdog</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/watchdog</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>WiFi</p></td>
+<td><p>platform/forlinx/forlinx_qt_demo/wifi</p></td>
+</tr>
+<tr class="row-even"><td><p>cmd-demo</p></td>
+<td><p>Video Hardware Decoding</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/decoderTest</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Video Hardware Encoding</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/encoder_test</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Clear screen</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fbinit_test</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>GPADC</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fltest_adc</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Backlight</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fltest_backlight</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Key test</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fltest_keytest</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>SPI Test</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fltest_spidev_test</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>UART</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fltest_uarttest</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>USB camera</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fltest_usbcam</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Watchdog</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/fltest_watchdog</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>ec20 4G</p></td>
+<td><p>platform/forlinx/forlinx_cmd_demo/quectelCM</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>wifi</p></td>
+<td><p>platform/forlinx/overlay_rootfs/usr/bin/fltest_wifi.sh</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Wifi-ap</p></td>
+<td><p>platform/forlinx/overlay_rootfs/usr/bin/fltest_hostap.sh</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>gpio</p></td>
+<td><p>platform/forlinx/overlay_rootfs/usr/bin/fltest_gpio.sh</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Desktop</p></td>
+<td><p>platform/forlinx/overlay_rootfs/etc/init.d/S60Matrix_Browser</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="source-code-compilation">
+<h3><font style="color:black;">4.2</font><font style="color:black;">  </font><font style="color:black;">Source Code Compilation</font><a class="headerlink" href="#source-code-compilation" title="Link to this heading"></a></h3>
+<section id="full-compilation">
+<h4><font style="color:black;">4.2.1</font><font style="color:black;">  </font><font style="color:black;">Full Compilation</font><a class="headerlink" href="#full-compilation" title="Link to this heading"></a></h4>
+<p>Full compilation refers to the unified compilation of source code, including kernel source code, library files, applications, file system packaging, and so on.</p>
+<p>First select the configuration:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cd /home/forlinx/work/OKT527-linux-sdk                    //Enter source code path
+forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh config                    //Execute configure commands
+</pre></div>
+</div>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh config
+========ACTION List: mk_config ;========
+options : 
+All available board:
+   0. okt527
+Choice [okt527]: 
+Setup BSP files
+.
+
+…
+
+</pre></div>
+</div>
+<p>Run the compilation script for full compilation:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh
+</pre></div>
+</div>
+<p><strong>Note: If compilation of qt_webengine stalls or results in errors, please switch to a more powerful host machine to run the virtual machine environment.</strong></p>
+<p><strong>or:</strong></p>
+<p><strong>Delete OKT527-linux-sdk1.3/out/t527/okt527/buildroot/buildroot/build/qt5webengine-5.15.8/ directory</strong></p>
+<p><strong>And switch to OKT527-linux-sdk1.3/buildroot/buildroot-202205/package/qt5/qt5webengine directory</strong></p>
+<p><strong>Modify the qt5web engine. mk films</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>**QT5WEBENGINE_ENV += NINJAFLAGS=&quot;-j32&quot;**
+</pre></div>
+</div>
+<p><strong>modify to</strong></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>**QT5WEBENGINE_ENV += NINJAFLAGS=&quot;-j8&quot;**
+</pre></div>
+</div>
+<p><img alt="Image" src="_images/0679cdb4a7ef4503bc58f08daf758a84.png" /></p>
+<p><strong>Continue to execute the build. sh to compile.</strong></p>
+<p>After the source code is compiled you need to generate an image to package the various files and configuration files generated by the compilation.</p>
+<p>Execute the pack command to generate the image file:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh pack
+
+…
+
+Dragon execute image.cfg SUCCESS !
+----------image is at----------
+
+655M    ~/work/OKT527-linux-sdk/out/t527_linux_okt527_uart0.img
+
+pack finish
+</pre></div>
+</div>
+</section>
+<section id="individual-kernel-device-tree-compilation">
+<h4><font style="color:black;">4.2.2</font><font style="color:black;">  </font><font style="color:black;">Individual Kernel </font><font style="color:black;">Device Tree Compilation</font><a class="headerlink" href="#individual-kernel-device-tree-compilation" title="Link to this heading"></a></h4>
+<p>Compile the kernel alone only for the kernel source code to compile, affecting the driver, applicable to only modify the kernel to compile.</p>
+<p>After selecting the configuration according to the previous method:</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cd /home/forlinx/work/OKT527-linux-sdk
+forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh kernel                    //Execute compile kernel command
+
+…
+
+Copy modules to target ...
+15985 blocks
+28830 blocks
+bootimg_build
+Copy boot.img to output directory ...
+
+sun55iw3p1 compile all(Kernel+modules+boot.img) successful
+
+…
+
+forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh pack
+</pre></div>
+</div>
+</section>
+<section id="individual-test-program-compilation">
+<h4><font style="color:black;">4.2.3</font><font style="color:black;">  </font><font style="color:black;"><strong>Individual Test Program Compilation</strong></font><a class="headerlink" href="#individual-test-program-compilation" title="Link to this heading"></a></h4>
+<p>When modifying the test program separately, you can compile only the test program to reduce the amount of compilation.</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cd /home/forlinx/work/OKT527-linux-sdk
+forlinx@ubuntu:~/work/OKT527-linux-sdk$ source .buildconfig              //Configuration before compilation
+forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./platform/forlinx/build.sh
+</pre></div>
+</div>
+</section>
+<section id="individual-u-boot-compilation">
+<h4><font style="color:black;">4.2.4  <strong>Individual U-Boot Compilation</strong></font><a class="headerlink" href="#individual-u-boot-compilation" title="Link to this heading"></a></h4>
+<p>Compile uboot separately using the following command.</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh brandy
+forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh pack
+</pre></div>
+</div>
+<p>Note: The content of uboot is not open source, and it will report an error when compiled separately. Just ignore it.</p>
+</section>
+<section id="individual-filesystem-compilation">
+<h4><font style="color:black;">4.2.5 <strong>Individual Filesystem Compilation</strong></font><a class="headerlink" href="#individual-filesystem-compilation" title="Link to this heading"></a></h4>
+<p>During the full compilation process, the file system will not be compiled and needs to be modified and compiled separately. Enter the file system directory to compile and configure modifications.</p>
+<p>The compilation instructions are as follows, using the compile script in the buildroot-202205.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work/OKT527-linux-sdk/buildroot/buildroot-202205$<span class="w"> </span>./build.sh
+</pre></div>
+</div>
+<p>If you want to modify the configuration, you can do so as follows. Use the above instructions to compile after the modification is completed.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work/OKT527-linux-sdk/buildroot/buildroot-202205$<span class="w"> </span>make<span class="w"> </span>OKT527-C-Linux_defconfig<span class="w"> </span><span class="nv">ARCH</span><span class="o">=</span>arm64<span class="w">					</span>//Read<span class="w"> </span>the<span class="w"> </span>current<span class="w"> </span>configuration
+forlinx@ubuntu:~/work/OKT527-linux-sdk/buildroot/buildroot-202205$<span class="w"> </span>make<span class="w"> </span>menuconfig<span class="w">	</span>//Enter<span class="w"> </span>the<span class="w"> </span>graphic<span class="w"> </span>configuration<span class="w"> </span>interface<span class="w"> </span>to<span class="w"> </span>modify<span class="w"> </span>the<span class="w"> </span>configuration
+forlinx@ubuntu:~/work/OKT527-linux-sdk/buildroot/buildroot-202205$<span class="w"> </span>cp<span class="w"> </span>../../out/t527/okt527/buildroot/buildroot/.config<span class="w"> </span>configs/OKT527-C-Linux_defconfig<span class="w">		</span>//Save<span class="w"> </span>the<span class="w"> </span>modified<span class="w"> </span>content<span class="w"> </span>as<span class="w"> </span>the<span class="w"> </span>default<span class="w"> </span>configuration
+</pre></div>
+</div>
+</section>
+<section id="okt527-linux-sdk-clearance">
+<h4><font style="color:black;">4.2.6 OKT527-linux-sdk Clearance</font><a class="headerlink" href="#okt527-linux-sdk-clearance" title="Link to this heading"></a></h4>
+<p>This operation clears all intermediate files. However, it does not affect the source files, including those that have already had changes made to them.</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cd /home/forlinx/work/OKT527-linux-sdk
+forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh clean                            //Execute the clear command
+</pre></div>
+</div>
+</section>
+<section id="boot-logo-replacement">
+<h4><font style="color:black;">4.2.7 Boot Logo Replacement</font><a class="headerlink" href="#boot-logo-replacement" title="Link to this heading"></a></h4>
+<p>Replace device/config/chips/t527/boot-resource/boot-resource/bootlogo.bmp</p>
+<p>The image is in bmp format, 720x480 resolution, with the file name “bootlogo.bmp”.</p>
+<p>Repackage the image</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~/work/OKT527-linux-sdk$ ./build.sh pack
+</pre></div>
+</div>
+</section>
+<section id="individual-development-board-firmware-update">
+<h4><font style="color:black;">4.2.8  Individual Development Board Firmware Update</font><a class="headerlink" href="#individual-development-board-firmware-update" title="Link to this heading"></a></h4>
+<p>After compiling the image, uboot, device tree, and kernel can be updated separately, and uboot, device tree file boot _ package. fex, and kernel file boot. fex can be copied from the out/pack _ out/.</p>
+<p>Here, a USB drive is used for testing, with files placed on the USB drive and mounted to/run/media/sda1/. You can also transfer files to the development board through the network port</p>
+<p>Uboot and device tree updates</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>dd if=/run/media/sda1/boot_package.fex of=/dev/mmcblk0 seek=32800
+dd if=/run/media/sda1/boot_package.fex of=/dev/mmcblk0 seek=24576
+</pre></div>
+</div>
+<p>Kernel update</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>dd if=/run/media/sda1/boot.fex of=/dev/mmcblk0p3 conv=fsync
+</pre></div>
+</div>
+<p>The entire file system update is not supported for the time being. If necessary, the required files can be transferred by U disk or SSH.</p>
+</section>
+</section>
+<section id="qt-configuration-and-use">
+<h3><font style="color:black;">4.3</font><font style="color:black;">  </font><font style="color:black;">Qt </font><font style="color:black;">Configuration and Use</font><a class="headerlink" href="#qt-configuration-and-use" title="Link to this heading"></a></h3>
+<p>The OKT527-linux-sdk1.3.tar.bz2 provided by Forlinx offers a complete development dependency environment for Qt 5.15.8. The development environment has already installed Qt Creator 5.12.9. Please set up the Qt Creator 5.15.8 environment on your own by following the methods described previously.</p>
+<section id="okt527-linux-sdk-installation">
+<h4><font style="color:black;">4.3.1</font><font style="color:black;">  </font><font style="color:black;">OKT527-linux-sdk</font> Installation<a class="headerlink" href="#okt527-linux-sdk-installation" title="Link to this heading"></a></h4>
+<p>Please refer to Chapter 3 for SDK installation and full compilation.</p>
+</section>
+<section id="qt-creator-environment-configuration">
+<h4><font style="color:black;">4.3.2</font><font style="color:black;">  </font><font style="color:black;">Qt Creator </font><font style="color:black;">Environment </font><font style="color:black;">Configuration</font><a class="headerlink" href="#qt-creator-environment-configuration" title="Link to this heading"></a></h4>
+<p>Please refer to Chapter 3. for installation and configuration.</p>
+</section>
+<section id="qt-creator-development-examples">
+<h4><font style="color:black;">4.3.3</font><font style="color:black;">  </font><font style="color:black;">Qt Creator </font><font style="color:black;">Development Examples</font><a class="headerlink" href="#qt-creator-development-examples" title="Link to this heading"></a></h4>
+<p>Open the Qt Creator software.</p>
+<div class="highlight-plain notranslate"><div class="highlight"><pre><span></span>forlinx@ubuntu:~$ cd /home/forlinx/Qt5.12.9/Tools/QtCreator/bin/
+forlinx@ubuntu:~/qtcreator-4.7.0/bin$ sudo ./qtcreator
+</pre></div>
+</div>
+<p>Start the Qt Creator program, enter the Qt Creator interface, click “File” -&gt; “New File or Project” to create a new project, select “ Application (Qt)” -&gt; “Qt Widgets Application”, then click “Choose” in the right corner. Application (Qt)”-&gt;”Qt Widgets Application”, then click “Choose” in the lower right corner:</p>
+<p><img alt="Image" src="_images/48648f4d29e448b28bec96a15102c9ca.png" /></p>
+<p>In the following interface, change the name of the new project to “helloworld”, select the installation path /home/forlinx, and then click “Next”:</p>
+<p><img alt="Image" src="_images/ef232c405d0d40bf8e2e4d37f996f4d0.png" /></p>
+<p>Select qmake and click “Next” to continue.</p>
+<p><img alt="Image" src="_images/54b37456de6248c7b7ccb2df962488b2.png" /></p>
+<p>In the following interface, you can modify the Class name and Base class as required. The default is used here, and then click “Next”:</p>
+<p><img alt="Image" src="_images/f70676a465e748359c32b977524dc66d.png" /></p>
+<p>Translation files can be selected, and languages can be selected if there is a need for multi-language support. Use the default here and click “Next”:</p>
+<p><img alt="Image" src="_images/0542302ce7a74851884b53bd0b717a00.png" /></p>
+<p>In the following screen, select “OK527” as the kit of the current project, and then click “Next”:</p>
+<p><img alt="Image" src="_images/6b1d4af75ea54eaa95c69402a26bca74.png" /></p>
+<p>In the following interface, click “Finish” to complete the new project:</p>
+<p><img alt="Image" src="_images/3bf585521a8c4ee2a872fc9ea2d124ae.png" /></p>
+<p>When the creation of the new project is complete, the following window can be displayed:</p>
+<p><img alt="Image" src="_images/0c81ca78c48944cdaff2714c433cbc67.png" /></p>
+<p>When the program is written, click the hammer icon in the lower left corner to cross-compile and copy the compiled executable program to the development board to test the application.</p>
+</section>
+<section id="qt-creator-fqa">
+<h4><font style="color:black;">4.3.4 </font><font style="color:black;"> </font><font style="color:black;">Qt Creator </font><font style="color:black;">FQA</font><a class="headerlink" href="#qt-creator-fqa" title="Link to this heading"></a></h4>
+<p>Open the Qt Creator integrated development environment from the command line or through a shortcut. Once launched, you will see a interface similar to the one below:</p>
+<p><img alt="Image" src="_images/9e26649502504eb78f3bdfb8feadda73.png" /></p>
+<p>The “Design” button, “Project” button, and the “Build and Debug” area on the left side will only become available after opening or creating a project.</p>
+<p>There are the positioning tools and output panes underneath the QtCreator, which are used when writing project code , running and debugging programs. There are seven output panes: Issues (problems with the project build), Search Results (searches for the contents of the project file), Application Output (display of runtime and debugging information), Compile Output (compilation and linking commands and their output information), QML/JS Console (the QML command window), Summary Information (a summary of the project’s information), and Version Control (a system of control of the version.)</p>
+<ol class="arabic simple">
+<li><p>Click the hammer button in the lower left corner and find that there is no compilation information. The solution is as follows:</p></li>
+</ol>
+<p>By default, the selected output pane is 1 (Issues) for viewing. If you need to check the compilation information, you will need to select 4 (Compile Output) in the output pane location.</p>
+<p>Build Debugging</p>
+<p><img alt="Image" src="_images/dd0cec48825b49c9a6a3fe7388b5959b.png" /></p>
+<p>2. The solution to the issue of the gray debug/run button in Qt Creator is as follows:</p>
+<p>This problem occurs because there is a problem configuring the C, C++ and Qt versions in the kits suite, maybe there is a problem with the paths, maybe you haven’t done a full compilation, just change the editor language.</p>
+<p><img alt="Image" src="_images/3fc9d0760e874113950ab8ae7c7b52d3.png" /></p>
+<p>Please check if the cross-compiler path configuration in the checkbox is correct.</p>
+<p>For the specific configuration method, refer to the chapter “<a class="reference external" href="https://forlinx-book.yuque.com/pxh4d1/xrit1g/4065557d050f94a9c309bdd354805839#KyF8n"><strong>3.4 Configuration of Qt Compilation Environment</strong></a>”.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <div class="forlinx-footer-social" style="margin-top: 15px; padding: 0 16px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+
+    <!-- 左侧版权信息 -->
+    <span style="font-size: 14px; color: #444;">
+      © <a href="https://www.forlinx.net/" target="_blank" style="color: inherit; text-decoration: none;">Forlinx Embedded</a>
+    </span>
+
+    <!-- 右侧社交图标 -->
+    <div>
+      <a href="https://www.facebook.com/Forlinx-Embedded-177890724336237" target="_blank">
+        <i class="fab fa-facebook fa-lg" style="margin: 0 6px; color:#3b5998;"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/forlinx-embedded-technology-co-ltd/" target="_blank">
+        <i class="fab fa-linkedin fa-lg" style="margin: 0 6px; color:#0077b5;"></i>
+      </a>
+      <a href="https://x.com/ForlinxOfficial" target="_blank">
+        <i class="fab fa-x-twitter fa-lg" style="margin: 0 6px; color:#000;"></i>
+      </a>
+      <a href="https://www.youtube.com/@forlinxembedded" target="_blank">
+        <i class="fab fa-youtube fa-lg" style="margin: 0 6px; color:#FF0000;"></i>
+      </a>
+      <a href="https://github.com/ForlinxEmbedded" target="_blank">
+        <i class="fab fa-github fa-lg" style="margin: 0 6px; color:#333;"></i>
+      </a>
+      <a href="https://www.forlinx.net/" target="_blank">
+        <i class="fas fa-globe fa-lg" style="margin: 0 6px; color:#2274A5;"></i>
+      </a>
+    </div>
+
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://docs.forlinx.net/allwinner/ok527n-c/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://docs.forlinx.net/nxp/ls-development-manual/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://docs.forlinx.net/nxp/ok1046a-c2/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://docs.forlinx.net/nxp/okmx8mpq-c/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://docs.forlinx.net/nxp/okmx8mpq-smarc/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://docs.forlinx.net/rockchip/ok3588-c/sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>
