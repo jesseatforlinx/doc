@@ -101,7 +101,7 @@ Step 6：Click "Install"；
 
 Step 7：Wait for the installation to complete；
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647590_2cbc793c_e0bc_4881_8583_3bfd31fb5f23.png)****
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647590_2cbc793c_e0bc_4881_8583_3bfd31fb5f23.png)
 
 Step 8：Click "Finish" to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</font>
 
@@ -200,7 +200,7 @@ Step 10: Configure the number of CPU cores. It is recommended to allocate more t
 
 Step 11: The basic configuration is as follows:
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652061_423b243b_cd10_41ff_bda5_ec2a20e58a49.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/34.png)
 
 The virtual machine creation is now complete.
 
