@@ -85,15 +85,15 @@ Step 2: Check "I accept the terms of the license agreement" and click "Next";
 
 Step 3: You can modify the installation location, install it to the partition where your computer installs software, and click "Next";
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647306_d2db4dbe_cc36_46d1_8289_5e2075a3560b.png)
+![Image](./1745908647306_d2db4dbe_cc36_46d1_8289_5e2075a3560b.png)
 
 Step 4: Check the option and click "Next";
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647377_37b9fd9a_7a3e_4800_9c3a_c764907d867a.png)
+![Image](./1745908647377_37b9fd9a_7a3e_4800_9c3a_c764907d867a.png)
 
 Step 5: Check the option to add the shortcuts and click "Next"；
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647442_89d74b7b_b867_4b4f_9531_85e80149c571.png)
+![Image](./1745908647442_89d74b7b_b867_4b4f_9531_85e80149c571.png)
 
 Step 6：Click "Install"；
 
