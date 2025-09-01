@@ -200,7 +200,7 @@ Step 10: Configure the number of CPU cores. It is recommended to allocate more t
 
 Step 11: The basic configuration is as follows:
 
-![Image](./34.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/34.png)
 
 The virtual machine creation is now complete.
 
