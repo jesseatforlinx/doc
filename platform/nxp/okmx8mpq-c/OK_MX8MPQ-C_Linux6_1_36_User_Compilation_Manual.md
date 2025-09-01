@@ -168,23 +168,23 @@ Step 2: Open the VMware software and click \[File]/ \[New Virtual Machine]. Ente
 
 Step 3: Select the compatibility of the corresponding VMware version. The version can be viewed in Help-> About VMware Workstation. Click "Next" after confirmation:
 
-![Image](./14.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/14.png)
 
 Step 4: Select “Install program from disc image file”, then click “Next”；
 
-![Image](./20.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/20.png)
 
 Step 5: Enter full name, user name and password, and click "Next":
 
-![Image](./17-1756706002298-4.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/17_1756706002298_4.png)
 
 Step 6: Enter the virtual machine name and configuration installation location and click "Next":
 
-![Image](./21.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/21.png)
 
 Step 7: Allocate a disk size of 80G and divide the virtual disk into multiple files (it is recommended to allocate at least 80G of space for the virtual machine environment), and click Next:
 
-![Image](./1745908651847_bac65ed7_e499_4b64_b6fb_17d8c3288b91-1756706301870-8.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/45908651847_bac65ed7_e499_4b64_b6fb_17d8c3288b91_1756706301870_8.png)
 
 Step 8: Enter the virtual machine name and configuration installation location and click "Next":
 
