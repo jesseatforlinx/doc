@@ -101,7 +101,7 @@ Step 6：Click "Install"；
 
 Step 7：Wait for the installation to complete；
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647590_2cbc793c_e0bc_4881_8583_3bfd31fb5f23.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908647590_2cbc793c_e0bc_4881_8583_3bfd31fb5f23.png)****
 
 Step 8：Click "Finish" to try it out. If users need to use it for a long time, they need to buy it from the official and fill in the license.</font>
 
@@ -168,23 +168,23 @@ Step 2: Open the VMware software and click \[File]/ \[New Virtual Machine]. Ente
 
 Step 3: Select the compatibility of the corresponding VMware version. The version can be viewed in Help-> About VMware Workstation. Click "Next" after confirmation:
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/14.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651227_7e02a7ab_0efd_4c2a_bd4e_941fd481ce39.png)
 
 Step 4: Select “Install program from disc image file”, then click “Next”；
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/20.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651326_9c7584ae_8058_4a01_8e9c_c891ff759f3d.png)
 
 Step 5: Enter full name, user name and password, and click "Next":
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/17_1756706002298_4.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651419_e1a0703a_3115_4096_b169_35aab8d47841.png)
 
 Step 6: Enter the virtual machine name and configuration installation location and click "Next":
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/21.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651553_bafa9b74_675f_4ff5_ab5a_5a9640320b2c.png)
 
 Step 7: Allocate a disk size of 80G and divide the virtual disk into multiple files (it is recommended to allocate at least 80G of space for the virtual machine environment), and click Next:
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/45908651847_bac65ed7_e499_4b64_b6fb_17d8c3288b91_1756706301870_8.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908651653_75310dc2_f844_4c4f_a914_e553061d8df8.png)
 
 Step 8: Enter the virtual machine name and configuration installation location and click "Next":
 
@@ -200,7 +200,7 @@ Step 10: Configure the number of CPU cores. It is recommended to allocate more t
 
 Step 11: The basic configuration is as follows:
 
-![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/34.png)
+![Image](./images/OK_MX8MPQ-C_Linux6_1_36_User_Compilation_Manual/1745908652061_423b243b_cd10_41ff_bda5_ec2a20e58a49.png)
 
 The virtual machine creation is now complete.
 
