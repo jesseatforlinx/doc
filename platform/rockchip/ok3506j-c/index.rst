@@ -6,7 +6,7 @@
 
    🔗 Official product overview:
    
-   `FET3576-C System On Module <https://www.forlinx.net/product/rk3506j-c-system-on-module-168.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
+   `FET3506J-C System On Module <https://www.forlinx.net/product/rk3506j-c-system-on-module-168.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs>`_
 
 
 ====================
