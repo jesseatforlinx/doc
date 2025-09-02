@@ -48,6 +48,21 @@ RK3576 Series
      </div>
    </div>
 
+RK3506 Series
+----------------
+
+.. raw:: html
+
+   <div class="product-card">
+     <a href="rockchip/ok3506j-c/index.html" target="_blank" rel="noopener noreferrer">
+       <img src="_static/images/rockchip/OK3506J-C.png" alt="ok3506j-c" class="product-image" />
+     </a>
+     <h3 class="product-title">OK3506J-C</h3>
+     <div class="btn-group">
+       <a href="https://www.forlinx.net/product/rk3506j-c-system-on-module-168.html?utm_source=forlinxdocs&utm_medium=organic&utm_campaign=docs" target="_blank" rel="noopener noreferrer" class="btn btn-website">Website</a>
+       <a href="rockchip/ok3506j-c/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-doc">Docs</a>
+     </div>
+   </div>
 
 RK3568 Series
 --------------
