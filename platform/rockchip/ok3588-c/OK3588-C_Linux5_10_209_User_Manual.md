@@ -1120,7 +1120,7 @@ Mon Dec 12 17:23:20 CST 2022
 
 Use the fltest\_keytest command line tool to test the keys. fltest\_keytest currently supports the test of four keys on the carrier board, VOL+, VOL-, MENU, and ESC, with key codes 115, 114, 139, and 158, respectively.
 
-Execute the following command:
+Execute the following command: 
 
 ```plain root@ok3588-buildroot:~# fltest_keytest```
 
