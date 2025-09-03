@@ -1506,9 +1506,10 @@ root@ok3588:~# fltest_quectel.sh &
 ```
 
 Printing information is as follows:
-```
+
+```plain
  eth0: flags=4163\<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500<br/>eth1: flags=4099\<UP,BROADCAST,MULTICAST>  mtu 1500<br/>\[04-02\_01:24:28:549] Quectel\_QConnectManager\_Linux\_V1.6.0.24<br/>\[04-02\_01:24:28:550] Find /sys/bus/usb/devices/2-1 idVendor=0x2c7c idProduct=0x125, bus=0x002, dev=0x003<br/>\[04-02\_01:24:28:559] Auto find qmichannel = /dev/qcqmi0<br/>\[04-02\_01:24:28:563] Auto find usbnet\_adapter = usb0<br/>\[04-02\_01:24:28:568] netcard driver = GobiNet, driver version = V1.6.2.14<br/>\[04-02\_01:24:28:574] Modem works in QMI mode<br/>\[04-02\_01:24:28:631] Get clientWDS = 7<br/>\[04-02\_01:24:28:663] Get clientDMS = 8<br/>\[04-02\_01:24:28:695] Get clientNAS = 9<br/>\[04-02\_01:24:28:727] Get clientUIM = 10<br/>\[04-02\_01:24:28:759] Get clientWDA = 11<br/>\[04-02\_01:24:28:790] requestBaseBandVersion EM05CEFCR06A02M1G\_ND<br/>\[04-02\_01:24:28:918] requestGetSIMStatus SIMStatus: SIM\_READY<br/>\[04-02\_01:24:28:950] requestGetProfile\[1] 3gnet///0<br/>\[04-02\_01:24:28:982] requestRegistrationState2 MCC: 460, MNC: 1, PS: Attached, DataCap: LTE<br/>\[04-02\_01:24:29:015] requestQueryDataCall IPv4ConnectionStatus: DISCONNECTED<br/>\[04-02\_01:24:29:016] ifconfig usb0 0.0.0.0<br/>\[04-02\_01:24:29:031] ifconfig usb0 down<br/>\[04-02\_01:24:29:110] requestSetupDataCall WdsConnectionIPv4Handle: 0x86cfbe60<br/>\[04-02\_01:24:29:271] ifconfig usb0 up<br/>\[04-02\_01:24:29:292] No default.script found, it should be in '/usr/share/udhcpc/' or '/etc//udhcpc' depend on your udhcpc version!<br/>\[04-02\_01:24:29:298] busybox udhcpc -f -n -q -t 5 -i usb0<br/>udhcpc: started, v1.30.1<br/>udhcpc: sending discover<br/>udhcpc: sending select for 10.117.151.120<br/>udhcpc: lease of 10.117.151.120 obtained, lease time 7200<br/>\[04-02\_01:24:29:440] ip -4 address flush dev usb0<br/>\[04-02\_01:24:29:450] ip -4 address add 10.117.151.120/28 dev usb0<br/>\[04-02\_01:24:29:465] ip -4 route add default via 10.117.151.121 dev usb0
- 
+
 ```
 
 3\. Before testing, check the relevant configuration;
