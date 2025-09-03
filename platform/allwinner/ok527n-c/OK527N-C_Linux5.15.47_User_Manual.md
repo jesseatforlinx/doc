@@ -66,7 +66,7 @@ This software manual applies to the Forlinx<font style="color:rgb(0,0,0);">OK527
 
 <font style="color:black;">OK527 development board uses a </font>SoM<font style="color:black;">+ carrier board structure, designed and developed based on the AllWinner T527 processor. The processor features an ARM Cortex-A55, 2Tops NPU, HiFi4 DSP, G57 MC1 GPU multi-core heterogeneous architecture. The processor consists of four small cores with a frequency of 1.</font>4G<font style="color:black;">Hz and four big cores with a frequency of 1.8GHz. The SoM comes in two configurations: one with 4GB LPDDR4 memory and 32GB eMMC, and the other with 2GB LPDDR4 memory and 16GB eMMC. The OK527N-C development board offers rich interface resources and multiple peripheral interfaces, including network card, CPU built-in audio codec, GPADC, LRADC, TF Card, LVDS, HDM, DP, RGB, WiFi, 4G, PCIe, MIPI-CSI, and more.</font>
 
-![Image](./images/OK527NC_Linux51547_User_Manual/06c53e4a05ac401f98dfa0199879ae61.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/06c53e4a05ac401f98dfa0199879ae61.png)
 
 **Note：**
 
@@ -128,7 +128,7 @@ Hardware preparation before system startup:
 - Check the booting method (the system will prioritize booting from the TF card if inserted; otherwise, it will boot from eMMC).
 
 
-![Image](./images/OK527NC_Linux51547_User_Manual/94815d922930446c9def31b24a302afb.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/94815d922930446c9def31b24a302afb.png)
 
 ### 2.2 Serial Port Login
 
@@ -148,11 +148,11 @@ The port number recognized by the computer should be considered as the accurate 
 
 Choose “USB-Enhanced-SERIAL-A CH342”.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/9e2cca0969df41fe9a59ca302f92aae7.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/9e2cca0969df41fe9a59ca302f92aae7.png)
 
 Step 2: Open and configure PuTTY; set the serial line to match the COM port of your computer with a baud rate of 115200.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/cf849bee2bee42779e11bcba90fd3e14.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/cf849bee2bee42779e11bcba90fd3e14.png)
 
 Step 3: Power on the development board. Serial port will output printing information until “root@OK527:/#” appears, indicating the completion of the boot process. The system defaults to the root account with no password required for login.
 
@@ -177,17 +177,17 @@ The specific method of operation is as follows:
 
 1\. Connect eth0 of the development board to the computer through the network and power up the development board. A red light on the SoM will blink after the kernel starts, and the network card connected to the computer will blink quickly after normal startup. At this point, we can test the network connection;
 
-![Image](./images/OK527NC_Linux51547_User_Manual/2c6fb190a0024aaaa36d36d1f6d5864e.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2c6fb190a0024aaaa36d36d1f6d5864e.png)
 
 2\. Close the computer firewall (General computer operations, not described here in detail), then open the computer's run command;
 
-![Image](./images/OK527NC_Linux51547_User_Manual/2b9890db290046fdbb1d34fb7ffc3c35.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2b9890db290046fdbb1d34fb7ffc3c35.png)
 
 3\. Use cmd to open the administrator interface , and use the ping command to test the network connection status of the computer and the development board.
 
 A data return indicates a normal network connection.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/0f90a319589444cdac4c5e7d58158bbb.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/0f90a319589444cdac4c5e7d58158bbb.png)
 
 #### 2.3.2 SSH server
 
@@ -197,11 +197,11 @@ A data return indicates a normal network connection.
 - **The default factory IP for eth0 is 192.168.0.232;**
 - **File transfers can be performed with scp.**
 
-![Image](./images/OK527NC_Linux51547_User_Manual/846ff8b162c546ac9e268600a5dce468.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/846ff8b162c546ac9e268600a5dce468.png)
 
 Click "Open", the following dialog box will appear, click "Yes" to enter the login screen.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/326d584bb5d247ffa6bc2f4c325934fc.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/326d584bb5d247ffa6bc2f4c325934fc.png)
 
 ```plain
 Login as：root
@@ -354,11 +354,11 @@ This chapter mainly explains the usage of the expansion interfaces on the develo
 
 The desktop of the OK527 development board appears as follows after startup:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/847ac07fa318482cbe4b2e8e4e8f95ed.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/847ac07fa318482cbe4b2e8e4e8f95ed.png)
 
 Click the arrow in the upper right corner togo to the next page.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/4686cda3f4b44555bd99ce394dfb54e7.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/4686cda3f4b44555bd99ce394dfb54e7.png)
 
 Video Player is not supported in the current version
 
@@ -370,7 +370,7 @@ Video Player is not supported in the current version
 
 **The IP and network configuration will be stored in the system file (/etc/network/interfaces), ensuring the settings persist across system restarts.**
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/8c4ed03d40d74850bf31dbac258f1ed8.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/8c4ed03d40d74850bf31dbac258f1ed8.png)
 
 Clicking on the network configuration icon will open a interface program that supports two modes: STATIC and DHCP.
 
@@ -386,7 +386,7 @@ After clicking on the network configuration icon, select the STATIC mode as show
 | gateway| Set up the gateway
 | dns| Set DNS
 
-![Image](./images/OK527NC_Linux51547_User_Manual/6d4df335a44e43e1846ba7a5432797aa.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/6d4df335a44e43e1846ba7a5432797aa.png)
 
 DHCP Mode:
 
@@ -394,39 +394,39 @@ DHCP Mode:
 
 Check DHCP, select the NIC device needing to be configured, and click “Apply and Restart Network” at the bottom of the interface to restart the network and get the ip automatically.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/99014da843c34819a6c4ddeedb9885a3.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/99014da843c34819a6c4ddeedb9885a3.png)
 
 ### 3.3 Browser Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/4fdf6ce0e5a945068ca0af853ae7cda9.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/4fdf6ce0e5a945068ca0af853ae7cda9.png)
 
 Click the browser icon and ensure a smooth network connection with available DNS before accessing external sites. Upon browser startup, it defaults to visiting Forlinx Embedded's official website, as shown below:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/492a4d3587424cfba9b634f07b3e773c.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/492a4d3587424cfba9b634f07b3e773c.png)
 
 **Note: If the development board time is abnormal, it will cause certificate problems.**
 
 ### 3.4 4G Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/13cbef6336ce49f4a9c02543f92e5a08.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/13cbef6336ce49f4a9c02543f92e5a08.png)
 
 The "4G" test program is used to test the OK527 external 4G module (EC20). Before testing, power off the development board, insert the SIM card into the 4G module (ensure correct SIM direction), and launch the test application. This test employs the EC20 module as a reference.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/967d5501a0c14067a9335a9818759cb4.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/967d5501a0c14067a9335a9818759cb4.png)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/17bcdf9cb5db451c908a4db324ea4496.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/17bcdf9cb5db451c908a4db324ea4496.png)
 
 Click the CONNECT button then the program will automatically enter the dialing process and get the IP to set the DNS, etc. After waiting patiently for a few seconds, click the ping button to test it.
 
 ### 3.5 UART Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/319b367812c04550ba6b0a7f9c3dc5dd.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/319b367812c04550ba6b0a7f9c3dc5dd.png)
 
 This test uses UART4 (ttyAS4) and conducts serial port testing through the serial tool.
 
 1\. Click the UART test icon to enter the following interface to set the serial port parameters:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/b3b1fca641b1447ba0ae4082f1f75014.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/b3b1fca641b1447ba0ae4082f1f75014.png)
 
 2\. Click thesetup button in the top left corner to align serial port parameters with those on the computer side, as depicted below:
 
@@ -439,29 +439,29 @@ This test uses UART4 (ttyAS4) and conducts serial port testing through the seria
 | Stop bits| Set stop bit (1 bit)
 | Flow control| Set flow control (no flow control)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/9e9fe1f3125243c78fbe62cd15e131f2.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/9e9fe1f3125243c78fbe62cd15e131f2.png)
 
 3\. After setting the serial port parameters, click the connect button in the upper left corner, then the program can conduct data sending and receiving tests;
 
 4\. Open the serial port tool on the computer, and the data received by the serial port will be displayed on the screen at this time;
 
-![Image](./images/OK527NC_Linux51547_User_Manual/4c5a8a52e55a46d1a07a8d4e3b395589.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/4c5a8a52e55a46d1a07a8d4e3b395589.png)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/9f91d3ead2d447cab2723b06f556c49a.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/9f91d3ead2d447cab2723b06f556c49a.png)
 
 5\. Click on the black - screen area in the middle of the test interface, and a soft keyboard will pop up. After continuously entering 32 characters, the information printed by the serial port tool is the data sent by Qt.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/89276bbebe074fddba990e93f6e40661.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/89276bbebe074fddba990e93f6e40661.png)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/75db29ed035a44fd8980cc5f352e09f2.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/75db29ed035a44fd8980cc5f352e09f2.png)
 
 ### 3.6 ADC Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/f1617a1cbcf9416ba23bf07e8083d78e.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/f1617a1cbcf9416ba23bf07e8083d78e.png)
 
 OK527 supports 24 x, and 14 x GPADC are led out from the OK527 carrier board. By default, all channels are floated. The value of the potentiometer can be measured by shorting the corresponding pin. Max value of 4096 corresponds to a voltage of 1.8V.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/9c70b203912145a980d5aa93e148bce8.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/9c70b203912145a980d5aa93e148bce8.png)
 
 ### 3.7 WIFI Test
 
@@ -471,49 +471,49 @@ OK527 supports 24 x, and 14 x GPADC are led out from the OK527 carrier board. By
 
 **"WIFI" is a tool for configuring and testing the STA (station) mode of Wi-Fi**.
 
-1\. Click icon![Image](./images/OK527NC_Linux51547_User_Manual/385fdc5821e243f3a949e0c26d7873b9.png)to enter test interface, select module from dropdown, enter SSID for Wi-Fi connection.
+1\. Click icon![Image](./images/OK527N-C_Linux5.15.47_User_Manual/385fdc5821e243f3a949e0c26d7873b9.png)to enter test interface, select module from dropdown, enter SSID for Wi-Fi connection.
 
 Enter router name \& password in PAWD, click "connect" to WiFi；
 
-![Image](./images/OK527NC_Linux51547_User_Manual/a9c7ff0405bd4de8a0f9a6470ad95792.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/a9c7ff0405bd4de8a0f9a6470ad95792.png)
 
 2\. After the connection is successful, click "ping" to test the network after setting the IP;
 
-![Image](./images/OK527NC_Linux51547_User_Manual/2d7a458942f644c79ad11fe78bfc79dd.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2d7a458942f644c79ad11fe78bfc79dd.png)
 
 ### 3.8 RTC Test
 
 **Note: Ensure button cell batteries are installed \& voltage is normal.**
 
-Icon: ![Image](./images/OK527NC_Linux51547_User_Manual/2f6987d52ce64a82b628c7aaffa0bfc0.png)
+Icon: ![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2f6987d52ce64a82b628c7aaffa0bfc0.png)
 
 RTC test includes setting time, power cycling, rerunning test software, and verifying RTC sync.
 
 Run the RTC test software to view and set the current system time with the following interface:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/2e3029188fd745669a09a5325d549ec7.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2e3029188fd745669a09a5325d549ec7.png)
 
 Click "set" to set the time. After setting, click the save button to save the setting.<font style="color:black;"> Then power off and power on after a period of time. Run the</font><font style="color:black;"> RTC </font><font style="color:black;">test software again to read the time automatically. It can be seen that the </font><font style="color:black;"> RTC </font><font style="color:black;">time has been synchronized and the</font><font style="color:black;">RTC</font><font style="color:black;"> test is normal.</font>
 
 ### 3.9 Key Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/583f89cff0cf4ebd8db8a3baf67aefe2.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/583f89cff0cf4ebd8db8a3baf67aefe2.png)
 
 "Keypad" tests platform buttons' availability by checking if pressed buttons turn blue. Interface shown below.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/a92e9fb982d6497cb5f6e520b1b6c3a3.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/a92e9fb982d6497cb5f6e520b1b6c3a3.png)
 
 There are 6 physical buttons USER, VOL +, VOL-, HOME, MENU and ENTER on the side of OK527 carrier board, which respectively correspond to User, V +, V-, Home, Menu and Enter in the test program. When the button is pressed, the corresponding button in the test application will turn blue, indicating that the button function is normal.
 
 ### 3.10 Watchdog Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/01580cc9162a46b99b05bc277e34fc0a.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/01580cc9162a46b99b05bc277e34fc0a.png)
 
 “WatchDog" tests the functionality of the watchdog feature. 
 
 Interface as follows:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/a54150d7f7894642b8dcc433b6e646ba.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/a54150d7f7894642b8dcc433b6e646ba.png)
 
 Checking "feed dog" \& clicking "open watchdog" starts watchdog function with dog-feeding. System shouldn't restart under normal conditions.
 
@@ -521,27 +521,27 @@ Unchecking "Feed Dog" \& clicking "Activate Watchdog” starts watchdog function
 
 ### 3.11 Ping Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/e2d8ef4843d7428497a04aa1209744f8.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/e2d8ef4843d7428497a04aa1209744f8.png)
 
 "Ping" is a graphical tool for network testing, offering a user-friendly interface for ping operations.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/4e36409435484ccdad5aa645e0618579.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/4e36409435484ccdad5aa645e0618579.png)
 
 Write the target IP address in the "hostname" column. Click the "ping" button, and the "result" column will display the ping outcome. Click "stop" to end the ping test, and "clear" to erase the information in the "result" column.
 
 As shown in the figure, the network connection is smooth.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/58cb2cca95e54cf78502e6511b2e3e2d.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/58cb2cca95e54cf78502e6511b2e3e2d.png)
 
 ### 3.12 Camera Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/41af9788e1d541048ceeb0fb17f2f67a.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/41af9788e1d541048ceeb0fb17f2f67a.png)
 
 Click the icon to enter the camera test program, which supports MIPI CSI interface and UVC camera. During the test, the UVC camera or mipi ov5645 needs to be inserted first, the device name corresponding to the UVC is/dev/video1, and the device name of the MIPI OV5645 at the P48 position of the carrier board is/dev/video0. Carrier board P49 location MIPI OV5645 device name is/dev/video4. 
 
 Open the QT test program.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/3353cea26e2d42149a1e3b539ac83ea6.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/3353cea26e2d42149a1e3b539ac83ea6.png)
 
 Choose the camera video device node;
 
@@ -559,17 +559,17 @@ Save the photo with a name and at a chosen path.
 
 Take mipiov5645 camera as an example for test.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/968c3a2360bf47e5bc7c68132dbc8b73.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/968c3a2360bf47e5bc7c68132dbc8b73.png)
 
 Click "Picture" to take photos and save them in /root/. Use Windows built-in image viewer to view them.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/2cef678e66c24514b5c11ede328b8c08.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2cef678e66c24514b5c11ede328b8c08.png)
 
 The current MIPI OV5645 module supports resolutions of 1280x960, 1920x1080, and 2592x1944 respectively. 
 
 The following is an example test of the OV5645 resolution of 2592x1944 connected to the carrier board P48.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/0ad756778eae4ca1a211fe857eb432a8.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/0ad756778eae4ca1a211fe857eb432a8.png)
 
 **Note: If TP2855 is used for testing, the device tree needs to be modified and recompiled to generate an image.** 
 
@@ -578,23 +578,23 @@ Open OKT527-linux-sdk1.3/kernel/linux-5.15/arch/arm64/boot/dts/allwinner/OKT527-
 
 Uncomment TP2855 and comment out OV13855 at the same time, recompile the image after saving, and test with this application after flashing.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/f37b117e81e045fbbbf66e0c559dd297.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/f37b117e81e045fbbbf66e0c559dd297.png)
 
 ### 3.13 Backlight Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/a3360044cf194d89af094fb38842e517.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/a3360044cf194d89af094fb38842e517.png)
 
 "BackLight" is an LCD backlight adjustment App with a left-right progress bar for brightness control. 
 
 Click to open the interface as follows:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/e115fd386d75465e86da4c6d1426b7ec.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/e115fd386d75465e86da4c6d1426b7ec.png)
 
 Drag the slider in the interface to set the LCD backlight brightness. 1 is the darkest, 255 is the brightest, and 0 needs to be set through the command line. Refer to“4.21 LCD Backlight Adjustment”.
 
 ### 3.14 Play/Record Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/2b35bce12a7c40c9b7d001af8eb1b902.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2b35bce12a7c40c9b7d001af8eb1b902.png)
 
 Before conducting the audio recording test, please insert the prepared microphone into the mic port. Click the icon to enter the recording test application, which can be used to check if the sound card recording function is working properly.
 
@@ -602,19 +602,19 @@ Choose where to save the recording file. Click "Start" to begin recording and "S
 
 The interface is as follows:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/275349cfe1e2419985ba4358217ee8bd.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/275349cfe1e2419985ba4358217ee8bd.png)
 
 Click the Record button to test the recording. The recording file is saved in the root directory.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/0cce15e589194f53a0507a2134926bc7.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/0cce15e589194f53a0507a2134926bc7.png)
 
 ### 3.15 Music Play Test
 
-Use the “ ![Image](./images/OK527NC_Linux51547_User_Manual/a953a7962ad4473898aba29091d51499.png)” app icon to conduct a music playback test.
+Use the “ ![Image](./images/OK527N-C_Linux5.15.47_User_Manual/a953a7962ad4473898aba29091d51499.png)” app icon to conduct a music playback test.
 
 "music player" is a simple audio test application that can be used to test the function of the sound card or as a simple audio player.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/c3aa49a425fd493197e652a27aae6cb2.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/c3aa49a425fd493197e652a27aae6cb2.png)
 
 Application Interfaces
 
@@ -624,13 +624,13 @@ Click the button in the lower left corner and select test audio /forlinx/media/t
 
 OK527 has CPU0 to CPU3 with a maximum frequency of 1.4GHz, and CPU4 to CPU7 with a maximum frequency of 1.8GHz. By default, the CPU dynamically adjusts its frequency based on load. Alternatively, you can set a fixed CPU frequency.
 
-Click the desktop setting icon to![Image](./images/OK527NC_Linux51547_User_Manual/56bd63f6b4fc47f0ac376c3e38958002.png)enter the next menu:
+Click the desktop setting icon to![Image](./images/OK527N-C_Linux5.15.47_User_Manual/56bd63f6b4fc47f0ac376c3e38958002.png)enter the next menu:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/98ab8bb81a524bcb85ec5b4b9b994427.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/98ab8bb81a524bcb85ec5b4b9b994427.png)
 
-Click the desktop icon![Image](./images/OK527NC_Linux51547_User_Manual/aa3a65e663a749a68445db7d202ae3c5.png)to enter the CPU main frequency setting page:
+Click the desktop icon![Image](./images/OK527N-C_Linux5.15.47_User_Manual/aa3a65e663a749a68445db7d202ae3c5.png)to enter the CPU main frequency setting page:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/0d761d48f870491da7d2e4c4437417e8.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/0d761d48f870491da7d2e4c4437417e8.png)
 
 Set OnDemand Governor：Dynamically adjust the main frequency on demand;
 
@@ -642,39 +642,39 @@ Set Frequency CPU4-7: Adjust the frequency of the big cores;
 
 As an example for setting the frequency of the small cores: First, click "Set Userspace Governor," then a dialog box will pop up; click "RUN."
 
-![Image](./images/OK527NC_Linux51547_User_Manual/50711674801f456aa2d459f3c8a571ef.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/50711674801f456aa2d459f3c8a571ef.png)
 
 Then, click “Set Frequency CPU0-3” to set a fixed frequency. (Click the arrow in the top right corner to return to the previous directory, and click the icon in the top right corner to return to the main directory).
 
-![Image](./images/OK527NC_Linux51547_User_Manual/69dc2680f28c451e8bcb5b7185a9cd94.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/69dc2680f28c451e8bcb5b7185a9cd94.png)
 
 Select the desired frequency for configuration based on the needs.
 
 ### 3.17 SQLite3 Database Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/c8d4cf91c8b5429fa6fa06f1382c4b54.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/c8d4cf91c8b5429fa6fa06f1382c4b54.png)
 
 Click on the icon to access the database testing interface.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/ce85234aa5704d1e97b82d575987aed5.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/ce85234aa5704d1e97b82d575987aed5.png)
 
 Select the column that needs to be modified, and click on an empty area after making the changes.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/1469680b6b0444e18925123f54a951cc.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/1469680b6b0444e18925123f54a951cc.png)
 
 ### 3.18 SPI Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/17530712eb84466fafaa35c8d4ba53a4.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/17530712eb84466fafaa35c8d4ba53a4.png)
 
 Click on the icon to enter the SPI testing interface. Short-circuit the SPI0\_MOSI and SPI0\_MISO pins, then click “send” below to receive the data sent out and complete the test.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/d2dd10362853426aa763204ee8b303e3.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/d2dd10362853426aa763204ee8b303e3.png)
 
 Short-circuit the SPI0\_MOSI and SPI0\_MISO pins, then click "send" below to receive the data sent out and complete the test.
 
 ### 3.19 Switching Display Screen
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/9e9946140b224a0ca3c6951bcf7752bb.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/9e9946140b224a0ca3c6951bcf7752bb.png)
 
 Click the icon to enter the interface, click the corresponding button to modify the display settings, and click “Apply” to save the configuration, which will take effect in the next restart.
 
@@ -694,33 +694,33 @@ b)	DP includes “dp 1080P60”“dp 2.5k”;
 
 c)    HDMI automatically configures resolution based on edid.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/b9e634b2271a44ab91c078b142ae4abb.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/b9e634b2271a44ab91c078b142ae4abb.png)
 
 ### 3.20 OpenGL
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/92008941182a4bc48b3e4e13084f0bc8.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/92008941182a4bc48b3e4e13084f0bc8.png)
 
 The current frame rate is only 20 frames.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/98f94324a96149058a2654c3f7dabae9.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/98f94324a96149058a2654c3f7dabae9.png)
 
 ### 3.21 Video Player
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/7d833c2e88dd4f0e96519b5400b138d6.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/7d833c2e88dd4f0e96519b5400b138d6.png)
 
 Click "open file" to select the test video to play.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/0d68d6be0d70478b9139091b031c72f1.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/0d68d6be0d70478b9139091b031c72f1.png)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/807c6cc3a73147e5858cd07a7617f4e4.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/807c6cc3a73147e5858cd07a7617f4e4.png)
 
 ### 3.22 CAN Test
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/c2698aeace1e4683824264f3833a6aa7.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/c2698aeace1e4683824264f3833a6aa7.png)
 
 Configure can0 as shown in the figure below：
 
-![Image](./images/OK527NC_Linux51547_User_Manual/4a72a646b3514a1f933f7ae0af0bc182.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/4a72a646b3514a1f933f7ae0af0bc182.png)
 
 ```plain
 root@OK527:/# ip link set awlink1 up type can bitrate 500000
@@ -731,17 +731,17 @@ root@OK527:/# cangen awlink1
 
 Configure can1 on the command line of the development board to send, and observe whether can0 receives data in the interface.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/8fc88a53bc414870bb4eaff7bafc5403.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/8fc88a53bc414870bb4eaff7bafc5403.png)
 
 ### 3.23 NPU\_AI\_CAMERA
 
-Icon：![Image](./images/OK527NC_Linux51547_User_Manual/ce8c9af435aa42a180f7aa51130d092b.png)
+Icon：![Image](./images/OK527N-C_Linux5.15.47_User_Manual/ce8c9af435aa42a180f7aa51130d092b.png)
 
 Insert the UVC camera and click the start button.
 
 **Note: NPU testing is only supported in the OK 527N-C version.**
 
-![Image](./images/OK527NC_Linux51547_User_Manual/741afdefeab547d7af36ecf0bf2e730f.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/741afdefeab547d7af36ecf0bf2e730f.png)
 
 ## 4. OK527 Command Line Function Test
 
@@ -1073,7 +1073,7 @@ The current version of SDK supports up to 1.5M bps.
 
 This test uses UART4 test, respectively UART4 A and B, to the USB to 485 to test the serial port.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/9ac5087333274ebeb044552742963dd6.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/9ac5087333274ebeb044552742963dd6.png)
 
 Enter the following command in the serial port of the development board:
 
@@ -1132,7 +1132,7 @@ root@OK527:/# ls /dev/ttyXRUSB*
 
 <font style="color:black;">3. </font><font style="color:black;">The mapping between the four extended serial ports and their corresponding device nodes is shown in the diagram below:</font>
 
-![Image](./images/OK527NC_Linux51547_User_Manual/ac1f795fcf05406298fc3b552a167b5c.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/ac1f795fcf05406298fc3b552a167b5c.png)
 
 <font style="color:black;">4</font><font style="color:black;">Please refer to “UART Test” for the test method.
 
@@ -1140,7 +1140,7 @@ root@OK527:/# ls /dev/ttyXRUSB*
 
 The development board provides 14 channels for GPADC, with a voltage sampling range of 0 to 1.8V. Before testing the adjustable resistance value, it is necessary to short-circuit the P14 terminal. Through the P14 terminal, select which channel of the GPADC to connect to the R67 potentiometer:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/2a65cf1e64f94334845a3e9361c070d9.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2a65cf1e64f94334845a3e9361c070d9.png)
 
 Each channel corresponds to the following:
 
@@ -1561,7 +1561,7 @@ After setting according to the actual situation, save and exit, use sync to sync
 D:\iperf-3.1.3-win64\iperf-3.1.3-win64>iperf3.exe -s
 ```
 
-![Image](./images/OK527NC_Linux51547_User_Manual/06c8eebdc99a425093101b437aaa0257.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/06c8eebdc99a425093101b437aaa0257.png)
 
 <font style="color:black;">Development board</font><font style="color:black;">eth0</font><font style="color:black;"></font><font style="color:black;">ip</font><font style="color:black;">is</font><font style="color:black;">192.168.1.11</font><font style="color:black;">，</font><font style="color:black;">windows</font><font style="color:black;"></font><font style="color:black;">IP</font><font style="color:black;">is</font><font style="color:black;">192.168.1.39</font><font style="color:black;">, </font><font style="color:black;"> </font><font style="color:black;">input at the OK527 serial port debugging terminal</font>.
 
@@ -1628,7 +1628,7 @@ Eth1 upload speed 948Mbps， download speed 945Mbps
 
 The OK527 development board comes with the lighttpd web server pre-installed, and the lighttpd service has been automatically started at system startup. Enter the IP address of the board into the PC browser to view the web pages in the board's webserver, as shown in the following figure:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/aaa38263111348619ee5b3ca3e5b19e0.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/aaa38263111348619ee5b3ca3e5b19e0.png)
 
 #### 4.17.2 SFTP
 
@@ -1640,9 +1640,9 @@ Install FileZilla tool on Windows and follow the steps shown in the image below 
 
 Open the filezilla tool, click on File and select Site Manager.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/d6d577e43f1040b1be75c0af16720c56.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/d6d577e43f1040b1be75c0af16720c56.png)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/c6b101f0d6c3475691c1fe5ae9b55718.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/c6b101f0d6c3475691c1fe5ae9b55718.png)
 
 Once we have successfully logged in, we can upload and download.
 
@@ -2009,7 +2009,7 @@ root@OK527:/# vi /etc/autorun.sh
 
 Modify the file reference as follows (users need to modify according to the actual situation):
 
-![Image](./images/OK527NC_Linux51547_User_Manual/ad525e3b3519432fad1178ebde105f37.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/ad525e3b3519432fad1178ebde105f37.png)
 
 2\. After modification, save and exit, and add execution permission to the script
 
@@ -2031,7 +2031,7 @@ Add a startup script during image flashing, you need to modify the source code i
 
 The format of the content is as follows, and the user can modify it according to the actual needs:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/11a6e7037780404e9e7f1a2c5189ef6c.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/11a6e7037780404e9e7f1a2c5189ef6c.png)
 
 Use thechmod +x autorun.shcommand toadd execution permissions to the file.
 
@@ -2185,7 +2185,7 @@ There are 2 x CAN on the carrier board, which are led out to the P41 connecting 
 
 Short H, L, and GND of can0 and can1, respectively, to test.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/13284de838064254b7312a29092d7d3a.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/13284de838064254b7312a29092d7d3a.png)
 
 Set the Can service：
 
@@ -2259,7 +2259,7 @@ ERR: rx != tx
 
 Take PJ24 as an example, PJ24 can control D10 blue led.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/6dd87220ebbc4abcbd852426841b9ebd.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/6dd87220ebbc4abcbd852426841b9ebd.png)
 
 Set PJ24 output low level
 
@@ -2281,7 +2281,7 @@ read: 1
 
 The buzzer of OK527-C is a passive buzzer, and the PWM signal can be input.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/70d6614ceaa749b38cb8bf7eeb286785.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/70d6614ceaa749b38cb8bf7eeb286785.png)
 
 Set PJ24 output high level
 
@@ -2481,7 +2481,7 @@ Default agent request successful
 
 After the above settings, open the computer to search for Bluetooth, click "Add Bluetooth or other devices", a "OKT527" device will appear, click this Bluetooth to try to pair.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/40b40021d9a94094a8dabf3e33ded013.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/40b40021d9a94094a8dabf3e33ded013.png)
 
 At the same time, the information printed on the development board is as follows. Enter yes:
 
@@ -2548,27 +2548,27 @@ After successful pairing, you can use Bluetooth to send files to the board on th
 
 Click on "Send or receive files via Bluetooth"
 
-![Image](./images/OK527NC_Linux51547_User_Manual/546e43f08bac45689251aba4739cd77a.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/546e43f08bac45689251aba4739cd77a.png)
 
 Select "Send File"
 
-![Image](./images/OK527NC_Linux51547_User_Manual/f7d301937a164d988dc89ebfd6d2c998.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/f7d301937a164d988dc89ebfd6d2c998.png)
 
 Select OKT527.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/bf7b4b2e47fa4617a410a38274db9230.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/bf7b4b2e47fa4617a410a38274db9230.png)
 
 Select a file to send.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/52169b3ceae74cc7a96726ba5922d0b9.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/52169b3ceae74cc7a96726ba5922d0b9.png)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/62ca2ac1a48c4274a5174a1fbdef84c2.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/62ca2ac1a48c4274a5174a1fbdef84c2.png)
 
 Wait for the send completion
 
-![Image](./images/OK527NC_Linux51547_User_Manual/1f5060a09b8c46008b72a0bf7a216a6d.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/1f5060a09b8c46008b72a0bf7a216a6d.png)
 
-![Image](./images/OK527NC_Linux51547_User_Manual/a5a5d2db09dc420380c4b9f46e2fe68f.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/a5a5d2db09dc420380c4b9f46e2fe68f.png)
 
 Received files are saved in the /tmp directory.
 
@@ -2580,7 +2580,7 @@ The test method is as follows:
 
 Select "Receive File" on the computer side.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/c018e7d4f48b4af986da3b6f4e6741df.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/c018e7d4f48b4af986da3b6f4e6741df.png)
 
 ```plain
 root@OK527:~# bluetoothctl 
@@ -2796,7 +2796,7 @@ root@OK527:/# gst-launch-1.0 v4l2src device=/dev/video1 ! videoconvert ! video/x
 .
 ```
 
-![Image](./images/OK527NC_Linux51547_User_Manual/0c47f75b548e459faadbfe8c36864519.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/0c47f75b548e459faadbfe8c36864519.png)
 
 ### 5.2 OV5645 Acquisition Test
 
@@ -2863,15 +2863,15 @@ Use the Type-C cable to connect the development board and the host. Press and ho
 
 Open the windows device manager, find an unknown device with a yellow exclamation mark, select to install the driver manually, right-click the unknown device, and select "Update Driver"
 
-![Image](./images/OK527NC_Linux51547_User_Manual/e5f86fbc1486465992bbe76cd757b12d.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/e5f86fbc1486465992bbe76cd757b12d.png)
 
 Select "Browse my computer for drivers" and then select the extracted V1.10 directory of the Phoenix Suit \_.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/92a779fea1264e2bb070bcac89d74dca.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/92a779fea1264e2bb070bcac89d74dca.png)
 
 Wait for the driver to finish installing, and run PhoenixSuit.exe, the bottom left corner shows "The device has been connected successfully".
 
-![Image](./images/OK527NC_Linux51547_User_Manual/48ee2faa0d544b98b7f5b783cbf42f3e.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/48ee2faa0d544b98b7f5b783cbf42f3e.png)
 
 #### 6.2.2 OTG Flashing Method
 
@@ -2881,11 +2881,11 @@ This method will flash the entire img image.
 
 As shown in the following interface:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/75907aa320fc4c73b2c2d53ad293a073.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/75907aa320fc4c73b2c2d53ad293a073.png)
 
 In the following interface, click on “One-click Flash” and then click on “Browse” to select the firmware image file.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/b9d6ce35261d45989b61599133445b73.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/b9d6ce35261d45989b61599133445b73.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key.
 
@@ -2893,11 +2893,11 @@ Connect the development board and the host using a Type-A to Type-C cable, do no
 
 In the following interface, click "Yes" to enter the formatting upgrade mode.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/9e841ac83db74c3f8252cd462c7c9b8e.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/9e841ac83db74c3f8252cd462c7c9b8e.png)
 
 Waif for the flashing to finish, the following interface will pop up:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/25e5db4bcd224c4b90932f18ba8fadf7.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/25e5db4bcd224c4b90932f18ba8fadf7.png)
 
 Power on and start the OK527 board.
 
@@ -2907,13 +2907,13 @@ Power on and start the OK527 board.
 
 In the following interface, check the checkbox "Single or Multi-zone Download (Check this option, the flashing tool downloads the partitions you selected)", check "BOOT-RESOURCE", "ENV", checkboxes.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/cdd682f28efa43f3948b34cf987a980f.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/cdd682f28efa43f3948b34cf987a980f.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key. Wait for flashing to finish, the following interface will pop up:
 
 **Note: Be sure to press the FEL key when the power is off.**
 
-![Image](./images/OK527NC_Linux51547_User_Manual/f58585e7e2e5409e9916f7fecc70266b.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/f58585e7e2e5409e9916f7fecc70266b.png)
 
 2\) Flash the kernel image and device tree (dtb) file via OTG
 
@@ -2921,25 +2921,25 @@ Check the "Single/Multiple Partition Download" box in the interface (flashing to
 
 Place the kernel image in the "BOOT" partition, and the device tree (DTB) file and U-Boot in the "BOOT-RESOURCE" partition.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/897c8fbb003944ceb6cf8fe34b68de83.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/897c8fbb003944ceb6cf8fe34b68de83.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key. Wait for flashing to finish, the following interface will pop up:
 
 **Note:Be sure to press the FEL key when the power is off.**
 
-![Image](./images/OK527NC_Linux51547_User_Manual/0b2663ee9100475daac085b38192c22d.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/0b2663ee9100475daac085b38192c22d.png)
 
 3\) OTG flashing File System
 
 Check the "Single/Multiple Partition Download" box in the interface (flashing tool downloads selected partitions), also check "ROOTFS".
 
-![Image](./images/OK527NC_Linux51547_User_Manual/cd45f3bab23048ec97c58521e9db720c.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/cd45f3bab23048ec97c58521e9db720c.png)
 
 Connect the development board and the host using a Type-A to Type-C cable, do not power on the board initially, press the FEL key, power on the board, then release the FEL key. Wait for flashing to finish, the following interface will pop up:
 
 **Note: Be sure to press the FEL key when the power is off.**
 
-![Image](./images/OK527NC_Linux51547_User_Manual/10322ba26a994533b0a79b6f331f16af.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/10322ba26a994533b0a79b6f331f16af.png)
 
 #### 6.2.3 OTG Flashing Common Issues
 
@@ -2947,7 +2947,7 @@ Connect the development board and the host using a Type-A to Type-C cable, do no
 
 Some users still see an "Unknown Device" after installing USB drivers per the manual. Clicking on it shows a message about a third-party INF lacking digital signature info, as shown below.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/add5cacc0f3944ca9e281a9e532154e2.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/add5cacc0f3944ca9e281a9e532154e2.png)
 
 This occurs because some Windows systems disallow unsigned drivers to ensure system stability, resulting in failed installation of unsigned drivers. Users need to disable driver signature enforcement on their computers before installing drivers according to the manual.
 
@@ -2956,15 +2956,15 @@ This occurs because some Windows systems disallow unsigned drivers to ensure sys
 
 1）<font style="color:black;">First press and hold Shift + to restart</font>
 
-![Image](./images/OK527NC_Linux51547_User_Manual/8e077ae99f5c45499a2e0d5549cd10c2.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/8e077ae99f5c45499a2e0d5549cd10c2.png)
 
 2）<font style="color:black;">At startup, select Troubleshooting -- Advanced Options -- Startup Settings</font>
 
-![Image](./images/OK527NC_Linux51547_User_Manual/8a469de93ad145a9929cfa82a67562a1.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/8a469de93ad145a9929cfa82a67562a1.png)
 
 3\. <font style="color:black;">In the boot settings screen, click Reboot in the lower right corner to reboot into the boot settings; you can use the number keys 7 or functional keys F7; disable driver forced signing;</font>
 
-![Image](./images/OK527NC_Linux51547_User_Manual/58ad1236653d426eaf695631e1e5fce0.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/58ad1236653d426eaf695631e1e5fce0.png)
 
 2\. Improper use of FEL key
 
@@ -2972,11 +2972,11 @@ When flashing, do not power up the board first, press the FEL key and then power
 
 3\. The device name has appeared, but the board still cannot be recognized.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/3e0d49691a2b4c8ba31b7d31f69dd091.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/3e0d49691a2b4c8ba31b7d31f69dd091.png)
 
 Due to numerous unknown devices in Device Manager, choosing the wrong one might install the driver incorrectly. Right-click the device, uninstall it and the device driver.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/2c3fbd23dae14b61bfc4199fab45dab0.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/2c3fbd23dae14b61bfc4199fab45dab0.png)
 
 Then unplug other USB devices, set the development board to flashing mode, connect to the host, and reinstall the driver.
 
@@ -2992,7 +2992,7 @@ Creation path: 02-user information\\01-software information\\04-tools\\PhoenixCa
 
 As shown in the following interface:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/ca21e82750e0406d9531ad7baec66c5a.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/ca21e82750e0406d9531ad7baec66c5a.png)
 
 **Note: When there are multiple partitions on the TF card, please click on “Restore Card” first, and then click on “Burn Card”. Otherwise, it may result in a failed burn process.**
 
@@ -3000,7 +3000,7 @@ As shown in the following interface:
 
 After flashing, as shown in the following interface:
 
-![Image](./images/OK527NC_Linux51547_User_Manual/564b183a3bb54e87ab1b8cd8e33b8445.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/564b183a3bb54e87ab1b8cd8e33b8445.png)
 
 #### 6.3.2 TF Card Flashing
 
@@ -3069,6 +3069,6 @@ Path of recovery tool: 02-User information \\ 01-Software information \\ 04-Tool
 
 Copy PanasonicSDFormatter.zip to any window directory and unzip it, insert the TF card into the Windows host, and run SDFormatter.exe as administrator.
 
-![Image](./images/OK527NC_Linux51547_User_Manual/37b85de7e4b7429a838d3d8fc6bbd93b.png)
+![Image](./images/OK527N-C_Linux5.15.47_User_Manual/37b85de7e4b7429a838d3d8fc6bbd93b.png)
 
 Click on "Options Settings," select Erase and Format, and then click Format to restore the burned TF card to a regular TF card.
