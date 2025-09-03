@@ -37,7 +37,7 @@ html_static_path = ['_static']
 html_logo = '_static/forlinx-logo.png'
 html_favicon = '_static/forlinx.png'
 html_theme_options = {
-    'logo_only': True,
+    'logo_only': False,
 }
 
 html_css_files = [
