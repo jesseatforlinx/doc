@@ -1,4 +1,4 @@
-Welcome to Forlinx Embedded Documentation
+Welcome to Forlinx Embedded Documentation 
 ==========================================
 
 **Forlinx Embedded** is a trusted embedded solution provider specializing in the design and production of high-performance **System on Modules (SoMs)**, **Single Board Computers** and **Embedded Computers**. Our SoMs are widely used in industrial automation, smart transportation, energy, medical, and edge AI applications.
