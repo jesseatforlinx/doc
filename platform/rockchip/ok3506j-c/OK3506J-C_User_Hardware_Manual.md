@@ -129,7 +129,7 @@ Two connectors for 160 PINs.
 | RM\_IO| ≤32| RM \_ IO is an IO matrix of 32 pins|
 | GPIO<sup>(6)</sup>| ≤93||
 
-**Note: **
+**Note:**
 
 - **The parameters in the table are the theoretical values of hardware design or CPU; "TBD" refers to functions not yet developed;**
 
