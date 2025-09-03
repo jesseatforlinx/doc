@@ -1122,8 +1122,8 @@ Use the fltest\_keytest command line tool to test the keys. fltest\_keytest curr
 
 Execute the following command:
 
-| `plain root@ok3588-buildroot:~# fltest_keytest`
-|----------
+```plain root@ok3588-buildroot:~# fltest_keytest```
+
 
 At this point, press the lift button in sequence, and the following can be output on the terminal:
 
