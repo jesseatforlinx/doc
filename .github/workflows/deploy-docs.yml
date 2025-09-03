@@ -3,7 +3,7 @@ name: Build and Deploy Docs
 on:
   push:
     branches:
-      - main
+      - project-name
     paths:
       - 'platform/**/**/*.md' # 只在 Markdown 文件变动时触发
       - 'homepage/**/*.rst'   #  RST 文件 
